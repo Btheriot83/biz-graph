@@ -1,18 +1,18 @@
 {
   "meta": {
     "version": "0",
-    "updated_at": "2026-09-19T10:25:00-07:00",
-    "count": 183,
+    "updated_at": "2026-09-19T10:35:00-07:00",
+    "count": 203,
     "sources": [
       "boringmarketer",
       "mhp_guy"
     ],
     "fence": "public cites only; no income guarantees; Brandon gates money/hire/pay/publish/send",
     "gaps": [
-      "Target ~250 quality ideas; currently 183 (~67 remaining).",
-      "X API client-not-enrolled; Apify monthly hard limit — used YouTube oEmbed + Chris Koerner newsletters + BM YouTube RSS/descriptions + twiiit.",
-      "YouTube timedtext still blocked from this IP; evidence from public descriptions/chapters/newsletters.",
-      "Still thin: more historical BM X threads beyond fxtwitter/twiiit cache; some ideakoerner YT embeds remain mismatched (skipped)."
+      "Target ~250 quality ideas; currently 203 (~47 remaining).",
+      "X API client-not-enrolled; Apify monthly hard limit — used YouTube yt-dlp descriptions + Chris Koerner newsletters (jina) + BM YouTube RSS.",
+      "YouTube timedtext still blocked from this IP; evidence from public descriptions/newsletters.",
+      "Still thin: deeper historical BM X threads; some Koerner shorts are duplicates of long-form (skipped)."
     ]
   },
   "ideas": [
@@ -1071,6 +1071,34 @@
       "notes": "Seed harvest from public X thread unroll; one idea per listed business."
     },
     {
+      "id": "idea-boringmarketer-lead-magnet-calculator-skill-desk-057",
+      "title": "Lead-magnet calculator / micro-tool Skill desk",
+      "one_liner": "Productize Claude Code + Skills + MCP to ship calculators and micro-tools as lead magnets (plus DR copy and creative prompts) so local/boring brands can capture emails and run ads/SEO/email without custom engineering.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=uAl8w0_dLXk",
+      "source_date": "2026-02-25",
+      "evidence_quote": "How I stack Claude Code + Skills + MCP to create marketing assets ready to ship, scale, and sell. Direct Response Copy (my favorite), Lead Magnets (calculators, micro tools), AI Creative Strategist for image/video prompts. Get your ads up, SEO going, emails running, lead captures live.",
+      "category": [
+        "lead_gen",
+        "skills",
+        "productized_service",
+        "ai",
+        "tools"
+      ],
+      "why_it_works": "Calculators beat PDFs for intent; Skills make repeatable micro-tools cheap to ship per niche.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Thin vs CMO Skills box — focuses on calculator/micro-tool lead magnets as the sellable wedge."
+    },
+    {
       "id": "idea-boringmarketer-lift-station-commercial-pump-repair-008",
       "title": "Lift-station & commercial pump repair",
       "one_liner": "Repair lift stations and commercial pumps for facilities managers.",
@@ -1158,6 +1186,36 @@
       "status": "harvested",
       "collected_at": "2026-09-19T10:07:00-07:00",
       "notes": "Free skill linked in video description. Overlaps lightly with main-street machine — kept as executable scoring desk."
+    },
+    {
+      "id": "idea-boringmarketer-maps-pool-frontend-partnership-056",
+      "title": "Maps-validated pool-service front-end partnership",
+      "one_liner": "Use Google Maps to confirm 30+ pool (or similar) companies with 100+ reviews, then partner with the operator who’s strong on work and weak on marketing — you own SEO/ads/automation only; optimize ads for phone calls with real job photos.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=1plG7QFLdMM",
+      "source_date": "2026-09-17",
+      "evidence_quote": "The biggest AI opportunity right now isn't another app. it's using AI marketing skills in a boring local trade where nobody else can run an ad. How to actually start: 1. open google maps, search \"pool service\" or \"hvac\" in your city. 30+ companies with 100+ reviews = demand that already exists. 2. pick a trade you have zero interest in. boring is the point… 3. find the operator who's great at the work and bad at marketing. you bring customers, they do the job. 4. don't learn the trade or buy a truck. own the front end only: seo, ads, automation. 5. run one simple ad with a real job photo… optimize for the phone call, not clicks.",
+      "category": [
+        "local_services",
+        "front_end_marketing",
+        "partnership",
+        "ai_agency",
+        "maps"
+      ],
+      "why_it_works": "Demand is already proven by review density; you only need to carve call volume for one hungry operator instead of creating a category.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "legal"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "oEmbed+yt-dlp description verified. Distinct from generic front-end demand desk by Maps 30+/100+ review demand gate and pool-service archetype."
     },
     {
       "id": "idea-boringmarketer-mobile-fleet-trailer-maintenance-011",
@@ -1270,6 +1328,34 @@
       "status": "harvested",
       "collected_at": "2026-09-19T10:25:00-07:00",
       "notes": "City-level boring-niche receipts thread."
+    },
+    {
+      "id": "idea-boringmarketer-one-day-website-funnel-skill-ship-058",
+      "title": "One-day website + funnel Skill ship for local",
+      "one_liner": "Sell a same-day build: full site, lead magnets, email captures, and marketing funnel via Skills + Claude Code for one boring local — same process cited for a local doing $30–40K/month framing.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=tddZiBb_L3Q",
+      "source_date": "2026-02-20",
+      "evidence_quote": "Built this entire site in one day. Full websites, lead magnets, email captures, complete marketing funnels. Used this same process for a local boring business — now it does $30-40K/month. 500+ people shipping with these skills.",
+      "category": [
+        "websites",
+        "funnels",
+        "skills",
+        "local_services",
+        "productized_service"
+      ],
+      "why_it_works": "Compressed delivery (one day) creates a clear productized offer and case-study loop without months of agency scope.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Distinct from Skills+Claude Code local partner by emphasizing one-day full-funnel ship as the product."
     },
     {
       "id": "idea-boringmarketer-one-door-down-niche-pick-046",
@@ -1490,6 +1576,33 @@
       "notes": "Complements visual-before-after playbook-035 with a concrete niche example."
     },
     {
+      "id": "idea-boringmarketer-ship-gated-prd-ai-sprint-desk-059",
+      "title": "Ship-gated phased-PRD AI product sprint desk",
+      "one_liner": "Sell (or run) AI build sprints that force a phased PRD with hard “done” gates, an MVP market test, and a fixed launch date — antidote to endless prompt dopamine that never ships.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=xZDf7wzXJMQ",
+      "source_date": "2026-09-10",
+      "evidence_quote": "AI turned building into the easy part, the real trap now is false productivity: endless dopamine, and a project that never ships… The way out is setting your gates before you start: 1. Write a phased PRD where \"done\" is an actual gate… 2. Ship the MVP and let the market tell you if it's real… 3. Pick a launch date and ship whatever you've got when it comes.",
+      "category": [
+        "product",
+        "ai",
+        "ops",
+        "consulting",
+        "build_in_public"
+      ],
+      "why_it_works": "AI makes building cheap; scarcity shifts to shipping discipline — a productized sprint sells the missing constraint.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Clip from Boring Marketing Community session; methodology framed as executable desk/offer."
+    },
+    {
       "id": "idea-boringmarketer-skills-claude-code-local-partner-052",
       "title": "Skills + Claude Code SEO/site build for one boring local partner",
       "one_liner": "Use revenue-oriented Claude Skills + Claude Code to research keywords and ship a site for one boring local business you partner with (or own a slice of), then run demand — not content-only Skills.",
@@ -1519,6 +1632,59 @@
       "status": "harvested",
       "collected_at": "2026-09-19T10:25:00-07:00",
       "notes": "Companion short blwSIdeQixk same thesis. Anecdote is creator's; not a guarantee."
+    },
+    {
+      "id": "idea-boringmarketer-skills-fit-audit-business-types-061",
+      "title": "Productized Skills-fit audit for business types",
+      "one_liner": "Offer a short paid audit showing which Claude Skills + Claude Code builds (keyword research, opt-ins, lead magnets, calculators) fit a buyer’s type — SaaS, ecom, coach, consultant, local, agency, in-house, or solo founder — then upsell the builds.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=g-2LAMvdzOc",
+      "source_date": "2026-03-03",
+      "evidence_quote": "500+ people shipping: SaaS • E-comm • Coaches • Consultants • Local businesses ($30-40K/month) • Agencies • In-house marketers • Solo founders. Keyword research, opt-in forms, lead magnets, calculators...all built with Skills + Claude Code The leverage is crazy.",
+      "category": [
+        "productized_service",
+        "skills",
+        "consulting",
+        "ai"
+      ],
+      "why_it_works": "Buyers don’t know where Skills apply; a typed audit is a low-friction wedge into paid Skill installs.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Wedge before full CMO Skills box / revenue Skills sells."
+    },
+    {
+      "id": "idea-boringmarketer-skills-microapp-subscriber-ship-060",
+      "title": "Skills-built micro-app with paying subscribers",
+      "one_liner": "Use Skills across Claude Code/Cursor/ChatGPT/Gemini to ship a small app from constrained environments and charge subscribers — prove the Skill stack with a live paid product, then sell the method or adjacent apps.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=v4YowM0We-4",
+      "source_date": "2026-02-24",
+      "evidence_quote": "Shipped an app from a ship. It has paying subscribers. Skills are wild! Skills work with Claude Code, Cursor, chatGPT, Gemini + any LLM",
+      "category": [
+        "micro_saas",
+        "skills",
+        "subscriptions",
+        "ai"
+      ],
+      "why_it_works": "Public proof of paid subscribers beats another content Skill; validates Skills as a shipping stack for micro-products.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "banking",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Deduped vs scratch-your-itch agent micro-SaaS — emphasizes cross-LLM Skills ship + existing paid subscribers proof."
     },
     {
       "id": "idea-boringmarketer-stormwater-detention-pond-maintenance-004",
@@ -2027,6 +2193,36 @@
       "notes": ""
     },
     {
+      "id": "idea-mhp_guy-ai-smb-customer-support-agents-107",
+      "title": "AI multimodal customer-support agents for SMBs",
+      "one_liner": "Install/train AI agents on a small business’s email, tickets, and FAQs for voice/text/email support — charge setup + monthly maintenance instead of a full-time support hire.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/ways-to-cash-in-on-ai-agents-right-now",
+      "source_date": "2026-02-12",
+      "evidence_quote": "AI-Powered Customer Support for Small Businesses… Every small business in America struggles with customer support… You install an AI agent that syncs with their email, their support tickets, their FAQ pages… multimodal support. Voice agents. Text agents. Email responders… You set it up. You train it on their specific business. You charge for the build and then charge monthly for maintenance.",
+      "category": [
+        "ai",
+        "customer_support",
+        "saas_service",
+        "smb",
+        "retainers"
+      ],
+      "why_it_works": "Repeat FAQ load is painful and budget-constrained; multimodal agents sell a clear headache kill.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "legal",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Distinct from after-hours voice agents for home services — broader SMB multimodal support desk."
+    },
+    {
       "id": "idea-mhp_guy-alibaba-jetboat-fbmp-import-020",
       "title": "Alibaba jetboat / mini-vehicle FBMP import flips",
       "one_liner": "List Alibaba jetboats/mini jeeps/golf carts on FBMP before ordering; take deposits; import after demand proves out.",
@@ -2242,6 +2438,34 @@
       "status": "harvested",
       "collected_at": "2026-09-19T09:45:09-07:00",
       "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-boring-keyword-upwork-seo-loom-pitch-112",
+      "title": "Boring-keyword Upwork SEO + Loom pitch acquisition",
+      "one_liner": "Sell plain “SEO” (not “AI SEO”) on Upwork, pitch before building, win with a 2–3 minute Loom walkthrough, then deliver with AI/Claude Code and raise price by expanding language/scope after results.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/52-000-a-month-with-ai-without-knowing-how-it-works-7323",
+      "source_date": "2026-08-13",
+      "evidence_quote": "When she searched Upwork, she noticed that anything labeled \"AI automation\" or \"AI SEO\" was brutally competitive. So she dropped that buzzword. She searched plain \"SEO\" instead… She pitched the idea first… She recorded a two to three minute Loom video walking the client through how she would help them… Once Sandy's SEO work was clearly getting results, she went back… and raised her rate from $3,000 to $5,500 a month… She had automated blog content in English and Japanese, so she offered to add Spanish and Korean.",
+      "category": [
+        "freelance",
+        "seo",
+        "ai",
+        "sales",
+        "upwork"
+      ],
+      "why_it_works": "Crowding is in trendy keywords; Loom reduces trust friction; scope expansion monetizes sunk automation.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Guest Sandy Lee story via Chris newsletter + Ep #322 Apple cite in NL. Deduped vs generic AI SEO agency sold-before-built."
     },
     {
       "id": "idea-mhp_guy-bounce-house-rental-clean-positioning-051",
@@ -2475,6 +2699,34 @@
       "notes": ""
     },
     {
+      "id": "idea-mhp_guy-competitor-intelligence-weekly-reports-108",
+      "title": "AI competitor-intelligence weekly report retainers",
+      "one_liner": "Productize an agent that monitors a client’s competitors’ ads, prices, launches, and content into a weekly inbox report — setup once, charge $500–$2k/mo framing from public playbook.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/ways-to-cash-in-on-ai-agents-right-now",
+      "source_date": "2026-02-12",
+      "evidence_quote": "Build an AI agent that spies on your client's competitors automatically. What ads are they running? What prices are they charging? What products are they launching? What content are they putting out? Your agent pulls it all together into a clean weekly report delivered straight to their inbox… Charge $500 to $2,000 a month.",
+      "category": [
+        "ai",
+        "research",
+        "retainers",
+        "b2b",
+        "productized_service"
+      ],
+      "why_it_works": "Decision-useful recurring deliverable with high automation leverage after first scrape/analysis pipeline.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "legal"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Compliance/ToS on scraping is a human gate. Price band is source-stated framing, not a Brandon revenue claim."
+    },
+    {
       "id": "idea-mhp_guy-concrete-coatings-garage-floors-071",
       "title": "One-day polyurea flake garage-floor coatings",
       "one_liner": "Grind + polyurea base + decorative flake + polyaspartic topcoat for garages in one day; price upfront on Meta ads (~$/sq ft) and quote fast.",
@@ -2504,6 +2756,36 @@
       "status": "harvested",
       "collected_at": "2026-09-19T10:07:00-07:00",
       "notes": "Also detailed in newsletter.chrisjkoerner.com/p/a-one-day-job-that-brings-in-6k-f5c8 (Old Cap Coatings). No income guarantees."
+    },
+    {
+      "id": "idea-mhp_guy-concrete-leveling-drop-service-middleman-103",
+      "title": "Concrete leveling drop-servicing middleman",
+      "one_liner": "Sell foam concrete-leveling jobs from your phone (FB ads, Nextdoor, GBP), take deposit, dispatch subcontracted leveling crews who own the $120k rig — sales/coordination only, no truck or equipment.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=QTWNnonldjw",
+      "source_date": "2025-12-14",
+      "evidence_quote": "I sat down with Jeff from Houston, Texas, who built a concrete leveling business making around $1,000 profit per job even though he’s only been doing it for three months… he subcontracts all the work… how to find customers using Nextdoor, Google Business Profile, and Facebook Ads… quote and close jobs virtually without ever visiting the site… plan to turn concrete leveling into a subscription-style service for commercial property owners.",
+      "category": [
+        "home_services",
+        "drop_servicing",
+        "middleman",
+        "asset_light",
+        "local"
+      ],
+      "why_it_works": "Equipment-heavy trade with hungry subcontractors; marketing/coordination is the scarce skill.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "legal",
+        "insurance"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Distinct from polyurea garage coatings and parking-lot striping. Newsletter mirror: be-the-middleman-for-800-job-e21d."
     },
     {
       "id": "idea-mhp_guy-corporate-ai-audit-savings-agency-006",
@@ -3004,6 +3286,34 @@
       "notes": "related_urls=[\"https://newsletter.chrisjkoerner.com/p/want-to-make-1m-fast-start-one-of-these-businesses\"]"
     },
     {
+      "id": "idea-mhp_guy-facebook-reels-fairuse-commentary-106",
+      "title": "Facebook Reels fair-use commentary pages → email list",
+      "one_liner": "Build FB Reels pages that add original commentary/insight to niche clips (fair use), put the CTA link in the first comment (FB-only), and route viewers into a owned newsletter — monetize via FB pay + list.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/how-to-make-35k-month-with-other-people-s-content-legally-24b7",
+      "source_date": "2026-01-28",
+      "evidence_quote": "I make between $10,000 and $35,000 a month in profit on Facebook sharing content that is mostly not my own. I do this legally, ethically, and it only takes me about three hours per week… Facebook Reels is the only place where you can link to your thing in the top of the comments… I get over 500 email subscribers every single day just from that one link… I see a reel or a video on the internet and I add value to it. (This is called fair use and it is protected legally if you are adding enough insight or commentary to make the video your own.)",
+      "category": [
+        "content",
+        "facebook",
+        "newsletter",
+        "creator",
+        "media"
+      ],
+      "why_it_works": "FB still under-supplied with creators vs DAU; first-comment links turn reach into owned list.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "publish",
+        "send",
+        "legal",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Primary cite is Chris newsletter; matching YT IPnafDDgj6o exists. Must add substantial commentary — not raw reuploads. FB later banned his pages per YT update note."
+    },
+    {
       "id": "idea-mhp_guy-fire-protection-inspection-042",
       "title": "Fire-protection inspection business",
       "one_liner": "Inspect/service extinguishers, alarms, and related fire-safety equipment on mandatory schedules for commercial properties.",
@@ -3031,6 +3341,36 @@
       "status": "harvested",
       "collected_at": "2026-09-19T10:05:00-07:00",
       "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-firewood-smoking-wood-from-trim-logs-110",
+      "title": "Firewood / BBQ smoking-wood from free trim logs",
+      "one_liner": "Get free logs dropped from tree-trimming crews onto land you control, split with a hydraulic splitter (hire help to stack), sell cords seasonally and hardwood smoking wood at premium.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/genius-ways-to-make-thousands-from-unwanted-land-a36c",
+      "source_date": "2026-01-21",
+      "evidence_quote": "Firewood Sales — Firewood sells for $400 to $900 per cord depending on the time of year and where you live. Reach out to tree trimming companies, tell them to drop their logs on your property, and split the wood with a hydraulic splitter. I pay high schoolers to help stack it. Hardwoods like oak and pecan fetch even more when you sell them as barbecue smoking wood.",
+      "category": [
+        "land",
+        "physical",
+        "local",
+        "seasonal",
+        "reselling"
+      ],
+      "why_it_works": "Trimmers pay dump fees otherwise; free feedstock + seasonal demand = simple local arbitrage.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "physical",
+        "legal"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "More concrete than generic land-use-without-owning. Matching YT list video Cvs_HhGD18o already used for other land ideas — newsletter is the cite here."
     },
     {
       "id": "idea-mhp_guy-freelance-tech-writing-001",
@@ -3797,6 +4137,35 @@
       "notes": "related_urls=[\"https://newsletter.chrisjkoerner.com/p/want-to-make-1m-fast-start-one-of-these-businesses\"]"
     },
     {
+      "id": "idea-mhp_guy-niche-ai-assistant-saas-one-profession-109",
+      "title": "Niche AI assistant SaaS for one profession",
+      "one_liner": "Build a trained AI assistant for one job (realtors, lawyers, accountants, executives), sell monthly access as SaaS while you own infra/updates — not a one-off personal OS install.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/ways-to-cash-in-on-ai-agents-right-now",
+      "source_date": "2026-02-12",
+      "evidence_quote": "Dedicated AI Assistants as a SaaS Product… build out AI assistants tailored to specific niches, like real estate agents, lawyers, accountants, or busy executives, and you sell access as a monthly subscription… you control the infrastructure. You manage the updates. The customer just logs in and gets value.",
+      "category": [
+        "ai",
+        "saas",
+        "vertical",
+        "subscriptions"
+      ],
+      "why_it_works": "Vertical workflows beat generic chatbots; SaaS packaging creates recurring revenue vs project installs.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "legal",
+        "banking",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Deduped vs OpenClaw personal AI OS retainer — this is multi-tenant niche SaaS."
+    },
+    {
       "id": "idea-mhp_guy-niche-ai-mobile-apps-001",
       "title": "Niche AI mobile apps sold via creators + Meta ads",
       "one_liner": "Ship narrow AI apps (strong visual feature), partner with niche influencers, test Meta ads, monetize with yearly subscriptions.",
@@ -3962,6 +4331,34 @@
       "status": "harvested",
       "collected_at": "2026-09-19T10:25:00-07:00",
       "notes": "Security/privacy review is a hard gate before any client data connect."
+    },
+    {
+      "id": "idea-mhp_guy-packaged-ai-leads-outreach-desk-114",
+      "title": "Packaged AI leads + drafted outreach desk (50/week)",
+      "one_liner": "Sell a concrete package — e.g. 50 qualified leads/week into the client CRM with personalized outreach already drafted — not vague “AI lead gen,” with compliance as a hard gate.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/ways-to-cash-in-on-ai-agents-right-now",
+      "source_date": "2026-02-12",
+      "evidence_quote": "Lead Scraping/ Outreach- as a Service… package it. Don't just sell \"leads.\" Sell \"50 qualified leads per week delivered to your CRM with personalized outreach already drafted.\" Make it specific. Make it easy to say yes to… be careful with permissions and compliance. Do it right.. don't build a spam cannon and call it a business.",
+      "category": [
+        "ai",
+        "lead_gen",
+        "outreach",
+        "b2b",
+        "productized_service"
+      ],
+      "why_it_works": "Specific weekly volume + drafted outreach is easier to buy than abstract agent labor.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "legal"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Deduped vs generic AI agent ops offer by fixed 50/week packaged SKU + compliance emphasis."
     },
     {
       "id": "idea-mhp_guy-pallet-recovery-repair-resale-045",
@@ -4425,6 +4822,65 @@
       "notes": ""
     },
     {
+      "id": "idea-mhp_guy-research-agent-as-a-service-113",
+      "title": "Industry research-agent retainers (zip/product/sector)",
+      "one_liner": "Specialize an AI research agent for one buyer type (RE investors by zip, ecom product trends, VC sector digests) and deliver weekly/monthly packaged reports on retainer.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/ways-to-cash-in-on-ai-agents-right-now",
+      "source_date": "2026-02-12",
+      "evidence_quote": "Research Agent as a Service… Set up an agent that can search the web, pull data from multiple sources, summarize findings, and deliver a clean report… specialize by industry. Maybe you serve real estate investors who want weekly market reports on specific zip codes. Maybe you serve e-commerce brands who want product trend analysis. Maybe you serve VCs who want deal flow research… Package it as a weekly or monthly deliverable. Charge $500 to $2,000 a month depending on how deep the research goes.",
+      "category": [
+        "ai",
+        "research",
+        "retainers",
+        "b2b",
+        "productized_service"
+      ],
+      "why_it_works": "Tedious multi-source research is expensive for humans; niche packaging makes the agent output an easy yes.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "legal"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Distinct from competitor-intel reports — topic/market research vs competitor monitoring."
+    },
+    {
+      "id": "idea-mhp_guy-residential-forestry-mulching-104",
+      "title": "Residential forestry mulching / brush clearing",
+      "one_liner": "Serve homeowners (not just commercial ROW) with Bobcat + mulching head day-rate brush clearing — validate with problem-aware keywords like ‘clear my woods’ / honeysuckle removal before buying iron.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/the-most-profitable-one-man-business-you-ve-never-heard-of-9f96",
+      "source_date": "2026-02-07",
+      "evidence_quote": "His business is forestry mulching/ land clearing… you take a Bobcat with a specialized mulching head and turn overgrown brush, honeysuckle, and small trees into fine wood chips… Most forestry mulching companies focus on commercial work… Almost nobody is serving residential customers… Charge by the day. $1,800 to $2,000 per day is the baseline… Don't just search \"forestry mulching.\"… They're searching problem-aware phrases like \"my backyard is overgrown\" and \"clear land for farming.\"",
+      "category": [
+        "home_services",
+        "land",
+        "equipment",
+        "local"
+      ],
+      "why_it_works": "Commercial-heavy competitors leave residential problem-aware search under-served.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "physical",
+        "legal",
+        "banking",
+        "insurance"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Newsletter cite; matching YT haUsXY0RQFE. Capex/human-heavy — agent helps demand validation and marketing first."
+    },
+    {
       "id": "idea-mhp_guy-restaurant-equipment-middleman-009",
       "title": "Closing-restaurant equipment middleman",
       "one_liner": "Find restaurants closing on FBMP/elsewhere, take equipment under contract, pre-sell on restaurant marketplaces before taking inventory risk.",
@@ -4647,6 +5103,35 @@
       "notes": "related_urls=[\"https://newsletter.chrisjkoerner.com/p/want-to-make-1m-fast-start-one-of-these-businesses\"]"
     },
     {
+      "id": "idea-mhp_guy-school-curriculum-govdeals-flip-105",
+      "title": "School curriculum pallet flips (GovDeals + ChatGPT sort)",
+      "one_liner": "Win near-zero-bid school surplus curriculum pallets on GovDeals/PublicSurplus, use ChatGPT on listing photos to ID Heinemann/Saxon/Abeka/etc. sets, then sell complete teacher/student sets on eBay to homeschoolers and teachers.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/turn-1-into-5k-in-2-months-8e4b",
+      "source_date": "2025-12-24",
+      "evidence_quote": "She buys pallets of books from school district auctions for $1 and sells the curriculum sets on eBay for $50 to $400 each… Create an account on GovDeals.com or PublicSurplus.com… screenshot the listing photos and upload them to ChatGPT. Ask it to identify any visible titles or publishers… publishers that sell consistently: Heinemann, Lucy Calkins / Units of Study, SRA, Saxon, Abeka.",
+      "category": [
+        "reselling",
+        "arbitrage",
+        "ai",
+        "marketplace",
+        "education"
+      ],
+      "why_it_works": "Sorting used to be the moat; vision+LLM collapses ID time while school surplus stays under-bid.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "physical",
+        "legal"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Newsletter is the detailed how-to cite; matching YT kHRKeDqsoG8. Distinct from generic liquidation pallets."
+    },
+    {
       "id": "idea-mhp_guy-scratch-your-itch-agent-micro-saas-096",
       "title": "Scratch-your-itch agent-built micro-SaaS (then sell it)",
       "one_liner": "Have an agentic coder (e.g. Grok bot + Replit) build a tool for your own daily pain (inbox locker example), wire Stripe during the build, use it yourself, then sell the same micro-product to others with the same pain.",
@@ -4760,6 +5245,37 @@
       "notes": "Also newsletter the-simple-side-hustle-you-can-start-for-under-100-10f0. oEmbed-verified."
     },
     {
+      "id": "idea-mhp_guy-shed-to-tiny-home-conversion-rental-111",
+      "title": "Shed-to-tiny-home conversion rentals",
+      "one_liner": "Buy a shed, finish interior cheaply (drywall/paint/fixtures/furniture), and rent as a tiny-home unit — purpose-built tiny homes cost far more; finished shed path is the arbitrage.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/genius-ways-to-make-thousands-from-unwanted-land-a36c",
+      "source_date": "2026-01-21",
+      "evidence_quote": "Shed-to-Tiny-Home Conversions — I paid $7,200 for a shed. Added another $1,000 for drywall, paint, fixtures, and furniture. Now it's a tiny home I can rent for $500 to $1,000 a month. Purpose-built tiny homes cost $50,000 to $100,000. A finished shed costs $20,000 all in. Same product, different framing.",
+      "category": [
+        "real_estate",
+        "rentals",
+        "land",
+        "diy",
+        "housing"
+      ],
+      "why_it_works": "Same rental utility as tiny homes at a fraction of build cost if zoning/permits allow.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "physical",
+        "legal",
+        "banking"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Zoning/ADU/permits are hard human gates. Chris’s stated personal numbers are evidence framing only."
+    },
+    {
       "id": "idea-mhp_guy-smb-ai-implementation-agency-048",
       "title": "SMB AI implementation agency (audit → $1–5k/mo)",
       "one_liner": "Sell AI audits as foot-in-door, then $1–5k/mo retainers to integrate AI workflows for SMBs (not AI-to-AI buyers).",
@@ -4817,6 +5333,64 @@
       "status": "harvested",
       "collected_at": "2026-09-19T09:47:00-07:00",
       "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-snail-mail-niche-subscription-club-102",
+      "title": "Niche snail-mail subscription club (under-1oz envelopes)",
+      "one_liner": "Launch a niche physical mail club (art, recipes, stickers, handwritten letter or themed variants) kept under one ounce for cheap postage — anti-digital tangible product with near-zero startup cost.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=KuQtxDCmyO4",
+      "source_date": "2026-02-14",
+      "evidence_quote": "I'm sitting down with Hannah Gustafson, the founder of The Tiny Project, to discuss a business model that is as brilliant as it is approachable. Hannah left the corporate grind to start a \"silly\" front-yard stand that has since exploded into a snail mail subscription club with 4,100 members. We break down how she reached nearly $50,000 in monthly revenue in just six months with almost no upfront investment and zero paid advertising… often just about a one-ounce envelope and the courage to start tiny.",
+      "category": [
+        "subscriptions",
+        "physical",
+        "community",
+        "direct_mail",
+        "creator"
+      ],
+      "why_it_works": "AI-era craving for tangible human touch; postage economics work when each piece stays under one ounce.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "physical",
+        "legal"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Also documented in newsletter.chrisjkoerner.com/p/1k-day-profit-by-sending-letters-928c. No invented revenue — cite guest’s public story only."
+    },
+    {
+      "id": "idea-mhp_guy-spray-foam-crime-scene-website-landlord-115",
+      "title": "Website-landlord niches: spray foam / crime-scene cleanup",
+      "one_liner": "Build city+service SEO sites in under-webbed urgent niches (spray foam insulation, crime-scene cleanup, autoglass) and rent call-forwarding leads monthly after a free proof week — pick markets where organic results are stale directory pages.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/how-to-make-100k-a-month-renting-out-websites-954e",
+      "source_date": "2026-05-15",
+      "evidence_quote": "He calls himself a website landlord… You build a simple website targeting a specific service in a specific city… Then you find a local business owner… give them a free week of calls… and charge them a flat monthly rate… Great niches Kyle mentioned: epoxy flooring, spray foam insulation, junk removal, autoglass repair, crime scene cleanup… if you search \"spray foam insulation in Tulsa\" and the top results are outdated garbage sites that haven't been touched since 2009, you've found your opening.",
+      "category": [
+        "lead_gen",
+        "seo",
+        "websites",
+        "local_services",
+        "passive"
+      ],
+      "why_it_works": "Same landlord model, but thin corpus on spray-foam/crime-scene/autoglass niche picks and stale-SERP selection.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "legal",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:30:00-07:00",
+      "notes": "Newsletter has niche list + SERP-weakness gate; matching YT xUZYy3hCRUM. Extends generic leadgen-site-rental with specific niches."
     },
     {
       "id": "idea-mhp_guy-sweat-equity-service-business-partner-010",
