@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCGZoiBMCFQtd8jEc3ZSWh_Q"/>
+ <id>yt:channel:GZoiBMCFQtd8jEc3ZSWh_Q</id>
+ <yt:channelId>GZoiBMCFQtd8jEc3ZSWh_Q</yt:channelId>
+ <title>The Boring Marketer</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q"/>
+ <author>
+  <name>The Boring Marketer</name>
+  <uri>https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q</uri>
+ </author>
+ <published>2025-01-31T17:52:02+00:00</published>
+ <entry>
+  <id>yt:video:4Ao8XPvWQbQ</id>
+  <yt:videoId>4Ao8XPvWQbQ</yt:videoId>
+  <yt:channelId>UCGZoiBMCFQtd8jEc3ZSWh_Q</yt:channelId>
+  <title>The Best AI Business Doesn't Touch AI</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=4Ao8XPvWQbQ"/>
+  <author>
+   <name>The Boring Marketer</name>
+   <uri>https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q</uri>
+  </author>
+  <published>2026-09-17T17:00:38+00:00</published>
+  <updated>2026-09-18T17:27:43+00:00</updated>
+  <media:group>
+   <media:title>The Best AI Business Doesn't Touch AI</media:title>
+   <media:content url="https://www.youtube.com/v/4Ao8XPvWQbQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/4Ao8XPvWQbQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Try Zapier (sponsor): https://bit.ly/4xxRY4h
+
+Most people trying to sell AI are fighting over the same few thousand customers who'd rather build their own tools. Meanwhile there are multi-million dollar businesses on Main Street that just want more jobs, more calls, and less headaches. That's the opening.
+
+In this video I break down the full system for selling AI services to boring local businesses: find a market, score each business by what's broken, pick the best ones, and pitch them with a custom asset.
+
+Why boring businesses are the best clients almost nobody wants: they're high ticket (one HVAC job is 12k to 20k), they don't churn, they're not saturated, and you're talking straight to the owner. You're not creating demand with ads or SEO. You're helping them convert the traffic they already have.
+
+The machine, built in Zapier: scrape Google Maps with Apify, read each site and let AI flag the leak (no email capture, no click-to-call, no offer), then auto-build a custom pitch with the owner's name on it. Real example inside: 20 Atlanta HVAC companies, all with the same 3 leaks.
+
+I use Zapier to run these workflows reliably. Grab it above, along with a free skill (below) that lets your coding agent build these Zapier workflows for you.
+
+Chapters:
+0:00 The Main Street opportunity
+1:25 Why boring businesses are the best clients
+3:41 Fewer decision makers, more provable results
+4:41 How to pick which businesses to target
+5:50 Why to go one door down from HVAC
+7:37 The gap analysis
+10:17 Building the machine in Zapier
+12:03 Finding prospects with Apify + Google Maps
+13:03 Scoring the gaps
+14:29 Real example: 20 Atlanta HVAC companies
+16:45 How to pitch and build the asset
+20:31 Lead gen with hyperlocal Facebook ads
+23:39 Recap + free skill
+
+Links:
+Try Zapier (sponsor): https://bit.ly/4xxRY4h
+Free skill: https://www.thevibemarketer.com/resources
+Join the community (Skool): https://www.skool.com/the-vibe-marketers
+Newsletter: https://thevibemarketer.beehiiv.com/
+
+Subscribe for more on using AI to grow real local businesses.
+X: @boringmarketer</media:description>
+   <media:community>
+    <media:starRating count="24" average="5.00" min="1" max="5"/>
+    <media:statistics views="2426"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:1plG7QFLdMM</id>
+  <yt:videoId>1plG7QFLdMM</yt:videoId>
+  <yt:channelId>UCGZoiBMCFQtd8jEc3ZSWh_Q</yt:channelId>
+  <title>The best AI business doesn't touch AI</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/1plG7QFLdMM"/>
+  <author>
+   <name>The Boring Marketer</name>
+   <uri>https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q</uri>
+  </author>
+  <published>2026-09-17T13:06:32+00:00</published>
+  <updated>2026-09-18T07:05:18+00:00</updated>
+  <media:group>
+   <media:title>The best AI business doesn't touch AI</media:title>
+   <media:content url="https://www.youtube.com/v/1plG7QFLdMM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/1plG7QFLdMM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The biggest AI opportunity right now isn't another app. it's using AI marketing skills in a boring local trade where nobody else can run an ad.
+
+How to actually start:
+1. open google maps, search &quot;pool service&quot; or &quot;hvac&quot; in your city. 30+ companies with 100+ reviews = demand that already exists.
+2. pick a trade you have zero interest in. boring is the point, it means less competition.
+3. find the operator who's great at the work and bad at marketing. you bring customers, they do the job.
+4. don't learn the trade or buy a truck. own the front end only: seo, ads, automation.
+5. run one simple ad with a real job photo, not a designed one. optimize for the phone call, not clicks.
+
+You're not creating demand. You're carving off a slice that's already there.
+
+Subscribe for more on using AI to grow real local businesses.</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="238"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:xZDf7wzXJMQ</id>
+  <yt:videoId>xZDf7wzXJMQ</yt:videoId>
+  <yt:channelId>UCGZoiBMCFQtd8jEc3ZSWh_Q</yt:channelId>
+  <title>The &quot;false productivity&quot; trap killing your AI projects</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/xZDf7wzXJMQ"/>
+  <author>
+   <name>The Boring Marketer</name>
+   <uri>https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q</uri>
+  </author>
+  <published>2026-09-10T10:15:05+00:00</published>
+  <updated>2026-09-18T06:12:00+00:00</updated>
+  <media:group>
+   <media:title>The &quot;false productivity&quot; trap killing your AI projects</media:title>
+   <media:content url="https://www.youtube.com/v/xZDf7wzXJMQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/xZDf7wzXJMQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>AI turned building into the easy part, the real trap now is false productivity: endless dopamine, and a project that never ships.
+
+You get a win every few prompts, so you keep going. Two weeks later you're still deep in it and can't even say what problem you started with.
+
+The way out is setting your gates before you start:
+
+1. Write a phased PRD where &quot;done&quot; is an actual gate. You don't start the next thing until you've hit it.
+
+2. Ship the MVP and let the market tell you if it's real, instead of building out every case first.
+
+3. Pick a launch date and ship whatever you've got when it comes.
+
+Building will always feel like progress. Shipping is the only thing that proves it.
+
+This clip is from one of our weekly sessions in The Boring Marketing Community. Come build with us: 
+https://www.skool.com/the-vibe-marketers
+
+#AI #ClaudeCode #BuildInPublic #Startups #IndieHackers #ShipIt #LeanStartup #AIcoding #Shorts</media:description>
+   <media:community>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="178"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:SRSu6vU0fxA</id>
+  <yt:videoId>SRSu6vU0fxA</yt:videoId>
+  <yt:channelId>UCGZoiBMCFQtd8jEc3ZSWh_Q</yt:channelId>
+  <title>Repurpose Your Newsletter Into Weeks of Content With AI — No Code (Free Skill)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=SRSu6vU0fxA"/>
+  <author>
+   <name>The Boring Marketer</name>
+   <uri>https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q</uri>
+  </author>
+  <published>2026-07-28T17:17:29+00:00</published>
+  <updated>2026-09-17T22:41:06+00:00</updated>
+  <media:group>
+   <media:title>Repurpose Your Newsletter Into Weeks of Content With AI — No Code (Free Skill)</media:title>
+   <media:content url="https://www.youtube.com/v/SRSu6vU0fxA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/SRSu6vU0fxA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>I built a real, no-code marketing workflow live in Claude Desktop, connecting my newsletter and social tools so one newsletter turns into a full week of posts. No terminal, no code, beginner-friendly.
+
+🔗 Get Zapier MCP into Claude 👉 https://bit.ly/4x6fDsy
+🎁 Free Content Atomizer skill (the one I use in this video) 👉  https://gist.github.com/thevibemarketershq/048d220c0ed333a2f4e476a8cc125a3b
+
+Big thanks to Zapier for sponsoring this one and making the whole build possible.
+
+—
+
+What I use in this build
+• Claude Desktop (Cowork)
+• Zapier MCP (connects 9,000+ apps to Claude — no code)
+• Beehiiv (my newsletter, &quot;The Marketer&quot;)
+• Buffer (scheduling the posts)
+• Google Drive (hosting the images)
+
+Why this is great for beginners
+No code. No terminal. No complicated setup. If you can send an email, you can build this. Zapier MCP is the easiest on-ramp I've found for getting real automations running inside Claude.
+
+—
+
+Chapters
+0:00 What we're building (live, no code)
+2:44 Why I use Zapier MCP (connecting Beehiiv to Claude)
+6:11 Using Skills: the Content Atomizer
+7:41 Building the Zapier MCP server (Buffer + Beehiiv)
+11:00 Connecting Zapier MCP to Claude Desktop
+13:44 Running the workflow live
+19:53 Claude repurposes my newsletter into LinkedIn posts
+24:39 Designing the images + loading Buffer
+26:43 The finished result + automating the whole loop
+
+—
+
+Pro tips from the build
+• When you set up your Zapier MCP server, select ALL the tools you want up front. Saved me a headache mid-build.
+• Host your images on a public Google Drive link so Buffer can pull them automatically.
+• Start with one newsletter → let the skill atomize it → review → queue. Then automate the loop.
+
+—
+
+More from us
+🚀 Free AI Visibility Audit 👉 https://boringmarketing.com
+⭐ Want James to build this WITH you? Book a private 1:1 consulting hour. We'll map your automation live. 👉 https://www.thevibemarketer.com/bundle
+
+#AIforBeginners #ZapierMCP #ClaudeAI #NoCode #ContentRepurposing #MarketingAutomation #AImarketing</media:description>
+   <media:community>
+    <media:starRating count="41" average="5.00" min="1" max="5"/>
+    <media:statistics views="817"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:6CJ4T9vaUUE</id>
+  <yt:videoId>6CJ4T9vaUUE</yt:videoId>
+  <yt:channelId>UCGZoiBMCFQtd8jEc3ZSWh_Q</yt:channelId>
+  <title>I Replaced Myself With an AI Agent to Run My Socials (Free AI Skill Included)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=6CJ4T9vaUUE"/>
+  <author>
+   <name>The Boring Marketer</name>
+   <uri>https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q</uri>
+  </author>
+  <published>2026-07-09T12:59:52+00:00</published>
+  <updated>2026-09-18T00:09:53+00:00</updated>
+  <media:group>
+   <media:title>I Replaced Myself With an AI Agent to Run My Socials (Free AI Skill Included)</media:title>
+   <media:content url="https://www.youtube.com/v/6CJ4T9vaUUE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/6CJ4T9vaUUE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>I built a social media agent that creates and publishes AI videos. Using just two tools.
+
+🛠️ Resources:
+  → Zapier MCP: https://bit.ly/44bXs8H
+  → FREE video creation skill: https://github.com/boring-marketing-com/ai-short-form-video-skill
+
+Tools: Zapier MCP (ElevenLabs, Buffer, MusicGPT) + Replicate
+
+Here's the full workflow:
+
+00:00 - The problem with API setups
+02:30 - Zapier MCP overview
+05:00 - Creating video content with Replicate
+08:30 - AI voiceovers with ElevenLabs
+12:00 - Publishing to LinkedIn via Buffer
+15:00 - Sharing workflows with your team
+18:00 - Switching between AI models
+21:00 - Final result &amp; next steps
+
+#contentcreation #AIAgents #MarketingAutomation #ZapierMCP</media:description>
+   <media:community>
+    <media:starRating count="67" average="5.00" min="1" max="5"/>
+    <media:statistics views="1859"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-1PYLI4zkwA</id>
+  <yt:videoId>-1PYLI4zkwA</yt:videoId>
+  <yt:channelId>UCGZoiBMCFQtd8jEc3ZSWh_Q</yt:channelId>
+  <title>Inside The Vibe Marketers Community</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/-1PYLI4zkwA"/>
+  <author>
+   <name>The Boring Marketer</name>
+   <uri>https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q</uri>
+  </author>
+  <published>2026-03-25T13:00:00+00:00</published>
+  <updated>2026-09-17T23:24:26+00:00</updated>
+  <media:group>
+   <media:title>Inside The Vibe Marketers Community</media:title>
+   <media:content url="https://www.youtube.com/v/-1PYLI4zkwA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-1PYLI4zkwA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This is TVM. Where AI meets marketing.
+
+TVM is a community for marketers, entrepreneurs, and creators leveraging AI for growth. We cover AI marketing strategies, automation, content creation, and digital marketing.
+
+Whether you're building a brand, scaling a business, or exploring AI..this is where it happens.</media:description>
+   <media:community>
+    <media:starRating count="13" average="5.00" min="1" max="5"/>
+    <media:statistics views="328"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:blwSIdeQixk</id>
+  <yt:videoId>blwSIdeQixk</yt:videoId>
+  <yt:channelId>UCGZoiBMCFQtd8jEc3ZSWh_Q</yt:channelId>
+  <title>Most AI skills generate content. This one has generated real revenue.</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/blwSIdeQixk"/>
+  <author>
+   <name>The Boring Marketer</name>
+   <uri>https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q</uri>
+  </author>
+  <published>2026-03-05T19:00:00+00:00</published>
+  <updated>2026-09-17T23:54:51+00:00</updated>
+  <media:group>
+   <media:title>Most AI skills generate content. This one has generated real revenue.</media:title>
+   <media:content url="https://www.youtube.com/v/blwSIdeQixk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/blwSIdeQixk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>🔗 Get Skills → https://www.thevibemarketer.com/skills
+
+Go from 0 to 1. Used this for a local boring business, found keywords, built website in Claude Code. Now $30-40K/month.
+
+Not all skills are equal. Years of expertise baked in so you don't have to figure out what good looks like.
+
+#Shorts #AISkills #AIMarketing #Claudeskills #claude #claudecode</media:description>
+   <media:community>
+    <media:starRating count="12" average="5.00" min="1" max="5"/>
+    <media:statistics views="985"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:g-2LAMvdzOc</id>
+  <yt:videoId>g-2LAMvdzOc</yt:videoId>
+  <yt:channelId>UCGZoiBMCFQtd8jEc3ZSWh_Q</yt:channelId>
+  <title>Does Skills Work for YOUR Business?</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/g-2LAMvdzOc"/>
+  <author>
+   <name>The Boring Marketer</name>
+   <uri>https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q</uri>
+  </author>
+  <published>2026-03-03T19:00:00+00:00</published>
+  <updated>2026-09-17T23:41:16+00:00</updated>
+  <media:group>
+   <media:title>Does Skills Work for YOUR Business?</media:title>
+   <media:content url="https://www.youtube.com/v/g-2LAMvdzOc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/g-2LAMvdzOc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>🔗 Get Skills → https://www.thevibemarketer.com/skills
+
+500+ people shipping: SaaS • E-comm • Coaches • Consultants • Local businesses ($30-40K/month) • Agencies • In-house marketers • Solo founders
+
+Keyword research, opt-in forms, lead magnets, calculators...all built with Skills + Claude Code The leverage is crazy.
+
+#Shorts #AISkills #AIMarketing #SaaS #Ecommerce #SoloFounder</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="165"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:NYF6P3-6psI</id>
+  <yt:videoId>NYF6P3-6psI</yt:videoId>
+  <yt:channelId>UCGZoiBMCFQtd8jEc3ZSWh_Q</yt:channelId>
+  <title>I Failed at Coding. So I Made AI Do It Instead.</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/NYF6P3-6psI"/>
+  <author>
+   <name>The Boring Marketer</name>
+   <uri>https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q</uri>
+  </author>
+  <published>2026-03-02T19:00:00+00:00</published>
+  <updated>2026-09-18T00:36:15+00:00</updated>
+  <media:group>
+   <media:title>I Failed at Coding. So I Made AI Do It Instead.</media:title>
+   <media:content url="https://www.youtube.com/v/NYF6P3-6psI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/NYF6P3-6psI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>🔗 Get Skills → https://www.thevibemarketer.com/skills
+
+I come from a non-technical background. Years ago I tried to learn to code — very unsuccessfully. Now I build marketing systems with Claude Code and Cursor.
+
+Skills are portable instruction manuals for AI. I've baked in years of expertise so you don't have to figure out what questions to ask or what good looks like.
+
+500+ people shipping: SaaS • E-comm • Coaching • Agencies • Solo founders • Startups
+
+#Shorts #AISkills #FounderStory #NonTechnical #ClaudeCode</media:description>
+   <media:community>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="469"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Rv2DasDaB8g</id>
+  <yt:videoId>Rv2DasDaB8g</yt:videoId>
+  <yt:channelId>UCGZoiBMCFQtd8jEc3ZSWh_Q</yt:channelId>
+  <title>$30-40K/Month From a &quot;Boring&quot; Local Business using Skills + Claude Code</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/Rv2DasDaB8g"/>
+  <author>
+   <name>The Boring Marketer</name>
+   <uri>https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q</uri>
+  </author>
+  <published>2026-02-27T19:00:00+00:00</published>
+  <updated>2026-09-18T01:47:06+00:00</updated>
+  <media:group>
+   <media:title>$30-40K/Month From a &quot;Boring&quot; Local Business using Skills + Claude Code</media:title>
+   <media:content url="https://www.youtube.com/v/Rv2DasDaB8g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Rv2DasDaB8g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>🔗 Get Skills → https://www.thevibemarketer.com/skills
+
+Entire marketing done in 2 days. Local boring business I'm a partner in: found keywords, built website in Claude Code. Now $30-40K/month.
+
+The leverage is real.
+
+#Shorts #AISkills #CaseStudy #LocalBusiness #AIMarketing</media:description>
+   <media:community>
+    <media:starRating count="18" average="5.00" min="1" max="5"/>
+    <media:statistics views="1537"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:vS0nC-cgFSQ</id>
+  <yt:videoId>vS0nC-cgFSQ</yt:videoId>
+  <yt:channelId>UCGZoiBMCFQtd8jEc3ZSWh_Q</yt:channelId>
+  <title>I Spent Years Teaching AI What Good Marketing Looks Like</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/vS0nC-cgFSQ"/>
+  <author>
+   <name>The Boring Marketer</name>
+   <uri>https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q</uri>
+  </author>
+  <published>2026-02-26T20:00:00+00:00</published>
+  <updated>2026-09-18T00:22:50+00:00</updated>
+  <media:group>
+   <media:title>I Spent Years Teaching AI What Good Marketing Looks Like</media:title>
+   <media:content url="https://www.youtube.com/v/vS0nC-cgFSQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/vS0nC-cgFSQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>🔗 Get Skills → https://www.thevibemarketer.com/skills
+
+Not all skills are equal. I've baked in YEARS of marketing expertise, hours with Claude Code providing context, research, and showing it what good looks like.
+
+Proof: Used this for a local boring business, now doing $30-40K/month. Build lead magnets, email sequences, the whole stack.
+
+#Shorts #AISkills #AIMarketing #MarketingExpertise #ClaudeCode</media:description>
+   <media:community>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="505"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:uAl8w0_dLXk</id>
+  <yt:videoId>uAl8w0_dLXk</yt:videoId>
+  <yt:channelId>UCGZoiBMCFQtd8jEc3ZSWh_Q</yt:channelId>
+  <title>The Stack That Ships: Claude Code + Skills + MCP</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/uAl8w0_dLXk"/>
+  <author>
+   <name>The Boring Marketer</name>
+   <uri>https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q</uri>
+  </author>
+  <published>2026-02-25T19:00:00+00:00</published>
+  <updated>2026-09-18T05:14:59+00:00</updated>
+  <media:group>
+   <media:title>The Stack That Ships: Claude Code + Skills + MCP</media:title>
+   <media:content url="https://www.youtube.com/v/uAl8w0_dLXk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/uAl8w0_dLXk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>🔗 Get Skills → https://www.thevibemarketer.com/skills
+
+How I stack Claude Code + Skills + MCP to create marketing assets ready to ship, scale, and sell.
+
+Direct Response Copy (my favorite), Lead Magnets (calculators, micro tools), AI Creative Strategist for image/video prompts.
+
+Get your ads up, SEO going, emails running, lead captures live. It's all here.
+
+#Shorts #AISkills #ClaudeCode #MCP #AIMarketing</media:description>
+   <media:community>
+    <media:starRating count="26" average="5.00" min="1" max="5"/>
+    <media:statistics views="750"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:v4YowM0We-4</id>
+  <yt:videoId>v4YowM0We-4</yt:videoId>
+  <yt:channelId>UCGZoiBMCFQtd8jEc3ZSWh_Q</yt:channelId>
+  <title>I shipped an app from a boat and it's making money</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/v4YowM0We-4"/>
+  <author>
+   <name>The Boring Marketer</name>
+   <uri>https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q</uri>
+  </author>
+  <published>2026-02-24T14:00:00+00:00</published>
+  <updated>2026-09-17T22:39:25+00:00</updated>
+  <media:group>
+   <media:title>I shipped an app from a boat and it's making money</media:title>
+   <media:content url="https://www.youtube.com/v/v4YowM0We-4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/v4YowM0We-4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Shipped an app from a ship. It has paying subscribers. Skills are wild! 
+Skills work with Claude Code, Cursor, chatGPT, Gemini + any LLM   
+🔗 boringmarketing.com/skills</media:description>
+   <media:community>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="1638"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:tddZiBb_L3Q</id>
+  <yt:videoId>tddZiBb_L3Q</yt:videoId>
+  <yt:channelId>UCGZoiBMCFQtd8jEc3ZSWh_Q</yt:channelId>
+  <title>Full Website. One Day. No Code.</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/tddZiBb_L3Q"/>
+  <author>
+   <name>The Boring Marketer</name>
+   <uri>https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q</uri>
+  </author>
+  <published>2026-02-20T13:00:00+00:00</published>
+  <updated>2026-09-17T22:34:51+00:00</updated>
+  <media:group>
+   <media:title>Full Website. One Day. No Code.</media:title>
+   <media:content url="https://www.youtube.com/v/tddZiBb_L3Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/tddZiBb_L3Q/hqdefault.jpg" width="480" height="360"/>
+   <media:description>🔗 Get Skills → https://www.thevibemarketer.com/skills
+
+Built this entire site in one day. Full websites, lead magnets, email captures, complete marketing funnels.
+
+Used this same process for a local boring business — now it does $30-40K/month. 500+ people shipping with these skills.
+
+#Shorts #AISkills #ClaudeCode #AIWebsite #MarketingAutomation</media:description>
+   <media:community>
+    <media:starRating count="18" average="5.00" min="1" max="5"/>
+    <media:statistics views="1430"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:G_2VPc2kmWA</id>
+  <yt:videoId>G_2VPc2kmWA</yt:videoId>
+  <yt:channelId>UCGZoiBMCFQtd8jEc3ZSWh_Q</yt:channelId>
+  <title>A Fractional CMO in a Box (Here's What's Inside)</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/G_2VPc2kmWA"/>
+  <author>
+   <name>The Boring Marketer</name>
+   <uri>https://www.youtube.com/channel/UCGZoiBMCFQtd8jEc3ZSWh_Q</uri>
+  </author>
+  <published>2026-02-19T19:00:00+00:00</published>
+  <updated>2026-09-18T01:40:18+00:00</updated>
+  <media:group>
+   <media:title>A Fractional CMO in a Box (Here's What's Inside)</media:title>
+   <media:content url="https://www.youtube.com/v/G_2VPc2kmWA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/G_2VPc2kmWA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>🔗 Get Skills → https://www.thevibemarketer.com/skills
+
+Full walkthrough: Brand Voice, Content Atomizer, Direct Response Copy (my favorite), Email Sequences, Keyword Research, Lead Magnets, Newsletter, Positioning Angles, and the Orchestrator — a fractional CMO in a box.
+
+Plus: AI Creative Strategist for image/video prompts. Build calculators, micro tools, email captures with Claude Code.
+
+Ready to ship, ready to scale, ready to sell.
+
+#Shorts #AISkills #AIMarketing #ClaudeCode #MarketingAutomation</media:description>
+   <media:community>
+    <media:starRating count="31" average="5.00" min="1" max="5"/>
+    <media:statistics views="534"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
