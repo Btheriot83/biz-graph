@@ -1,0 +1,91 @@
+# Biz Graph — llms-full.txt
+
+> Concatenated fence + schema summary + agent how-to for offline agent ingest.
+
+---
+
+## Fence
+
+# Biz Graph — fence (non-negotiable)
+
+## Source fence
+- Mine ideas **only** from:
+  - **The Boring Marketer** — `@boringmarketer`
+  - **Chris Koerner** — `@mhp_guy`
+- Every idea row requires a public `source_url` and should carry `evidence_quote` when available.
+- Public sources only. No paywall scrape. No invented posts, quotes, or results.
+
+## Claims fence
+- **No income guarantees.** Past creator anecdotes ≠ your future results.
+- Catalog is research / orchestration scaffolding — not financial, legal, or investment advice.
+
+## Brandon approval gates
+Agents may research and draft. These require **Brandon (human) approval** before execution:
+- **money** — spend, deposit, subscribe, buy ads, pay tools beyond free tier
+- **hire** — contractors, employees, agencies
+- **pay** — invoices, payouts, refunds
+- **publish** — public posts, product launches, site go-live as “official”
+- **send** — outbound email / DM / outreach as Brandon or Biz Graph
+
+Mark these as `human_gates` / `approval_gates` / `brandon_only_actions` in ideas, plans, and graphs.
+
+## Repo fence
+- Work only under `/workspace/biz-graph/`.
+- Do not invent ideas to “fill” the ~250 target. Harvest quality, cite, then plan.
+
+---
+
+## Schema
+
+# Biz Graph — catalog schema (v0)
+
+**Fence:** Ideas only from `@boringmarketer` and `@mhp_guy` (Chris Koerner). Public cites required. No income guarantees. Brandon approval for money / hire / pay / publish / send. See `docs/FENCE.md`. Agent how-to: `llms.txt`.
+
+## Files
+| Path | Purpose |
+| --- | --- |
+| `data/ideas.jsonl` | One idea object per line |
+| `data/ideas.json` | `{ meta, ideas[] }` |
+| `data/plans.jsonl` / `data/plans.json` | Plans index |
+| `data/plans/{id}.json` | Full plan document |
+| `data/graphs.jsonl` / `data/graphs.json` | Graphs index |
+| `data/graphs/{id}.json` | Full orchestration graph |
+
+## Idea
+`id`, `title`, `one_liner`, `source_handle` (`boringmarketer`|`mhp_guy`), `source_url` (required), `source_date`, `evidence_quote`, `category[]`, `why_it_works`, `agent_runnable`, `human_gates[]`, `status` (`harvested`|`researched`|`planned`|`archived`), `collected_at`, `notes`
+
+ID: `idea-{source}-{slug}-{nnn}`
+
+## Plan (per idea)
+`id` (`plan-{idea_id}`), `idea_id`, `title`, `one_liner`, `category_tags[]`, `why_agent_runnable`, `ops_steps[]` (`n,title,owner,detail,human_required`), `human_only_checkpoints[]`, `hiring_and_pay_flow`, `orchestration_graph_id`, `unit_economics_sketch`, `first_7_day_agent_sprint[]`, `kill_criteria[]`, `source_citations[]`, `disclaimer`, `status`, `updated_at`
+
+## Graph
+`id` (`graph-{plan_id}`), `plan_id`, `description`, `nodes[]` (`id,kind,label,model_or_tool?,responsibility`), `edges[]` (`from,to,label`), `brandon_only_actions[]`, `updated_at`
+
+## Agent update contract
+Append-only IDs. Every idea needs public `source_url` from the two handles only. Propose patches under `data/proposals/`. Never invent quotes or revenue. Brandon gates money/hire/pay/publish/send.
+
+---
+
+## Agent how-to (llms.txt)
+
+# Biz Graph — agent instructions
+
+> Ideas only from @boringmarketer and @mhp_guy. Public cites required. No income guarantees. Brandon gates money / hire / pay / publish / send.
+
+## Read
+| File | Use |
+| --- | --- |
+| `/schema.md` or `/data` via site | schemas |
+| `/data/ideas.jsonl` | ideas |
+| `/data/plans/{id}.json` | full plans |
+| `/data/graphs/{id}.json` | orchestration graphs |
+| `/docs/FENCE.md` | fence |
+
+## IDs
+- idea: `idea-{source}-{slug}-{nnn}`
+- plan: `plan-{idea_id}`
+- graph: `graph-{plan_id}`
+
+## Updates
+Append jsonl + regenerate json meta. Cite public X/YouTube URLs only from the two creators. Do not invent ideas.

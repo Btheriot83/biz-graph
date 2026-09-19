@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f7f6f3;
+  --card: #ffffff;
+  --hairline: #e4e0d8;
+  --ghost: #efece6;
+  --ink: #1c1a17;
+  --studio: #6b655c;
+  --faint: #9a948a;
+  --accent: #2d5a45;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-card: var(--card);
+  --color-hairline: var(--hairline);
+  --color-ghost: var(--ghost);
+  --color-ink: var(--ink);
+  --color-studio: var(--studio);
+  --color-faint: var(--faint);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-source-sans);
+  --font-display: var(--font-newsreader);
+  --font-mono: var(--font-ibm-plex-mono);
+}
+
+html {
+  background: var(--paper);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-source-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-newsreader), ui-serif, Georgia, serif;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent) 22%, transparent);
+  color: var(--ink);
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+.card {
+  border: 1px solid var(--hairline);
+  background: var(--card);
+}

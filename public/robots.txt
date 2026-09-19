@@ -1,0 +1,9 @@
+# Biz Graph — allow agent surfaces
+User-agent: *
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /schema.md
+Allow: /FENCE.md
+Allow: /data/
+Allow: /robots.txt

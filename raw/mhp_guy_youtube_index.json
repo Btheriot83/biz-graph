@@ -1,0 +1,313 @@
+{
+  "source_handle": "mhp_guy",
+  "creator": "Chris Koerner",
+  "channel": {
+    "handle": "@thekoerneroffice",
+    "channel_id": "UCn4dfcINwD3_z41IDFPsFcA",
+    "channel_url": "https://www.youtube.com/@thekoerneroffice",
+    "confirmed_as": "Chris Koerner / mhp_guy — The Koerner Office Podcast",
+    "also_known": [
+      "mhp_guy",
+      "Chris Koerner",
+      "The Koerner Office"
+    ],
+    "related_channels_noted": [
+      {
+        "handle": "@thekoernerofficeideas",
+        "note": "shorts/ideas clips"
+      },
+      {
+        "handle": "@thekoernerofficesegments",
+        "note": "highlights"
+      },
+      {
+        "handle": "@tripleeightranch",
+        "note": "personal ranch channel — not primary harvest source"
+      }
+    ],
+    "confirmation_sources": [
+      "https://www.thekoerneroffice.com/",
+      "https://chrisjkoerner.com/",
+      "https://mhpguy.com/",
+      "https://www.youtube.com/@thekoerneroffice"
+    ]
+  },
+  "harvest_notes": "X API forbidden; Apify limit exceeded. Harvested from YouTube @thekoerneroffice. Prefer primary uploads over [NO ADS] duplicates. Episodes #334 Laundry Spot and #335 micro bakery indexed via podcast only — no matching YouTube URL found at harvest time, so excluded from ideas. Newsletter used only when matching YouTube exists (2B5dCquvK4c).",
+  "collected_at": "2026-09-19T09:45:09-07:00",
+  "video_count": 34,
+  "videos": [
+    {
+      "video_id": "tK5Ivv_3sEA",
+      "title": "The $7K/Month Side Hustle Most People Think AI Killed",
+      "url": "https://www.youtube.com/watch?v=tK5Ivv_3sEA",
+      "upload_date": "2026-09-18",
+      "topic": "freelance writing / editorial",
+      "episode_hint": "#333"
+    },
+    {
+      "video_id": "GZbjmWNmIkc",
+      "title": "This AI Finds the Idea, Customers, and Does the Work",
+      "url": "https://www.youtube.com/watch?v=GZbjmWNmIkc",
+      "upload_date": "2026-09-16",
+      "topic": "AI agents for business ops",
+      "episode_hint": null
+    },
+    {
+      "video_id": "CpgW6LYIEHw",
+      "title": "The Most Useful AI Tool You’ve Never Heard Of",
+      "url": "https://www.youtube.com/watch?v=CpgW6LYIEHw",
+      "upload_date": "2026-09-15",
+      "topic": "AI tool (Violoop)",
+      "episode_hint": null
+    },
+    {
+      "video_id": "qkPQCqrEhtg",
+      "title": "Forget Snack Machines. This One Refills Itself",
+      "url": "https://www.youtube.com/watch?v=qkPQCqrEhtg",
+      "upload_date": "2026-09-14",
+      "topic": "ice and water vending",
+      "episode_hint": null
+    },
+    {
+      "video_id": "9U4MCbfL8MQ",
+      "title": "The Most Overlooked $81K/Month Business Anyone Can Start",
+      "url": "https://www.youtube.com/watch?v=9U4MCbfL8MQ",
+      "upload_date": "2026-09-11",
+      "topic": "water filtration home service",
+      "episode_hint": "#332"
+    },
+    {
+      "video_id": "a8P2K9DYJp4",
+      "title": "He Gets These Free. Makes $1,000 With Each.",
+      "url": "https://www.youtube.com/watch?v=a8P2K9DYJp4",
+      "upload_date": "2026-09-08",
+      "topic": "appliance rental / free appliances",
+      "episode_hint": null
+    },
+    {
+      "video_id": "68x7jFWbaE8",
+      "title": "The Simple One-Man Side Hustle That Runs Itself",
+      "url": "https://www.youtube.com/watch?v=68x7jFWbaE8",
+      "upload_date": "2026-09-06",
+      "topic": "trailer rental",
+      "episode_hint": "#330"
+    },
+    {
+      "video_id": "gmwDBNcFXFU",
+      "title": "Make Money With This New AI Agent That Works 24/7",
+      "url": "https://www.youtube.com/watch?v=gmwDBNcFXFU",
+      "upload_date": "2026-09-04",
+      "topic": "AI agent team / Grok Bot ops",
+      "episode_hint": "#331"
+    },
+    {
+      "video_id": "DlNWYzaL_F0",
+      "title": "The Most Overlooked Online Side Hustle Of 2026",
+      "url": "https://www.youtube.com/watch?v=DlNWYzaL_F0",
+      "upload_date": "2026-08-31",
+      "topic": "local YouTube jingle ads",
+      "episode_hint": "#328"
+    },
+    {
+      "video_id": "UEXdBVZVvBk",
+      "title": "The Simplest $300/Hour Side Hustle Anyone Can Start",
+      "url": "https://www.youtube.com/watch?v=UEXdBVZVvBk",
+      "upload_date": "2026-08-29",
+      "topic": "couch flipping",
+      "episode_hint": "#323"
+    },
+    {
+      "video_id": "HOosrT6vj_Y",
+      "title": "I Did Something Insane. Here Are the Businesses I Found in It",
+      "url": "https://www.youtube.com/watch?v=HOosrT6vj_Y",
+      "upload_date": "2026-08-27",
+      "topic": "ranch-adjacent businesses without owning land",
+      "episode_hint": "#329"
+    },
+    {
+      "video_id": "McQucrnkSt0",
+      "title": "The Simplest $10K+/M Business You've Never Heard Of",
+      "url": "https://www.youtube.com/watch?v=McQucrnkSt0",
+      "upload_date": "2026-08-22",
+      "topic": "community sandwich board ads",
+      "episode_hint": "#327"
+    },
+    {
+      "video_id": "i5vD6_QspkQ",
+      "title": "The Most Overlooked Path to Wealth",
+      "url": "https://www.youtube.com/watch?v=i5vD6_QspkQ",
+      "upload_date": "2026-08-19",
+      "topic": "franchising models",
+      "episode_hint": "#326"
+    },
+    {
+      "video_id": "EEBlDTEYFao",
+      "title": "I Found the Perfect First Business for Introverts",
+      "url": "https://www.youtube.com/watch?v=EEBlDTEYFao",
+      "upload_date": "2026-08-17",
+      "topic": "AI implementation consulting",
+      "episode_hint": "#325"
+    },
+    {
+      "video_id": "VOo3M3ZHUoA",
+      "title": "Watch Me Clone a $200K/Month Business in 5 Minutes",
+      "url": "https://www.youtube.com/watch?v=VOo3M3ZHUoA",
+      "upload_date": "2026-08-14",
+      "topic": "clone local lead-gen / service sites",
+      "episode_hint": null
+    },
+    {
+      "video_id": "kEV86fy-Rvc",
+      "title": "I Tried to Make $10K in 10 Days With Costco Returns",
+      "url": "https://www.youtube.com/watch?v=kEV86fy-Rvc",
+      "upload_date": "2026-08-12",
+      "topic": "Costco returns arbitrage experiment",
+      "episode_hint": null
+    },
+    {
+      "video_id": "E9baszgY3J8",
+      "title": "The Most Underrated Side Hustle You Can Start With $0",
+      "url": "https://www.youtube.com/watch?v=E9baszgY3J8",
+      "upload_date": "2026-08-09",
+      "topic": "estate sales",
+      "episode_hint": "#324"
+    },
+    {
+      "video_id": "vvtsOOGn6Io",
+      "title": "The Most Overlooked $3K/Day Side Hustle Anyone Can Start (with $0)",
+      "url": "https://www.youtube.com/watch?v=vvtsOOGn6Io",
+      "upload_date": "2026-08-07",
+      "topic": "seasonal porch decorating",
+      "episode_hint": null
+    },
+    {
+      "video_id": "lG5U30gKCaY",
+      "title": "How a Mom of 3 Makes $50K a Month With AI (No Experience)",
+      "url": "https://www.youtube.com/watch?v=lG5U30gKCaY",
+      "upload_date": "2026-08-02",
+      "topic": "AI SEO / automation offers",
+      "episode_hint": "#322"
+    },
+    {
+      "video_id": "nVgFbclwmSA",
+      "title": "The $0 Side Hustle Anyone Can Start",
+      "url": "https://www.youtube.com/watch?v=nVgFbclwmSA",
+      "upload_date": "2026-07-31",
+      "topic": "Amazon Influencer product reviews",
+      "episode_hint": "#321"
+    },
+    {
+      "video_id": "g-wMJf4ckK0",
+      "title": "He Found a Grant That Feels Like a Cheat Code ($2.4M/Year)",
+      "url": "https://www.youtube.com/watch?v=g-wMJf4ckK0",
+      "upload_date": "2026-07-30",
+      "topic": "online trade schools / grants",
+      "episode_hint": null
+    },
+    {
+      "video_id": "3GmZHYBX75s",
+      "title": "He Built This Business in One Weekend for $40",
+      "url": "https://www.youtube.com/watch?v=3GmZHYBX75s",
+      "upload_date": "2026-07-27",
+      "topic": "custom pet gift ecommerce",
+      "episode_hint": "#320"
+    },
+    {
+      "video_id": "oaXnY1YExjE",
+      "title": "This Kid Found the Fastest Way to Make Money With AI Apps",
+      "url": "https://www.youtube.com/watch?v=oaXnY1YExjE",
+      "upload_date": "2026-07-19",
+      "topic": "niche AI mobile apps",
+      "episode_hint": "#318"
+    },
+    {
+      "video_id": "6u7tkj7UJvs",
+      "title": "The Laziest One-Person Business You Can Start",
+      "url": "https://www.youtube.com/watch?v=6u7tkj7UJvs",
+      "upload_date": "2026-07-14",
+      "topic": "one-person lean service/content biz",
+      "episode_hint": null
+    },
+    {
+      "video_id": "6ErnEr2JcD0",
+      "title": "The Most Hands-Off $192K/M Business Anyone Can Copy",
+      "url": "https://www.youtube.com/watch?v=6ErnEr2JcD0",
+      "upload_date": "2026-07-11",
+      "topic": "rent lead-gen websites to locals",
+      "episode_hint": "#315"
+    },
+    {
+      "video_id": "pKja9oxDAaQ",
+      "title": "How to Make Money on Airbnb (Even With $0)",
+      "url": "https://www.youtube.com/watch?v=pKja9oxDAaQ",
+      "upload_date": "2026-07-05",
+      "topic": "experience Airbnb / $0-down paths",
+      "episode_hint": "#314"
+    },
+    {
+      "video_id": "dTnidR4eLus",
+      "title": "Forget AI. Make $10K+ With These Offline Side Hustles",
+      "url": "https://www.youtube.com/watch?v=dTnidR4eLus",
+      "upload_date": "2026-06-24",
+      "topic": "offline rentals + flips (multi-idea)",
+      "episode_hint": "#311"
+    },
+    {
+      "video_id": "5TZylaKGWUE",
+      "title": "Everyone Overlooks This Simple Side Hustle",
+      "url": "https://www.youtube.com/watch?v=5TZylaKGWUE",
+      "upload_date": "2026-06-18",
+      "topic": "fresh lemonade stand/cart",
+      "episode_hint": "#309"
+    },
+    {
+      "video_id": "LGkcTUfySDU",
+      "title": "The Most Profitable Side Hustle No One Is Doing Yet",
+      "url": "https://www.youtube.com/watch?v=LGkcTUfySDU",
+      "upload_date": "2026-06-11",
+      "topic": "backyard movie + LED dance floor rentals",
+      "episode_hint": "#307"
+    },
+    {
+      "video_id": "rvOnhGzx__Q",
+      "title": "The Credit Card Side Hustle No One Talks About",
+      "url": "https://www.youtube.com/watch?v=rvOnhGzx__Q",
+      "upload_date": "2026-05-16",
+      "topic": "credit card points consulting",
+      "episode_hint": "#300"
+    },
+    {
+      "video_id": "xrU6tVo-qME",
+      "title": "How Anyone Can Make $10K+/Month From the Government",
+      "url": "https://www.youtube.com/watch?v=xrU6tVo-qME",
+      "upload_date": "2026-05-14",
+      "topic": "government contracting prime",
+      "episode_hint": "#298"
+    },
+    {
+      "video_id": "2B5dCquvK4c",
+      "title": "If We Had to Make $1M Fast, We’d Start These Businesses",
+      "url": "https://www.youtube.com/watch?v=2B5dCquvK4c",
+      "upload_date": "2025-08-05",
+      "topic": "multi: RV rental, AI automation, offshore staffing, newsletter roll-up, events",
+      "episode_hint": "HoldCo Bros",
+      "newsletter_match": "https://newsletter.chrisjkoerner.com/p/want-to-make-1m-fast-start-one-of-these-businesses"
+    },
+    {
+      "video_id": "UCdWRg1KQLY",
+      "title": "The Most Overlooked $10K/M Business Anyone Can Start",
+      "url": "https://www.youtube.com/watch?v=UCdWRg1KQLY",
+      "upload_date": "2025-08-03",
+      "topic": "washer/dryer rental on Marketplace",
+      "episode_hint": "#205"
+    },
+    {
+      "video_id": "UXgGQT-IJEY",
+      "title": "I Just Found the Perfect Business for you to Start (yes, you)",
+      "url": "https://www.youtube.com/watch?v=UXgGQT-IJEY",
+      "upload_date": "2024-12-09",
+      "topic": "appliance rental deep dive (Kyler)",
+      "episode_hint": null
+    }
+  ]
+}

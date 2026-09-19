@@ -3,7 +3,14 @@
  * Copy agent-first static files into public/ for Next.js static serving.
  * Run via prebuild / npm run sync-data / npm run dev.
  */
-import { copyFileSync, mkdirSync, readFileSync, writeFileSync, existsSync } from "fs";
+import {
+  copyFileSync,
+  mkdirSync,
+  readFileSync,
+  writeFileSync,
+  existsSync,
+  readdirSync,
+} from "fs";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
 
@@ -37,6 +44,21 @@ for (const [src, dest] of copies) {
   console.log(`[sync-public-data] ${src} → public/${dest}`);
 }
 
+function copyDirJson(relDir) {
+  const fromDir = join(root, relDir);
+  const toDir = join(pub, relDir);
+  if (!existsSync(fromDir)) return;
+  mkdirSync(toDir, { recursive: true });
+  for (const name of readdirSync(fromDir)) {
+    if (!name.endsWith(".json")) continue;
+    copyFileSync(join(fromDir, name), join(toDir, name));
+    console.log(`[sync-public-data] ${relDir}/${name} → public/${relDir}/${name}`);
+  }
+}
+
+copyDirJson("data/plans");
+copyDirJson("data/graphs");
+
 const robots = `# Biz Graph — allow agent surfaces
 User-agent: *
 Allow: /
@@ -46,8 +68,6 @@ Allow: /schema.md
 Allow: /FENCE.md
 Allow: /data/
 Allow: /robots.txt
-
-Sitemap:
 `;
 writeFileSync(join(pub, "robots.txt"), robots);
 

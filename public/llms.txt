@@ -1,0 +1,20 @@
+# Biz Graph — agent instructions
+
+> Ideas only from @boringmarketer and @mhp_guy. Public cites required. No income guarantees. Brandon gates money / hire / pay / publish / send.
+
+## Read
+| File | Use |
+| --- | --- |
+| `/schema.md` or `/data` via site | schemas |
+| `/data/ideas.jsonl` | ideas |
+| `/data/plans/{id}.json` | full plans |
+| `/data/graphs/{id}.json` | orchestration graphs |
+| `/docs/FENCE.md` | fence |
+
+## IDs
+- idea: `idea-{source}-{slug}-{nnn}`
+- plan: `plan-{idea_id}`
+- graph: `graph-{plan_id}`
+
+## Updates
+Append jsonl + regenerate json meta. Cite public X/YouTube URLs only from the two creators. Do not invent ideas.

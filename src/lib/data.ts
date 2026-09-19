@@ -6,10 +6,7 @@ const publicData = path.join(process.cwd(), "public", "data");
 const rootData = path.join(process.cwd(), "data");
 
 async function readJson<T>(file: string): Promise<T> {
-  const candidates = [
-    path.join(publicData, file),
-    path.join(rootData, file),
-  ];
+  const candidates = [path.join(publicData, file), path.join(rootData, file)];
   let lastErr: unknown;
   for (const p of candidates) {
     try {
