@@ -1,29 +1,62 @@
 # Ideas
 
-Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl)
+Canonical: [`../data/ideas.jsonl`](../data/ideas.jsonl)
 
-- `idea-boringmarketer-commercial-overhead-door-loading-dock-repair-001` — Commercial overhead door & loading-dock repair
+- `idea-boringmarketer-ai-services-main-street-022` — AI services firm for Main Street “boring” businesses
+- `idea-boringmarketer-automatic-gate-access-control-repair-012` — Automatic gate & access-control repair
 - `idea-boringmarketer-commercial-drain-cleaning-hydro-jetting-002` — Commercial drain cleaning & hydro-jetting
-- `idea-boringmarketer-commercial-refrigeration-repair-003` — Commercial refrigeration repair
-- `idea-boringmarketer-stormwater-detention-pond-maintenance-004` — Stormwater & detention-pond maintenance
-- `idea-boringmarketer-commercial-roof-repair-maintenance-005` — Commercial roof repair & maintenance
+- `idea-boringmarketer-commercial-exterior-cleaning-018` — Commercial exterior cleaning
+- `idea-boringmarketer-commercial-floor-care-restoration-021` — Commercial floor care & restoration
 - `idea-boringmarketer-commercial-generator-service-006` — Commercial generator service
+- `idea-boringmarketer-commercial-hvac-service-010` — Commercial HVAC service
+- `idea-boringmarketer-commercial-irrigation-repair-019` — Commercial irrigation repair
+- `idea-boringmarketer-commercial-kitchen-equipment-repair-009` — Commercial kitchen equipment repair
+- `idea-boringmarketer-commercial-kitchen-exhaust-cleaning-016` — Commercial kitchen exhaust cleaning
+- `idea-boringmarketer-commercial-overhead-door-loading-dock-repair-001` — Commercial overhead door & loading-dock repair
+- `idea-boringmarketer-commercial-refrigeration-repair-003` — Commercial refrigeration repair
+- `idea-boringmarketer-commercial-roof-repair-maintenance-005` — Commercial roof repair & maintenance
+- `idea-boringmarketer-commercial-septic-wastewater-service-020` — Commercial septic & wastewater service
+- `idea-boringmarketer-cooling-tower-boiler-water-treatment-014` — Cooling-tower & boiler water treatment
+- `idea-boringmarketer-fire-sprinkler-inspection-repair-013` — Fire-sprinkler inspection & repair
+- `idea-boringmarketer-grease-interceptor-pumping-015` — Grease-interceptor pumping
+- `idea-boringmarketer-hardscaping-geo-arbitrage-023` — Hardscaping via geo + AI marketing arbitrage
 - `idea-boringmarketer-industrial-air-compressor-service-007` — Industrial air-compressor service
 - `idea-boringmarketer-lift-station-commercial-pump-repair-008` — Lift-station & commercial pump repair
-- `idea-boringmarketer-commercial-kitchen-equipment-repair-009` — Commercial kitchen equipment repair
-- `idea-boringmarketer-commercial-hvac-service-010` — Commercial HVAC service
 - `idea-boringmarketer-mobile-fleet-trailer-maintenance-011` — Mobile fleet & trailer maintenance
-- `idea-boringmarketer-automatic-gate-access-control-repair-012` — Automatic gate & access-control repair
-- `idea-boringmarketer-fire-sprinkler-inspection-repair-013` — Fire-sprinkler inspection & repair
-- `idea-boringmarketer-cooling-tower-boiler-water-treatment-014` — Cooling-tower & boiler water treatment
-- `idea-boringmarketer-grease-interceptor-pumping-015` — Grease-interceptor pumping
-- `idea-boringmarketer-commercial-kitchen-exhaust-cleaning-016` — Commercial kitchen exhaust cleaning
-- `idea-boringmarketer-parking-lot-striping-maintenance-017` — Parking-lot striping & maintenance
-- `idea-boringmarketer-commercial-exterior-cleaning-018` — Commercial exterior cleaning
-- `idea-boringmarketer-commercial-irrigation-repair-019` — Commercial irrigation repair
-- `idea-boringmarketer-commercial-septic-wastewater-service-020` — Commercial septic & wastewater service
-- `idea-boringmarketer-commercial-floor-care-restoration-021` — Commercial floor care & restoration
-- `idea-boringmarketer-ai-services-main-street-022` — AI services firm for Main Street “boring” businesses
-- `idea-boringmarketer-hardscaping-geo-arbitrage-023` — Hardscaping via geo + AI marketing arbitrage
-- `idea-boringmarketer-outdoor-lighting-geo-arbitrage-024` — Outdoor lighting via geo + AI marketing arbitrage
 - `idea-boringmarketer-opportunity-score-playbook-025` — Local-service opportunity scoring desk (AI research product)
+- `idea-boringmarketer-outdoor-lighting-geo-arbitrage-024` — Outdoor lighting via geo + AI marketing arbitrage
+- `idea-boringmarketer-parking-lot-striping-maintenance-017` — Parking-lot striping & maintenance
+- `idea-boringmarketer-stormwater-detention-pond-maintenance-004` — Stormwater & detention-pond maintenance
+- `idea-mhp_guy-ai-afterhours-voice-agents-001` — After-hours AI voice agents for high-ticket home services
+- `idea-mhp_guy-ai-agent-ops-offer-001` — Sell AI agent teams that run outreach, research, and ops
+- `idea-mhp_guy-ai-seo-automation-agency-001` — AI-powered SEO/automation agency sold before built
+- `idea-mhp_guy-ai-smb-consulting-001` — AI implementation consulting for small businesses (network-first)
+- `idea-mhp_guy-amazon-influencer-reviews-001` — Amazon Influencer Program phone-shot product reviews
+- `idea-mhp_guy-backyard-movie-rentals-001` — Inflatable backyard movie theater rentals
+- `idea-mhp_guy-boring-franchise-portfolio-001` — Buy/operate boring franchises (freight, facility, filtration, fuel)
+- `idea-mhp_guy-community-sandwich-boards-001` — Free restaurant specials boards funded by local advertisers
+- `idea-mhp_guy-couch-flipping-001` — Marketplace couch flipping with AI listing photos
+- `idea-mhp_guy-credit-card-points-consulting-001` — Credit card points consulting for business owners
+- `idea-mhp_guy-custom-pet-gifts-ecommerce-001` — Custom pet portrait / gift ecommerce (artists + ads)
+- `idea-mhp_guy-estate-sales-001` — Estate sale business (and off-market RE lead machine)
+- `idea-mhp_guy-experience-airbnb-barn-001` — Experience-first Airbnb (barns/warehouses) with $0-down paths
+- `idea-mhp_guy-experience-events-bingo-pickleball-001` — Ticketed experience events (Bingo Loco-style / pickleball parties)
+- `idea-mhp_guy-freelance-tech-writing-001` — Human-led freelance tech writing (AI-assisted, not AI-replaced)
+- `idea-mhp_guy-gov-contracting-prime-001` — Government contracting as prime with subcontracted fulfillment
+- `idea-mhp_guy-grant-funded-trade-school-001` — Online trade school / training tied to grant funding
+- `idea-mhp_guy-ice-water-vending-001` — Self-serve ice and water vending machines
+- `idea-mhp_guy-land-use-without-owning-001` — Monetize land you don't own (leases, grazing, temp storage, equipment)
+- `idea-mhp_guy-leadgen-site-rental-001` — Build and rent niche local lead-gen websites
+- `idea-mhp_guy-led-dance-floor-rentals-001` — LED dance floor rentals for weddings/events
+- `idea-mhp_guy-lemonade-cart-001` — Fresh-squeezed lemonade stand/cart (markets + catering)
+- `idea-mhp_guy-local-jingle-yt-ads-001` — Skippable local YouTube jingle ads for SMBs
+- `idea-mhp_guy-newsletter-rollup-001` — Buy dormant niche newsletters and aggregate for ads
+- `idea-mhp_guy-niche-ai-mobile-apps-001` — Niche AI mobile apps sold via creators + Meta ads
+- `idea-mhp_guy-offshore-staffing-placement-001` — Offshore staffing placement fees (not managed VAs)
+- `idea-mhp_guy-portable-minigolf-cornhole-rentals-001` — Portable mini-golf / cornhole course rentals
+- `idea-mhp_guy-rv-rental-fleet-001` — Class C RV rental on Outdoorsy/RVShare
+- `idea-mhp_guy-seasonal-porch-decorating-001` — Seasonal porch decorating / pumpkin porch installs
+- `idea-mhp_guy-temp-fence-rental-001` — Temporary fence rental for jobsites and events
+- `idea-mhp_guy-trailer-rental-001` — Utility trailer rental side hustle (Marketplace + Google)
+- `idea-mhp_guy-washer-dryer-rental-001` — Washer/dryer rental via Facebook Marketplace (post → rent → buy)
+- `idea-mhp_guy-water-filtration-home-service-001` — Residential water filtration installs via FB ads + subcontracted plumbers

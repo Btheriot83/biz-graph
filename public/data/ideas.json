@@ -1,32 +1,59 @@
 {
   "meta": {
     "version": "0",
-    "updated_at": "2026-09-19T09:42:08-07:00",
-    "count": 25,
+    "updated_at": "2026-09-19T09:48:25-07:00",
+    "count": 58,
     "sources": [
       "boringmarketer",
       "mhp_guy"
     ],
     "fence": "public cites only; no income guarantees; Brandon gates money/hire/pay/publish/send",
     "gaps": [
-      "mhp_guy harvest pending (X API forbidden; Apify monthly cap; YouTube pass in flight)",
-      "Deep archive of @boringmarketer beyond seed threads still needed toward ~250"
+      "Deeper X harvest still needed toward ~250",
+      "Most plans/graphs still pending beyond AI Main Street seed"
     ]
   },
   "ideas": [
     {
-      "id": "idea-boringmarketer-commercial-overhead-door-loading-dock-repair-001",
-      "title": "Commercial overhead door & loading-dock repair",
-      "one_liner": "B2B repair shop for warehouse doors and docks with maintenance contracts.",
+      "id": "idea-boringmarketer-ai-services-main-street-022",
+      "title": "AI services firm for Main Street “boring” businesses",
+      "one_liner": "Productized AI agency: one high-ticket local niche, one painful problem, local Meta ads, case studies, then rinse/repeat.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2098782377052881178",
+      "source_date": "2026-09-12",
+      "evidence_quote": "how to start an ai services firm helping \"boring\" businesses grow on Main Street: pick one high ticket local niche → asset pack for ONE painful problem with math/receipts → hyper local Meta ads → application flow + case study → attribute more calls/revenue → productize workflows",
+      "category": [
+        "ai_agency",
+        "local_services",
+        "productized_service"
+      ],
+      "why_it_works": "Sell a single measurable outcome to local operators instead of generic AI consulting; productize after first case studies.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:42:08-07:00",
+      "notes": "Meta-business model from public X thread."
+    },
+    {
+      "id": "idea-boringmarketer-automatic-gate-access-control-repair-012",
+      "title": "Automatic gate & access-control repair",
+      "one_liner": "Repair automatic gates and access-control systems for commercial sites.",
       "source_handle": "boringmarketer",
       "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
       "source_date": "2026-09-06",
-      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial overhead door & loading-dock repair",
+      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Automatic gate & access-control repair",
       "category": [
         "local_services",
-        "commercial",
-        "repair",
-        "recurring"
+        "security",
+        "repair"
       ],
       "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
       "agent_runnable": true,
@@ -57,6 +84,250 @@
         "local_services",
         "commercial",
         "plumbing",
+        "recurring"
+      ],
+      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:42:08-07:00",
+      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
+    },
+    {
+      "id": "idea-boringmarketer-commercial-exterior-cleaning-018",
+      "title": "Commercial exterior cleaning",
+      "one_liner": "Exterior building cleaning for commercial properties.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
+      "source_date": "2026-09-06",
+      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial exterior cleaning",
+      "category": [
+        "local_services",
+        "commercial",
+        "cleaning"
+      ],
+      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:42:08-07:00",
+      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
+    },
+    {
+      "id": "idea-boringmarketer-commercial-floor-care-restoration-021",
+      "title": "Commercial floor care & restoration",
+      "one_liner": "Floor care and restoration for commercial spaces with accounts.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
+      "source_date": "2026-09-06",
+      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial floor care & restoration",
+      "category": [
+        "local_services",
+        "cleaning",
+        "recurring"
+      ],
+      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:42:08-07:00",
+      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
+    },
+    {
+      "id": "idea-boringmarketer-commercial-generator-service-006",
+      "title": "Commercial generator service",
+      "one_liner": "Inspect, service, and repair standby generators on contracts.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
+      "source_date": "2026-09-06",
+      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial generator service",
+      "category": [
+        "local_services",
+        "commercial",
+        "power",
+        "recurring"
+      ],
+      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:42:08-07:00",
+      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
+    },
+    {
+      "id": "idea-boringmarketer-commercial-hvac-service-010",
+      "title": "Commercial HVAC service",
+      "one_liner": "Commercial HVAC service and maintenance routes.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
+      "source_date": "2026-09-06",
+      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial HVAC service",
+      "category": [
+        "local_services",
+        "commercial",
+        "hvac",
+        "recurring"
+      ],
+      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:42:08-07:00",
+      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
+    },
+    {
+      "id": "idea-boringmarketer-commercial-irrigation-repair-019",
+      "title": "Commercial irrigation repair",
+      "one_liner": "Repair commercial irrigation systems for campuses and HOAs.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
+      "source_date": "2026-09-06",
+      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial irrigation repair",
+      "category": [
+        "local_services",
+        "landscaping",
+        "repair"
+      ],
+      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:42:08-07:00",
+      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
+    },
+    {
+      "id": "idea-boringmarketer-commercial-kitchen-equipment-repair-009",
+      "title": "Commercial kitchen equipment repair",
+      "one_liner": "Fix fryers, ovens, and line equipment for restaurants.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
+      "source_date": "2026-09-06",
+      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial kitchen equipment repair",
+      "category": [
+        "local_services",
+        "foodservice",
+        "repair"
+      ],
+      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:42:08-07:00",
+      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
+    },
+    {
+      "id": "idea-boringmarketer-commercial-kitchen-exhaust-cleaning-016",
+      "title": "Commercial kitchen exhaust cleaning",
+      "one_liner": "Hood / exhaust cleaning for commercial kitchens on recurring tickets.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
+      "source_date": "2026-09-06",
+      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial kitchen exhaust cleaning",
+      "category": [
+        "local_services",
+        "foodservice",
+        "cleaning",
+        "recurring"
+      ],
+      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:42:08-07:00",
+      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
+    },
+    {
+      "id": "idea-boringmarketer-commercial-overhead-door-loading-dock-repair-001",
+      "title": "Commercial overhead door & loading-dock repair",
+      "one_liner": "B2B repair shop for warehouse doors and docks with maintenance contracts.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
+      "source_date": "2026-09-06",
+      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial overhead door & loading-dock repair",
+      "category": [
+        "local_services",
+        "commercial",
+        "repair",
         "recurring"
       ],
       "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
@@ -108,37 +379,6 @@
       "notes": "Seed harvest from public X thread unroll; one idea per listed business."
     },
     {
-      "id": "idea-boringmarketer-stormwater-detention-pond-maintenance-004",
-      "title": "Stormwater & detention-pond maintenance",
-      "one_liner": "Recurring stormwater / detention-pond maintenance for commercial properties.",
-      "source_handle": "boringmarketer",
-      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
-      "source_date": "2026-09-06",
-      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Stormwater & detention-pond maintenance",
-      "category": [
-        "local_services",
-        "commercial",
-        "environmental",
-        "recurring"
-      ],
-      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
-      "agent_runnable": true,
-      "human_gates": [
-        "money",
-        "hire",
-        "pay",
-        "publish",
-        "send",
-        "identity",
-        "banking",
-        "legal",
-        "physical"
-      ],
-      "status": "harvested",
-      "collected_at": "2026-09-19T09:42:08-07:00",
-      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
-    },
-    {
       "id": "idea-boringmarketer-commercial-roof-repair-maintenance-005",
       "title": "Commercial roof repair & maintenance",
       "one_liner": "Commercial roof repair plus proactive maintenance agreements.",
@@ -170,17 +410,16 @@
       "notes": "Seed harvest from public X thread unroll; one idea per listed business."
     },
     {
-      "id": "idea-boringmarketer-commercial-generator-service-006",
-      "title": "Commercial generator service",
-      "one_liner": "Inspect, service, and repair standby generators on contracts.",
+      "id": "idea-boringmarketer-commercial-septic-wastewater-service-020",
+      "title": "Commercial septic & wastewater service",
+      "one_liner": "Commercial septic / wastewater service routes.",
       "source_handle": "boringmarketer",
       "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
       "source_date": "2026-09-06",
-      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial generator service",
+      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial septic & wastewater service",
       "category": [
         "local_services",
-        "commercial",
-        "power",
+        "environmental",
         "recurring"
       ],
       "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
@@ -199,6 +438,124 @@
       "status": "harvested",
       "collected_at": "2026-09-19T09:42:08-07:00",
       "notes": "Seed harvest from public X thread unroll; one idea per listed business."
+    },
+    {
+      "id": "idea-boringmarketer-cooling-tower-boiler-water-treatment-014",
+      "title": "Cooling-tower & boiler water treatment",
+      "one_liner": "Water treatment programs for cooling towers and boilers.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
+      "source_date": "2026-09-06",
+      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Cooling-tower & boiler water treatment",
+      "category": [
+        "local_services",
+        "industrial",
+        "recurring"
+      ],
+      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:42:08-07:00",
+      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
+    },
+    {
+      "id": "idea-boringmarketer-fire-sprinkler-inspection-repair-013",
+      "title": "Fire-sprinkler inspection & repair",
+      "one_liner": "Inspection and repair of fire-sprinkler systems (compliance-heavy).",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
+      "source_date": "2026-09-06",
+      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Fire-sprinkler inspection & repair",
+      "category": [
+        "local_services",
+        "compliance",
+        "safety",
+        "recurring"
+      ],
+      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:42:08-07:00",
+      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
+    },
+    {
+      "id": "idea-boringmarketer-grease-interceptor-pumping-015",
+      "title": "Grease-interceptor pumping",
+      "one_liner": "Scheduled grease-interceptor pumping for foodservice.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
+      "source_date": "2026-09-06",
+      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Grease-interceptor pumping",
+      "category": [
+        "local_services",
+        "foodservice",
+        "recurring"
+      ],
+      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:42:08-07:00",
+      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
+    },
+    {
+      "id": "idea-boringmarketer-hardscaping-geo-arbitrage-023",
+      "title": "Hardscaping via geo + AI marketing arbitrage",
+      "one_liner": "Score geos for hardscaping demand vs weak Maps competitors; partner with operators; AI runs digital presence so the phone rings.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2087178571873693744",
+      "source_date": "2026-09-04",
+      "evidence_quote": "Examples: hardscaping, outdoor lighting, commercial kitchen hood cleaning… You don’t even have to live in the service area; analyze every geo; find sales-strong operating partner; you build digital presence.",
+      "category": [
+        "local_services",
+        "arbitrage",
+        "hardscaping"
+      ],
+      "why_it_works": "Arbitrage weak digital competition in high-ticket home/outdoor services using AI for marketing while an operator fulfills.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "physical"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:42:08-07:00",
+      "notes": ""
     },
     {
       "id": "idea-boringmarketer-industrial-air-compressor-service-007",
@@ -263,67 +620,6 @@
       "notes": "Seed harvest from public X thread unroll; one idea per listed business."
     },
     {
-      "id": "idea-boringmarketer-commercial-kitchen-equipment-repair-009",
-      "title": "Commercial kitchen equipment repair",
-      "one_liner": "Fix fryers, ovens, and line equipment for restaurants.",
-      "source_handle": "boringmarketer",
-      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
-      "source_date": "2026-09-06",
-      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial kitchen equipment repair",
-      "category": [
-        "local_services",
-        "foodservice",
-        "repair"
-      ],
-      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
-      "agent_runnable": true,
-      "human_gates": [
-        "money",
-        "hire",
-        "pay",
-        "publish",
-        "send",
-        "identity",
-        "banking",
-        "legal",
-        "physical"
-      ],
-      "status": "harvested",
-      "collected_at": "2026-09-19T09:42:08-07:00",
-      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
-    },
-    {
-      "id": "idea-boringmarketer-commercial-hvac-service-010",
-      "title": "Commercial HVAC service",
-      "one_liner": "Commercial HVAC service and maintenance routes.",
-      "source_handle": "boringmarketer",
-      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
-      "source_date": "2026-09-06",
-      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial HVAC service",
-      "category": [
-        "local_services",
-        "commercial",
-        "hvac",
-        "recurring"
-      ],
-      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
-      "agent_runnable": true,
-      "human_gates": [
-        "money",
-        "hire",
-        "pay",
-        "publish",
-        "send",
-        "identity",
-        "banking",
-        "legal",
-        "physical"
-      ],
-      "status": "harvested",
-      "collected_at": "2026-09-19T09:42:08-07:00",
-      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
-    },
-    {
       "id": "idea-boringmarketer-mobile-fleet-trailer-maintenance-011",
       "title": "Mobile fleet & trailer maintenance",
       "one_liner": "Mobile maintenance for commercial fleets and trailers.",
@@ -355,50 +651,43 @@
       "notes": "Seed harvest from public X thread unroll; one idea per listed business."
     },
     {
-      "id": "idea-boringmarketer-automatic-gate-access-control-repair-012",
-      "title": "Automatic gate & access-control repair",
-      "one_liner": "Repair automatic gates and access-control systems for commercial sites.",
+      "id": "idea-boringmarketer-opportunity-score-playbook-025",
+      "title": "Local-service opportunity scoring desk (AI research product)",
+      "one_liner": "Productize the 100-pt local opportunity score as a research desk / lead list for operators or investors.",
       "source_handle": "boringmarketer",
-      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
-      "source_date": "2026-09-06",
-      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Automatic gate & access-control repair",
+      "source_url": "https://x.com/boringmarketer/status/2087178571873693744",
+      "source_date": "2026-09-04",
+      "evidence_quote": "100 pt opportunity score weights: Google/Maps competition weakness 20%, search demand+intent 15%, average ticket 12%, contribution margin 10%, SEO 10%, subcontractability 10%, Google Ads economics 8%, operational simplicity 5%, review-generation 4%, visual/before-after 3%.",
       "category": [
-        "local_services",
-        "security",
-        "repair"
+        "research",
+        "saas_adjacent",
+        "ai_agency"
       ],
-      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
+      "why_it_works": "Turns the creator’s published scoring rubric into a repeatable agent research workflow that outputs scored niches/geos.",
       "agent_runnable": true,
       "human_gates": [
         "money",
-        "hire",
-        "pay",
         "publish",
-        "send",
-        "identity",
-        "banking",
-        "legal",
-        "physical"
+        "send"
       ],
       "status": "harvested",
       "collected_at": "2026-09-19T09:42:08-07:00",
-      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
+      "notes": "Playbook/productization of the scoring method itself."
     },
     {
-      "id": "idea-boringmarketer-fire-sprinkler-inspection-repair-013",
-      "title": "Fire-sprinkler inspection & repair",
-      "one_liner": "Inspection and repair of fire-sprinkler systems (compliance-heavy).",
+      "id": "idea-boringmarketer-outdoor-lighting-geo-arbitrage-024",
+      "title": "Outdoor lighting via geo + AI marketing arbitrage",
+      "one_liner": "Same backyard arbitrage play focused on outdoor lighting installs and maintenance.",
       "source_handle": "boringmarketer",
-      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
-      "source_date": "2026-09-06",
-      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Fire-sprinkler inspection & repair",
+      "source_url": "https://x.com/boringmarketer/status/2087178571873693744",
+      "source_date": "2026-09-04",
+      "evidence_quote": "Examples listed by @boringmarketer include outdoor lighting as a high-ticket local offer for AI-assisted digital dominance.",
       "category": [
         "local_services",
-        "compliance",
-        "safety",
-        "recurring"
+        "arbitrage",
+        "lighting"
       ],
-      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
+      "why_it_works": "High visual / before-after potential and ticket size with often-weak local web presence.",
       "agent_runnable": true,
       "human_gates": [
         "money",
@@ -406,105 +695,11 @@
         "pay",
         "publish",
         "send",
-        "identity",
-        "banking",
-        "legal",
         "physical"
       ],
       "status": "harvested",
       "collected_at": "2026-09-19T09:42:08-07:00",
-      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
-    },
-    {
-      "id": "idea-boringmarketer-cooling-tower-boiler-water-treatment-014",
-      "title": "Cooling-tower & boiler water treatment",
-      "one_liner": "Water treatment programs for cooling towers and boilers.",
-      "source_handle": "boringmarketer",
-      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
-      "source_date": "2026-09-06",
-      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Cooling-tower & boiler water treatment",
-      "category": [
-        "local_services",
-        "industrial",
-        "recurring"
-      ],
-      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
-      "agent_runnable": true,
-      "human_gates": [
-        "money",
-        "hire",
-        "pay",
-        "publish",
-        "send",
-        "identity",
-        "banking",
-        "legal",
-        "physical"
-      ],
-      "status": "harvested",
-      "collected_at": "2026-09-19T09:42:08-07:00",
-      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
-    },
-    {
-      "id": "idea-boringmarketer-grease-interceptor-pumping-015",
-      "title": "Grease-interceptor pumping",
-      "one_liner": "Scheduled grease-interceptor pumping for foodservice.",
-      "source_handle": "boringmarketer",
-      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
-      "source_date": "2026-09-06",
-      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Grease-interceptor pumping",
-      "category": [
-        "local_services",
-        "foodservice",
-        "recurring"
-      ],
-      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
-      "agent_runnable": true,
-      "human_gates": [
-        "money",
-        "hire",
-        "pay",
-        "publish",
-        "send",
-        "identity",
-        "banking",
-        "legal",
-        "physical"
-      ],
-      "status": "harvested",
-      "collected_at": "2026-09-19T09:42:08-07:00",
-      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
-    },
-    {
-      "id": "idea-boringmarketer-commercial-kitchen-exhaust-cleaning-016",
-      "title": "Commercial kitchen exhaust cleaning",
-      "one_liner": "Hood / exhaust cleaning for commercial kitchens on recurring tickets.",
-      "source_handle": "boringmarketer",
-      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
-      "source_date": "2026-09-06",
-      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial kitchen exhaust cleaning",
-      "category": [
-        "local_services",
-        "foodservice",
-        "cleaning",
-        "recurring"
-      ],
-      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
-      "agent_runnable": true,
-      "human_gates": [
-        "money",
-        "hire",
-        "pay",
-        "publish",
-        "send",
-        "identity",
-        "banking",
-        "legal",
-        "physical"
-      ],
-      "status": "harvested",
-      "collected_at": "2026-09-19T09:42:08-07:00",
-      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
+      "notes": ""
     },
     {
       "id": "idea-boringmarketer-parking-lot-striping-maintenance-017",
@@ -537,75 +732,16 @@
       "notes": "Seed harvest from public X thread unroll; one idea per listed business."
     },
     {
-      "id": "idea-boringmarketer-commercial-exterior-cleaning-018",
-      "title": "Commercial exterior cleaning",
-      "one_liner": "Exterior building cleaning for commercial properties.",
+      "id": "idea-boringmarketer-stormwater-detention-pond-maintenance-004",
+      "title": "Stormwater & detention-pond maintenance",
+      "one_liner": "Recurring stormwater / detention-pond maintenance for commercial properties.",
       "source_handle": "boringmarketer",
       "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
       "source_date": "2026-09-06",
-      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial exterior cleaning",
+      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Stormwater & detention-pond maintenance",
       "category": [
         "local_services",
         "commercial",
-        "cleaning"
-      ],
-      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
-      "agent_runnable": true,
-      "human_gates": [
-        "money",
-        "hire",
-        "pay",
-        "publish",
-        "send",
-        "identity",
-        "banking",
-        "legal",
-        "physical"
-      ],
-      "status": "harvested",
-      "collected_at": "2026-09-19T09:42:08-07:00",
-      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
-    },
-    {
-      "id": "idea-boringmarketer-commercial-irrigation-repair-019",
-      "title": "Commercial irrigation repair",
-      "one_liner": "Repair commercial irrigation systems for campuses and HOAs.",
-      "source_handle": "boringmarketer",
-      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
-      "source_date": "2026-09-06",
-      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial irrigation repair",
-      "category": [
-        "local_services",
-        "landscaping",
-        "repair"
-      ],
-      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
-      "agent_runnable": true,
-      "human_gates": [
-        "money",
-        "hire",
-        "pay",
-        "publish",
-        "send",
-        "identity",
-        "banking",
-        "legal",
-        "physical"
-      ],
-      "status": "harvested",
-      "collected_at": "2026-09-19T09:42:08-07:00",
-      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
-    },
-    {
-      "id": "idea-boringmarketer-commercial-septic-wastewater-service-020",
-      "title": "Commercial septic & wastewater service",
-      "one_liner": "Commercial septic / wastewater service routes.",
-      "source_handle": "boringmarketer",
-      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
-      "source_date": "2026-09-06",
-      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial septic & wastewater service",
-      "category": [
-        "local_services",
         "environmental",
         "recurring"
       ],
@@ -627,140 +763,806 @@
       "notes": "Seed harvest from public X thread unroll; one idea per listed business."
     },
     {
-      "id": "idea-boringmarketer-commercial-floor-care-restoration-021",
-      "title": "Commercial floor care & restoration",
-      "one_liner": "Floor care and restoration for commercial spaces with accounts.",
-      "source_handle": "boringmarketer",
-      "source_url": "https://x.com/boringmarketer/status/2096232390075060508",
-      "source_date": "2026-09-06",
-      "evidence_quote": "From @boringmarketer “21 best boring businesses” thread (GPT-6 Astra filters: weak local online competition, path to $1K+ jobs, apply AI, recurring revenue): Commercial floor care & restoration",
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-ai-afterhours-voice-agents-001",
+      "title": "After-hours AI voice agents for high-ticket home services",
+      "one_liner": "Install AI phone agents (e.g., HighLevel) for garage door/HVAC/etc. so missed night calls become booked jobs; charge setup + retainer or pay-per-closed-lead.",
+      "source_url": "https://www.youtube.com/watch?v=2B5dCquvK4c",
+      "source_date": "2025-08-05",
+      "evidence_quote": "Chris built a HighLevel AI voice agent for garage door companies in minutes, scraped DFW shops, texted them, and got a yes for paid service within ~57 minutes—positioned as a hero workflow for missed after-hours revenue.",
       "category": [
-        "local_services",
-        "cleaning",
-        "recurring"
+        "ai",
+        "automation",
+        "home_services"
       ],
-      "why_it_works": "Creator frames these as high-ticket local B2B services with weak online competition, AI leverage on marketing/ops, and a path from first job to maintenance account. Not a guarantee of results.",
+      "why_it_works": "Service businesses lose night leads; AI answering is cheaper than staffing; outcome-based pricing lowers buyer risk.",
       "agent_runnable": true,
       "human_gates": [
         "money",
-        "hire",
-        "pay",
-        "publish",
         "send",
-        "identity",
-        "banking",
-        "legal",
-        "physical"
+        "publish"
       ],
-      "status": "harvested",
-      "collected_at": "2026-09-19T09:42:08-07:00",
-      "notes": "Seed harvest from public X thread unroll; one idea per listed business."
-    },
-    {
-      "id": "idea-boringmarketer-ai-services-main-street-022",
-      "title": "AI services firm for Main Street “boring” businesses",
-      "one_liner": "Productized AI agency: one high-ticket local niche, one painful problem, local Meta ads, case studies, then rinse/repeat.",
-      "source_handle": "boringmarketer",
-      "source_url": "https://x.com/boringmarketer/status/2098782377052881178",
-      "source_date": "2026-09-12",
-      "evidence_quote": "how to start an ai services firm helping \"boring\" businesses grow on Main Street: pick one high ticket local niche → asset pack for ONE painful problem with math/receipts → hyper local Meta ads → application flow + case study → attribute more calls/revenue → productize workflows",
-      "category": [
-        "ai_agency",
-        "local_services",
-        "productized_service"
+      "related_urls": [
+        "https://newsletter.chrisjkoerner.com/p/want-to-make-1m-fast-start-one-of-these-businesses"
       ],
-      "why_it_works": "Sell a single measurable outcome to local operators instead of generic AI consulting; productize after first case studies.",
-      "agent_runnable": true,
-      "human_gates": [
-        "money",
-        "hire",
-        "pay",
-        "publish",
-        "send",
-        "identity",
-        "banking"
-      ],
-      "status": "harvested",
-      "collected_at": "2026-09-19T09:42:08-07:00",
-      "notes": "Meta-business model from public X thread."
-    },
-    {
-      "id": "idea-boringmarketer-hardscaping-geo-arbitrage-023",
-      "title": "Hardscaping via geo + AI marketing arbitrage",
-      "one_liner": "Score geos for hardscaping demand vs weak Maps competitors; partner with operators; AI runs digital presence so the phone rings.",
-      "source_handle": "boringmarketer",
-      "source_url": "https://x.com/boringmarketer/status/2087178571873693744",
-      "source_date": "2026-09-04",
-      "evidence_quote": "Examples: hardscaping, outdoor lighting, commercial kitchen hood cleaning… You don’t even have to live in the service area; analyze every geo; find sales-strong operating partner; you build digital presence.",
-      "category": [
-        "local_services",
-        "arbitrage",
-        "hardscaping"
-      ],
-      "why_it_works": "Arbitrage weak digital competition in high-ticket home/outdoor services using AI for marketing while an operator fulfills.",
-      "agent_runnable": true,
-      "human_gates": [
-        "money",
-        "hire",
-        "pay",
-        "publish",
-        "send",
-        "physical"
-      ],
-      "status": "harvested",
-      "collected_at": "2026-09-19T09:42:08-07:00",
       "notes": ""
     },
     {
-      "id": "idea-boringmarketer-outdoor-lighting-geo-arbitrage-024",
-      "title": "Outdoor lighting via geo + AI marketing arbitrage",
-      "one_liner": "Same backyard arbitrage play focused on outdoor lighting installs and maintenance.",
-      "source_handle": "boringmarketer",
-      "source_url": "https://x.com/boringmarketer/status/2087178571873693744",
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-ai-agent-ops-offer-001",
+      "title": "Sell AI agent teams that run outreach, research, and ops",
+      "one_liner": "Package multi-agent setups (newsletter, outreach, research) as an offer; demonstrate by shipping a real micro-product live.",
+      "source_url": "https://www.youtube.com/watch?v=gmwDBNcFXFU",
       "source_date": "2026-09-04",
-      "evidence_quote": "Examples listed by @boringmarketer include outdoor lighting as a high-ticket local offer for AI-assisted digital dominance.",
+      "evidence_quote": "Billy Howell uses Grok Bot for newsletter ops, outreach, product research, and repetitive work; Chris demos building a working productivity app quickly—framed as building a focused agent team rather than endless tinkering.",
       "category": [
-        "local_services",
-        "arbitrage",
-        "lighting"
+        "ai",
+        "automation",
+        "agency"
       ],
-      "why_it_works": "High visual / before-after potential and ticket size with often-weak local web presence.",
+      "why_it_works": "Buyers want labor replaced not chatbots; demos prove capability; agent teams map cleanly to retainers.",
       "agent_runnable": true,
       "human_gates": [
         "money",
-        "hire",
-        "pay",
-        "publish",
         "send",
-        "physical"
+        "publish"
       ],
-      "status": "harvested",
-      "collected_at": "2026-09-19T09:42:08-07:00",
       "notes": ""
     },
     {
-      "id": "idea-boringmarketer-opportunity-score-playbook-025",
-      "title": "Local-service opportunity scoring desk (AI research product)",
-      "one_liner": "Productize the 100-pt local opportunity score as a research desk / lead list for operators or investors.",
-      "source_handle": "boringmarketer",
-      "source_url": "https://x.com/boringmarketer/status/2087178571873693744",
-      "source_date": "2026-09-04",
-      "evidence_quote": "100 pt opportunity score weights: Google/Maps competition weakness 20%, search demand+intent 15%, average ticket 12%, contribution margin 10%, SEO 10%, subcontractability 10%, Google Ads economics 8%, operational simplicity 5%, review-generation 4%, visual/before-after 3%.",
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-ai-seo-automation-agency-001",
+      "title": "AI-powered SEO/automation agency sold before built",
+      "one_liner": "Sell the idea on Upwork with a Loom + ChatGPT strategy, then build delivery systems after the first retainer closes.",
+      "source_url": "https://www.youtube.com/watch?v=lG5U30gKCaY",
+      "source_date": "2026-08-02",
+      "evidence_quote": "Sandy Lee landed a first ~$3,000/month client on Upwork using ChatGPT, a short Loom, and selling the idea before building the product, later stacking multiple AI income streams.",
       "category": [
-        "research",
-        "saas_adjacent",
-        "ai_agency"
+        "ai",
+        "seo",
+        "agency"
       ],
-      "why_it_works": "Turns the creator’s published scoring rubric into a repeatable agent research workflow that outputs scored niches/geos.",
+      "why_it_works": "Pre-selling validates demand; Loom demos trust; AI compresses delivery once the offer is sold.",
+      "agent_runnable": true,
+      "human_gates": [
+        "send",
+        "money",
+        "publish"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-ai-smb-consulting-001",
+      "title": "AI implementation consulting for small businesses (network-first)",
+      "one_liner": "Land AI consulting retainers via 100+ local conversations; productize cohorts plus $5K–$10K/mo implementation offers.",
+      "source_url": "https://www.youtube.com/watch?v=EEBlDTEYFao",
+      "source_date": "2026-08-17",
+      "evidence_quote": "Ryan Schuetter went from a ~$52K job to ~$15K/month helping SMBs implement AI, starting for about $20 and landing first clients through 100+ network conversations plus a DASA framework—positioned as introvert-friendly.",
+      "category": [
+        "ai",
+        "consulting",
+        "b2b"
+      ],
+      "why_it_works": "SMBs want outcomes not tools; warm network sales beat cold ads early; retainers compound once trust is earned.",
+      "agent_runnable": true,
+      "human_gates": [
+        "send",
+        "money",
+        "publish"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-amazon-influencer-reviews-001",
+      "title": "Amazon Influencer Program phone-shot product reviews",
+      "one_liner": "Film simple authentic Amazon product reviews on a phone; get approved, pick high-demand/low-competition ASINs, earn commissions (+ free products).",
+      "source_url": "https://www.youtube.com/watch?v=nVgFbclwmSA",
+      "source_date": "2026-07-31",
+      "evidence_quote": "Trevin Peterson explains the Amazon Influencer Program: phone-shot reviews, longer authentic videos, free products from brands, and tools to find products with demand and low competition.",
+      "category": [
+        "content",
+        "affiliate",
+        "ecommerce"
+      ],
+      "why_it_works": "Amazon already has intent traffic; creators monetize via shoppable video without holding inventory.",
+      "agent_runnable": true,
+      "human_gates": [
+        "publish",
+        "money"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-backyard-movie-rentals-001",
+      "title": "Inflatable backyard movie theater rentals",
+      "one_liner": "Start with a cheap inflatable screen on Marketplace, take HOA/private bookings, then upgrade to commercial outdoor/indoor kits.",
+      "source_url": "https://www.youtube.com/watch?v=LGkcTUfySDU",
+      "source_date": "2026-06-11",
+      "evidence_quote": "Derek started with a ~$250–300 Amazon screen as a Christmas gift, validated via Marketplace, then upgraded to a commercial ~20-ft setup; cites strong weekly booking weeks and high margins once gear is owned.",
+      "category": [
+        "rentals",
+        "events",
+        "local"
+      ],
+      "why_it_works": "Parties/HOAs want turnkey experiences; gear is reusable; Marketplace validates before buying commercial kit.",
       "agent_runnable": true,
       "human_gates": [
         "money",
         "publish",
         "send"
       ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
       "status": "harvested",
-      "collected_at": "2026-09-19T09:42:08-07:00",
-      "notes": "Playbook/productization of the scoring method itself."
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-boring-franchise-portfolio-001",
+      "title": "Buy/operate boring franchises (freight, facility, filtration, fuel)",
+      "one_liner": "Evaluate Franchise Disclosure Documents for unsexy franchise models (freight brokerage, facility management, oil filtration, mobile fuel) and build a portfolio with financing.",
+      "source_url": "https://www.youtube.com/watch?v=i5vD6_QspkQ",
+      "source_date": "2026-08-19",
+      "evidence_quote": "Alex Smereczniak (Franzy) walks four franchise models—freight brokerage, facility management, oil filtration, mobile fuel delivery—covering costs, royalties, financing, FDD red flags, and portfolio building.",
+      "category": [
+        "franchising",
+        "b2b",
+        "operations"
+      ],
+      "why_it_works": "Proven playbooks + brand support; boring categories have less founder ego competition; capital stacks via SBA/franchise financing.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-community-sandwich-boards-001",
+      "title": "Free restaurant specials boards funded by local advertisers",
+      "one_liner": "Give restaurants a free specials board, sell ad spots to nearby businesses, then upsell websites/reputation/AI services.",
+      "source_url": "https://www.youtube.com/watch?v=McQucrnkSt0",
+      "source_date": "2026-08-22",
+      "evidence_quote": "Rachel Smith describes placing free specials boards in restaurants, selling ad spots to local businesses (~$3,200 profit per board cited), and using boards as a door-opener to higher-ticket services like websites and AI automation.",
+      "category": [
+        "local_ads",
+        "b2b",
+        "door_opener"
+      ],
+      "why_it_works": "Restaurants get a free amenity; advertisers buy hyperlocal visibility; physical placement creates warm intros for upsells.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "publish",
+        "send"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-couch-flipping-001",
+      "title": "Marketplace couch flipping with AI listing photos",
+      "one_liner": "Find poorly listed couches, negotiate hard, restage with AI-generated backgrounds, and flip locally for large spreads.",
+      "source_url": "https://www.youtube.com/watch?v=UEXdBVZVvBk",
+      "source_date": "2026-08-29",
+      "evidence_quote": "17-year-old Bentley finds poorly listed couches, negotiates sellers down, uses AI backgrounds to make listings look premium, and cites examples like buying a set for $100 and selling for $1,580.",
+      "category": [
+        "flipping",
+        "marketplace",
+        "ai"
+      ],
+      "why_it_works": "Furniture listings are often weak; presentation arbitrage is large; local pickup avoids shipping complexity.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "send"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-credit-card-points-consulting-001",
+      "title": "Credit card points consulting for business owners",
+      "one_liner": "Charge for consultations that help owners earn/burn points from spend they already have (LinkedIn-led acquisition).",
+      "source_url": "https://www.youtube.com/watch?v=rvOnhGzx__Q",
+      "source_date": "2026-05-16",
+      "evidence_quote": "Colin Stroud (Go Somewhere) charges for points consulting calls, attributes most clients to LinkedIn, and focuses on earn-and-burn for business owners rather than hoarding points.",
+      "category": [
+        "consulting",
+        "fintech_adjacent",
+        "b2b"
+      ],
+      "why_it_works": "Owners already spend on cards but under-optimize; advice is high-perceived-value and delivery is call-based.",
+      "agent_runnable": true,
+      "human_gates": [
+        "send",
+        "publish",
+        "money"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-custom-pet-gifts-ecommerce-001",
+      "title": "Custom pet portrait / gift ecommerce (artists + ads)",
+      "one_liner": "Launch a Shopify/Etsy custom pet gift store; fulfill via remote artists; scale with seasonal FB ads and creative refresh.",
+      "source_url": "https://www.youtube.com/watch?v=3GmZHYBX75s",
+      "source_date": "2026-07-27",
+      "evidence_quote": "Spencer (Print Our Pet) turned ~$40 and a weekend into a custom pet gift business scaled via Shopify/Etsy with remote artists and heavy holiday ad seasons.",
+      "category": [
+        "ecommerce",
+        "creative",
+        "ads"
+      ],
+      "why_it_works": "Emotional gifts convert; remote artist network scales production; holidays concentrate demand.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "publish"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-estate-sales-001",
+      "title": "Estate sale business (and off-market RE lead machine)",
+      "one_liner": "Run estate sales for families liquidating homes; low cash start; later convert relationships into off-market real estate opportunities.",
+      "source_url": "https://www.youtube.com/watch?v=E9baszgY3J8",
+      "source_date": "2026-08-09",
+      "evidence_quote": "Braden Harman built an estate sale business with almost no money that became a six-figure operation and later a lead-generation engine for off-market property deals as Baby Boomers downsize.",
+      "category": [
+        "local_services",
+        "real_estate_adjacent",
+        "events"
+      ],
+      "why_it_works": "Aging demographics drive inventory; service can start capital-light; sale relationships surface property opportunities.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "publish",
+        "send"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-experience-airbnb-barn-001",
+      "title": "Experience-first Airbnb (barns/warehouses) with $0-down paths",
+      "one_liner": "Find overlooked barns/warehouses for large-group experiential stays; use content to pre-book; explore creative $0-down structures.",
+      "source_url": "https://www.youtube.com/watch?v=pKja9oxDAaQ",
+      "source_date": "2026-07-05",
+      "evidence_quote": "Kyle Miklasz turned a Wisconsin dairy barn into Big Sky Barnhouse; a single Instagram reel drove large pre-opening bookings; focus on large-group experience stays vs generic rentals.",
+      "category": [
+        "hospitality",
+        "content",
+        "real_estate"
+      ],
+      "why_it_works": "Unique stays price higher; content can fill calendar before open; experience differentiation beats commodity Airbnbs.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "publish"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-experience-events-bingo-pickleball-001",
+      "title": "Ticketed experience events (Bingo Loco-style / pickleball parties)",
+      "one_liner": "Validate with FB ads + pre-sold tickets, then rent a venue for neon/music versions of boring activities; expand to untapped towns.",
+      "source_url": "https://www.youtube.com/watch?v=2B5dCquvK4c",
+      "source_date": "2025-08-05",
+      "evidence_quote": "Newsletter/pod discuss Bingo Loco-style events making large nightly gross, and validate-first via Facebook ads; same formula floated for portable pickleball parties—refund if tickets don't hit target.",
+      "category": [
+        "events",
+        "experiences",
+        "local"
+      ],
+      "why_it_works": "Experience packaging lifts willingness to pay; pre-ticket sales remove inventory risk; playbook copies to secondary markets.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "publish",
+        "hire"
+      ],
+      "related_urls": [
+        "https://newsletter.chrisjkoerner.com/p/want-to-make-1m-fast-start-one-of-these-businesses"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-freelance-tech-writing-001",
+      "title": "Human-led freelance tech writing (AI-assisted, not AI-replaced)",
+      "one_liner": "Sell high-ticket blog posts/editing to tech companies; use AI as a draft aid while selling lived experience and voice.",
+      "source_url": "https://www.youtube.com/watch?v=tK5Ivv_3sEA",
+      "source_date": "2026-09-18",
+      "evidence_quote": "Steph Spector still books ~$6–7K/month writing, with companies paying up to ~$1,200 per article; she uses Claude/Gemini/ChatGPT as tools while emphasizing human experience, portfolio building, Upwork, and cold outreach.",
+      "category": [
+        "freelance",
+        "content",
+        "b2b"
+      ],
+      "why_it_works": "Commoditized AI copy makes authentic SME writing scarcer; buyers still pay for voice, research, and trust.",
+      "agent_runnable": true,
+      "human_gates": [
+        "send",
+        "publish"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-gov-contracting-prime-001",
+      "title": "Government contracting as prime with subcontracted fulfillment",
+      "one_liner": "Find SAM.gov opportunities, quote subcontractors, mark up, and fulfill without doing the field work yourself.",
+      "source_url": "https://www.youtube.com/watch?v=xrU6tVo-qME",
+      "source_date": "2026-05-14",
+      "evidence_quote": "Natalie Rosario finds contracts on SAM.gov, gets subcontractor quotes, marks up, and keeps the spread—examples include catering and landscaping contracts; beginners start with an LLC and use AI to parse proposals plus USAspending.gov history.",
+      "category": [
+        "b2g",
+        "broker",
+        "services"
+      ],
+      "why_it_works": "Government pays reliably; many contracts don't require you to be the labor; historical award data informs bids.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "send"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-grant-funded-trade-school-001",
+      "title": "Online trade school / training tied to grant funding",
+      "one_liner": "Build an online trade/skills school structured to capture available grant/tuition funding pathways.",
+      "source_url": "https://www.youtube.com/watch?v=g-wMJf4ckK0",
+      "source_date": "2026-07-30",
+      "evidence_quote": "Episode centers on a guest who found a grant-driven model around online trade schools—business plan materials on the video describe an online trade school opportunity.",
+      "category": [
+        "education",
+        "grants",
+        "online"
+      ],
+      "why_it_works": "Workforce funding seeks providers; online delivery scales; grants change unit economics if compliance is real.",
+      "agent_runnable": false,
+      "human_gates": [
+        "money",
+        "hire",
+        "publish"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-ice-water-vending-001",
+      "title": "Self-serve ice and water vending machines",
+      "one_liner": "Place ice/water vending machines that largely refill themselves, focusing on location quality over classic snack vending.",
+      "source_url": "https://www.youtube.com/watch?v=qkPQCqrEhtg",
+      "source_date": "2026-09-14",
+      "evidence_quote": "Episode frames ice and water vending as the upgrade over snack machines because units refill themselves and reduce restock labor relative to traditional vending.",
+      "category": [
+        "vending",
+        "physical",
+        "locations"
+      ],
+      "why_it_works": "Lower restock burden than snack machines; cash/card machines at high-traffic sites; commodity product with steady local demand.",
+      "agent_runnable": false,
+      "human_gates": [
+        "money",
+        "hire"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-land-use-without-owning-001",
+      "title": "Monetize land you don't own (leases, grazing, temp storage, equipment)",
+      "one_liner": "Lease or partner on underused land for grazing, temporary storage, events, or equipment plays without buying a ranch.",
+      "source_url": "https://www.youtube.com/watch?v=HOosrT6vj_Y",
+      "source_date": "2026-08-27",
+      "evidence_quote": "Solo ranch episode: Chris lists business ideas discovered while buying Triple Eight Ranch—grass-fed beef, renting land, flipping heavy equipment, temporary storage, pond database, Airbnbs—and stresses many can be done without owning a ranch.",
+      "category": [
+        "land",
+        "agriculture",
+        "rentals"
+      ],
+      "why_it_works": "Landowners often underutilize acreage; operators bring the business model; capital shifts from purchase to lease/ops.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "send"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-leadgen-site-rental-001",
+      "title": "Build and rent niche local lead-gen websites",
+      "one_liner": "Create geo+niche lead-gen sites and rent them to local service businesses for monthly recurring fees.",
+      "source_url": "https://www.youtube.com/watch?v=6ErnEr2JcD0",
+      "source_date": "2026-07-11",
+      "evidence_quote": "Luke Van Der Veer built a business renting lead-generation websites to local companies—framed as a hands-off, copyable model in the episode title/description.",
+      "category": [
+        "lead_gen",
+        "saas_ish",
+        "local"
+      ],
+      "why_it_works": "Locals pay for booked jobs not websites; one site template can be cloned across cities; recurring rent > one-off builds.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "publish",
+        "send"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-led-dance-floor-rentals-001",
+      "title": "LED dance floor rentals for weddings/events",
+      "one_liner": "Add modular LED dance floors as a high-ticket rental add-on to event packages (weddings, schools, private parties).",
+      "source_url": "https://www.youtube.com/watch?v=LGkcTUfySDU",
+      "source_date": "2026-06-11",
+      "evidence_quote": "Derek introduced LED dance floor rentals as a newer line—purchase around the five-figure range for a large floor and rent for event nights—positioned as a wedding/school/private-event upsell beside movie theater packages.",
+      "category": [
+        "rentals",
+        "events",
+        "weddings"
+      ],
+      "why_it_works": "High perceived wow factor; complements existing event demand; rental spreads capital cost across bookings.",
+      "agent_runnable": false,
+      "human_gates": [
+        "money",
+        "hire",
+        "send"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-lemonade-cart-001",
+      "title": "Fresh-squeezed lemonade stand/cart (markets + catering)",
+      "one_liner": "Run a simple fresh lemonade cart at farmers markets and events; expand into catering and cart rentals.",
+      "source_url": "https://www.youtube.com/watch?v=5TZylaKGWUE",
+      "source_date": "2026-06-18",
+      "evidence_quote": "Don (Boo Boo's Lemonade) turned a lemonade stand into a real business with strong margins, farmers-market setups, catering (including a large frozen-banana order idea), and cart rentals for events.",
+      "category": [
+        "food",
+        "events",
+        "local"
+      ],
+      "why_it_works": "Simple product, visible demos, event foot traffic; catering and rentals diversify beyond walk-up sales.",
+      "agent_runnable": false,
+      "human_gates": [
+        "money",
+        "hire",
+        "publish"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-local-jingle-yt-ads-001",
+      "title": "Skippable local YouTube jingle ads for SMBs",
+      "one_liner": "Produce short local-business jingles with AI audio tools and run them as cheap skippable YouTube ads targeted to the client's ZIP code.",
+      "source_url": "https://www.youtube.com/watch?v=DlNWYzaL_F0",
+      "source_date": "2026-08-31",
+      "evidence_quote": "Mike Stewart writes jingles for plumbers/roofers/pest control and runs them as skippable YouTube ads in-zip; the skip is the point—name recognition. He sold one pest-control jingle 100+ times; AI tools like Suno/ElevenLabs cut production to ~15 minutes.",
+      "category": [
+        "local_marketing",
+        "ai",
+        "agency"
+      ],
+      "why_it_works": "SMBs underuse zip-targeted video; skippable ads still imprint brand; AI collapses production cost so the offer can be productized.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "publish",
+        "send"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-newsletter-rollup-001",
+      "title": "Buy dormant niche newsletters and aggregate for ads",
+      "one_liner": "Acquire inactive 3k–30k-subscriber newsletters cheaply, roll them into a niche portfolio, and monetize via CPM ads / affiliates / daily sends.",
+      "source_url": "https://www.youtube.com/watch?v=2B5dCquvK4c",
+      "source_date": "2025-08-05",
+      "evidence_quote": "Chris/Nik propose buying small dormant newsletters (beehiiv/Kit/Substack directories), offering ~$0.10/sub, aggregating by niche, and selling ads on CPM—optionally converting weekly to daily to multiply inventory.",
+      "category": [
+        "media",
+        "m_and_a",
+        "ads"
+      ],
+      "why_it_works": "Burned-out operators sell cheap; aggregated audiences unlock better ad deals; AI can help find dormant lists.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "publish",
+        "send"
+      ],
+      "related_urls": [
+        "https://newsletter.chrisjkoerner.com/p/want-to-make-1m-fast-start-one-of-these-businesses"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-niche-ai-mobile-apps-001",
+      "title": "Niche AI mobile apps sold via creators + Meta ads",
+      "one_liner": "Ship narrow AI apps (strong visual feature), partner with niche influencers, test Meta ads, monetize with yearly subscriptions.",
+      "source_url": "https://www.youtube.com/watch?v=oaXnY1YExjE",
+      "source_date": "2026-07-19",
+      "evidence_quote": "George built AI-powered mobile apps without traditional coding (e.g., WrestleAI), grew via niche influencers, and used paid ads—playbook emphasizes a strong visual feature and yearly subscriptions.",
+      "category": [
+        "apps",
+        "ai",
+        "consumer"
+      ],
+      "why_it_works": "Niche audiences convert; no-code/AI tooling lowers build cost; creators provide distribution.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "publish"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-offshore-staffing-placement-001",
+      "title": "Offshore staffing placement fees (not managed VAs)",
+      "one_liner": "Vet AI-trained overseas talent and place them with companies for a one-time 20–35% first-year salary fee instead of ongoing VA management.",
+      "source_url": "https://www.youtube.com/watch?v=2B5dCquvK4c",
+      "source_date": "2025-08-05",
+      "evidence_quote": "HoldCo Bros pitch offshore staffing: managed markup model vs placement model; for a fast push they prefer placement (~20–35% of first-year salary, ~$4K average fee cited) sourcing via Upwork and hiring-manager outreach.",
+      "category": [
+        "staffing",
+        "b2b",
+        "services"
+      ],
+      "why_it_works": "Placement is transactional and high-ticket; companies already hire overseas; AI-trained talent is a differentiator.",
+      "agent_runnable": true,
+      "human_gates": [
+        "send",
+        "hire",
+        "money"
+      ],
+      "related_urls": [
+        "https://newsletter.chrisjkoerner.com/p/want-to-make-1m-fast-start-one-of-these-businesses"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-portable-minigolf-cornhole-rentals-001",
+      "title": "Portable mini-golf / cornhole course rentals",
+      "one_liner": "Rent portable mini-golf or cornhole setups for parties and corporate events as offline experiential rentals.",
+      "source_url": "https://www.youtube.com/watch?v=dTnidR4eLus",
+      "source_date": "2026-06-24",
+      "evidence_quote": "Episode covers portable mini golf rentals and cornhole courses as offline businesses that can generate meaningful event revenue without building an online product.",
+      "category": [
+        "rentals",
+        "events",
+        "offline"
+      ],
+      "why_it_works": "Event hosts want turnkey fun; gear amortizes across bookings; little software competition.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "publish",
+        "send"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-rv-rental-fleet-001",
+      "title": "Class C RV rental on Outdoorsy/RVShare",
+      "one_liner": "Finance a Class C RV, list on rental platforms, cover the note with a few nights/month, then scale units if utilization holds.",
+      "source_url": "https://www.youtube.com/watch?v=2B5dCquvK4c",
+      "source_date": "2025-08-05",
+      "evidence_quote": "Chris describes financing Class C RVs long-term (~$700–$900/mo payments) and renting them for ~$200–$500/night on platforms like RV Share/Outdoorsy after validating DFW demand in a spreadsheet; newsletter expands the same model.",
+      "category": [
+        "rentals",
+        "travel",
+        "financed_assets"
+      ],
+      "why_it_works": "Long financing terms + high nightly rates; platform demand is visible before buying; utilization math is checkable locally.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire"
+      ],
+      "related_urls": [
+        "https://newsletter.chrisjkoerner.com/p/want-to-make-1m-fast-start-one-of-these-businesses"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-seasonal-porch-decorating-001",
+      "title": "Seasonal porch decorating / pumpkin porch installs",
+      "one_liner": "Offer done-for-you seasonal porch setups (e.g., fall pumpkin porches) sold door-to-door or via local social, capital-light.",
+      "source_url": "https://www.youtube.com/watch?v=vvtsOOGn6Io",
+      "source_date": "2026-08-07",
+      "evidence_quote": "Episode packages turning porches into a profitable seasonal side hustle—install decorative seasonal porch experiences that can be sold neighborhood-by-neighborhood with low startup cost.",
+      "category": [
+        "local_services",
+        "seasonal",
+        "home"
+      ],
+      "why_it_works": "Seasonal urgency + visible neighbor FOMO; low skill barrier; short sales cycles in fall/holiday windows.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "send",
+        "hire"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-temp-fence-rental-001",
+      "title": "Temporary fence rental for jobsites and events",
+      "one_liner": "Buy temporary fencing panels and rent them to construction sites and events—an offline rental called out in the multi-hustle episode.",
+      "source_url": "https://www.youtube.com/watch?v=dTnidR4eLus",
+      "source_date": "2026-06-24",
+      "evidence_quote": "In the offline side-hustles episode with Brandon Doyle, they break down temporary fence rental as a surprisingly lucrative equipment-rental business alongside other physical rentals.",
+      "category": [
+        "rentals",
+        "construction",
+        "local"
+      ],
+      "why_it_works": "Jobsites need compliance fencing repeatedly; panels are reusable assets; local B2B demand is relationship-driven.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "send"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-trailer-rental-001",
+      "title": "Utility trailer rental side hustle (Marketplace + Google)",
+      "one_liner": "Buy a few trailers, automate booking/payments, and rent them locally via Google and Facebook Marketplace with a few hours/week of ops.",
+      "source_url": "https://www.youtube.com/watch?v=68x7jFWbaE8",
+      "source_date": "2026-09-06",
+      "evidence_quote": "Nathan runs a trailer rental business beside a full-time job, automates most of the process, finds customers on Google and Facebook Marketplace, and reports roughly a few thousand dollars a month in profit after testing local demand first.",
+      "category": [
+        "rentals",
+        "local",
+        "semi_passive"
+      ],
+      "why_it_works": "Local demand for dump/utility trailers is recurring; Marketplace validates demand cheaply; automation reduces owner hours.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "publish",
+        "send"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-washer-dryer-rental-001",
+      "title": "Washer/dryer rental via Facebook Marketplace (post → rent → buy)",
+      "one_liner": "Validate demand by posting rentals first, then buy used washer/dryer sets cheap (or free) and rent month-to-month with delivery/install.",
+      "source_url": "https://www.youtube.com/watch?v=UCdWRg1KQLY",
+      "source_date": "2025-08-03",
+      "evidence_quote": "Kyler rents used washers and dryers found on Marketplace to apartment tenants using a post-rent-buy sequence, charging roughly $60–$85/month per set with delivery, install, and maintenance.",
+      "category": [
+        "rentals",
+        "marketplace",
+        "local"
+      ],
+      "why_it_works": "Apartment tenants often lack machines; used inventory is cheap; month-to-month rentals create recurring cash flow with light weekly ops.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "send"
+      ],
+      "notes": ""
+    },
+    {
+      "source_handle": "mhp_guy",
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:45:09-07:00",
+      "id": "idea-mhp_guy-water-filtration-home-service-001",
+      "title": "Residential water filtration installs via FB ads + subcontracted plumbers",
+      "one_liner": "Sell under-sink/whole-home water filtration with price-upfront Facebook ads; subcontract licensed plumbers for installs.",
+      "source_url": "https://www.youtube.com/watch?v=9U4MCbfL8MQ",
+      "source_date": "2026-09-11",
+      "evidence_quote": "Guest Parker launched a water filtration business with ~$500, finds customers via Facebook ads that show price upfront, and uses licensed plumbers for installs rather than doing the trades work himself.",
+      "category": [
+        "home_services",
+        "lead_gen",
+        "asset_light"
+      ],
+      "why_it_works": "Overlooked local home service with clear ticket size; ads that disclose price qualify buyers; outsourcing installs keeps the founder in sales/ops.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "publish",
+        "send"
+      ],
+      "notes": ""
     }
   ]
 }
