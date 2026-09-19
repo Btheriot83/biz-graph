@@ -1,55 +1,73 @@
 {
-  "collected_at": "2026-09-19T10:15:00-07:00",
-  "method": "public fxtwitter/nitter/unrollnow + YouTube WebFetch transcripts; structured manually",
+  "collected_at": "2026-09-19T10:30:00-07:00",
+  "pass": "pass3-thin-topics",
+  "method": "YouTube oEmbed-verified URLs + jina descriptions/chapters + chrisjkoerner newsletter + ideakoerner cross-check + fxtwitter for BM",
   "x_api": "forbidden (client-not-enrolled)",
   "apify": "monthly usage hard limit exceeded",
-  "pass": "quality-expansion-2",
-  "previous_count": 90,
-  "idea_count": 122,
-  "new_this_pass": 32,
-  "breakdown": {
-    "boringmarketer": 42,
-    "mhp_guy": 80
+  "youtube_transcripts": "blocked from datacenter IP",
+  "prev_count": 122,
+  "new_added": 20,
+  "total": 142,
+  "breakdown_total": {
+    "boringmarketer": 45,
+    "mhp_guy": 97
   },
-  "new_this_pass_breakdown": {
-    "mhp_guy": 28,
-    "boringmarketer": 4
+  "breakdown_new": {
+    "mhp_guy": 17,
+    "boringmarketer": 3
   },
-  "sources_used_this_pass": [
-    "https://www.youtube.com/watch?v=6u7tkj7UJvs",
-    "https://www.youtube.com/watch?v=GZbjmWNmIkc",
-    "https://www.youtube.com/watch?v=VOo3M3ZHUoA",
-    "https://www.youtube.com/watch?v=a8P2K9DYJp4",
-    "https://www.youtube.com/watch?v=dTnidR4eLus",
-    "https://www.youtube.com/watch?v=kEV86fy-Rvc",
-    "https://x.com/boringmarketer/status/2095630396239003984",
-    "https://x.com/boringmarketer/status/2097732474189021346",
-    "https://x.com/boringmarketer/status/2098067619995660294",
-    "https://x.com/boringmarketer/status/2100662695682769344"
+  "sources_used": [
+    "https://www.youtube.com/watch?v=1DF3AU7aWMg",
+    "https://www.youtube.com/watch?v=3ywztCB-hAk",
+    "https://www.youtube.com/watch?v=50iWtrj9Mkw",
+    "https://www.youtube.com/watch?v=9DyLtQEDXN0",
+    "https://www.youtube.com/watch?v=A0RZE39wQRc",
+    "https://www.youtube.com/watch?v=Cvs_HhGD18o",
+    "https://www.youtube.com/watch?v=HOosrT6vj_Y",
+    "https://www.youtube.com/watch?v=M6woiZk-KeE",
+    "https://x.com/boringmarketer/status/2087178571873693744",
+    "https://x.com/boringmarketer/status/2087535150124978625",
+    "https://x.com/boringmarketer/status/2100612120677093521"
   ],
-  "raw_dumps": [
-    "raw/pass2/youtube/*",
-    "raw/pass2/x/*",
-    "raw/pass2/bm_*.json",
-    "raw/pass2/new_ideas_batch.json"
+  "top_new_titles": [
+    "Broken iPhone LCD buyback \u2192 China remanufacture \u2192 parts wholesale",
+    "Cult travel-stop brand snacks/merch ecommerce (Buc-ee's \u2192 Texas Snax pattern)",
+    "Land bank near announced Buc-ee's / mega travel-stop sites",
+    "Restaurant / QSR next to new Buc-ee's foot-traffic nodes",
+    "Playmakers-style AI implementation agency for SMBs ($500\u2013$5k/mo framing)",
+    "Niche Zillow for RV parks / mobile-home parks / self-storage",
+    "Apify/Clay/Zapier API-wrapper micro-SaaS (great unbundling)",
+    "Portable self-storage containers on leased/owned land",
+    "Temporary/modular storage facilities on acreage",
+    "RV park acquisition with hybrid nightly + monthly ops"
+  ],
+  "all_new_ids": [
+    "idea-mhp_guy-lcd-screen-recycling-buyback-054",
+    "idea-mhp_guy-bucees-brand-snack-merch-ecommerce-055",
+    "idea-mhp_guy-land-near-new-bucees-locations-056",
+    "idea-mhp_guy-restaurant-near-bucees-traffic-057",
+    "idea-mhp_guy-playmakers-ai-smb-implementation-agency-058",
+    "idea-mhp_guy-niche-zillow-rv-mhp-storage-059",
+    "idea-mhp_guy-apify-api-wrapper-micro-saas-060",
+    "idea-mhp_guy-portable-self-storage-on-land-061",
+    "idea-mhp_guy-temp-storage-facility-on-acreage-062",
+    "idea-mhp_guy-rv-park-acquisition-hybrid-ops-063",
+    "idea-mhp_guy-premium-workforce-rv-park-064",
+    "idea-mhp_guy-rv-park-brand-rollup-065",
+    "idea-mhp_guy-attic-insulation-removal-reinstall-066",
+    "idea-mhp_guy-aeroseal-duct-sealing-specialty-067",
+    "idea-mhp_guy-home-performance-full-suite-068",
+    "idea-mhp_guy-home-toxin-air-quality-diagnostics-069",
+    "idea-mhp_guy-ductwork-replacement-install-070",
+    "idea-boringmarketer-ai-ops-partner-local-service-043",
+    "idea-boringmarketer-zapier-browser-skill-client-ops-044",
+    "idea-boringmarketer-no-website-niche-city-takeover-045"
   ],
   "blockers": [
     "X API v2 client-not-enrolled",
     "Apify monthly hard limit",
-    "YouTube anonymous captionTracks often empty; used WebFetch auto-caption text where available",
-    "Some jina.ai YT dumps were chrome-shell only (no caption body)"
+    "YouTube transcript API IP-blocked",
+    "Some ideakoerner embedded YT IDs mismatched titles \u2014 only oEmbed-verified URLs kept"
   ],
-  "top_10_new_titles": [
-    "White-label GHL SaaS for event rental companies",
-    "White-label booking/CRM SaaS for med spas",
-    "White-label all-in-one gym software (GHL + payments)",
-    "High-ticket dental implant / full-arch marketing agency",
-    "Missed-call text-back wedge for roofers (then upsell)",
-    "Marketing SaaS for dumpster rental companies",
-    "Marketing SaaS for porta-potty / restroom trailer rentals",
-    "Marketing SaaS for photo-booth rental businesses",
-    "Curbside/free appliance reclaim \u2192 repair \u2192 rent or flip",
-    "Costco B-Stock returns garage flips (FLIP listing system)"
-  ],
-  "notes": "Pass 2: unused Koerner Office videos (GHL white-label niches, free-appliance rent/flip, Costco B-Stock, Hyper Agent locals, AI agency samplers, offline leftovers) + BM rim specialty + Main Street AI marketing SOP."
+  "notes": "Focused thin gaps: LCD recycling, Buc-ee's-pattern resell/adjacency, Playmakers AI agency, niche Zillow MHP/RV/storage, RV park ops/rollup, portable/temp storage, home-performance stack, BM operator/Zapier/no-website wedges."
 }
