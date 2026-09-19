@@ -1,0 +1,14 @@
+{
+  "collected_at": "2026-09-19T09:42:08-07:00",
+  "method": "public thread unrolls (unrollnow) + manual structuring",
+  "x_api": "forbidden (client-not-enrolled)",
+  "apify": "monthly usage hard limit exceeded",
+  "sources_used": [
+    "https://x.com/boringmarketer/status/2096232390075060508",
+    "https://x.com/boringmarketer/status/2098782377052881178",
+    "https://x.com/boringmarketer/status/2087178571873693744"
+  ],
+  "idea_count": 25,
+  "plan_count": 1,
+  "graph_count": 1
+}

@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "version": "0",
+    "updated_at": "2026-09-19T09:42:08-07:00",
+    "count": 1,
+    "sources": [
+      "boringmarketer",
+      "mhp_guy"
+    ],
+    "fence": "public cites only; no income guarantees; Brandon gates money/hire/pay/publish/send",
+    "gaps": []
+  },
+  "graphs": [
+    {
+      "id": "graph-plan-idea-boringmarketer-ai-services-main-street-022",
+      "plan_id": "plan-idea-boringmarketer-ai-services-main-street-022",
+      "nodes": [
+        {
+          "id": "brandon",
+          "role": "brandon",
+          "model_or_tool": "human",
+          "responsibility": "Steerer; sole approver for money/hire/pay/publish/send/identity/banking"
+        },
+        {
+          "id": "chief",
+          "role": "chief",
+          "model_or_tool": "grok-bot-chief",
+          "responsibility": "Orchestrate specialists; never auto-spend or send"
+        },
+        {
+          "id": "research",
+          "role": "research",
+          "model_or_tool": "llm+web",
+          "responsibility": "Niche/geo scoring from public data"
+        },
+        {
+          "id": "marketing",
+          "role": "marketing",
+          "model_or_tool": "llm+design-tools",
+          "responsibility": "Asset pack, ads creative drafts, case study drafts"
+        },
+        {
+          "id": "ops",
+          "role": "ops",
+          "model_or_tool": "llm+computer_use",
+          "responsibility": "SOP capture, CRM drafts, delivery checklists"
+        },
+        {
+          "id": "coding",
+          "role": "coding",
+          "model_or_tool": "cursor-cloud-agent",
+          "responsibility": "Landing page / form scaffolding when approved"
+        }
+      ],
+      "edges": [
+        {
+          "from": "brandon",
+          "to": "chief",
+          "label": "goals + gates"
+        },
+        {
+          "from": "chief",
+          "to": "research",
+          "label": "score niches"
+        },
+        {
+          "from": "chief",
+          "to": "marketing",
+          "label": "draft assets"
+        },
+        {
+          "from": "chief",
+          "to": "ops",
+          "label": "delivery SOPs"
+        },
+        {
+          "from": "chief",
+          "to": "coding",
+          "label": "build after publish gate"
+        },
+        {
+          "from": "research",
+          "to": "brandon",
+          "label": "niche shortlist for pick"
+        },
+        {
+          "from": "marketing",
+          "to": "brandon",
+          "label": "ads/publish approval"
+        }
+      ],
+      "brandon_only_actions": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal"
+      ],
+      "updated_at": "2026-09-19T09:42:08-07:00"
+    }
+  ]
+}
