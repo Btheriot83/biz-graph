@@ -1,0 +1,116 @@
+{
+  "id": "plan-idea-mhp_guy-snail-mail-niche-subscription-club-102",
+  "idea_id": "idea-mhp_guy-snail-mail-niche-subscription-club-102",
+  "title": "Niche snail-mail subscription club (under-1oz envelopes)",
+  "one_liner": "Launch a niche physical mail club (art, recipes, stickers, handwritten/themed) kept under one ounce for cheap postage — tangible anti-digital product with low startup cost.",
+  "category_tags": [
+    "subscriptions",
+    "physical",
+    "community",
+    "direct_mail",
+    "creator"
+  ],
+  "why_agent_runnable": "Niche research, brand/copy, content calendars, subscriber CRM drafts, and ops checklists are agent-native. Brandon gates payments, physical assembly/postage, publish, and send.",
+  "ops_steps": [
+    {
+      "n": 1,
+      "title": "Niche shortlist",
+      "owner": "research_agent",
+      "detail": "Score niches craving tangible mail (art, recipes, stickers, letters); check community density and postage fit under 1oz.",
+      "human_required": false
+    },
+    {
+      "n": 2,
+      "title": "Brandon niche + brand pick",
+      "owner": "brandon",
+      "detail": "Choose niche, brand name, and max startup spend for supplies/postage test.",
+      "human_required": true
+    },
+    {
+      "n": 3,
+      "title": "Offer + weight engineering",
+      "owner": "ops_agent",
+      "detail": "Design monthly SKU under 1oz; draft packing SOP and COGS sheet including postage.",
+      "human_required": false
+    },
+    {
+      "n": 4,
+      "title": "Storefront + waitlist drafts",
+      "owner": "marketing_agent",
+      "detail": "Landing, waitlist, sample photos briefs, organic content plan — no paid ads required to start.",
+      "human_required": false
+    },
+    {
+      "n": 5,
+      "title": "Publish + payments gate",
+      "owner": "brandon",
+      "detail": "Approve domain/store, Stripe, first supply buy, and public launch.",
+      "human_required": true
+    },
+    {
+      "n": 6,
+      "title": "Month-1 fulfill loop",
+      "owner": "ops_agent",
+      "detail": "Print/assembly checklist for Brandon (or hired help after hire gate); agent logs subscribers and drafts customer replies.",
+      "human_required": true
+    },
+    {
+      "n": 7,
+      "title": "Retention review",
+      "owner": "chief_agent",
+      "detail": "Track churn, postage cost, time-per-piece; scale niche or kill if unit econ fails.",
+      "human_required": true
+    }
+  ],
+  "human_only_checkpoints": [
+    "KYC / business identity / domain registrant",
+    "Banking + Stripe/PayPal / marketplace payout accounts",
+    "Any purchase, deposit, ad spend, or paid tool upgrade",
+    "Hiring contractors, VAs, or licensed trades",
+    "Paying invoices / payouts / refunds",
+    "Publishing listings, sites, ads, social as official",
+    "Sending outreach email/DM/SMS as Brandon",
+    "Physical pickup, delivery, install, or on-site work",
+    "Legal/compliance review when required"
+  ],
+  "hiring_and_pay_flow": {
+    "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+    "brandon_gates_before_money": [
+      "approve job post publish",
+      "approve hire",
+      "approve payment amount + rail",
+      "approve recurring retainer or inventory buy"
+    ]
+  },
+  "orchestration_graph_id": "graph-plan-idea-mhp_guy-snail-mail-niche-subscription-club-102",
+  "unit_economics_sketch": {
+    "startup_framing": "near-zero to low hundreds for first test batch (supplies + postage)",
+    "postage_constraint": "keep each piece under 1oz for cheap envelope rates",
+    "guest_anecdote_note": "Guest story cited ~4.1k members / ~$50k/mo — public anecdote only, not a Brandon target",
+    "gross_margin_notes": "Labor + postage dominate; organic growth assumed initially. Ranges are sketches only — not guarantees.",
+    "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+  },
+  "first_7_day_agent_sprint": [
+    "Day 1-2: niche shortlist with community evidence",
+    "Day 3: Brandon niche + brand pick",
+    "Day 4: under-1oz SKU + COGS sheet",
+    "Day 5-6: waitlist/storefront drafts",
+    "Day 7: Brandon publish/payments gate for soft launch"
+  ],
+  "kill_criteria": [
+    "Cannot keep monthly piece under 1oz without killing perceived value",
+    "Waitlist <50 after 30 days organic with Brandon-approved posts",
+    "Time-per-piece makes fulfillment unsustainable at test volume",
+    "Brandon declines supply/postage spend or physical fulfill"
+  ],
+  "source_citations": [
+    {
+      "url": "https://www.youtube.com/watch?v=KuQtxDCmyO4",
+      "date": "2026-02-14",
+      "handle": "mhp_guy"
+    }
+  ],
+  "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+  "status": "draft",
+  "updated_at": "2026-09-19T10:25:00-07:00"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "plan-idea-boringmarketer-one-day-website-funnel-skill-ship-058",
+  "idea_id": "idea-boringmarketer-one-day-website-funnel-skill-ship-058",
+  "title": "One-day website + funnel Skill ship for local",
+  "one_liner": "Productize a same-day Skill+Claude Code build: full site, lead magnets, email capture, and marketing funnel for one boring local business.",
+  "category_tags": [
+    "websites",
+    "funnels",
+    "skills",
+    "local_services",
+    "productized_service"
+  ],
+  "why_agent_runnable": "Site/funnel scaffolding, copy, lead-magnet drafts, and delivery checklists are agent-native via Skills. Brandon picks client, gates money/publish/send, and does live demos if needed.",
+  "ops_steps": [
+    {
+      "n": 1,
+      "title": "Offer + niche packaging",
+      "owner": "chief_agent",
+      "detail": "Lock one-day SKU: site + lead magnet + email capture + funnel; draft pricing tiers and scope fence.",
+      "human_required": false
+    },
+    {
+      "n": 2,
+      "title": "Prospect shortlist",
+      "owner": "research_agent",
+      "detail": "Find locals with weak/no site but proven demand (reviews, Maps); score for one-day fit.",
+      "human_required": false
+    },
+    {
+      "n": 3,
+      "title": "Brandon client + price pick",
+      "owner": "brandon",
+      "detail": "Choose first design-partner client and approve quote.",
+      "human_required": true
+    },
+    {
+      "n": 4,
+      "title": "Skill ship build day",
+      "owner": "coding_agent",
+      "detail": "Draft full site, lead magnet, capture forms, email sequences using Skills stack — staging only until publish gate.",
+      "human_required": false
+    },
+    {
+      "n": 5,
+      "title": "Publish + domain gate",
+      "owner": "brandon",
+      "detail": "Approve domain, go-live, analytics, and any paid hosting/email tools.",
+      "human_required": true
+    },
+    {
+      "n": 6,
+      "title": "Handoff + case study draft",
+      "owner": "marketing_agent",
+      "detail": "Delivery checklist, Loom walkthrough script, case-study draft (publish gate); propose retainer upsell.",
+      "human_required": true
+    },
+    {
+      "n": 7,
+      "title": "Productize SOP",
+      "owner": "chief_agent",
+      "detail": "Lock one-day runbook; propose next 5 identical ships or kill if delivery overruns.",
+      "human_required": true
+    }
+  ],
+  "human_only_checkpoints": [
+    "KYC / business identity / domain registrant",
+    "Banking + Stripe/PayPal / marketplace payout accounts",
+    "Any purchase, deposit, ad spend, or paid tool upgrade",
+    "Hiring contractors, VAs, or licensed trades",
+    "Paying invoices / payouts / refunds",
+    "Publishing listings, sites, ads, social as official",
+    "Sending outreach email/DM/SMS as Brandon",
+    "Physical pickup, delivery, install, or on-site work",
+    "Legal/compliance review when required"
+  ],
+  "hiring_and_pay_flow": {
+    "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+    "brandon_gates_before_money": [
+      "approve job post publish",
+      "approve hire",
+      "approve payment amount + rail",
+      "approve recurring retainer or inventory buy"
+    ]
+  },
+  "orchestration_graph_id": "graph-plan-idea-boringmarketer-one-day-website-funnel-skill-ship-058",
+  "unit_economics_sketch": {
+    "productized_fee_usd": "500-3500 per one-day ship (negotiated; sketch only)",
+    "optional_retainer_usd_mo": "200-1500 for updates/ads/email",
+    "tool_cost_notes": "Hosting/email/domain usually low double-digits to low hundreds/mo",
+    "gross_margin_notes": "Margin is mostly time; overruns kill the model. Creator $30-40k/mo anecdote is not a Brandon target. Ranges are sketches only — not guarantees.",
+    "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+  },
+  "first_7_day_agent_sprint": [
+    "Day 1: package one-day SKU + pricing draft",
+    "Day 2-3: prospect shortlist with weak-site evidence",
+    "Day 4: Brandon client + quote approval",
+    "Day 5: Skill ship staging build",
+    "Day 6-7: Brandon publish gate + case-study draft"
+  ],
+  "kill_criteria": [
+    "Builds consistently exceed one working day after 3 ships",
+    "No paying client after 20 Brandon-approved outreaches",
+    "Clients refuse to provide assets/photos within 48h",
+    "Brandon declines further publish or paid tool spend"
+  ],
+  "source_citations": [
+    {
+      "url": "https://www.youtube.com/watch?v=tddZiBb_L3Q",
+      "date": "2026-02-20",
+      "handle": "boringmarketer"
+    }
+  ],
+  "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+  "status": "draft",
+  "updated_at": "2026-09-19T10:25:00-07:00"
+}

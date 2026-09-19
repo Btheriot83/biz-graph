@@ -1,0 +1,118 @@
+{
+  "id": "plan-idea-boringmarketer-maps-pool-frontend-partnership-056",
+  "idea_id": "idea-boringmarketer-maps-pool-frontend-partnership-056",
+  "title": "Maps-validated pool-service front-end partnership",
+  "one_liner": "Confirm 30+ pool (or similar) companies with 100+ reviews via Maps, partner with one strong operator / weak marketer; own SEO/ads/automation only; optimize for phone calls with real job photos.",
+  "category_tags": [
+    "local_services",
+    "front_end_marketing",
+    "partnership",
+    "ai_agency",
+    "maps",
+    "pool"
+  ],
+  "why_agent_runnable": "Maps density scoring, operator shortlists, creative/SEO drafts, call attribution, and partner reporting are agent-native. Brandon picks partner and gates money/hire/publish/send.",
+  "ops_steps": [
+    {
+      "n": 1,
+      "title": "Maps demand gate",
+      "owner": "research_agent",
+      "detail": "Search pool service (or Brandon-approved alternate) in target metros; log companies with 100+ reviews; confirm 30+ density = demand exists.",
+      "human_required": false
+    },
+    {
+      "n": 2,
+      "title": "Operator shortlist",
+      "owner": "research_agent",
+      "detail": "Score operators: strong reviews/work signals, weak website/ads/GBP; draft partnership fit memo.",
+      "human_required": false
+    },
+    {
+      "n": 3,
+      "title": "Brandon partner + geo pick",
+      "owner": "brandon",
+      "detail": "Pick one metro + one operator; approve outreach identity.",
+      "human_required": true
+    },
+    {
+      "n": 4,
+      "title": "Partnership + front-end pack",
+      "owner": "chief_agent",
+      "detail": "Draft rev-share/retainer terms + SEO pages, call-optimized ads with real job photo briefs, follow-up sequences — legal review Brandon.",
+      "human_required": true
+    },
+    {
+      "n": 5,
+      "title": "Publish + ads spend gate",
+      "owner": "brandon",
+      "detail": "Approve go-live, call tracking, and ad budget on partner or shared brand.",
+      "human_required": true
+    },
+    {
+      "n": 6,
+      "title": "Call→job ops loop",
+      "owner": "ops_agent",
+      "detail": "Attribute calls to booked jobs; weekly partner report drafts (send gate); propose creative/bid tweaks.",
+      "human_required": true
+    },
+    {
+      "n": 7,
+      "title": "Scale geo or kill",
+      "owner": "chief_agent",
+      "detail": "Propose next pool geo or adjacent trade; kill if CAC vs booked-job economics fail.",
+      "human_required": true
+    }
+  ],
+  "human_only_checkpoints": [
+    "KYC / business identity / domain registrant",
+    "Banking + Stripe/PayPal / marketplace payout accounts",
+    "Any purchase, deposit, ad spend, or paid tool upgrade",
+    "Hiring contractors, VAs, or licensed trades",
+    "Paying invoices / payouts / refunds",
+    "Publishing listings, sites, ads, social as official",
+    "Sending outreach email/DM/SMS as Brandon",
+    "Physical pickup, delivery, install, or on-site work",
+    "Legal/compliance review when required"
+  ],
+  "hiring_and_pay_flow": {
+    "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+    "brandon_gates_before_money": [
+      "approve job post publish",
+      "approve hire",
+      "approve payment amount + rail",
+      "approve recurring retainer or inventory buy"
+    ]
+  },
+  "orchestration_graph_id": "graph-plan-idea-boringmarketer-maps-pool-frontend-partnership-056",
+  "unit_economics_sketch": {
+    "rev_share_or_retainer": "retainer $1k-5k/mo and/or rev-share on booked pool jobs (negotiated)",
+    "ad_test_budget_first_14d_usd": "500-2500",
+    "maps_demand_gate": "30+ companies with 100+ reviews in metro before partnering",
+    "gross_margin_notes": "No truck/wrench; margin = ad efficiency × partner close rate. Ranges are sketches only — not guarantees.",
+    "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+  },
+  "first_7_day_agent_sprint": [
+    "Day 1-2: Maps density scan for 2-3 metros (pool service)",
+    "Day 3: operator shortlist with weak-marketing evidence",
+    "Day 4: Brandon partner + geo pick",
+    "Day 5-6: partnership memo + call-ad creative drafts",
+    "Day 7: Brandon send gate for partner outreach"
+  ],
+  "kill_criteria": [
+    "No metro clears 30+/100+ review demand gate",
+    "No willing operator after 15 Brandon-approved outreaches",
+    "Partner close rate too low to hit agreed CAC after 30 days ads",
+    "Partner refuses call tracking / job attribution",
+    "Brandon declines further ad spend or partnership terms"
+  ],
+  "source_citations": [
+    {
+      "url": "https://www.youtube.com/watch?v=1plG7QFLdMM",
+      "date": "2026-09-17",
+      "handle": "boringmarketer"
+    }
+  ],
+  "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+  "status": "draft",
+  "updated_at": "2026-09-19T10:25:00-07:00"
+}

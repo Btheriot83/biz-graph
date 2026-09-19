@@ -1,0 +1,116 @@
+{
+  "id": "plan-idea-mhp_guy-spray-foam-crime-scene-website-landlord-115",
+  "idea_id": "idea-mhp_guy-spray-foam-crime-scene-website-landlord-115",
+  "title": "Website-landlord niches: spray foam / crime-scene cleanup",
+  "one_liner": "Build city+service SEO sites in under-webbed urgent niches (spray foam, crime-scene cleanup, autoglass); rent call-forwarding leads monthly after a free proof week.",
+  "category_tags": [
+    "lead_gen",
+    "seo",
+    "websites",
+    "local_services",
+    "passive"
+  ],
+  "why_agent_runnable": "SERP weakness scans, city/service site drafts, operator outreach, and call-log reporting are agent-native. Brandon gates domain spend, publish, partner deals, and send.",
+  "ops_steps": [
+    {
+      "n": 1,
+      "title": "Stale-SERP niche×city scan",
+      "owner": "research_agent",
+      "detail": "Search spray foam / crime-scene cleanup / autoglass + cities; flag markets where top results are outdated directories.",
+      "human_required": false
+    },
+    {
+      "n": 2,
+      "title": "Brandon niche×city pick",
+      "owner": "brandon",
+      "detail": "Choose first 1-2 city+service pairs and max domain/hosting budget.",
+      "human_required": true
+    },
+    {
+      "n": 3,
+      "title": "Site build pack",
+      "owner": "coding_agent",
+      "detail": "Draft thin-but-credible city+service sites with call tracking placeholders — staging only.",
+      "human_required": false
+    },
+    {
+      "n": 4,
+      "title": "Operator shortlist",
+      "owner": "research_agent",
+      "detail": "Find local operators who can fulfill; draft free-week proof + monthly rent pitch.",
+      "human_required": false
+    },
+    {
+      "n": 5,
+      "title": "Publish + call-track money gate",
+      "owner": "brandon",
+      "detail": "Approve domains, go-live, call tracking spend, and outreach identity.",
+      "human_required": true
+    },
+    {
+      "n": 6,
+      "title": "Proof week + rent close",
+      "owner": "ops_agent",
+      "detail": "Forward calls during free week; draft rent agreement + invoice; Brandon send/pay gates.",
+      "human_required": true
+    },
+    {
+      "n": 7,
+      "title": "Portfolio expand or kill",
+      "owner": "chief_agent",
+      "detail": "If rent converts, clone next city; kill sites with no qualified call volume in 45 days.",
+      "human_required": true
+    }
+  ],
+  "human_only_checkpoints": [
+    "KYC / business identity / domain registrant",
+    "Banking + Stripe/PayPal / marketplace payout accounts",
+    "Any purchase, deposit, ad spend, or paid tool upgrade",
+    "Hiring contractors, VAs, or licensed trades",
+    "Paying invoices / payouts / refunds",
+    "Publishing listings, sites, ads, social as official",
+    "Sending outreach email/DM/SMS as Brandon",
+    "Physical pickup, delivery, install, or on-site work",
+    "Legal/compliance review when required"
+  ],
+  "hiring_and_pay_flow": {
+    "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+    "brandon_gates_before_money": [
+      "approve job post publish",
+      "approve hire",
+      "approve payment amount + rail",
+      "approve recurring retainer or inventory buy"
+    ]
+  },
+  "orchestration_graph_id": "graph-plan-idea-mhp_guy-spray-foam-crime-scene-website-landlord-115",
+  "unit_economics_sketch": {
+    "site_build_cost_usd": "domain/hosting tens–low hundreds; time is main cost",
+    "monthly_rent_framing": "flat monthly to operator after free proof week (negotiated)",
+    "call_tracking_usd_mo": "typically low tens to low hundreds",
+    "gross_margin_notes": "Works only if SERP is weak and operator closes. Source $100k/mo anecdote is not a Brandon target. Ranges are sketches only — not guarantees.",
+    "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+  },
+  "first_7_day_agent_sprint": [
+    "Day 1-2: stale-SERP scan for spray foam + crime-scene + autoglass cities",
+    "Day 3: Brandon niche×city pick",
+    "Day 4-5: staging sites + call-track plan",
+    "Day 6: operator shortlist + pitch drafts",
+    "Day 7: Brandon publish/send gates"
+  ],
+  "kill_criteria": [
+    "No stale-SERP openings in Brandon-approved niches after full scan",
+    "Zero qualified calls in 45 days post-publish",
+    "No operator accepts rent after 3 proof-week attempts",
+    "Brandon declines further domain/ad/call-track spend"
+  ],
+  "source_citations": [
+    {
+      "url": "https://newsletter.chrisjkoerner.com/p/how-to-make-100k-a-month-renting-out-websites-954e",
+      "date": "2026-05-15",
+      "handle": "mhp_guy"
+    }
+  ],
+  "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+  "status": "draft",
+  "updated_at": "2026-09-19T10:25:00-07:00"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "plan-idea-mhp_guy-competitor-intelligence-weekly-reports-108",
+  "idea_id": "idea-mhp_guy-competitor-intelligence-weekly-reports-108",
+  "title": "AI competitor-intelligence weekly report retainers",
+  "one_liner": "Productize an agent that monitors a client’s competitors’ ads, prices, launches, and content into a weekly inbox report — setup once, recurring retainer.",
+  "category_tags": [
+    "ai",
+    "research",
+    "retainers",
+    "b2b",
+    "productized_service"
+  ],
+  "why_agent_runnable": "Scraping/public monitoring, synthesis, and report formatting are core agent work. Brandon gates client contracts, ToS/compliance, send of reports, and any paid data tools.",
+  "ops_steps": [
+    {
+      "n": 1,
+      "title": "ICP + niche pick",
+      "owner": "research_agent",
+      "detail": "Score B2B niches where competitors run public ads/pricing/content weekly (ecommerce, local multi-location, SaaS).",
+      "human_required": false
+    },
+    {
+      "n": 2,
+      "title": "Brandon niche + compliance box",
+      "owner": "brandon",
+      "detail": "Approve ICP, allowed data sources, and ToS/legal stance on monitoring.",
+      "human_required": true
+    },
+    {
+      "n": 3,
+      "title": "Report template + pipeline",
+      "owner": "coding_agent",
+      "detail": "Build draft pipeline: ads library / pricing pages / content RSS → weekly brief template. No live client send yet.",
+      "human_required": false
+    },
+    {
+      "n": 4,
+      "title": "Sample report (public comps)",
+      "owner": "research_agent",
+      "detail": "Produce one anonymized sample pack from public data for sales demos.",
+      "human_required": false
+    },
+    {
+      "n": 5,
+      "title": "Offer + outreach drafts",
+      "owner": "marketing_agent",
+      "detail": "Landing/one-pager + outreach sequences; framing $500-2k/mo from source — not a guarantee.",
+      "human_required": false
+    },
+    {
+      "n": 6,
+      "title": "Client contract + send gates",
+      "owner": "brandon",
+      "detail": "Approve first clients, pricing, invoice rail; approve each report send until trust established.",
+      "human_required": true
+    },
+    {
+      "n": 7,
+      "title": "Retainer ops loop",
+      "owner": "ops_agent",
+      "detail": "Weekly run; log opens/feedback; propose upsell (deeper vertical, more comps) or kill.",
+      "human_required": true
+    }
+  ],
+  "human_only_checkpoints": [
+    "KYC / business identity / domain registrant",
+    "Banking + Stripe/PayPal / marketplace payout accounts",
+    "Any purchase, deposit, ad spend, or paid tool upgrade",
+    "Hiring contractors, VAs, or licensed trades",
+    "Paying invoices / payouts / refunds",
+    "Publishing listings, sites, ads, social as official",
+    "Sending outreach email/DM/SMS as Brandon",
+    "Physical pickup, delivery, install, or on-site work",
+    "Legal/compliance review when required"
+  ],
+  "hiring_and_pay_flow": {
+    "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+    "brandon_gates_before_money": [
+      "approve job post publish",
+      "approve hire",
+      "approve payment amount + rail",
+      "approve recurring retainer or inventory buy"
+    ]
+  },
+  "orchestration_graph_id": "graph-plan-idea-mhp_guy-competitor-intelligence-weekly-reports-108",
+  "unit_economics_sketch": {
+    "retainer_framing_usd_mo": "500-2000/mo cited in source playbook — framing only",
+    "setup_fee_usd": "0-1000 optional (negotiated)",
+    "tool_cost_notes": "Scrapers/APIs/ads libraries may add monthly cost; stay ToS-compliant",
+    "gross_margin_notes": "High automation after pipeline; delivery quality and compliance are the risks. Ranges are sketches only — not guarantees.",
+    "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+  },
+  "first_7_day_agent_sprint": [
+    "Day 1: ICP shortlist with public-data richness",
+    "Day 2: Brandon niche + compliance box",
+    "Day 3-4: pipeline + weekly report template",
+    "Day 5: sample report from public comps",
+    "Day 6-7: offer pack + Brandon send gate for first 10 outreaches"
+  ],
+  "kill_criteria": [
+    "No paying client after 25 Brandon-approved outreaches",
+    "ToS/legal blocks required data sources",
+    "Weekly delivery time exceeds what retainer supports after automation pass",
+    "Churn >50% in first 90 days or Brandon declines renewals"
+  ],
+  "source_citations": [
+    {
+      "url": "https://newsletter.chrisjkoerner.com/p/ways-to-cash-in-on-ai-agents-right-now",
+      "date": "2026-02-12",
+      "handle": "mhp_guy"
+    }
+  ],
+  "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+  "status": "draft",
+  "updated_at": "2026-09-19T10:25:00-07:00"
+}

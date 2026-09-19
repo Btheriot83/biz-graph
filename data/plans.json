@@ -1,8 +1,8 @@
 {
   "meta": {
     "version": "0",
-    "updated_at": "2026-09-19T09:55:00-07:00",
-    "count": 10,
+    "updated_at": "2026-09-19T10:25:00-07:00",
+    "count": 18,
     "sources": [
       "boringmarketer",
       "mhp_guy"
@@ -11,6 +11,121 @@
     "gaps": []
   },
   "plans": [
+    {
+      "id": "plan-idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034",
+      "idea_id": "idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034",
+      "title": "Agentic Meta lead-gen campaigns without living in Ads Manager",
+      "one_liner": "Coding agents + computer-use spin Meta pixels/system users/organic job-photo creatives into local lead-gen campaigns without living in Ads Manager.",
+      "category_tags": [
+        "meta_ads",
+        "lead_gen",
+        "ai_agency",
+        "content_ops"
+      ],
+      "why_agent_runnable": "Campaign scaffolding, creative generation, and browser ops are agent-native. Brandon owns ad account identity, budgets, and final publish.",
+      "ops_steps": [
+        {
+          "n": 1,
+          "title": "Account + niche prerequisites",
+          "owner": "research_agent",
+          "detail": "Checklist: BM/ad account status, pixel needs, local niche creative angles (job-photo + text bubble).",
+          "human_required": false
+        },
+        {
+          "n": 2,
+          "title": "Brandon account access",
+          "owner": "brandon",
+          "detail": "Provide/approve Business Manager access; KYC; set hard budget ceiling.",
+          "human_required": true
+        },
+        {
+          "n": 3,
+          "title": "Agentic campaign scaffold",
+          "owner": "coding",
+          "detail": "Scripts/skills to create campaign structure, audiences, and lead forms — dry-run until money gate.",
+          "human_required": false
+        },
+        {
+          "n": 4,
+          "title": "Organic job-photo creatives",
+          "owner": "marketing_agent",
+          "detail": "Generate image/video variants with text-bubble overlays; batch for tests.",
+          "human_required": false
+        },
+        {
+          "n": 5,
+          "title": "Launch approval",
+          "owner": "brandon",
+          "detail": "Approve creatives, budget, and go-live; no auto-spend.",
+          "human_required": true
+        },
+        {
+          "n": 6,
+          "title": "Lead CRM + reply drafts",
+          "owner": "ops_agent",
+          "detail": "Pipe leads to sheets; draft SMS/email; Brandon send.",
+          "human_required": true
+        },
+        {
+          "n": 7,
+          "title": "Optimize + productize",
+          "owner": "chief_agent",
+          "detail": "Kill losers, scale winners within ceiling; package as internal skill or client offer (publish gate).",
+          "human_required": true
+        }
+      ],
+      "human_only_checkpoints": [
+        "KYC / business identity / domain registrant",
+        "Banking + Stripe/PayPal / marketplace payout accounts",
+        "Any purchase, deposit, ad spend, or paid tool upgrade",
+        "Hiring contractors, VAs, or licensed trades",
+        "Paying invoices / payouts / refunds",
+        "Publishing listings, sites, ads, social as official",
+        "Sending outreach email/DM/SMS as Brandon",
+        "Physical pickup, delivery, install, or on-site work",
+        "Legal/compliance review when required"
+      ],
+      "hiring_and_pay_flow": {
+        "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+        "brandon_gates_before_money": [
+          "approve job post publish",
+          "approve hire",
+          "approve payment amount + rail",
+          "approve recurring retainer or inventory buy"
+        ]
+      },
+      "orchestration_graph_id": "graph-plan-idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034",
+      "unit_economics_sketch": {
+        "ad_test_budget_first_14d_usd": "300-2000",
+        "target_metric_notes": "Track CPL and cost-per-qualified-booked-call — thresholds set by Brandon per niche.",
+        "tooling_notes": "Coding agent + computer-use reduce Ads Manager time; still need compliant ad account.",
+        "gross_margin_notes": "If sold as service, retainer on top of media. Ranges are sketches only — not guarantees.",
+        "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+      },
+      "first_7_day_agent_sprint": [
+        "Day 1: prerequisites + creative angle research",
+        "Day 2: Brandon BM access + budget ceiling",
+        "Day 3-4: campaign scaffold dry-run + creative batch",
+        "Day 5: Brandon launch approval",
+        "Day 6-7: leads CRM + reply drafts (no send without gate)"
+      ],
+      "kill_criteria": [
+        "Ad account restricted and cannot remediate within 14 days",
+        "CPL above Brandon ceiling for 14 consecutive days at test budget",
+        "Lead quality too poor to book calls after 50 leads",
+        "Brandon declines further spend"
+      ],
+      "source_citations": [
+        {
+          "url": "https://x.com/boringmarketer/status/2094776379090878718",
+          "date": "2026-09-01",
+          "handle": "boringmarketer"
+        }
+      ],
+      "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+      "status": "draft",
+      "updated_at": "2026-09-19T09:55:00-07:00"
+    },
     {
       "id": "plan-idea-boringmarketer-ai-services-main-street-022",
       "idea_id": "idea-boringmarketer-ai-services-main-street-022",
@@ -123,6 +238,815 @@
       "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
       "status": "draft",
       "updated_at": "2026-09-19T09:43:49-07:00"
+    },
+    {
+      "id": "plan-idea-boringmarketer-front-end-local-trade-marketing-026",
+      "idea_id": "idea-boringmarketer-front-end-local-trade-marketing-026",
+      "title": "Front-end marketing partnership for boring local trades",
+      "one_liner": "Own SEO/ads/automation front-end for one pool/HVAC-style operator; they fulfill; optimize for phone calls not clicks.",
+      "category_tags": [
+        "ai_agency",
+        "local_services",
+        "lead_gen",
+        "partnership"
+      ],
+      "why_agent_runnable": "Partner research, creative, SEO/ads ops drafts, call attribution, and reporting are agent-native. Brandon picks partner and gates money/hire/publish/send.",
+      "ops_steps": [
+        {
+          "n": 1,
+          "title": "Operator shortlist",
+          "owner": "research_agent",
+          "detail": "Find trades with Maps density, strong reviews, weak marketing; score partnership fit.",
+          "human_required": false
+        },
+        {
+          "n": 2,
+          "title": "Brandon partner pick",
+          "owner": "brandon",
+          "detail": "Choose one operator; approve outreach identity.",
+          "human_required": true
+        },
+        {
+          "n": 3,
+          "title": "Partnership memo",
+          "owner": "chief_agent",
+          "detail": "Draft revenue-share or retainer terms, KPIs (booked jobs), exclusivity — legal review Brandon.",
+          "human_required": true
+        },
+        {
+          "n": 4,
+          "title": "Front-end asset pack",
+          "owner": "marketing_agent",
+          "detail": "SEO pages, ads creatives, follow-up sequences, review automation drafts.",
+          "human_required": false
+        },
+        {
+          "n": 5,
+          "title": "Publish + ads spend",
+          "owner": "brandon",
+          "detail": "Approve go-live and budgets on partner brand or shared brand.",
+          "human_required": true
+        },
+        {
+          "n": 6,
+          "title": "Call ops dashboard",
+          "owner": "ops_agent",
+          "detail": "Attribute calls→jobs; weekly report; draft partner updates (send gate).",
+          "human_required": true
+        },
+        {
+          "n": 7,
+          "title": "Scale or swap",
+          "owner": "chief_agent",
+          "detail": "Propose next geo/trade or kill based on booked-job CAC.",
+          "human_required": true
+        }
+      ],
+      "human_only_checkpoints": [
+        "KYC / business identity / domain registrant",
+        "Banking + Stripe/PayPal / marketplace payout accounts",
+        "Any purchase, deposit, ad spend, or paid tool upgrade",
+        "Hiring contractors, VAs, or licensed trades",
+        "Paying invoices / payouts / refunds",
+        "Publishing listings, sites, ads, social as official",
+        "Sending outreach email/DM/SMS as Brandon",
+        "Physical pickup, delivery, install, or on-site work",
+        "Legal/compliance review when required"
+      ],
+      "hiring_and_pay_flow": {
+        "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+        "brandon_gates_before_money": [
+          "approve job post publish",
+          "approve hire",
+          "approve payment amount + rail",
+          "approve recurring retainer or inventory buy"
+        ]
+      },
+      "orchestration_graph_id": "graph-plan-idea-boringmarketer-front-end-local-trade-marketing-026",
+      "unit_economics_sketch": {
+        "rev_share_or_retainer": "retainer $1k-5k/mo and/or rev-share on booked jobs (negotiated)",
+        "ad_test_budget_first_14d_usd": "500-2500",
+        "gross_margin_notes": "No wrench work; margin depends on ad efficiency and partner close rate. Ranges are sketches only — not guarantees.",
+        "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+      },
+      "first_7_day_agent_sprint": [
+        "Day 1-2: operator shortlist with Maps evidence",
+        "Day 3: Brandon partner pick",
+        "Day 4: partnership memo draft",
+        "Day 5-6: front-end asset pack drafts",
+        "Day 7: Brandon send gate for partner outreach"
+      ],
+      "kill_criteria": [
+        "No willing operator after 15 Brandon-approved outreaches",
+        "Partner close rate too low to hit agreed CAC after 30 days ads",
+        "Partner refuses call tracking / data sharing",
+        "Brandon declines further ad spend or partnership terms"
+      ],
+      "source_citations": [
+        {
+          "url": "https://x.com/boringmarketer/status/2100985975128084523",
+          "date": "2026-09-18",
+          "handle": "boringmarketer"
+        }
+      ],
+      "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+      "status": "draft",
+      "updated_at": "2026-09-19T09:55:00-07:00"
+    },
+    {
+      "id": "plan-idea-boringmarketer-hyperlocal-pages-prospecting-agency-027",
+      "idea_id": "idea-boringmarketer-hyperlocal-pages-prospecting-agency-027",
+      "title": "Hyperlocal SEO pages + automated prospecting for $1K+ ticket locals",
+      "one_liner": "Scrape $1K+ ticket locals with 50+ reviews, build hyperlocal conversion pages, prospect with proof the phone rings.",
+      "category_tags": [
+        "ai_agency",
+        "seo",
+        "lead_gen",
+        "productized_service"
+      ],
+      "why_agent_runnable": "Scraping, page generation, proof dashboards, and prospecting drafts are agent-native. Brandon gates niche, publish, spend, and outbound send.",
+      "ops_steps": [
+        {
+          "n": 1,
+          "title": "Scrape + score locals",
+          "owner": "research_agent",
+          "detail": "Public scrape of local sites/Maps for ticket proxies, review counts, site quality gaps.",
+          "human_required": false
+        },
+        {
+          "n": 2,
+          "title": "Brandon niche/geo pick",
+          "owner": "brandon",
+          "detail": "Pick one $1K+ niche × geo from shortlist.",
+          "human_required": true
+        },
+        {
+          "n": 3,
+          "title": "Hyperlocal page build",
+          "owner": "coding",
+          "detail": "Generate conversion pages + call tracking skeleton (go-live needs publish gate).",
+          "human_required": false
+        },
+        {
+          "n": 4,
+          "title": "Proof instrumentation",
+          "owner": "ops_agent",
+          "detail": "Call tracking, form CRM, simple 'phone rings' proof sheet.",
+          "human_required": false
+        },
+        {
+          "n": 5,
+          "title": "Publish gate",
+          "owner": "brandon",
+          "detail": "Approve domains, public pages, tracking numbers, brand identity.",
+          "human_required": true
+        },
+        {
+          "n": 6,
+          "title": "Automated prospecting drafts",
+          "owner": "marketing_agent",
+          "detail": "Personalized outreach with page proof — Brandon send gate.",
+          "human_required": true
+        },
+        {
+          "n": 7,
+          "title": "Close + productize",
+          "owner": "chief_agent",
+          "detail": "SOW/retainer drafts; case study (publish gate); SOP lock for next geo.",
+          "human_required": true
+        }
+      ],
+      "human_only_checkpoints": [
+        "KYC / business identity / domain registrant",
+        "Banking + Stripe/PayPal / marketplace payout accounts",
+        "Any purchase, deposit, ad spend, or paid tool upgrade",
+        "Hiring contractors, VAs, or licensed trades",
+        "Paying invoices / payouts / refunds",
+        "Publishing listings, sites, ads, social as official",
+        "Sending outreach email/DM/SMS as Brandon",
+        "Physical pickup, delivery, install, or on-site work",
+        "Legal/compliance review when required"
+      ],
+      "hiring_and_pay_flow": {
+        "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+        "brandon_gates_before_money": [
+          "approve job post publish",
+          "approve hire",
+          "approve payment amount + rail",
+          "approve recurring retainer or inventory buy"
+        ]
+      },
+      "orchestration_graph_id": "graph-plan-idea-boringmarketer-hyperlocal-pages-prospecting-agency-027",
+      "unit_economics_sketch": {
+        "setup_fee_range_usd": "1000-5000",
+        "monthly_retainer_range_usd": "500-2500",
+        "tooling_notes": "Scrapers, hosting, call tracking $50-300/mo typical band.",
+        "gross_margin_notes": "Delivery is mostly agent+templates after first SOP. Ranges are sketches only — not guarantees.",
+        "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+      },
+      "first_7_day_agent_sprint": [
+        "Day 1-2: scrape/score 100+ locals in candidate niches",
+        "Day 3: Brandon niche/geo pick",
+        "Day 4-5: hyperlocal page + tracking drafts",
+        "Day 6: Brandon publish gate",
+        "Day 7: prospect list + outreach drafts (no send)"
+      ],
+      "kill_criteria": [
+        "Cannot find niche with $1K+ tickets AND weak web presence after 2 passes",
+        "Pages get zero calls after 21 days live with agreed distribution",
+        "Zero replies after 50 Brandon-approved prospecting sends",
+        "Brandon declines further spend/publish"
+      ],
+      "source_citations": [
+        {
+          "url": "https://x.com/boringmarketer/status/2100662695682769344",
+          "date": "2026-09-17",
+          "handle": "boringmarketer"
+        }
+      ],
+      "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+      "status": "draft",
+      "updated_at": "2026-09-19T09:55:00-07:00"
+    },
+    {
+      "id": "plan-idea-boringmarketer-maps-pool-frontend-partnership-056",
+      "idea_id": "idea-boringmarketer-maps-pool-frontend-partnership-056",
+      "title": "Maps-validated pool-service front-end partnership",
+      "one_liner": "Confirm 30+ pool (or similar) companies with 100+ reviews via Maps, partner with one strong operator / weak marketer; own SEO/ads/automation only; optimize for phone calls with real job photos.",
+      "category_tags": [
+        "local_services",
+        "front_end_marketing",
+        "partnership",
+        "ai_agency",
+        "maps",
+        "pool"
+      ],
+      "why_agent_runnable": "Maps density scoring, operator shortlists, creative/SEO drafts, call attribution, and partner reporting are agent-native. Brandon picks partner and gates money/hire/publish/send.",
+      "ops_steps": [
+        {
+          "n": 1,
+          "title": "Maps demand gate",
+          "owner": "research_agent",
+          "detail": "Search pool service (or Brandon-approved alternate) in target metros; log companies with 100+ reviews; confirm 30+ density = demand exists.",
+          "human_required": false
+        },
+        {
+          "n": 2,
+          "title": "Operator shortlist",
+          "owner": "research_agent",
+          "detail": "Score operators: strong reviews/work signals, weak website/ads/GBP; draft partnership fit memo.",
+          "human_required": false
+        },
+        {
+          "n": 3,
+          "title": "Brandon partner + geo pick",
+          "owner": "brandon",
+          "detail": "Pick one metro + one operator; approve outreach identity.",
+          "human_required": true
+        },
+        {
+          "n": 4,
+          "title": "Partnership + front-end pack",
+          "owner": "chief_agent",
+          "detail": "Draft rev-share/retainer terms + SEO pages, call-optimized ads with real job photo briefs, follow-up sequences — legal review Brandon.",
+          "human_required": true
+        },
+        {
+          "n": 5,
+          "title": "Publish + ads spend gate",
+          "owner": "brandon",
+          "detail": "Approve go-live, call tracking, and ad budget on partner or shared brand.",
+          "human_required": true
+        },
+        {
+          "n": 6,
+          "title": "Call→job ops loop",
+          "owner": "ops_agent",
+          "detail": "Attribute calls to booked jobs; weekly partner report drafts (send gate); propose creative/bid tweaks.",
+          "human_required": true
+        },
+        {
+          "n": 7,
+          "title": "Scale geo or kill",
+          "owner": "chief_agent",
+          "detail": "Propose next pool geo or adjacent trade; kill if CAC vs booked-job economics fail.",
+          "human_required": true
+        }
+      ],
+      "human_only_checkpoints": [
+        "KYC / business identity / domain registrant",
+        "Banking + Stripe/PayPal / marketplace payout accounts",
+        "Any purchase, deposit, ad spend, or paid tool upgrade",
+        "Hiring contractors, VAs, or licensed trades",
+        "Paying invoices / payouts / refunds",
+        "Publishing listings, sites, ads, social as official",
+        "Sending outreach email/DM/SMS as Brandon",
+        "Physical pickup, delivery, install, or on-site work",
+        "Legal/compliance review when required"
+      ],
+      "hiring_and_pay_flow": {
+        "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+        "brandon_gates_before_money": [
+          "approve job post publish",
+          "approve hire",
+          "approve payment amount + rail",
+          "approve recurring retainer or inventory buy"
+        ]
+      },
+      "orchestration_graph_id": "graph-plan-idea-boringmarketer-maps-pool-frontend-partnership-056",
+      "unit_economics_sketch": {
+        "rev_share_or_retainer": "retainer $1k-5k/mo and/or rev-share on booked pool jobs (negotiated)",
+        "ad_test_budget_first_14d_usd": "500-2500",
+        "maps_demand_gate": "30+ companies with 100+ reviews in metro before partnering",
+        "gross_margin_notes": "No truck/wrench; margin = ad efficiency × partner close rate. Ranges are sketches only — not guarantees.",
+        "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+      },
+      "first_7_day_agent_sprint": [
+        "Day 1-2: Maps density scan for 2-3 metros (pool service)",
+        "Day 3: operator shortlist with weak-marketing evidence",
+        "Day 4: Brandon partner + geo pick",
+        "Day 5-6: partnership memo + call-ad creative drafts",
+        "Day 7: Brandon send gate for partner outreach"
+      ],
+      "kill_criteria": [
+        "No metro clears 30+/100+ review demand gate",
+        "No willing operator after 15 Brandon-approved outreaches",
+        "Partner close rate too low to hit agreed CAC after 30 days ads",
+        "Partner refuses call tracking / job attribution",
+        "Brandon declines further ad spend or partnership terms"
+      ],
+      "source_citations": [
+        {
+          "url": "https://www.youtube.com/watch?v=1plG7QFLdMM",
+          "date": "2026-09-17",
+          "handle": "boringmarketer"
+        }
+      ],
+      "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+      "status": "draft",
+      "updated_at": "2026-09-19T10:25:00-07:00"
+    },
+    {
+      "id": "plan-idea-boringmarketer-one-day-website-funnel-skill-ship-058",
+      "idea_id": "idea-boringmarketer-one-day-website-funnel-skill-ship-058",
+      "title": "One-day website + funnel Skill ship for local",
+      "one_liner": "Productize a same-day Skill+Claude Code build: full site, lead magnets, email capture, and marketing funnel for one boring local business.",
+      "category_tags": [
+        "websites",
+        "funnels",
+        "skills",
+        "local_services",
+        "productized_service"
+      ],
+      "why_agent_runnable": "Site/funnel scaffolding, copy, lead-magnet drafts, and delivery checklists are agent-native via Skills. Brandon picks client, gates money/publish/send, and does live demos if needed.",
+      "ops_steps": [
+        {
+          "n": 1,
+          "title": "Offer + niche packaging",
+          "owner": "chief_agent",
+          "detail": "Lock one-day SKU: site + lead magnet + email capture + funnel; draft pricing tiers and scope fence.",
+          "human_required": false
+        },
+        {
+          "n": 2,
+          "title": "Prospect shortlist",
+          "owner": "research_agent",
+          "detail": "Find locals with weak/no site but proven demand (reviews, Maps); score for one-day fit.",
+          "human_required": false
+        },
+        {
+          "n": 3,
+          "title": "Brandon client + price pick",
+          "owner": "brandon",
+          "detail": "Choose first design-partner client and approve quote.",
+          "human_required": true
+        },
+        {
+          "n": 4,
+          "title": "Skill ship build day",
+          "owner": "coding_agent",
+          "detail": "Draft full site, lead magnet, capture forms, email sequences using Skills stack — staging only until publish gate.",
+          "human_required": false
+        },
+        {
+          "n": 5,
+          "title": "Publish + domain gate",
+          "owner": "brandon",
+          "detail": "Approve domain, go-live, analytics, and any paid hosting/email tools.",
+          "human_required": true
+        },
+        {
+          "n": 6,
+          "title": "Handoff + case study draft",
+          "owner": "marketing_agent",
+          "detail": "Delivery checklist, Loom walkthrough script, case-study draft (publish gate); propose retainer upsell.",
+          "human_required": true
+        },
+        {
+          "n": 7,
+          "title": "Productize SOP",
+          "owner": "chief_agent",
+          "detail": "Lock one-day runbook; propose next 5 identical ships or kill if delivery overruns.",
+          "human_required": true
+        }
+      ],
+      "human_only_checkpoints": [
+        "KYC / business identity / domain registrant",
+        "Banking + Stripe/PayPal / marketplace payout accounts",
+        "Any purchase, deposit, ad spend, or paid tool upgrade",
+        "Hiring contractors, VAs, or licensed trades",
+        "Paying invoices / payouts / refunds",
+        "Publishing listings, sites, ads, social as official",
+        "Sending outreach email/DM/SMS as Brandon",
+        "Physical pickup, delivery, install, or on-site work",
+        "Legal/compliance review when required"
+      ],
+      "hiring_and_pay_flow": {
+        "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+        "brandon_gates_before_money": [
+          "approve job post publish",
+          "approve hire",
+          "approve payment amount + rail",
+          "approve recurring retainer or inventory buy"
+        ]
+      },
+      "orchestration_graph_id": "graph-plan-idea-boringmarketer-one-day-website-funnel-skill-ship-058",
+      "unit_economics_sketch": {
+        "productized_fee_usd": "500-3500 per one-day ship (negotiated; sketch only)",
+        "optional_retainer_usd_mo": "200-1500 for updates/ads/email",
+        "tool_cost_notes": "Hosting/email/domain usually low double-digits to low hundreds/mo",
+        "gross_margin_notes": "Margin is mostly time; overruns kill the model. Creator $30-40k/mo anecdote is not a Brandon target. Ranges are sketches only — not guarantees.",
+        "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+      },
+      "first_7_day_agent_sprint": [
+        "Day 1: package one-day SKU + pricing draft",
+        "Day 2-3: prospect shortlist with weak-site evidence",
+        "Day 4: Brandon client + quote approval",
+        "Day 5: Skill ship staging build",
+        "Day 6-7: Brandon publish gate + case-study draft"
+      ],
+      "kill_criteria": [
+        "Builds consistently exceed one working day after 3 ships",
+        "No paying client after 20 Brandon-approved outreaches",
+        "Clients refuse to provide assets/photos within 48h",
+        "Brandon declines further publish or paid tool spend"
+      ],
+      "source_citations": [
+        {
+          "url": "https://www.youtube.com/watch?v=tddZiBb_L3Q",
+          "date": "2026-02-20",
+          "handle": "boringmarketer"
+        }
+      ],
+      "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+      "status": "draft",
+      "updated_at": "2026-09-19T10:25:00-07:00"
+    },
+    {
+      "id": "plan-idea-mhp_guy-ai-avatar-video-service-local-pros-017",
+      "idea_id": "idea-mhp_guy-ai-avatar-video-service-local-pros-017",
+      "title": "AI avatar video content service for local professionals",
+      "one_liner": "Productized DFY AI avatar video retainers for mortgage/local pros: headshot in → niche explainers out.",
+      "category_tags": [
+        "ai_agency",
+        "content_ops",
+        "productized_service"
+      ],
+      "why_agent_runnable": "Scripting, avatar generation, editing briefs, prospect lists, and reporting are agent-native. Brandon approves niche, tool spend, publish of samples, and outbound send.",
+      "ops_steps": [
+        {
+          "n": 1,
+          "title": "Niche shortlist",
+          "owner": "research_agent",
+          "detail": "Score local pro niches (mortgage, insurance, medspa, real estate) by ticket size and content need.",
+          "human_required": false
+        },
+        {
+          "n": 2,
+          "title": "Brandon niche + offer",
+          "owner": "brandon",
+          "detail": "Pick one niche + retainer shape (e.g. 4 videos/mo).",
+          "human_required": true
+        },
+        {
+          "n": 3,
+          "title": "Sample pack",
+          "owner": "marketing_agent",
+          "detail": "Produce sample scripts + avatar videos from public headshots/stock (tool spend needs money gate).",
+          "human_required": true
+        },
+        {
+          "n": 4,
+          "title": "Sales assets",
+          "owner": "marketing_agent",
+          "detail": "Landing, Loom outline, pricing one-pager, case-style before/after. Draft until publish.",
+          "human_required": false
+        },
+        {
+          "n": 5,
+          "title": "Prospect engine",
+          "owner": "research_agent",
+          "detail": "Build compliant prospect list; draft LinkedIn/email sequences — Brandon send.",
+          "human_required": true
+        },
+        {
+          "n": 6,
+          "title": "Delivery SOP",
+          "owner": "ops_agent",
+          "detail": "Intake form, script approval loop, render checklist, revision policy.",
+          "human_required": false
+        },
+        {
+          "n": 7,
+          "title": "Retainer ops",
+          "owner": "chief_agent",
+          "detail": "Stripe invoices after pay gate; monthly performance notes; hire editor only with Brandon hire gate.",
+          "human_required": true
+        }
+      ],
+      "human_only_checkpoints": [
+        "KYC / business identity / domain registrant",
+        "Banking + Stripe/PayPal / marketplace payout accounts",
+        "Any purchase, deposit, ad spend, or paid tool upgrade",
+        "Hiring contractors, VAs, or licensed trades",
+        "Paying invoices / payouts / refunds",
+        "Publishing listings, sites, ads, social as official",
+        "Sending outreach email/DM/SMS as Brandon",
+        "Physical pickup, delivery, install, or on-site work",
+        "Legal/compliance review when required"
+      ],
+      "hiring_and_pay_flow": {
+        "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+        "brandon_gates_before_money": [
+          "approve job post publish",
+          "approve hire",
+          "approve payment amount + rail",
+          "approve recurring retainer or inventory buy"
+        ]
+      },
+      "orchestration_graph_id": "graph-plan-idea-mhp_guy-ai-avatar-video-service-local-pros-017",
+      "unit_economics_sketch": {
+        "setup_fee_range_usd": "0-500",
+        "monthly_retainer_range_usd": "300-1500",
+        "tool_cost_notes": "Avatar/video tools often $30-200/mo; watch render overages.",
+        "gross_margin_notes": "High software margin if scripts+renders stay agent-led. Ranges are sketches only — not guarantees.",
+        "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+      },
+      "first_7_day_agent_sprint": [
+        "Day 1-2: niche scorecard",
+        "Day 3: Brandon niche/offer pick",
+        "Day 4: Brandon tool-spend gate + first sample renders",
+        "Day 5-6: landing + sales one-pager drafts",
+        "Day 7: prospect list + outreach drafts (no send)"
+      ],
+      "kill_criteria": [
+        "Cannot produce acceptable sample quality at agreed tool budget",
+        "Zero discovery calls after 50 Brandon-approved sends",
+        "Churn >50% on first 4 retainers due to quality/speed",
+        "Brandon declines further tool or ads spend"
+      ],
+      "source_citations": [
+        {
+          "url": "https://www.youtube.com/watch?v=-kwF1zol2gQ",
+          "date": "2026-03-01",
+          "handle": "mhp_guy"
+        }
+      ],
+      "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+      "status": "draft",
+      "updated_at": "2026-09-19T09:55:00-07:00"
+    },
+    {
+      "id": "plan-idea-mhp_guy-competitor-intelligence-weekly-reports-108",
+      "idea_id": "idea-mhp_guy-competitor-intelligence-weekly-reports-108",
+      "title": "AI competitor-intelligence weekly report retainers",
+      "one_liner": "Productize an agent that monitors a client’s competitors’ ads, prices, launches, and content into a weekly inbox report — setup once, recurring retainer.",
+      "category_tags": [
+        "ai",
+        "research",
+        "retainers",
+        "b2b",
+        "productized_service"
+      ],
+      "why_agent_runnable": "Scraping/public monitoring, synthesis, and report formatting are core agent work. Brandon gates client contracts, ToS/compliance, send of reports, and any paid data tools.",
+      "ops_steps": [
+        {
+          "n": 1,
+          "title": "ICP + niche pick",
+          "owner": "research_agent",
+          "detail": "Score B2B niches where competitors run public ads/pricing/content weekly (ecommerce, local multi-location, SaaS).",
+          "human_required": false
+        },
+        {
+          "n": 2,
+          "title": "Brandon niche + compliance box",
+          "owner": "brandon",
+          "detail": "Approve ICP, allowed data sources, and ToS/legal stance on monitoring.",
+          "human_required": true
+        },
+        {
+          "n": 3,
+          "title": "Report template + pipeline",
+          "owner": "coding_agent",
+          "detail": "Build draft pipeline: ads library / pricing pages / content RSS → weekly brief template. No live client send yet.",
+          "human_required": false
+        },
+        {
+          "n": 4,
+          "title": "Sample report (public comps)",
+          "owner": "research_agent",
+          "detail": "Produce one anonymized sample pack from public data for sales demos.",
+          "human_required": false
+        },
+        {
+          "n": 5,
+          "title": "Offer + outreach drafts",
+          "owner": "marketing_agent",
+          "detail": "Landing/one-pager + outreach sequences; framing $500-2k/mo from source — not a guarantee.",
+          "human_required": false
+        },
+        {
+          "n": 6,
+          "title": "Client contract + send gates",
+          "owner": "brandon",
+          "detail": "Approve first clients, pricing, invoice rail; approve each report send until trust established.",
+          "human_required": true
+        },
+        {
+          "n": 7,
+          "title": "Retainer ops loop",
+          "owner": "ops_agent",
+          "detail": "Weekly run; log opens/feedback; propose upsell (deeper vertical, more comps) or kill.",
+          "human_required": true
+        }
+      ],
+      "human_only_checkpoints": [
+        "KYC / business identity / domain registrant",
+        "Banking + Stripe/PayPal / marketplace payout accounts",
+        "Any purchase, deposit, ad spend, or paid tool upgrade",
+        "Hiring contractors, VAs, or licensed trades",
+        "Paying invoices / payouts / refunds",
+        "Publishing listings, sites, ads, social as official",
+        "Sending outreach email/DM/SMS as Brandon",
+        "Physical pickup, delivery, install, or on-site work",
+        "Legal/compliance review when required"
+      ],
+      "hiring_and_pay_flow": {
+        "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+        "brandon_gates_before_money": [
+          "approve job post publish",
+          "approve hire",
+          "approve payment amount + rail",
+          "approve recurring retainer or inventory buy"
+        ]
+      },
+      "orchestration_graph_id": "graph-plan-idea-mhp_guy-competitor-intelligence-weekly-reports-108",
+      "unit_economics_sketch": {
+        "retainer_framing_usd_mo": "500-2000/mo cited in source playbook — framing only",
+        "setup_fee_usd": "0-1000 optional (negotiated)",
+        "tool_cost_notes": "Scrapers/APIs/ads libraries may add monthly cost; stay ToS-compliant",
+        "gross_margin_notes": "High automation after pipeline; delivery quality and compliance are the risks. Ranges are sketches only — not guarantees.",
+        "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+      },
+      "first_7_day_agent_sprint": [
+        "Day 1: ICP shortlist with public-data richness",
+        "Day 2: Brandon niche + compliance box",
+        "Day 3-4: pipeline + weekly report template",
+        "Day 5: sample report from public comps",
+        "Day 6-7: offer pack + Brandon send gate for first 10 outreaches"
+      ],
+      "kill_criteria": [
+        "No paying client after 25 Brandon-approved outreaches",
+        "ToS/legal blocks required data sources",
+        "Weekly delivery time exceeds what retainer supports after automation pass",
+        "Churn >50% in first 90 days or Brandon declines renewals"
+      ],
+      "source_citations": [
+        {
+          "url": "https://newsletter.chrisjkoerner.com/p/ways-to-cash-in-on-ai-agents-right-now",
+          "date": "2026-02-12",
+          "handle": "mhp_guy"
+        }
+      ],
+      "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+      "status": "draft",
+      "updated_at": "2026-09-19T10:25:00-07:00"
+    },
+    {
+      "id": "plan-idea-mhp_guy-concrete-leveling-drop-service-middleman-103",
+      "idea_id": "idea-mhp_guy-concrete-leveling-drop-service-middleman-103",
+      "title": "Concrete leveling drop-servicing middleman",
+      "one_liner": "Sell foam concrete-leveling jobs via FB ads/Nextdoor/GBP, take deposits, dispatch subcontracted crews who own the rig — sales and coordination only.",
+      "category_tags": [
+        "home_services",
+        "drop_servicing",
+        "middleman",
+        "asset_light",
+        "local"
+      ],
+      "why_agent_runnable": "Lead gen creatives, quote scripts, subcontractor sourcing drafts, CRM, and job dispatch checklists are agent-native. Brandon gates ads spend, hires/pay to crews, insurance/legal, and any on-site.",
+      "ops_steps": [
+        {
+          "n": 1,
+          "title": "Geo + crew map",
+          "owner": "research_agent",
+          "detail": "Map metros with slab issues + existing foam/mudjacking crews; list public directories and capacity signals.",
+          "human_required": false
+        },
+        {
+          "n": 2,
+          "title": "Brandon geo + capital box",
+          "owner": "brandon",
+          "detail": "Pick launch metro; set max ad test budget and insurance/legal review path.",
+          "human_required": true
+        },
+        {
+          "n": 3,
+          "title": "Subcontractor shortlist + SOW drafts",
+          "owner": "ops_agent",
+          "detail": "Draft outreach, day-rate/job-rate SOWs, photo QA checklist — hire/pay only after Brandon gates.",
+          "human_required": true
+        },
+        {
+          "n": 4,
+          "title": "Virtual quote pack",
+          "owner": "marketing_agent",
+          "detail": "GBP/Nextdoor/FB ad drafts, photo-quote flow, deposit script, commercial subscription pilot memo.",
+          "human_required": false
+        },
+        {
+          "n": 5,
+          "title": "Ads + GBP publish gate",
+          "owner": "brandon",
+          "detail": "Approve identity, ads spend, GBP claim, and first deposit rail.",
+          "human_required": true
+        },
+        {
+          "n": 6,
+          "title": "Dispatch + QA loop",
+          "owner": "ops_agent",
+          "detail": "Log leads→quotes→jobs; draft crew payouts; photo QA; customer follow-ups (send gate).",
+          "human_required": true
+        },
+        {
+          "n": 7,
+          "title": "Unit econ review",
+          "owner": "chief_agent",
+          "detail": "Track profit-per-job sketch vs ad CAC; propose commercial subscription or kill.",
+          "human_required": true
+        }
+      ],
+      "human_only_checkpoints": [
+        "KYC / business identity / domain registrant",
+        "Banking + Stripe/PayPal / marketplace payout accounts",
+        "Any purchase, deposit, ad spend, or paid tool upgrade",
+        "Hiring contractors, VAs, or licensed trades",
+        "Paying invoices / payouts / refunds",
+        "Publishing listings, sites, ads, social as official",
+        "Sending outreach email/DM/SMS as Brandon",
+        "Physical pickup, delivery, install, or on-site work",
+        "Legal/compliance review when required"
+      ],
+      "hiring_and_pay_flow": {
+        "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+        "brandon_gates_before_money": [
+          "approve job post publish",
+          "approve hire",
+          "approve payment amount + rail",
+          "approve recurring retainer or inventory buy"
+        ]
+      },
+      "orchestration_graph_id": "graph-plan-idea-mhp_guy-concrete-leveling-drop-service-middleman-103",
+      "unit_economics_sketch": {
+        "profit_per_job_anecdote_usd": "~$1000/job cited by guest operator — anecdote only, not a target",
+        "ad_test_budget_first_14d_usd": "300-2000",
+        "crew_pay_model": "per-job or day-rate to subcontracted leveling crews (negotiated)",
+        "gross_margin_notes": "Asset-light only if crews + insurance are solid; deposit discipline matters. Ranges are sketches only — not guarantees.",
+        "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+      },
+      "first_7_day_agent_sprint": [
+        "Day 1-2: metro + crew directory map",
+        "Day 3: Brandon geo + budget + insurance path",
+        "Day 4: SOW + outreach drafts for 5 crews",
+        "Day 5-6: quote pack + ad/GBP drafts",
+        "Day 7: Brandon hire/send/ads gates for first crew + campaign"
+      ],
+      "kill_criteria": [
+        "No insured crew willing to sub after 10 Brandon-approved outreaches",
+        "Ad CAC exceeds contribution after 20 booked jobs",
+        "Insurance/legal blocked or Brandon declines coverage spend",
+        "Job QA failures / chargebacks exceed threshold Brandon sets"
+      ],
+      "source_citations": [
+        {
+          "url": "https://www.youtube.com/watch?v=QTWNnonldjw",
+          "date": "2025-12-14",
+          "handle": "mhp_guy"
+        }
+      ],
+      "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+      "status": "draft",
+      "updated_at": "2026-09-19T10:25:00-07:00"
     },
     {
       "id": "plan-idea-mhp_guy-lawnmower-flipping-fbmp-015",
@@ -356,236 +1280,6 @@
       "updated_at": "2026-09-19T09:55:00-07:00"
     },
     {
-      "id": "plan-idea-mhp_guy-restaurant-equipment-middleman-009",
-      "idea_id": "idea-mhp_guy-restaurant-equipment-middleman-009",
-      "title": "Closing-restaurant equipment middleman",
-      "one_liner": "Find closing restaurants, contract equipment, pre-sell on restaurant marketplaces before taking inventory risk.",
-      "category_tags": [
-        "middleman",
-        "fbmp",
-        "arbitrage",
-        "reselling"
-      ],
-      "why_agent_runnable": "Closing-signal research, comps, buyer matching, and contract/listing drafts are agent-native. Brandon handles identity, contracts, payment, and logistics gates.",
-      "ops_steps": [
-        {
-          "n": 1,
-          "title": "Closing-signal radar",
-          "owner": "research_agent",
-          "detail": "Mine public FBMP, local news, health permits, and 'restaurant equipment' listings for closing signals in target geos.",
-          "human_required": false
-        },
-        {
-          "n": 2,
-          "title": "Buyer demand book",
-          "owner": "research_agent",
-          "detail": "Build wishlist of gear categories (ovens, hoods, refrigeration) with recent sold comps on restaurant marketplaces.",
-          "human_required": false
-        },
-        {
-          "n": 3,
-          "title": "Brandon geo + legal box",
-          "owner": "brandon",
-          "detail": "Approve geos, max deposit risk, and whether to use simple assignment contracts (legal review as needed).",
-          "human_required": true
-        },
-        {
-          "n": 4,
-          "title": "Seller outreach drafts",
-          "owner": "marketing_agent",
-          "detail": "Draft FBMP/email scripts for owners liquidating — no send without Brandon.",
-          "human_required": false
-        },
-        {
-          "n": 5,
-          "title": "Pre-sell listings",
-          "owner": "marketing_agent",
-          "detail": "Draft buyer-facing listings with photos/specs; publish only after Brandon gate and clear title path.",
-          "human_required": true
-        },
-        {
-          "n": 6,
-          "title": "Match + paperwork",
-          "owner": "ops_agent",
-          "detail": "Bill of sale templates, escrow checklist, pickup logistics SOPs. Brandon signs/pays.",
-          "human_required": true
-        },
-        {
-          "n": 7,
-          "title": "Close + CRM",
-          "owner": "chief_agent",
-          "detail": "Log deal P&L; propose next targets; no inventory warehouse unless Brandon approves storage spend.",
-          "human_required": true
-        }
-      ],
-      "human_only_checkpoints": [
-        "KYC / business identity / domain registrant",
-        "Banking + Stripe/PayPal / marketplace payout accounts",
-        "Any purchase, deposit, ad spend, or paid tool upgrade",
-        "Hiring contractors, VAs, or licensed trades",
-        "Paying invoices / payouts / refunds",
-        "Publishing listings, sites, ads, social as official",
-        "Sending outreach email/DM/SMS as Brandon",
-        "Physical pickup, delivery, install, or on-site work",
-        "Legal/compliance review when required"
-      ],
-      "hiring_and_pay_flow": {
-        "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
-        "brandon_gates_before_money": [
-          "approve job post publish",
-          "approve hire",
-          "approve payment amount + rail",
-          "approve recurring retainer or inventory buy"
-        ]
-      },
-      "orchestration_graph_id": "graph-plan-idea-mhp_guy-restaurant-equipment-middleman-009",
-      "unit_economics_sketch": {
-        "ticket_range_usd": "500-15000 per piece or package",
-        "middleman_spread_notes": "Spread is negotiated between distressed seller and hungry buyer; aim to pre-sell before funded buy when possible.",
-        "capital_at_risk_notes": "Deposits and transport are main risk if buyer flakes — mitigate with deposits both sides.",
-        "gross_margin_notes": "Asset-light when pre-sold. Ranges are sketches only — not guarantees.",
-        "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
-      },
-      "first_7_day_agent_sprint": [
-        "Day 1-2: closing-signal radar for 2-3 metros",
-        "Day 3: buyer demand book + comps",
-        "Day 4: Brandon geo/legal/capital box",
-        "Day 5-6: outreach drafts + first seller shortlist",
-        "Day 7: Brandon send gate for first 5 seller messages"
-      ],
-      "kill_criteria": [
-        "Fewer than 3 credible closing leads in 21 days",
-        "Cannot get seller exclusivity or clear title path",
-        "Two deals collapse due to transport/title issues",
-        "Brandon declines legal or deposit risk"
-      ],
-      "source_citations": [
-        {
-          "url": "https://www.youtube.com/watch?v=2B5dCquvK4c",
-          "date": "2025-08-01",
-          "handle": "mhp_guy"
-        }
-      ],
-      "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
-      "status": "draft",
-      "updated_at": "2026-09-19T09:55:00-07:00"
-    },
-    {
-      "id": "plan-idea-mhp_guy-water-filtration-home-service-001",
-      "idea_id": "idea-mhp_guy-water-filtration-home-service-001",
-      "title": "Residential water filtration installs via FB ads + subcontracted plumbers",
-      "one_liner": "Price-upfront Meta lead ads for under-sink/whole-home filtration; subcontract licensed plumbers for installs.",
-      "category_tags": [
-        "home_services",
-        "lead_gen",
-        "asset_light",
-        "local_services"
-      ],
-      "why_agent_runnable": "Creative, landing, lead CRM, plumber sourcing drafts, and ad ops drafts are agent-native. Brandon owns ads spend, hire of plumbers, and customer money.",
-      "ops_steps": [
-        {
-          "n": 1,
-          "title": "Geo water + competitor scan",
-          "owner": "research_agent",
-          "detail": "Public water quality notes, competitor pricing, and ad density for candidate ZIPs.",
-          "human_required": false
-        },
-        {
-          "n": 2,
-          "title": "Brandon geo + offer pick",
-          "owner": "brandon",
-          "detail": "Choose under-sink vs whole-home starter offer and price-upfront numbers.",
-          "human_required": true
-        },
-        {
-          "n": 3,
-          "title": "Offer + landing + ad creatives",
-          "owner": "marketing_agent",
-          "detail": "Draft price-upfront Meta creatives, landing, FAQ, application form. Draft until publish gate.",
-          "human_required": false
-        },
-        {
-          "n": 4,
-          "title": "Plumber bench shortlist",
-          "owner": "ops_agent",
-          "detail": "Draft outreach to licensed plumbers for per-job install rates; Brandon hire gate.",
-          "human_required": true
-        },
-        {
-          "n": 5,
-          "title": "Ads + payments go-live",
-          "owner": "brandon",
-          "detail": "Approve Meta budget, business identity, Stripe deposits, and public copy.",
-          "human_required": true
-        },
-        {
-          "n": 6,
-          "title": "Lead ops",
-          "owner": "ops_agent",
-          "detail": "Score leads, schedule drafts, dispatch checklist; agent drafts SMS/email — Brandon send.",
-          "human_required": true
-        },
-        {
-          "n": 7,
-          "title": "Install QA + review ask",
-          "owner": "ops_agent",
-          "detail": "Post-install checklist; review request drafts; weekly unit economics sheet.",
-          "human_required": true
-        }
-      ],
-      "human_only_checkpoints": [
-        "KYC / business identity / domain registrant",
-        "Banking + Stripe/PayPal / marketplace payout accounts",
-        "Any purchase, deposit, ad spend, or paid tool upgrade",
-        "Hiring contractors, VAs, or licensed trades",
-        "Paying invoices / payouts / refunds",
-        "Publishing listings, sites, ads, social as official",
-        "Sending outreach email/DM/SMS as Brandon",
-        "Physical pickup, delivery, install, or on-site work",
-        "Legal/compliance review when required"
-      ],
-      "hiring_and_pay_flow": {
-        "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
-        "brandon_gates_before_money": [
-          "approve job post publish",
-          "approve hire",
-          "approve payment amount + rail",
-          "approve recurring retainer or inventory buy"
-        ]
-      },
-      "orchestration_graph_id": "graph-plan-idea-mhp_guy-water-filtration-home-service-001",
-      "unit_economics_sketch": {
-        "job_price_range_usd": "300-2500 depending on under-sink vs whole-home",
-        "plumber_payout_range_usd": "150-800 per job (negotiated)",
-        "ad_test_budget_first_14d_usd": "300-1500",
-        "gross_margin_notes": "Margin = job price − product COGS − plumber − ads − refunds. Price-upfront ads aim to qualify. Ranges are sketches only — not guarantees.",
-        "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
-      },
-      "first_7_day_agent_sprint": [
-        "Day 1-2: geo water/competitor scan",
-        "Day 3: Brandon offer + geo pick",
-        "Day 4-5: landing + Meta creative drafts + plumber shortlist",
-        "Day 6: Brandon hire/ads/payments gates",
-        "Day 7: CRM live; ads ready (no spend until gate cleared)"
-      ],
-      "kill_criteria": [
-        "Cannot secure ≥2 licensed plumbers at workable rates in 14 days",
-        "Cost per booked install exceeds agreed ceiling for 14 days at test budget",
-        "Product warranty/returns erode margin on first 5 jobs",
-        "Brandon declines further ad spend"
-      ],
-      "source_citations": [
-        {
-          "url": "https://www.youtube.com/watch?v=9U4MCbfL8MQ",
-          "date": "2026-09-11",
-          "handle": "mhp_guy"
-        }
-      ],
-      "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
-      "status": "draft",
-      "updated_at": "2026-09-19T09:55:00-07:00"
-    },
-    {
       "id": "plan-idea-mhp_guy-portable-minigolf-cornhole-rentals-001",
       "idea_id": "idea-mhp_guy-portable-minigolf-cornhole-rentals-001",
       "title": "Portable mini-golf / cornhole course rentals",
@@ -701,64 +1395,65 @@
       "updated_at": "2026-09-19T09:55:00-07:00"
     },
     {
-      "id": "plan-idea-mhp_guy-ai-avatar-video-service-local-pros-017",
-      "idea_id": "idea-mhp_guy-ai-avatar-video-service-local-pros-017",
-      "title": "AI avatar video content service for local professionals",
-      "one_liner": "Productized DFY AI avatar video retainers for mortgage/local pros: headshot in → niche explainers out.",
+      "id": "plan-idea-mhp_guy-residential-forestry-mulching-104",
+      "idea_id": "idea-mhp_guy-residential-forestry-mulching-104",
+      "title": "Residential forestry mulching / brush clearing",
+      "one_liner": "Serve homeowners (not just commercial ROW) with Bobcat + mulching head day-rate brush clearing; validate problem-aware keywords before buying iron.",
       "category_tags": [
-        "ai_agency",
-        "content_ops",
-        "productized_service"
+        "home_services",
+        "land",
+        "equipment",
+        "local"
       ],
-      "why_agent_runnable": "Scripting, avatar generation, editing briefs, prospect lists, and reporting are agent-native. Brandon approves niche, tool spend, publish of samples, and outbound send.",
+      "why_agent_runnable": "Keyword/demand validation, competitor maps, quote scripts, and marketing creatives are agent-native. Capex, permits, physical ops, and insurance are Brandon-only — agent proves demand first.",
       "ops_steps": [
         {
           "n": 1,
-          "title": "Niche shortlist",
+          "title": "Problem-aware demand scan",
           "owner": "research_agent",
-          "detail": "Score local pro niches (mortgage, insurance, medspa, real estate) by ticket size and content need.",
+          "detail": "Score geos on searches like clear my woods / overgrown backyard / honeysuckle removal vs saturated forestry mulching commercial SEO.",
           "human_required": false
         },
         {
           "n": 2,
-          "title": "Brandon niche + offer",
-          "owner": "brandon",
-          "detail": "Pick one niche + retainer shape (e.g. 4 videos/mo).",
-          "human_required": true
+          "title": "Competitor + day-rate comps",
+          "owner": "research_agent",
+          "detail": "Map residential vs commercial mulchers; note public day-rate framing (~$1800-2000/day cited — anecdote only).",
+          "human_required": false
         },
         {
           "n": 3,
-          "title": "Sample pack",
-          "owner": "marketing_agent",
-          "detail": "Produce sample scripts + avatar videos from public headshots/stock (tool spend needs money gate).",
+          "title": "Brandon demand go/no-go",
+          "owner": "brandon",
+          "detail": "Approve test geo and max pre-capex ad/marketing spend; decide rent-vs-buy path later.",
           "human_required": true
         },
         {
           "n": 4,
-          "title": "Sales assets",
+          "title": "Pre-capex lead pack",
           "owner": "marketing_agent",
-          "detail": "Landing, Loom outline, pricing one-pager, case-style before/after. Draft until publish.",
+          "detail": "Draft GBP/site/ads/Nextdoor creatives aimed at homeowners; waitlist form for day-rate jobs.",
           "human_required": false
         },
         {
           "n": 5,
-          "title": "Prospect engine",
-          "owner": "research_agent",
-          "detail": "Build compliant prospect list; draft LinkedIn/email sequences — Brandon send.",
+          "title": "Publish + waitlist ads gate",
+          "owner": "brandon",
+          "detail": "Approve identity, small ad test, and any equipment rental trial — not full iron buy yet.",
           "human_required": true
         },
         {
           "n": 6,
-          "title": "Delivery SOP",
-          "owner": "ops_agent",
-          "detail": "Intake form, script approval loop, render checklist, revision policy.",
-          "human_required": false
+          "title": "Capex memo (only if demand)",
+          "owner": "chief_agent",
+          "detail": "If waitlist converts, draft Bobcat+head buy/rent/finance memo + insurance/permits checklist for Brandon.",
+          "human_required": true
         },
         {
           "n": 7,
-          "title": "Retainer ops",
-          "owner": "chief_agent",
-          "detail": "Stripe invoices after pay gate; monthly performance notes; hire editor only with Brandon hire gate.",
+          "title": "Ops hire drafts",
+          "owner": "ops_agent",
+          "detail": "If scaling: draft operator/helper job posts — hire/pay only after Brandon gates.",
           "human_required": true
         }
       ],
@@ -782,31 +1477,146 @@
           "approve recurring retainer or inventory buy"
         ]
       },
-      "orchestration_graph_id": "graph-plan-idea-mhp_guy-ai-avatar-video-service-local-pros-017",
+      "orchestration_graph_id": "graph-plan-idea-mhp_guy-residential-forestry-mulching-104",
       "unit_economics_sketch": {
-        "setup_fee_range_usd": "0-500",
-        "monthly_retainer_range_usd": "300-1500",
-        "tool_cost_notes": "Avatar/video tools often $30-200/mo; watch render overages.",
-        "gross_margin_notes": "High software margin if scripts+renders stay agent-led. Ranges are sketches only — not guarantees.",
+        "day_rate_framing_usd": "1800-2000/day baseline cited in source — anecdote only",
+        "pre_capex_ad_test_usd": "200-1500",
+        "equipment_notes": "Bobcat + mulching head is major capex; validate residential waitlist before purchase",
+        "gross_margin_notes": "Fuel, transport, wear, insurance dominate. Ranges are sketches only — not guarantees.",
         "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
       },
       "first_7_day_agent_sprint": [
-        "Day 1-2: niche scorecard",
-        "Day 3: Brandon niche/offer pick",
-        "Day 4: Brandon tool-spend gate + first sample renders",
-        "Day 5-6: landing + sales one-pager drafts",
-        "Day 7: prospect list + outreach drafts (no send)"
+        "Day 1-2: problem-aware keyword + geo scorecard",
+        "Day 3: competitor day-rate map",
+        "Day 4: Brandon demand go/no-go + ad box",
+        "Day 5-6: homeowner creative + waitlist drafts",
+        "Day 7: Brandon publish/ads gate (still pre-capex)"
       ],
       "kill_criteria": [
-        "Cannot produce acceptable sample quality at agreed tool budget",
-        "Zero discovery calls after 50 Brandon-approved sends",
-        "Churn >50% on first 4 retainers due to quality/speed",
-        "Brandon declines further tool or ads spend"
+        "Waitlist/ad test fails to produce qualified residential leads in 30 days",
+        "Commercial competitors already dominate residential SERPs/pricing",
+        "Insurance/permits block residential work",
+        "Brandon declines equipment spend after demand pass"
       ],
       "source_citations": [
         {
-          "url": "https://www.youtube.com/watch?v=-kwF1zol2gQ",
-          "date": "2026-03-01",
+          "url": "https://newsletter.chrisjkoerner.com/p/the-most-profitable-one-man-business-you-ve-never-heard-of-9f96",
+          "date": "2026-02-07",
+          "handle": "mhp_guy"
+        }
+      ],
+      "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+      "status": "draft",
+      "updated_at": "2026-09-19T10:25:00-07:00"
+    },
+    {
+      "id": "plan-idea-mhp_guy-restaurant-equipment-middleman-009",
+      "idea_id": "idea-mhp_guy-restaurant-equipment-middleman-009",
+      "title": "Closing-restaurant equipment middleman",
+      "one_liner": "Find closing restaurants, contract equipment, pre-sell on restaurant marketplaces before taking inventory risk.",
+      "category_tags": [
+        "middleman",
+        "fbmp",
+        "arbitrage",
+        "reselling"
+      ],
+      "why_agent_runnable": "Closing-signal research, comps, buyer matching, and contract/listing drafts are agent-native. Brandon handles identity, contracts, payment, and logistics gates.",
+      "ops_steps": [
+        {
+          "n": 1,
+          "title": "Closing-signal radar",
+          "owner": "research_agent",
+          "detail": "Mine public FBMP, local news, health permits, and 'restaurant equipment' listings for closing signals in target geos.",
+          "human_required": false
+        },
+        {
+          "n": 2,
+          "title": "Buyer demand book",
+          "owner": "research_agent",
+          "detail": "Build wishlist of gear categories (ovens, hoods, refrigeration) with recent sold comps on restaurant marketplaces.",
+          "human_required": false
+        },
+        {
+          "n": 3,
+          "title": "Brandon geo + legal box",
+          "owner": "brandon",
+          "detail": "Approve geos, max deposit risk, and whether to use simple assignment contracts (legal review as needed).",
+          "human_required": true
+        },
+        {
+          "n": 4,
+          "title": "Seller outreach drafts",
+          "owner": "marketing_agent",
+          "detail": "Draft FBMP/email scripts for owners liquidating — no send without Brandon.",
+          "human_required": false
+        },
+        {
+          "n": 5,
+          "title": "Pre-sell listings",
+          "owner": "marketing_agent",
+          "detail": "Draft buyer-facing listings with photos/specs; publish only after Brandon gate and clear title path.",
+          "human_required": true
+        },
+        {
+          "n": 6,
+          "title": "Match + paperwork",
+          "owner": "ops_agent",
+          "detail": "Bill of sale templates, escrow checklist, pickup logistics SOPs. Brandon signs/pays.",
+          "human_required": true
+        },
+        {
+          "n": 7,
+          "title": "Close + CRM",
+          "owner": "chief_agent",
+          "detail": "Log deal P&L; propose next targets; no inventory warehouse unless Brandon approves storage spend.",
+          "human_required": true
+        }
+      ],
+      "human_only_checkpoints": [
+        "KYC / business identity / domain registrant",
+        "Banking + Stripe/PayPal / marketplace payout accounts",
+        "Any purchase, deposit, ad spend, or paid tool upgrade",
+        "Hiring contractors, VAs, or licensed trades",
+        "Paying invoices / payouts / refunds",
+        "Publishing listings, sites, ads, social as official",
+        "Sending outreach email/DM/SMS as Brandon",
+        "Physical pickup, delivery, install, or on-site work",
+        "Legal/compliance review when required"
+      ],
+      "hiring_and_pay_flow": {
+        "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+        "brandon_gates_before_money": [
+          "approve job post publish",
+          "approve hire",
+          "approve payment amount + rail",
+          "approve recurring retainer or inventory buy"
+        ]
+      },
+      "orchestration_graph_id": "graph-plan-idea-mhp_guy-restaurant-equipment-middleman-009",
+      "unit_economics_sketch": {
+        "ticket_range_usd": "500-15000 per piece or package",
+        "middleman_spread_notes": "Spread is negotiated between distressed seller and hungry buyer; aim to pre-sell before funded buy when possible.",
+        "capital_at_risk_notes": "Deposits and transport are main risk if buyer flakes — mitigate with deposits both sides.",
+        "gross_margin_notes": "Asset-light when pre-sold. Ranges are sketches only — not guarantees.",
+        "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+      },
+      "first_7_day_agent_sprint": [
+        "Day 1-2: closing-signal radar for 2-3 metros",
+        "Day 3: buyer demand book + comps",
+        "Day 4: Brandon geo/legal/capital box",
+        "Day 5-6: outreach drafts + first seller shortlist",
+        "Day 7: Brandon send gate for first 5 seller messages"
+      ],
+      "kill_criteria": [
+        "Fewer than 3 credible closing leads in 21 days",
+        "Cannot get seller exclusivity or clear title path",
+        "Two deals collapse due to transport/title issues",
+        "Brandon declines legal or deposit risk"
+      ],
+      "source_citations": [
+        {
+          "url": "https://www.youtube.com/watch?v=2B5dCquvK4c",
+          "date": "2025-08-01",
           "handle": "mhp_guy"
         }
       ],
@@ -815,65 +1625,66 @@
       "updated_at": "2026-09-19T09:55:00-07:00"
     },
     {
-      "id": "plan-idea-boringmarketer-hyperlocal-pages-prospecting-agency-027",
-      "idea_id": "idea-boringmarketer-hyperlocal-pages-prospecting-agency-027",
-      "title": "Hyperlocal SEO pages + automated prospecting for $1K+ ticket locals",
-      "one_liner": "Scrape $1K+ ticket locals with 50+ reviews, build hyperlocal conversion pages, prospect with proof the phone rings.",
+      "id": "plan-idea-mhp_guy-school-curriculum-govdeals-flip-105",
+      "idea_id": "idea-mhp_guy-school-curriculum-govdeals-flip-105",
+      "title": "School curriculum pallet flips (GovDeals + ChatGPT sort)",
+      "one_liner": "Win near-zero-bid school surplus curriculum pallets on GovDeals/PublicSurplus, ID publishers via vision+LLM on listing photos, sell complete sets on eBay to teachers/homeschoolers.",
       "category_tags": [
-        "ai_agency",
-        "seo",
-        "lead_gen",
-        "productized_service"
+        "reselling",
+        "arbitrage",
+        "ai",
+        "marketplace",
+        "education"
       ],
-      "why_agent_runnable": "Scraping, page generation, proof dashboards, and prospecting drafts are agent-native. Brandon gates niche, publish, spend, and outbound send.",
+      "why_agent_runnable": "Auction monitoring, photo-ID of Heinemann/Saxon/Abeka/etc., comps, and eBay listing drafts are agent-native. Brandon gates bids, freight pickup, and listing publish.",
       "ops_steps": [
         {
           "n": 1,
-          "title": "Scrape + score locals",
+          "title": "Auction watchlist",
           "owner": "research_agent",
-          "detail": "Public scrape of local sites/Maps for ticket proxies, review counts, site quality gaps.",
+          "detail": "Track GovDeals/PublicSurplus school surplus book/curriculum lots; flag low competition + clear photos.",
           "human_required": false
         },
         {
           "n": 2,
-          "title": "Brandon niche/geo pick",
-          "owner": "brandon",
-          "detail": "Pick one $1K+ niche × geo from shortlist.",
-          "human_required": true
+          "title": "Vision ID + comps",
+          "owner": "research_agent",
+          "detail": "Screenshot listing photos → ID titles/publishers; pull eBay sold comps for complete teacher/student sets.",
+          "human_required": false
         },
         {
           "n": 3,
-          "title": "Hyperlocal page build",
-          "owner": "coding",
-          "detail": "Generate conversion pages + call tracking skeleton (go-live needs publish gate).",
-          "human_required": false
+          "title": "Brandon capital + category box",
+          "owner": "brandon",
+          "detail": "Set max bid, storage, and allowed publishers; complete auction KYC.",
+          "human_required": true
         },
         {
           "n": 4,
-          "title": "Proof instrumentation",
-          "owner": "ops_agent",
-          "detail": "Call tracking, form CRM, simple 'phone rings' proof sheet.",
-          "human_required": false
+          "title": "Bid memo",
+          "owner": "chief_agent",
+          "detail": "Propose bid ceiling from comps minus fees/shipping/risk; no bid without Brandon money gate.",
+          "human_required": true
         },
         {
           "n": 5,
-          "title": "Publish gate",
-          "owner": "brandon",
-          "detail": "Approve domains, public pages, tracking numbers, brand identity.",
+          "title": "Receive + sort sheet",
+          "owner": "ops_agent",
+          "detail": "Checklist for pickup/freight; agent builds set inventory from Brandon photos.",
           "human_required": true
         },
         {
           "n": 6,
-          "title": "Automated prospecting drafts",
+          "title": "eBay listing pack",
           "owner": "marketing_agent",
-          "detail": "Personalized outreach with page proof — Brandon send gate.",
+          "detail": "Draft complete-set listings with grade/publisher keywords; Brandon publishes.",
           "human_required": true
         },
         {
           "n": 7,
-          "title": "Close + productize",
+          "title": "Sell-through review",
           "owner": "chief_agent",
-          "detail": "SOW/retainer drafts; case study (publish gate); SOP lock for next geo.",
+          "detail": "Log velocity by publisher; kill weak categories; propose next auction.",
           "human_required": true
         }
       ],
@@ -897,98 +1708,215 @@
           "approve recurring retainer or inventory buy"
         ]
       },
-      "orchestration_graph_id": "graph-plan-idea-boringmarketer-hyperlocal-pages-prospecting-agency-027",
+      "orchestration_graph_id": "graph-plan-idea-mhp_guy-school-curriculum-govdeals-flip-105",
       "unit_economics_sketch": {
-        "setup_fee_range_usd": "1000-5000",
-        "monthly_retainer_range_usd": "500-2500",
-        "tooling_notes": "Scrapers, hosting, call tracking $50-300/mo typical band.",
-        "gross_margin_notes": "Delivery is mostly agent+templates after first SOP. Ranges are sketches only — not guarantees.",
+        "auction_buy_range_usd": "1-500 typical surplus lots (highly variable)",
+        "set_sell_range_anecdote_usd": "$50-400 per curriculum set cited — anecdote only",
+        "fees_notes": "eBay + PayPal/managed payments + shipping eat margin; prefer complete sets",
+        "gross_margin_notes": "Photo quality and set completeness drive outcomes. Ranges are sketches only — not guarantees.",
         "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
       },
       "first_7_day_agent_sprint": [
-        "Day 1-2: scrape/score 100+ locals in candidate niches",
-        "Day 3: Brandon niche/geo pick",
-        "Day 4-5: hyperlocal page + tracking drafts",
-        "Day 6: Brandon publish gate",
-        "Day 7: prospect list + outreach drafts (no send)"
+        "Day 1-2: watchlist of live school surplus lots",
+        "Day 3: vision ID + comps on top 5",
+        "Day 4: Brandon capital/KYC box",
+        "Day 5-6: bid memos with ceilings",
+        "Day 7: Brandon go/no-go on first bid (money gate)"
       ],
       "kill_criteria": [
-        "Cannot find niche with $1K+ tickets AND weak web presence after 2 passes",
-        "Pages get zero calls after 21 days live with agreed distribution",
-        "Zero replies after 50 Brandon-approved prospecting sends",
-        "Brandon declines further spend/publish"
+        "No lots with identifiable high-demand publishers after 2 weeks monitoring",
+        "First pallet sell-through too slow vs storage cost after 45 days",
+        "Shipping damage / incomplete sets wipe contribution",
+        "Brandon declines further auction spend"
       ],
       "source_citations": [
         {
-          "url": "https://x.com/boringmarketer/status/2100662695682769344",
-          "date": "2026-09-17",
-          "handle": "boringmarketer"
+          "url": "https://newsletter.chrisjkoerner.com/p/turn-1-into-5k-in-2-months-8e4b",
+          "date": "2025-12-24",
+          "handle": "mhp_guy"
         }
       ],
       "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
       "status": "draft",
-      "updated_at": "2026-09-19T09:55:00-07:00"
+      "updated_at": "2026-09-19T10:25:00-07:00"
     },
     {
-      "id": "plan-idea-boringmarketer-front-end-local-trade-marketing-026",
-      "idea_id": "idea-boringmarketer-front-end-local-trade-marketing-026",
-      "title": "Front-end marketing partnership for boring local trades",
-      "one_liner": "Own SEO/ads/automation front-end for one pool/HVAC-style operator; they fulfill; optimize for phone calls not clicks.",
+      "id": "plan-idea-mhp_guy-snail-mail-niche-subscription-club-102",
+      "idea_id": "idea-mhp_guy-snail-mail-niche-subscription-club-102",
+      "title": "Niche snail-mail subscription club (under-1oz envelopes)",
+      "one_liner": "Launch a niche physical mail club (art, recipes, stickers, handwritten/themed) kept under one ounce for cheap postage — tangible anti-digital product with low startup cost.",
       "category_tags": [
-        "ai_agency",
-        "local_services",
-        "lead_gen",
-        "partnership"
+        "subscriptions",
+        "physical",
+        "community",
+        "direct_mail",
+        "creator"
       ],
-      "why_agent_runnable": "Partner research, creative, SEO/ads ops drafts, call attribution, and reporting are agent-native. Brandon picks partner and gates money/hire/publish/send.",
+      "why_agent_runnable": "Niche research, brand/copy, content calendars, subscriber CRM drafts, and ops checklists are agent-native. Brandon gates payments, physical assembly/postage, publish, and send.",
       "ops_steps": [
         {
           "n": 1,
+          "title": "Niche shortlist",
+          "owner": "research_agent",
+          "detail": "Score niches craving tangible mail (art, recipes, stickers, letters); check community density and postage fit under 1oz.",
+          "human_required": false
+        },
+        {
+          "n": 2,
+          "title": "Brandon niche + brand pick",
+          "owner": "brandon",
+          "detail": "Choose niche, brand name, and max startup spend for supplies/postage test.",
+          "human_required": true
+        },
+        {
+          "n": 3,
+          "title": "Offer + weight engineering",
+          "owner": "ops_agent",
+          "detail": "Design monthly SKU under 1oz; draft packing SOP and COGS sheet including postage.",
+          "human_required": false
+        },
+        {
+          "n": 4,
+          "title": "Storefront + waitlist drafts",
+          "owner": "marketing_agent",
+          "detail": "Landing, waitlist, sample photos briefs, organic content plan — no paid ads required to start.",
+          "human_required": false
+        },
+        {
+          "n": 5,
+          "title": "Publish + payments gate",
+          "owner": "brandon",
+          "detail": "Approve domain/store, Stripe, first supply buy, and public launch.",
+          "human_required": true
+        },
+        {
+          "n": 6,
+          "title": "Month-1 fulfill loop",
+          "owner": "ops_agent",
+          "detail": "Print/assembly checklist for Brandon (or hired help after hire gate); agent logs subscribers and drafts customer replies.",
+          "human_required": true
+        },
+        {
+          "n": 7,
+          "title": "Retention review",
+          "owner": "chief_agent",
+          "detail": "Track churn, postage cost, time-per-piece; scale niche or kill if unit econ fails.",
+          "human_required": true
+        }
+      ],
+      "human_only_checkpoints": [
+        "KYC / business identity / domain registrant",
+        "Banking + Stripe/PayPal / marketplace payout accounts",
+        "Any purchase, deposit, ad spend, or paid tool upgrade",
+        "Hiring contractors, VAs, or licensed trades",
+        "Paying invoices / payouts / refunds",
+        "Publishing listings, sites, ads, social as official",
+        "Sending outreach email/DM/SMS as Brandon",
+        "Physical pickup, delivery, install, or on-site work",
+        "Legal/compliance review when required"
+      ],
+      "hiring_and_pay_flow": {
+        "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+        "brandon_gates_before_money": [
+          "approve job post publish",
+          "approve hire",
+          "approve payment amount + rail",
+          "approve recurring retainer or inventory buy"
+        ]
+      },
+      "orchestration_graph_id": "graph-plan-idea-mhp_guy-snail-mail-niche-subscription-club-102",
+      "unit_economics_sketch": {
+        "startup_framing": "near-zero to low hundreds for first test batch (supplies + postage)",
+        "postage_constraint": "keep each piece under 1oz for cheap envelope rates",
+        "guest_anecdote_note": "Guest story cited ~4.1k members / ~$50k/mo — public anecdote only, not a Brandon target",
+        "gross_margin_notes": "Labor + postage dominate; organic growth assumed initially. Ranges are sketches only — not guarantees.",
+        "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+      },
+      "first_7_day_agent_sprint": [
+        "Day 1-2: niche shortlist with community evidence",
+        "Day 3: Brandon niche + brand pick",
+        "Day 4: under-1oz SKU + COGS sheet",
+        "Day 5-6: waitlist/storefront drafts",
+        "Day 7: Brandon publish/payments gate for soft launch"
+      ],
+      "kill_criteria": [
+        "Cannot keep monthly piece under 1oz without killing perceived value",
+        "Waitlist <50 after 30 days organic with Brandon-approved posts",
+        "Time-per-piece makes fulfillment unsustainable at test volume",
+        "Brandon declines supply/postage spend or physical fulfill"
+      ],
+      "source_citations": [
+        {
+          "url": "https://www.youtube.com/watch?v=KuQtxDCmyO4",
+          "date": "2026-02-14",
+          "handle": "mhp_guy"
+        }
+      ],
+      "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+      "status": "draft",
+      "updated_at": "2026-09-19T10:25:00-07:00"
+    },
+    {
+      "id": "plan-idea-mhp_guy-spray-foam-crime-scene-website-landlord-115",
+      "idea_id": "idea-mhp_guy-spray-foam-crime-scene-website-landlord-115",
+      "title": "Website-landlord niches: spray foam / crime-scene cleanup",
+      "one_liner": "Build city+service SEO sites in under-webbed urgent niches (spray foam, crime-scene cleanup, autoglass); rent call-forwarding leads monthly after a free proof week.",
+      "category_tags": [
+        "lead_gen",
+        "seo",
+        "websites",
+        "local_services",
+        "passive"
+      ],
+      "why_agent_runnable": "SERP weakness scans, city/service site drafts, operator outreach, and call-log reporting are agent-native. Brandon gates domain spend, publish, partner deals, and send.",
+      "ops_steps": [
+        {
+          "n": 1,
+          "title": "Stale-SERP niche×city scan",
+          "owner": "research_agent",
+          "detail": "Search spray foam / crime-scene cleanup / autoglass + cities; flag markets where top results are outdated directories.",
+          "human_required": false
+        },
+        {
+          "n": 2,
+          "title": "Brandon niche×city pick",
+          "owner": "brandon",
+          "detail": "Choose first 1-2 city+service pairs and max domain/hosting budget.",
+          "human_required": true
+        },
+        {
+          "n": 3,
+          "title": "Site build pack",
+          "owner": "coding_agent",
+          "detail": "Draft thin-but-credible city+service sites with call tracking placeholders — staging only.",
+          "human_required": false
+        },
+        {
+          "n": 4,
           "title": "Operator shortlist",
           "owner": "research_agent",
-          "detail": "Find trades with Maps density, strong reviews, weak marketing; score partnership fit.",
-          "human_required": false
-        },
-        {
-          "n": 2,
-          "title": "Brandon partner pick",
-          "owner": "brandon",
-          "detail": "Choose one operator; approve outreach identity.",
-          "human_required": true
-        },
-        {
-          "n": 3,
-          "title": "Partnership memo",
-          "owner": "chief_agent",
-          "detail": "Draft revenue-share or retainer terms, KPIs (booked jobs), exclusivity — legal review Brandon.",
-          "human_required": true
-        },
-        {
-          "n": 4,
-          "title": "Front-end asset pack",
-          "owner": "marketing_agent",
-          "detail": "SEO pages, ads creatives, follow-up sequences, review automation drafts.",
+          "detail": "Find local operators who can fulfill; draft free-week proof + monthly rent pitch.",
           "human_required": false
         },
         {
           "n": 5,
-          "title": "Publish + ads spend",
+          "title": "Publish + call-track money gate",
           "owner": "brandon",
-          "detail": "Approve go-live and budgets on partner brand or shared brand.",
+          "detail": "Approve domains, go-live, call tracking spend, and outreach identity.",
           "human_required": true
         },
         {
           "n": 6,
-          "title": "Call ops dashboard",
+          "title": "Proof week + rent close",
           "owner": "ops_agent",
-          "detail": "Attribute calls→jobs; weekly report; draft partner updates (send gate).",
+          "detail": "Forward calls during free week; draft rent agreement + invoice; Brandon send/pay gates.",
           "human_required": true
         },
         {
           "n": 7,
-          "title": "Scale or swap",
+          "title": "Portfolio expand or kill",
           "owner": "chief_agent",
-          "detail": "Propose next geo/trade or kill based on booked-job CAC.",
+          "detail": "If rent converts, clone next city; kill sites with no qualified call volume in 45 days.",
           "human_required": true
         }
       ],
@@ -1012,97 +1940,98 @@
           "approve recurring retainer or inventory buy"
         ]
       },
-      "orchestration_graph_id": "graph-plan-idea-boringmarketer-front-end-local-trade-marketing-026",
+      "orchestration_graph_id": "graph-plan-idea-mhp_guy-spray-foam-crime-scene-website-landlord-115",
       "unit_economics_sketch": {
-        "rev_share_or_retainer": "retainer $1k-5k/mo and/or rev-share on booked jobs (negotiated)",
-        "ad_test_budget_first_14d_usd": "500-2500",
-        "gross_margin_notes": "No wrench work; margin depends on ad efficiency and partner close rate. Ranges are sketches only — not guarantees.",
+        "site_build_cost_usd": "domain/hosting tens–low hundreds; time is main cost",
+        "monthly_rent_framing": "flat monthly to operator after free proof week (negotiated)",
+        "call_tracking_usd_mo": "typically low tens to low hundreds",
+        "gross_margin_notes": "Works only if SERP is weak and operator closes. Source $100k/mo anecdote is not a Brandon target. Ranges are sketches only — not guarantees.",
         "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
       },
       "first_7_day_agent_sprint": [
-        "Day 1-2: operator shortlist with Maps evidence",
-        "Day 3: Brandon partner pick",
-        "Day 4: partnership memo draft",
-        "Day 5-6: front-end asset pack drafts",
-        "Day 7: Brandon send gate for partner outreach"
+        "Day 1-2: stale-SERP scan for spray foam + crime-scene + autoglass cities",
+        "Day 3: Brandon niche×city pick",
+        "Day 4-5: staging sites + call-track plan",
+        "Day 6: operator shortlist + pitch drafts",
+        "Day 7: Brandon publish/send gates"
       ],
       "kill_criteria": [
-        "No willing operator after 15 Brandon-approved outreaches",
-        "Partner close rate too low to hit agreed CAC after 30 days ads",
-        "Partner refuses call tracking / data sharing",
-        "Brandon declines further ad spend or partnership terms"
+        "No stale-SERP openings in Brandon-approved niches after full scan",
+        "Zero qualified calls in 45 days post-publish",
+        "No operator accepts rent after 3 proof-week attempts",
+        "Brandon declines further domain/ad/call-track spend"
       ],
       "source_citations": [
         {
-          "url": "https://x.com/boringmarketer/status/2100985975128084523",
-          "date": "2026-09-18",
-          "handle": "boringmarketer"
+          "url": "https://newsletter.chrisjkoerner.com/p/how-to-make-100k-a-month-renting-out-websites-954e",
+          "date": "2026-05-15",
+          "handle": "mhp_guy"
         }
       ],
       "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
       "status": "draft",
-      "updated_at": "2026-09-19T09:55:00-07:00"
+      "updated_at": "2026-09-19T10:25:00-07:00"
     },
     {
-      "id": "plan-idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034",
-      "idea_id": "idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034",
-      "title": "Agentic Meta lead-gen campaigns without living in Ads Manager",
-      "one_liner": "Coding agents + computer-use spin Meta pixels/system users/organic job-photo creatives into local lead-gen campaigns without living in Ads Manager.",
+      "id": "plan-idea-mhp_guy-water-filtration-home-service-001",
+      "idea_id": "idea-mhp_guy-water-filtration-home-service-001",
+      "title": "Residential water filtration installs via FB ads + subcontracted plumbers",
+      "one_liner": "Price-upfront Meta lead ads for under-sink/whole-home filtration; subcontract licensed plumbers for installs.",
       "category_tags": [
-        "meta_ads",
+        "home_services",
         "lead_gen",
-        "ai_agency",
-        "content_ops"
+        "asset_light",
+        "local_services"
       ],
-      "why_agent_runnable": "Campaign scaffolding, creative generation, and browser ops are agent-native. Brandon owns ad account identity, budgets, and final publish.",
+      "why_agent_runnable": "Creative, landing, lead CRM, plumber sourcing drafts, and ad ops drafts are agent-native. Brandon owns ads spend, hire of plumbers, and customer money.",
       "ops_steps": [
         {
           "n": 1,
-          "title": "Account + niche prerequisites",
+          "title": "Geo water + competitor scan",
           "owner": "research_agent",
-          "detail": "Checklist: BM/ad account status, pixel needs, local niche creative angles (job-photo + text bubble).",
+          "detail": "Public water quality notes, competitor pricing, and ad density for candidate ZIPs.",
           "human_required": false
         },
         {
           "n": 2,
-          "title": "Brandon account access",
+          "title": "Brandon geo + offer pick",
           "owner": "brandon",
-          "detail": "Provide/approve Business Manager access; KYC; set hard budget ceiling.",
+          "detail": "Choose under-sink vs whole-home starter offer and price-upfront numbers.",
           "human_required": true
         },
         {
           "n": 3,
-          "title": "Agentic campaign scaffold",
-          "owner": "coding",
-          "detail": "Scripts/skills to create campaign structure, audiences, and lead forms — dry-run until money gate.",
+          "title": "Offer + landing + ad creatives",
+          "owner": "marketing_agent",
+          "detail": "Draft price-upfront Meta creatives, landing, FAQ, application form. Draft until publish gate.",
           "human_required": false
         },
         {
           "n": 4,
-          "title": "Organic job-photo creatives",
-          "owner": "marketing_agent",
-          "detail": "Generate image/video variants with text-bubble overlays; batch for tests.",
-          "human_required": false
+          "title": "Plumber bench shortlist",
+          "owner": "ops_agent",
+          "detail": "Draft outreach to licensed plumbers for per-job install rates; Brandon hire gate.",
+          "human_required": true
         },
         {
           "n": 5,
-          "title": "Launch approval",
+          "title": "Ads + payments go-live",
           "owner": "brandon",
-          "detail": "Approve creatives, budget, and go-live; no auto-spend.",
+          "detail": "Approve Meta budget, business identity, Stripe deposits, and public copy.",
           "human_required": true
         },
         {
           "n": 6,
-          "title": "Lead CRM + reply drafts",
+          "title": "Lead ops",
           "owner": "ops_agent",
-          "detail": "Pipe leads to sheets; draft SMS/email; Brandon send.",
+          "detail": "Score leads, schedule drafts, dispatch checklist; agent drafts SMS/email — Brandon send.",
           "human_required": true
         },
         {
           "n": 7,
-          "title": "Optimize + productize",
-          "owner": "chief_agent",
-          "detail": "Kill losers, scale winners within ceiling; package as internal skill or client offer (publish gate).",
+          "title": "Install QA + review ask",
+          "owner": "ops_agent",
+          "detail": "Post-install checklist; review request drafts; weekly unit economics sheet.",
           "human_required": true
         }
       ],
@@ -1126,32 +2055,32 @@
           "approve recurring retainer or inventory buy"
         ]
       },
-      "orchestration_graph_id": "graph-plan-idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034",
+      "orchestration_graph_id": "graph-plan-idea-mhp_guy-water-filtration-home-service-001",
       "unit_economics_sketch": {
-        "ad_test_budget_first_14d_usd": "300-2000",
-        "target_metric_notes": "Track CPL and cost-per-qualified-booked-call — thresholds set by Brandon per niche.",
-        "tooling_notes": "Coding agent + computer-use reduce Ads Manager time; still need compliant ad account.",
-        "gross_margin_notes": "If sold as service, retainer on top of media. Ranges are sketches only — not guarantees.",
+        "job_price_range_usd": "300-2500 depending on under-sink vs whole-home",
+        "plumber_payout_range_usd": "150-800 per job (negotiated)",
+        "ad_test_budget_first_14d_usd": "300-1500",
+        "gross_margin_notes": "Margin = job price − product COGS − plumber − ads − refunds. Price-upfront ads aim to qualify. Ranges are sketches only — not guarantees.",
         "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
       },
       "first_7_day_agent_sprint": [
-        "Day 1: prerequisites + creative angle research",
-        "Day 2: Brandon BM access + budget ceiling",
-        "Day 3-4: campaign scaffold dry-run + creative batch",
-        "Day 5: Brandon launch approval",
-        "Day 6-7: leads CRM + reply drafts (no send without gate)"
+        "Day 1-2: geo water/competitor scan",
+        "Day 3: Brandon offer + geo pick",
+        "Day 4-5: landing + Meta creative drafts + plumber shortlist",
+        "Day 6: Brandon hire/ads/payments gates",
+        "Day 7: CRM live; ads ready (no spend until gate cleared)"
       ],
       "kill_criteria": [
-        "Ad account restricted and cannot remediate within 14 days",
-        "CPL above Brandon ceiling for 14 consecutive days at test budget",
-        "Lead quality too poor to book calls after 50 leads",
-        "Brandon declines further spend"
+        "Cannot secure ≥2 licensed plumbers at workable rates in 14 days",
+        "Cost per booked install exceeds agreed ceiling for 14 days at test budget",
+        "Product warranty/returns erode margin on first 5 jobs",
+        "Brandon declines further ad spend"
       ],
       "source_citations": [
         {
-          "url": "https://x.com/boringmarketer/status/2094776379090878718",
-          "date": "2026-09-01",
-          "handle": "boringmarketer"
+          "url": "https://www.youtube.com/watch?v=9U4MCbfL8MQ",
+          "date": "2026-09-11",
+          "handle": "mhp_guy"
         }
       ],
       "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",

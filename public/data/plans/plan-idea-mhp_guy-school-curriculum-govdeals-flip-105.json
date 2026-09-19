@@ -1,0 +1,116 @@
+{
+  "id": "plan-idea-mhp_guy-school-curriculum-govdeals-flip-105",
+  "idea_id": "idea-mhp_guy-school-curriculum-govdeals-flip-105",
+  "title": "School curriculum pallet flips (GovDeals + ChatGPT sort)",
+  "one_liner": "Win near-zero-bid school surplus curriculum pallets on GovDeals/PublicSurplus, ID publishers via vision+LLM on listing photos, sell complete sets on eBay to teachers/homeschoolers.",
+  "category_tags": [
+    "reselling",
+    "arbitrage",
+    "ai",
+    "marketplace",
+    "education"
+  ],
+  "why_agent_runnable": "Auction monitoring, photo-ID of Heinemann/Saxon/Abeka/etc., comps, and eBay listing drafts are agent-native. Brandon gates bids, freight pickup, and listing publish.",
+  "ops_steps": [
+    {
+      "n": 1,
+      "title": "Auction watchlist",
+      "owner": "research_agent",
+      "detail": "Track GovDeals/PublicSurplus school surplus book/curriculum lots; flag low competition + clear photos.",
+      "human_required": false
+    },
+    {
+      "n": 2,
+      "title": "Vision ID + comps",
+      "owner": "research_agent",
+      "detail": "Screenshot listing photos → ID titles/publishers; pull eBay sold comps for complete teacher/student sets.",
+      "human_required": false
+    },
+    {
+      "n": 3,
+      "title": "Brandon capital + category box",
+      "owner": "brandon",
+      "detail": "Set max bid, storage, and allowed publishers; complete auction KYC.",
+      "human_required": true
+    },
+    {
+      "n": 4,
+      "title": "Bid memo",
+      "owner": "chief_agent",
+      "detail": "Propose bid ceiling from comps minus fees/shipping/risk; no bid without Brandon money gate.",
+      "human_required": true
+    },
+    {
+      "n": 5,
+      "title": "Receive + sort sheet",
+      "owner": "ops_agent",
+      "detail": "Checklist for pickup/freight; agent builds set inventory from Brandon photos.",
+      "human_required": true
+    },
+    {
+      "n": 6,
+      "title": "eBay listing pack",
+      "owner": "marketing_agent",
+      "detail": "Draft complete-set listings with grade/publisher keywords; Brandon publishes.",
+      "human_required": true
+    },
+    {
+      "n": 7,
+      "title": "Sell-through review",
+      "owner": "chief_agent",
+      "detail": "Log velocity by publisher; kill weak categories; propose next auction.",
+      "human_required": true
+    }
+  ],
+  "human_only_checkpoints": [
+    "KYC / business identity / domain registrant",
+    "Banking + Stripe/PayPal / marketplace payout accounts",
+    "Any purchase, deposit, ad spend, or paid tool upgrade",
+    "Hiring contractors, VAs, or licensed trades",
+    "Paying invoices / payouts / refunds",
+    "Publishing listings, sites, ads, social as official",
+    "Sending outreach email/DM/SMS as Brandon",
+    "Physical pickup, delivery, install, or on-site work",
+    "Legal/compliance review when required"
+  ],
+  "hiring_and_pay_flow": {
+    "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+    "brandon_gates_before_money": [
+      "approve job post publish",
+      "approve hire",
+      "approve payment amount + rail",
+      "approve recurring retainer or inventory buy"
+    ]
+  },
+  "orchestration_graph_id": "graph-plan-idea-mhp_guy-school-curriculum-govdeals-flip-105",
+  "unit_economics_sketch": {
+    "auction_buy_range_usd": "1-500 typical surplus lots (highly variable)",
+    "set_sell_range_anecdote_usd": "$50-400 per curriculum set cited — anecdote only",
+    "fees_notes": "eBay + PayPal/managed payments + shipping eat margin; prefer complete sets",
+    "gross_margin_notes": "Photo quality and set completeness drive outcomes. Ranges are sketches only — not guarantees.",
+    "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+  },
+  "first_7_day_agent_sprint": [
+    "Day 1-2: watchlist of live school surplus lots",
+    "Day 3: vision ID + comps on top 5",
+    "Day 4: Brandon capital/KYC box",
+    "Day 5-6: bid memos with ceilings",
+    "Day 7: Brandon go/no-go on first bid (money gate)"
+  ],
+  "kill_criteria": [
+    "No lots with identifiable high-demand publishers after 2 weeks monitoring",
+    "First pallet sell-through too slow vs storage cost after 45 days",
+    "Shipping damage / incomplete sets wipe contribution",
+    "Brandon declines further auction spend"
+  ],
+  "source_citations": [
+    {
+      "url": "https://newsletter.chrisjkoerner.com/p/turn-1-into-5k-in-2-months-8e4b",
+      "date": "2025-12-24",
+      "handle": "mhp_guy"
+    }
+  ],
+  "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+  "status": "draft",
+  "updated_at": "2026-09-19T10:25:00-07:00"
+}

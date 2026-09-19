@@ -1,0 +1,115 @@
+{
+  "id": "plan-idea-mhp_guy-residential-forestry-mulching-104",
+  "idea_id": "idea-mhp_guy-residential-forestry-mulching-104",
+  "title": "Residential forestry mulching / brush clearing",
+  "one_liner": "Serve homeowners (not just commercial ROW) with Bobcat + mulching head day-rate brush clearing; validate problem-aware keywords before buying iron.",
+  "category_tags": [
+    "home_services",
+    "land",
+    "equipment",
+    "local"
+  ],
+  "why_agent_runnable": "Keyword/demand validation, competitor maps, quote scripts, and marketing creatives are agent-native. Capex, permits, physical ops, and insurance are Brandon-only — agent proves demand first.",
+  "ops_steps": [
+    {
+      "n": 1,
+      "title": "Problem-aware demand scan",
+      "owner": "research_agent",
+      "detail": "Score geos on searches like clear my woods / overgrown backyard / honeysuckle removal vs saturated forestry mulching commercial SEO.",
+      "human_required": false
+    },
+    {
+      "n": 2,
+      "title": "Competitor + day-rate comps",
+      "owner": "research_agent",
+      "detail": "Map residential vs commercial mulchers; note public day-rate framing (~$1800-2000/day cited — anecdote only).",
+      "human_required": false
+    },
+    {
+      "n": 3,
+      "title": "Brandon demand go/no-go",
+      "owner": "brandon",
+      "detail": "Approve test geo and max pre-capex ad/marketing spend; decide rent-vs-buy path later.",
+      "human_required": true
+    },
+    {
+      "n": 4,
+      "title": "Pre-capex lead pack",
+      "owner": "marketing_agent",
+      "detail": "Draft GBP/site/ads/Nextdoor creatives aimed at homeowners; waitlist form for day-rate jobs.",
+      "human_required": false
+    },
+    {
+      "n": 5,
+      "title": "Publish + waitlist ads gate",
+      "owner": "brandon",
+      "detail": "Approve identity, small ad test, and any equipment rental trial — not full iron buy yet.",
+      "human_required": true
+    },
+    {
+      "n": 6,
+      "title": "Capex memo (only if demand)",
+      "owner": "chief_agent",
+      "detail": "If waitlist converts, draft Bobcat+head buy/rent/finance memo + insurance/permits checklist for Brandon.",
+      "human_required": true
+    },
+    {
+      "n": 7,
+      "title": "Ops hire drafts",
+      "owner": "ops_agent",
+      "detail": "If scaling: draft operator/helper job posts — hire/pay only after Brandon gates.",
+      "human_required": true
+    }
+  ],
+  "human_only_checkpoints": [
+    "KYC / business identity / domain registrant",
+    "Banking + Stripe/PayPal / marketplace payout accounts",
+    "Any purchase, deposit, ad spend, or paid tool upgrade",
+    "Hiring contractors, VAs, or licensed trades",
+    "Paying invoices / payouts / refunds",
+    "Publishing listings, sites, ads, social as official",
+    "Sending outreach email/DM/SMS as Brandon",
+    "Physical pickup, delivery, install, or on-site work",
+    "Legal/compliance review when required"
+  ],
+  "hiring_and_pay_flow": {
+    "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+    "brandon_gates_before_money": [
+      "approve job post publish",
+      "approve hire",
+      "approve payment amount + rail",
+      "approve recurring retainer or inventory buy"
+    ]
+  },
+  "orchestration_graph_id": "graph-plan-idea-mhp_guy-residential-forestry-mulching-104",
+  "unit_economics_sketch": {
+    "day_rate_framing_usd": "1800-2000/day baseline cited in source — anecdote only",
+    "pre_capex_ad_test_usd": "200-1500",
+    "equipment_notes": "Bobcat + mulching head is major capex; validate residential waitlist before purchase",
+    "gross_margin_notes": "Fuel, transport, wear, insurance dominate. Ranges are sketches only — not guarantees.",
+    "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+  },
+  "first_7_day_agent_sprint": [
+    "Day 1-2: problem-aware keyword + geo scorecard",
+    "Day 3: competitor day-rate map",
+    "Day 4: Brandon demand go/no-go + ad box",
+    "Day 5-6: homeowner creative + waitlist drafts",
+    "Day 7: Brandon publish/ads gate (still pre-capex)"
+  ],
+  "kill_criteria": [
+    "Waitlist/ad test fails to produce qualified residential leads in 30 days",
+    "Commercial competitors already dominate residential SERPs/pricing",
+    "Insurance/permits block residential work",
+    "Brandon declines equipment spend after demand pass"
+  ],
+  "source_citations": [
+    {
+      "url": "https://newsletter.chrisjkoerner.com/p/the-most-profitable-one-man-business-you-ve-never-heard-of-9f96",
+      "date": "2026-02-07",
+      "handle": "mhp_guy"
+    }
+  ],
+  "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+  "status": "draft",
+  "updated_at": "2026-09-19T10:25:00-07:00"
+}

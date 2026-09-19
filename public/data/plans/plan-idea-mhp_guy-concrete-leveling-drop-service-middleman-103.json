@@ -1,0 +1,116 @@
+{
+  "id": "plan-idea-mhp_guy-concrete-leveling-drop-service-middleman-103",
+  "idea_id": "idea-mhp_guy-concrete-leveling-drop-service-middleman-103",
+  "title": "Concrete leveling drop-servicing middleman",
+  "one_liner": "Sell foam concrete-leveling jobs via FB ads/Nextdoor/GBP, take deposits, dispatch subcontracted crews who own the rig — sales and coordination only.",
+  "category_tags": [
+    "home_services",
+    "drop_servicing",
+    "middleman",
+    "asset_light",
+    "local"
+  ],
+  "why_agent_runnable": "Lead gen creatives, quote scripts, subcontractor sourcing drafts, CRM, and job dispatch checklists are agent-native. Brandon gates ads spend, hires/pay to crews, insurance/legal, and any on-site.",
+  "ops_steps": [
+    {
+      "n": 1,
+      "title": "Geo + crew map",
+      "owner": "research_agent",
+      "detail": "Map metros with slab issues + existing foam/mudjacking crews; list public directories and capacity signals.",
+      "human_required": false
+    },
+    {
+      "n": 2,
+      "title": "Brandon geo + capital box",
+      "owner": "brandon",
+      "detail": "Pick launch metro; set max ad test budget and insurance/legal review path.",
+      "human_required": true
+    },
+    {
+      "n": 3,
+      "title": "Subcontractor shortlist + SOW drafts",
+      "owner": "ops_agent",
+      "detail": "Draft outreach, day-rate/job-rate SOWs, photo QA checklist — hire/pay only after Brandon gates.",
+      "human_required": true
+    },
+    {
+      "n": 4,
+      "title": "Virtual quote pack",
+      "owner": "marketing_agent",
+      "detail": "GBP/Nextdoor/FB ad drafts, photo-quote flow, deposit script, commercial subscription pilot memo.",
+      "human_required": false
+    },
+    {
+      "n": 5,
+      "title": "Ads + GBP publish gate",
+      "owner": "brandon",
+      "detail": "Approve identity, ads spend, GBP claim, and first deposit rail.",
+      "human_required": true
+    },
+    {
+      "n": 6,
+      "title": "Dispatch + QA loop",
+      "owner": "ops_agent",
+      "detail": "Log leads→quotes→jobs; draft crew payouts; photo QA; customer follow-ups (send gate).",
+      "human_required": true
+    },
+    {
+      "n": 7,
+      "title": "Unit econ review",
+      "owner": "chief_agent",
+      "detail": "Track profit-per-job sketch vs ad CAC; propose commercial subscription or kill.",
+      "human_required": true
+    }
+  ],
+  "human_only_checkpoints": [
+    "KYC / business identity / domain registrant",
+    "Banking + Stripe/PayPal / marketplace payout accounts",
+    "Any purchase, deposit, ad spend, or paid tool upgrade",
+    "Hiring contractors, VAs, or licensed trades",
+    "Paying invoices / payouts / refunds",
+    "Publishing listings, sites, ads, social as official",
+    "Sending outreach email/DM/SMS as Brandon",
+    "Physical pickup, delivery, install, or on-site work",
+    "Legal/compliance review when required"
+  ],
+  "hiring_and_pay_flow": {
+    "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+    "brandon_gates_before_money": [
+      "approve job post publish",
+      "approve hire",
+      "approve payment amount + rail",
+      "approve recurring retainer or inventory buy"
+    ]
+  },
+  "orchestration_graph_id": "graph-plan-idea-mhp_guy-concrete-leveling-drop-service-middleman-103",
+  "unit_economics_sketch": {
+    "profit_per_job_anecdote_usd": "~$1000/job cited by guest operator — anecdote only, not a target",
+    "ad_test_budget_first_14d_usd": "300-2000",
+    "crew_pay_model": "per-job or day-rate to subcontracted leveling crews (negotiated)",
+    "gross_margin_notes": "Asset-light only if crews + insurance are solid; deposit discipline matters. Ranges are sketches only — not guarantees.",
+    "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+  },
+  "first_7_day_agent_sprint": [
+    "Day 1-2: metro + crew directory map",
+    "Day 3: Brandon geo + budget + insurance path",
+    "Day 4: SOW + outreach drafts for 5 crews",
+    "Day 5-6: quote pack + ad/GBP drafts",
+    "Day 7: Brandon hire/send/ads gates for first crew + campaign"
+  ],
+  "kill_criteria": [
+    "No insured crew willing to sub after 10 Brandon-approved outreaches",
+    "Ad CAC exceeds contribution after 20 booked jobs",
+    "Insurance/legal blocked or Brandon declines coverage spend",
+    "Job QA failures / chargebacks exceed threshold Brandon sets"
+  ],
+  "source_citations": [
+    {
+      "url": "https://www.youtube.com/watch?v=QTWNnonldjw",
+      "date": "2025-12-14",
+      "handle": "mhp_guy"
+    }
+  ],
+  "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+  "status": "draft",
+  "updated_at": "2026-09-19T10:25:00-07:00"
+}

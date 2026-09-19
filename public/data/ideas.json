@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "0",
-    "updated_at": "2026-09-19T10:35:00-07:00",
+    "updated_at": "2026-09-19T10:25:00-07:00",
     "count": 203,
     "sources": [
       "boringmarketer",
@@ -1213,7 +1213,7 @@
         "identity",
         "legal"
       ],
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T10:30:00-07:00",
       "notes": "oEmbed+yt-dlp description verified. Distinct from generic front-end demand desk by Maps 30+/100+ review demand gate and pool-service archetype."
     },
@@ -1353,7 +1353,7 @@
         "send",
         "identity"
       ],
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T10:30:00-07:00",
       "notes": "Distinct from Skills+Claude Code local partner by emphasizing one-day full-funnel ship as the product."
     },
@@ -2722,7 +2722,7 @@
         "send",
         "legal"
       ],
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T10:30:00-07:00",
       "notes": "Compliance/ToS on scraping is a human gate. Price band is source-stated framing, not a Brandon revenue claim."
     },
@@ -2783,7 +2783,7 @@
         "legal",
         "insurance"
       ],
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T10:30:00-07:00",
       "notes": "Distinct from polyurea garage coatings and parking-lot striping. Newsletter mirror: be-the-middleman-for-800-job-e21d."
     },
@@ -4876,7 +4876,7 @@
         "banking",
         "insurance"
       ],
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T10:30:00-07:00",
       "notes": "Newsletter cite; matching YT haUsXY0RQFE. Capex/human-heavy — agent helps demand validation and marketing first."
     },
@@ -5127,7 +5127,7 @@
         "physical",
         "legal"
       ],
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T10:30:00-07:00",
       "notes": "Newsletter is the detailed how-to cite; matching YT kHRKeDqsoG8. Distinct from generic liquidation pallets."
     },
@@ -5359,7 +5359,7 @@
         "physical",
         "legal"
       ],
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T10:30:00-07:00",
       "notes": "Also documented in newsletter.chrisjkoerner.com/p/1k-day-profit-by-sending-letters-928c. No invented revenue — cite guest’s public story only."
     },
@@ -5388,7 +5388,7 @@
         "legal",
         "identity"
       ],
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T10:30:00-07:00",
       "notes": "Newsletter has niche list + SERP-weakness gate; matching YT xUZYy3hCRUM. Extends generic leadgen-site-rental with specific niches."
     },
