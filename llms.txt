@@ -1,55 +1,20 @@
-# Biz Graph — agent instructions (llms.txt)
+# Biz Graph — agent instructions
 
 > Ideas only from @boringmarketer and @mhp_guy. Public cites required. No income guarantees. Brandon gates money / hire / pay / publish / send.
 
-## What this repo is
-Agent-readable catalog of executable business ideas mined from two creators, plus agent-orchestrated **plans** and **graphs** (human → chief agent → specialists/tools). Prefer quality (~250 ideas) over volume. **Do not invent ideas.**
-
-## Read these files
+## Read
 | File | Use |
 | --- | --- |
-| `schema.md` | Full field schemas + ID conventions + PATCH contract |
-| `docs/FENCE.md` | Non-negotiable fence |
-| `data/ideas.jsonl` | Ideas — **one JSON object per line** |
-| `data/ideas.json` | Same ideas + `meta` counts |
-| `data/plans.jsonl` | Plans linked to `idea_id` |
-| `data/plans.json` | Same plans + `meta` |
-| `data/graphs.jsonl` | Orchestration graphs linked to `plan_id` |
-| `data/graphs.json` | Same graphs + `meta` |
-| `README.md` | Project overview |
+| `/schema.md` or `/data` via site | schemas |
+| `/data/ideas.jsonl` | ideas |
+| `/data/plans/{id}.json` | full plans |
+| `/data/graphs/{id}.json` | orchestration graphs |
+| `/docs/FENCE.md` | fence |
 
-Prefer streaming `*.jsonl` for large reads. Use `*.json` meta for counts.
+## IDs
+- idea: `idea-{source}-{slug}-{nnn}`
+- plan: `plan-{idea_id}`
+- graph: `graph-{plan_id}`
 
-## ID conventions (stable — append, don’t renumber)
-| Entity | Pattern | Example |
-| --- | --- | --- |
-| Idea | `idea-{source}-{slug}-{nnn}` | `idea-boringmarketer-newsletter-arbitrage-001` |
-| Plan | `plan-{idea_id}` | `plan-idea-boringmarketer-newsletter-arbitrage-001` |
-| Graph | `graph-{plan_id}` | `graph-plan-idea-boringmarketer-newsletter-arbitrage-001` |
-
-`source` is `boringmarketer` or `mhp_guy`. `nnn` is a 3-digit sequence per source+slug family.
-
-## Idea row contract (minimum)
-Every idea needs: `id`, `title`, `one_liner`, `source_handle` (`boringmarketer|mhp_guy`), `source_url` (**required**), `source_date`, `evidence_quote`, `category` (tags[]), `why_it_works`, `agent_runnable` (bool), `human_gates[]`, `status` (`harvested|researched|planned|archived`), `collected_at`.
-
-## Plan / graph contract (summary)
-- Plan: `id`, `idea_id`, `summary`, `steps[]`, `human_checkpoints[]`, `tool_graph_id`, `approval_gates[]`, `disclaimer`.
-- Graph: `id`, `plan_id`, `nodes[]` (`role`, `model_or_tool`, `responsibility`), `edges[]`, `brandon_only_actions[]`.
-- Human-touch checkpoints must be marked explicitly on plans and graphs.
-
-## How to propose updates
-1. Draft JSON Patch ops against `ideas` / `plans` / `graphs` (see `schema.md` § Agent update contract).
-2. Cite `evidence_urls` (public X / creator pages — no paywalls). Source must be `@boringmarketer` or `@mhp_guy` only.
-3. Do **not** invent ideas, quotes, dates, or traction claims.
-4. Preferred: PR appending `data/*.jsonl` and regenerating matching `data/*.json` meta, or a patch JSON under `data/proposals/`.
-5. Keep `jsonl` and `json` in sync (same rows). Update `meta.count` when regenerating.
-6. Money / hire / pay / publish / send → leave as Brandon gates; agents propose only.
-
-## Quality bar
-- Target ~250 well-cited, executable ideas (not thousands of fluff).
-- One executable idea per row — not a vague “start an agency” without a wedge.
-- If the public source is thin, set `status=harvested` and note gaps; don’t fabricate `why_it_works`.
-- Out-of-fence creators → omit entirely.
-
-## Fence
-Only those two creators. Public research catalog + orchestration scaffolding. No income guarantees. Brandon approval for money, hire, pay, publish, send. Work only under `/workspace/biz-graph/`.
+## Updates
+Append jsonl + regenerate json meta. Cite public X/YouTube URLs only from the two creators. Do not invent ideas.
