@@ -1,18 +1,18 @@
 {
   "meta": {
     "version": "0",
-    "updated_at": "2026-09-19T11:10:00-07:00",
-    "count": 224,
+    "updated_at": "2026-09-19T10:45:00-07:00",
+    "count": 250,
     "sources": [
       "boringmarketer",
       "mhp_guy"
     ],
     "fence": "public cites only; no income guarantees; Brandon gates money/hire/pay/publish/send",
     "gaps": [
-      "Target ~250 quality ideas; currently 224 (~26 remaining).",
-      "X API client-not-enrolled; Apify monthly hard limit — used YouTube yt-dlp descriptions + Chris Koerner newsletters (jina) + BM public X dump.",
-      "YouTube timedtext still blocked from this IP; evidence from public descriptions/newsletters.",
-      "Still thin: deeper historical BM X threads; some Koerner shorts duplicate long-form (skipped)."
+      "Target ~250 quality ideas; currently 250.",
+      "X API client-not-enrolled; Apify monthly hard limit — used BM YouTube yt-dlp descriptions + Chris Koerner newsletters (jina) + public YT descriptions/chapters.",
+      "YouTube timedtext still limited; members-only Koerner Q&A blocked.",
+      "Hard-duped/skipped: vacant-land assignment, flake coatings, EDDM, concrete leveling, tote rental, snail-mail club, forestry mulching, Bingo/pickleball events, Christmas tree lots, Costco gold float, generic website landlord, offshore/RV/grants already logged."
     ]
   },
   "ideas": [
@@ -6339,6 +6339,708 @@
       "status": "harvested",
       "collected_at": "2026-09-19T11:05:00-07:00",
       "agent_runnable": true
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Distinct from newsletter→social atomizer; this is X→LinkedIn Agent SKU.",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "identity"
+      ],
+      "id": "idea-boringmarketer-zapier-agent-x-to-linkedin-desk-065",
+      "title": "Zapier Agents X→LinkedIn content-repurposing desk",
+      "one_liner": "Install Zapier Agents that pull best X posts (via Apify), apply knowledge-source Skills, and draft LinkedIn-ready posts with human-in-the-loop publish.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=INIvPezgdsM",
+      "source_date": "2026-02-12",
+      "evidence_quote": "I've been trying to grow on LinkedIn without spending hours on it. So I built a Zapier Agent that repurposes my best X posts into LinkedIn-ready content. One click, done. … Using Apify to pull social data … Knowledge sources (skills) that actually improve output … Human-in-the-loop vs. auto-publish",
+      "category": [
+        "ai",
+        "content_ops",
+        "zapier",
+        "productized_service",
+        "social"
+      ],
+      "why_it_works": "Cross-network repurposing is recurring busywork; Agents + Skills beat manual copy-paste for creators and local clients."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "identity"
+      ],
+      "id": "idea-boringmarketer-zapier-mcp-ga-client-report-desk-066",
+      "title": "Zapier MCP + Claude Code GA client-report desk",
+      "one_liner": "Connect Google Analytics via Zapier MCP to Claude Code and ship McKinsey-looking client reports in minutes as a retainable ops SKU.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=INIvPezgdsM",
+      "source_date": "2026-02-12",
+      "evidence_quote": "Zapier MCP lets you connect tools like Google Analytics directly to Claude Code. I pulled 30 days of data and turned it into a report that looks like McKinsey made it. Took minutes. … Creating a Client Report with Skills + MCP",
+      "category": [
+        "ai",
+        "analytics",
+        "agency",
+        "productized_service",
+        "mcp"
+      ],
+      "why_it_works": "Agencies bill for monthly reporting; MCP collapses scrape→narrative into one chat session."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Distinct from one-day funnel Skill ship — emphasis on Astro perf + ranking outcomes.",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "identity"
+      ],
+      "id": "idea-boringmarketer-four-hour-astro-local-site-ship-067",
+      "title": "4-hour Claude Code + Astro local site that ranks",
+      "one_liner": "Productize Figma→Anima→Astro builds with Claude Code SEO checklists so a local site ranks #1–#3 and takes calls within 24 hours.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=FT-d1J9xWLU",
+      "source_date": "2025-08-07",
+      "evidence_quote": "I show you exactly how I built and optimized a local business website that started getting client calls within 24 hours—all in just 4 hours using Claude Code … converting Figma designs into code using the Anima plugin, to building on Astro … ranking #1-#3 for target keywords in days, not months.",
+      "category": [
+        "seo",
+        "websites",
+        "ai",
+        "local_services",
+        "productized_service"
+      ],
+      "why_it_works": "Speed-to-rank is the offer; Astro + agent SEO checklist beats slow WordPress shops."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Distinct from DR page Skill pack — this is design/system rebuild, not copy templates.",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish"
+      ],
+      "id": "idea-boringmarketer-figma-anima-tailwind-lp-system-068",
+      "title": "Figma + Anima + Tailwind convert landing-page system",
+      "one_liner": "Sell a Cursor/Claude Code landing-page build system (Figma+Anima Tailwind, TailwindPlus, Vercel analytics, beehiiv/Airtable CTAs) for vibe marketers who suck at design.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=VAy8R1SWRGY",
+      "source_date": "2025-06-23",
+      "evidence_quote": "For years… I've sucked at front-end design. … rebuilt vibemarketer.com from scratch using: Claude Code … Figma + Anima plugin for pulling Tailwind code … TailwindPlus … Vercel for deployment + analytics … Beehive for email collection … Airtable for feature submissions … fixed my biggest conversion bottleneck and added CTAs",
+      "category": [
+        "ai",
+        "landing_pages",
+        "design",
+        "productized_service",
+        "conversion"
+      ],
+      "why_it_works": "Design is the bottleneck for vibe coders; packaged design context + CTAs convert."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Cite Justin via BM interview; figures are Justin's stated pricing not guarantees.",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "identity"
+      ],
+      "id": "idea-boringmarketer-prespend-ad-success-scoring-install-069",
+      "title": "Pre-spend AI ad success-probability scoring install",
+      "one_liner": "Install ChatGPT Projects + MindStudio workflows that simulate customer reactions, rewrite ads, and score Success Probability before any media spend ($3–10k installs).",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=9FxLTxzdjPI",
+      "source_date": "2025-06-19",
+      "evidence_quote": "Justin’s built an AI workflow that lets him predict which ads will win—before even launching them. … simulate customer reactions, rewrite ads, and score each version with an AI-powered \"Success Probability\" rating. … How Justin charges $3K–$10K installing this for clients",
+      "category": [
+        "meta_ads",
+        "ai",
+        "agency",
+        "productized_service",
+        "creative"
+      ],
+      "why_it_works": "Media buyers hate wasted tests; scored pre-flight creatives are an easy paid install."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "identity"
+      ],
+      "id": "idea-boringmarketer-cursor-dataforseo-firecrawl-seo-desk-070",
+      "title": "Cursor + DataForSEO + Firecrawl SEO-agency replacement desk",
+      "one_liner": "Productize Cursor MCP workflows that run keyword research, technical audits, schema/sitemap fixes, and programmatic pages—sold as SEO-agency replacement retainers.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=deHQ54K-4FM",
+      "source_date": "2025-06-12",
+      "evidence_quote": "Imagine getting a technical SEO audit, keyword strategy, on-page fixes, and LLM optimizations… all done with one AI prompt. … Cursor with DataForSEO and Firecrawl MCPs to fully audit, optimize, and deploy an SEO-ready site without writing a single line of code.",
+      "category": [
+        "seo",
+        "ai",
+        "mcp",
+        "agency",
+        "productized_service"
+      ],
+      "why_it_works": "SMB buyers already hate agency bloat; one-prompt audit→fix is a clear outcome offer."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Revenue figure is BM storytelling about a mock brand opportunity — not a guarantee.",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish"
+      ],
+      "id": "idea-boringmarketer-perplexity-mcp-market-gap-research-desk-071",
+      "title": "45-min Perplexity MCP market-gap research & GTM pack",
+      "one_liner": "Sell fixed-fee market-gap sprints: Perplexity MCP in Cursor → competitor audit, trend map, and platform-native content packs (TikTok/YT/LinkedIn/X) in under an hour.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=uYy_yYR8P-8",
+      "source_date": "2025-06-10",
+      "evidence_quote": "I used Perplexity’s MCP inside Cursor to run real market research, content strategy, and competitive analysis (all in under 45 minutes). The result? A blue ocean opportunity with $300,000+ in revenue potential. … Platform-specific outputs: TikTok scripts, YouTube outlines, LinkedIn posts, and X threads",
+      "category": [
+        "ai",
+        "research",
+        "content",
+        "productized_service",
+        "mcp"
+      ],
+      "why_it_works": "Strategy consults are slow/expensive; compressed MCP research is a productizable sprint."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Distinct from Veo SMB commercial retainers (Koerner) — this is competitor-ad reverse-engineer factory.",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "legal"
+      ],
+      "id": "idea-boringmarketer-veo3-whisper-competitor-ad-factory-072",
+      "title": "Veo 3 + Whisper competitor-ad scrape → video ad factory",
+      "one_liner": "Scrape/transcribe competitor ads, gap-analyze Reddit/UGC pain points, then hit Veo 3 from Cursor to ship conversion-ready video variants + client dashboard in ~30 minutes.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=qb8rckLEaU0",
+      "source_date": "2025-06-09",
+      "evidence_quote": "This 7-step AI ad workflow uses Veo 3, Cursor & OpenAI Whisper to research competitors, surface untapped pain points, and spit out ready-to-launch video ads—in less than 30 minutes. … Scrape & transcribe dozens of competitor ads in bulk. … Hit Veo 3's API from Cursor to generate multiple video variants instantly.",
+      "category": [
+        "ai",
+        "video",
+        "meta_ads",
+        "agency",
+        "creative"
+      ],
+      "why_it_works": "Creative production is the bottleneck; competitor-gap scripts + Veo variants compress weeks to minutes."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "legal"
+      ],
+      "id": "idea-boringmarketer-programmatic-seo-comparison-page-machine-073",
+      "title": "Programmatic SEO comparison-page machine",
+      "one_liner": "Use DataForSEO + Perplexity + Claude in Cursor to auto-build comparison landing pages with screenshots, ROI calculators, and feature matrices at scale.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=ZT_8_uz_c-s",
+      "source_date": "2025-06-05",
+      "evidence_quote": "Pulled 25+ high-intent keywords using DataForSEO MCP … Generated 1,200+ content ideas with Claude … Auto-built comparison landing pages with screenshots, ROI calculators, and feature breakdowns … Live demo: AI-generated Surfer vs ClearScope page",
+      "category": [
+        "seo",
+        "ai",
+        "saas",
+        "programmatic",
+        "content"
+      ],
+      "why_it_works": "Comparison SERPs convert; programmatic pages with calculators win affiliate/SaaS intents."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "BM showcase of Drew's challenge winner — public cite via BM YT.",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "legal"
+      ],
+      "id": "idea-boringmarketer-funnel-spy-landing-email-analyzer-074",
+      "title": "Funnel-spy landing + email sequence analyzer micro-SaaS",
+      "one_liner": "Ship a Funnel Surfing-style tool that reverse-engineers landing pages and email sequences with AIDA frameworks and feeds rebuilds into Bolt/Lovable.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=7PineggiKCQ",
+      "source_date": "2025-06-26",
+      "evidence_quote": "Drew (winner of the 1st Vibe Marketing Challenge) walks us through his tool: a funnel analyzer that breaks down landing pages and email sequences using AI. … reverse-engineer high-converting funnels … Using the Output to Build in Bolt or Lovable … How He Got 100 Users Fast",
+      "category": [
+        "ai",
+        "saas",
+        "funnels",
+        "micro_saas",
+        "product"
+      ],
+      "why_it_works": "Marketers already spy funnels manually; AI extraction + rebuild loop is PLG-friendly."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish"
+      ],
+      "id": "idea-boringmarketer-fb-adlibrary-creative-pattern-agent-075",
+      "title": "Facebook Ad Library creative-pattern analysis agent",
+      "one_liner": "Build Cursor+Claude+MCP agents that scrape Ad Library creatives, score patterns from longest-running ads, and deliver brand strategy reports for agencies.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://www.youtube.com/watch?v=pQ5NqM2NXqA",
+      "source_date": "2025-06-02",
+      "evidence_quote": "I used Cursor + Claude + MCPs to build a lightweight but powerful Facebook Ads analysis agent. … Scrapes Facebook ad libraries … Uses AI agents to watch the ads … Extracts creative patterns and high-performance insights … Generates a full report with creative scores, summaries, and brand strategies",
+      "category": [
+        "meta_ads",
+        "ai",
+        "agency",
+        "mcp",
+        "research"
+      ],
+      "why_it_works": "Longest-running ads are free signal; automated pattern reports sell as audits or retainers."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Figures are Sam/Chris storytelling — not guarantees. Ethics: partner reputable counsel only.",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "legal",
+        "identity"
+      ],
+      "id": "idea-mhp_guy-divorce-ebook-lawyer-referral-funnel-134",
+      "title": "Divorce eBook Meta funnel → lawyer referral backend",
+      "one_liner": "Sell a $29 divorce guide (+ bump) on Meta to break even on CAC, then monetize via lawyer paper leads, referral fees, and backend financial-protection offers.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/20k-mo-solving-problems-that-matter-b71a",
+      "source_date": "2025-11-11",
+      "evidence_quote": "Sam took a painful market, wrapped it in a $29 eBook with a simple bump offer, and used Meta ads to drive buyers who can be referred to lawyers on the backend. … Option one is the paper lead model. Sell each lead to a divorce lawyer for $100. … Option two is referral fees. … Option three is a backend program. Sam added a $300 offer called the Financial Protection Protocol",
+      "category": [
+        "info_products",
+        "lead_gen",
+        "legal",
+        "meta_ads",
+        "funnels"
+      ],
+      "why_it_works": "Book is trust + first-party intent data; lawyers pay far more than book AOV."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Generalization of Sam's divorce play Chris explicitly lists.",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "legal",
+        "identity"
+      ],
+      "id": "idea-mhp_guy-vertical-problem-ebook-service-leadgen-135",
+      "title": "Vertical problem-eBook lead-gen for high-ticket services",
+      "one_liner": "Clone the book-as-lead-gen pattern into DUI defense, PI/truck accidents, home-service guides, or franchise-broker books where Google Ads CPLs are insane.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/20k-mo-solving-problems-that-matter-b71a",
+      "source_date": "2025-11-11",
+      "evidence_quote": "An \"Erase Your DUI\" for DUI defense lawyers. Car accident books for personal injury attorneys. Home service guides for contractors. Franchise opportunity books for franchise brokers. Google Ads for legal terms are insanely expensive. A trucking accident lead can cost $5,000. A DUI lead might be $1,000. But if you're selling a book with Facebook ads and breaking even at a $40 CAC, you're generating leads for pennies",
+      "category": [
+        "info_products",
+        "lead_gen",
+        "meta_ads",
+        "legal",
+        "home_services"
+      ],
+      "why_it_works": "Arbitrages Meta book CPAs vs search lead prices while owning the relationship."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Distinct from generic AI niche affiliate portfolio — schema/directory focus via Omar.",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "legal"
+      ],
+      "id": "idea-mhp_guy-schema-niche-directory-sites-136",
+      "title": "Schema-first niche directory sites (GuiltChef pattern)",
+      "one_liner": "Vibe-code laser directories (recipes, city guides, etc.) with proper schema so AI-built pages outrank big sites; monetize subs, affiliates, and local featured listings.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/copy-paste-your-way-to-profit",
+      "source_date": "2025-09-29",
+      "evidence_quote": "Omar builds directory websites… GuiltChef.com - A recipe directory… BestDubai.com - A local business directory… Most websites skip this because it requires technical knowledge. That's why Omar's AI-generated directories can outrank major sites- they're implementing proper schema while competitors aren't. He just went in to Cursor and told it, \"I run a local business site and I need schema implemented\".",
+      "category": [
+        "seo",
+        "directories",
+        "ai",
+        "affiliate",
+        "local"
+      ],
+      "why_it_works": "Schema + narrow intent beats generic thin sites; multiple monetization rails."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Distinct from schema niche directories — specific estate-cleanout demo niche.",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "legal"
+      ],
+      "id": "idea-mhp_guy-estate-cleanout-directory-stripe-137",
+      "title": "Estate-cleanout directory with featured listings + Stripe",
+      "one_liner": "AI-pick an underserved local niche (estate cleanout), build a searchable directory of real businesses, add Stripe featured listings/ads/lead-gen, and publish fast.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=CKiszDu2aic",
+      "source_date": "2026-07-24",
+      "evidence_quote": "In this solo episode, I use ChatLLM by Abacus.AI to build a complete directory website from scratch. … create an estate cleanout directory filled with real businesses. Then I use an AI agent to build the website, add searchable listings, connect Stripe payments, and publish it online. I also break down how directory sites can make money through featured listings, ads, and lead generation.",
+      "category": [
+        "directories",
+        "ai",
+        "local",
+        "lead_gen",
+        "saas"
+      ],
+      "why_it_works": "Ugly fragmented niches need a map; featured listings are negative-COGS inventory."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Via Chris interview with John Rush method.",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish"
+      ],
+      "id": "idea-mhp_guy-niche-vertical-website-builders-138",
+      "title": "Niche vertical website builders (autocomplete gaps)",
+      "one_liner": "Mine Google autocomplete for \"website builder for X\" (tattoo artists, wedding photographers, pottery) and ship vertical builders with free lead-magnet tools.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/find-validate-launch-million-dollar-ideas-in-one-sitting",
+      "source_date": "2025-10-20",
+      "evidence_quote": "Go to Google. Type \"website builder for\" and watch what autocomplete suggests. … Everyone's building the next Squarespace or Wix. Nobody's building the website builder specifically for tattoo artists.. or wedding photographers.. or pottery makers. That's the gap. … If you're selling a website builder for artists, build a free album cover generator.",
+      "category": [
+        "saas",
+        "ai",
+        "vertical_saas",
+        "nocode",
+        "lead_gen"
+      ],
+      "why_it_works": "Horizontal builders are crowded; vertical + free tool converts trust before paywall."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Chris cites John's figures — not guarantees. Distinct from Claude Skills digital packs.",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish"
+      ],
+      "id": "idea-mhp_guy-tiny-ai-tool-portfolio-paid-waitlists-139",
+      "title": "Tiny AI-tool portfolio with paid-waitlist validation",
+      "one_liner": "Run John Rush-style kill tests: 20-min free-tool waitlists, drive 100 visitors, require ~70% off preorders; only build tools that collect real payment—stack a portfolio.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/find-validate-launch-million-dollar-ideas-in-one-sitting",
+      "source_date": "2025-10-20",
+      "evidence_quote": "John … runs 24 different projects that generate $3 million in annual revenue. Zero employees. Just him and a bunch of AI agents. … Build a simple waitlist landing page, a little free tool … drive 100 people to it … He asks people to pay upfront with a massive discount. Like 70% off just to pre-order. If less than 10% of your waitlist converts? Kill the idea.",
+      "category": [
+        "micro_saas",
+        "ai",
+        "validation",
+        "portfolio",
+        "indie"
+      ],
+      "why_it_works": "Paid preorders beat vanity waitlists; portfolio diversifies single-product risk."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Distinct from residential forestry mulching already in corpus.",
+      "human_gates": [
+        "money",
+        "pay",
+        "hire",
+        "insurance",
+        "legal"
+      ],
+      "id": "idea-mhp_guy-green-climber-remote-land-clearing-140",
+      "title": "Green Climber remote-controlled land-clearing specialty",
+      "one_liner": "Operate remote-controlled land-clearing robots (Green Climber-class) for slopes/hard access where skid-steer mulching can't safely go—content + Meta ads like Brushworks.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=6Q6jS1-5pkw",
+      "source_date": "2025-07-17",
+      "evidence_quote": "We also riffed on a brand new idea involving the Green Climber a remote-controlled land-clearing robot that no one’s doing yet. … Green Climber: A $150K Niche Biz Idea",
+      "category": [
+        "home_services",
+        "land_clearing",
+        "equipment",
+        "local",
+        "b2b"
+      ],
+      "why_it_works": "Safety/access moat vs standard mulching; thin competition Chris/Alex call out."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Distinct from general GovDeals/B-Stock pallets and urban→rural furniture geo.",
+      "human_gates": [
+        "money",
+        "pay",
+        "legal"
+      ],
+      "id": "idea-mhp_guy-brand-furniture-liquidation-flips-141",
+      "title": "Brand furniture liquidation flips (Walker Edison pattern)",
+      "one_liner": "Buy brand-name furniture liquidations (e.g. Walker Edison), research eBay sold comps, flip via Marketplace/eBay—weekend pallet-to-cash loops.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/use-the-economic-slump-to-your-advantage",
+      "source_date": "2025-09-19",
+      "evidence_quote": "He then showed me the Walker Edison furniture liquidation site. … Similar used furniture selling for $200-400 per piece. … Shannon's student does this every week. Gets pallets Thursday. Lists Friday. Investment back by Sunday. Furniture is perfect right now.",
+      "category": [
+        "resale",
+        "liquidation",
+        "furniture",
+        "arbitrage",
+        "marketplace"
+      ],
+      "why_it_works": "Brand recognition + bulky local delivery beats generic pallet mystery boxes."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Unit figures are Shannon/Chris examples — not guarantees.",
+      "human_gates": [
+        "money",
+        "pay",
+        "legal",
+        "identity"
+      ],
+      "id": "idea-mhp_guy-battery-pallet-discount-store-wholesale-142",
+      "title": "Battery pallet → discount-store wholesale routes",
+      "one_liner": "Win boring AA/battery liquidation pallets and wholesale to local discount stores that always need batteries—relationship routes, not Amazon grind.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/use-the-economic-slump-to-your-advantage",
+      "source_date": "2025-09-19",
+      "evidence_quote": "8,000 AA batteries. GP Gold Peak Ultra Plus. Ten-year shelf life. \"Nobody wants batteries,\" Shannon laughed. \"Perfect for us.\" Current auction price: $1 per battery. Amazon retail: $2 per battery. Your wholesale price to local stores: $1.25 each. Shannon walks into discount stores. Builds relationships with managers.",
+      "category": [
+        "resale",
+        "wholesale",
+        "liquidation",
+        "b2b",
+        "routes"
+      ],
+      "why_it_works": "Unsexy SKU + ready retail demand; shelf life reduces spoilage risk."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Distinct from generic AI agent ops offer — specific Agent+cold-email SKU.",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "legal"
+      ],
+      "id": "idea-mhp_guy-gpt-agent-hyperpersonalized-cold-email-143",
+      "title": "GPT Agent hyper-personalized cold-email desk",
+      "one_liner": "Productize ChatGPT Agent workflows that research local pros obsessively and draft stalkerishly specific cold emails for SEO/web offers.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/six-ways-to-make-money-with-the-new-gpt-agent-it-blew-my-mind",
+      "source_date": "2025-07-31",
+      "evidence_quote": "Find five Austin dentists, research them obsessively, write personalized cold emails for SEO services. … For Dr. Mathies, it found out he's an F-A-G-D (only 6% of dentists have this), graduated from Penn State… Part of an email it wrote: \"Hi Dr. Mathies… fewer than 6% of dentists hold F-A-G-D…\" Three minutes. Five emails. Ready to send.",
+      "category": [
+        "ai",
+        "outbound",
+        "agency",
+        "lead_gen",
+        "agents"
+      ],
+      "why_it_works": "Personalization at scale beats spray templates; Agent does the research labor."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "",
+      "human_gates": [
+        "money",
+        "pay",
+        "privacy",
+        "identity"
+      ],
+      "id": "idea-mhp_guy-gpt-agent-calendar-briefing-retainers-144",
+      "title": "GPT Agent calendar briefing retainers",
+      "one_liner": "Sell weekly ChatGPT Agent retainers that read a client's calendar, research each meeting, and deliver talking-point briefs like an exec assistant.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/six-ways-to-make-money-with-the-new-gpt-agent-it-blew-my-mind",
+      "source_date": "2025-07-31",
+      "evidence_quote": "Check my calendar for next week, research each client's recent news, create briefing docs with talking points. … Pure magic. It logged into my Google Calendar, identified every meeting, researched each person online, and created detailed briefs with conversation starters. … Nine minutes. Done.",
+      "category": [
+        "ai",
+        "agents",
+        "productized_service",
+        "b2b",
+        "retainers"
+      ],
+      "why_it_works": "Execs already pay for EA research; Agent collapses it to a cheap recurring SKU."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish"
+      ],
+      "id": "idea-mhp_guy-gpt-agent-amazon-review-product-decks-145",
+      "title": "GPT Agent Amazon-review → product pitch decks",
+      "one_liner": "Offer Agent sprints that mine Amazon reviews for complaint clusters, chart them, and generate Airbnb-style pitch decks for new product or private-label ideas.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/six-ways-to-make-money-with-the-new-gpt-agent-it-blew-my-mind",
+      "source_date": "2025-07-31",
+      "evidence_quote": "I had the agent research Amazon reviews for energy drink powders, find common complaints, create solutions. … pie chart of the complaints… Mixability/clumps: 31% Taste issues: 25%… Then, when prompted, it built a complete pitch deck addressing each pain point. When I uploaded Airbnb's famous pitch deck as reference, it redesigned mine to match their style",
+      "category": [
+        "ai",
+        "ecommerce",
+        "research",
+        "productized_service",
+        "agents"
+      ],
+      "why_it_works": "Complaint clusters are free product roadmaps; decks sell to founders and investors."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Chris discusses John's SEO Bot approach on matching YT SiRlIMtZygI.",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish"
+      ],
+      "id": "idea-mhp_guy-day-one-seo-bot-content-launch-146",
+      "title": "Day-one automated SEO content launch for niche tools",
+      "one_liner": "Pair every micro-product launch with immediate auto-published SEO articles (SEO Bot-style), walk away 2 months, then double down on URLs that get traction.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/find-validate-launch-million-dollar-ideas-in-one-sitting",
+      "source_date": "2025-10-20",
+      "evidence_quote": "He always launches SEO content immediately using tools that write and publish articles automatically. Then he walks away for two months. … When you come back, the traffic patterns tell you everything. Some URLs get zero traffic? The competition is too fierce. Some URLs get surprising traction? That's where you double down.",
+      "category": [
+        "seo",
+        "ai",
+        "micro_saas",
+        "content",
+        "automation"
+      ],
+      "why_it_works": "SEO delay kills indie launches; auto content turns time into a validation sensor."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Chris endorses Organized Garage as the model; distinct from flake garage-floor coatings specialty.",
+      "human_gates": [
+        "money",
+        "pay",
+        "hire",
+        "insurance",
+        "legal"
+      ],
+      "id": "idea-mhp_guy-garage-systems-upgrade-business-147",
+      "title": "Garage systems upgrade business (cabinets/epoxy/storage)",
+      "one_liner": "Run a garage upgrade service—cabinets, epoxy floors, storage systems—using a playbook/coaching model instead of a $150k+ franchise.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoerner.com/p/want-to-make-1m-fast-start-one-of-these-businesses",
+      "source_date": "2025-09-05",
+      "evidence_quote": "They help people start garage upgrade businesses - cabinets, epoxy floors, storage systems. It's a market with real demand and strong margins, and Organized Garage hands you the exact playbook and coaches you through it, step by step. Instead of spending $150K+ on a franchise, you get: proven systems for sales, marketing and pricing… You own it. You keep the profits.",
+      "category": [
+        "home_services",
+        "garage",
+        "local",
+        "franchise_alternative"
+      ],
+      "why_it_works": "Homeowners upgrade garages once demand is visible; systems beat DIY guessing."
+    },
+    {
+      "status": "harvested",
+      "collected_at": "2026-09-19T10:40:00-07:00",
+      "agent_runnable": true,
+      "notes": "Distinct from generic after-hours voice agents — closed-lead pricing + garage-door wedge.",
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "identity"
+      ],
+      "id": "idea-mhp_guy-pay-per-closed-lead-ai-voice-garage-148",
+      "title": "Pay-per-closed-lead AI voice for after-hours garage doors",
+      "one_liner": "Install HighLevel-style AI voice for garage-door (and similar high-ticket) shops and price on pay-per-lead-that-closes, not vanity minutes.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://newsletter.chrisjkoer.com/p/want-to-make-1m-fast-start-one-of-these-businesses",
+      "source_date": "2025-09-05",
+      "evidence_quote": "I logged into my HighLevel account… created an AI voice agent in literally six clicks. Three minutes later, I had a 24/7 answering service for garage door repair companies. … high ticket ($500 to $3,000 per job) and gets after-hours calls… structure your offer as pay-per-lead-that-closes, making it a no-brainer. … charge $2,000 for setup plus monthly retainer.",
+      "category": [
+        "ai",
+        "voice",
+        "home_services",
+        "saas",
+        "lead_gen"
+      ],
+      "why_it_works": "Aligns vendor pay with closed revenue; after-hours garage tickets are urgent/high AOV."
     }
   ]
 }
