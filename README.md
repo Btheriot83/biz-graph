@@ -42,4 +42,4 @@ Live **Vercel** site + **GitHub** repo under **Btheriot83**. Agents propose cata
 
 ## Status
 
-**v0 seed:** 25 harvested ideas (all `@boringmarketer`), 1 draft plan + graph for AI Main Street services. `@mhp_guy` harvest in progress. Target ~250 quality ideas.
+**v0 corpus:** 90 harvested ideas (`boringmarketer` 38 / `mhp_guy` 52), 1 draft plan + graph for AI Main Street services. Target ~250 quality ideas.

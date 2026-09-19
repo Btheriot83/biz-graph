@@ -1,6 +1,6 @@
 # Ideas
 
-Canonical: [`../data/ideas.jsonl`](../data/ideas.jsonl)
+Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl)
 
 - `idea-boringmarketer-ai-services-main-street-022` — AI services firm for Main Street “boring” businesses
 - `idea-boringmarketer-automatic-gate-access-control-repair-012` — Automatic gate & access-control repair
@@ -60,3 +60,35 @@ Canonical: [`../data/ideas.jsonl`](../data/ideas.jsonl)
 - `idea-mhp_guy-trailer-rental-001` — Utility trailer rental side hustle (Marketplace + Google)
 - `idea-mhp_guy-washer-dryer-rental-001` — Washer/dryer rental via Facebook Marketplace (post → rent → buy)
 - `idea-mhp_guy-water-filtration-home-service-001` — Residential water filtration installs via FB ads + subcontracted plumbers
+- `idea-boringmarketer-front-end-local-trade-marketing-026` — Front-end marketing partnership for boring local trades
+- `idea-boringmarketer-hyperlocal-pages-prospecting-agency-027` — Hyperlocal SEO pages + automated prospecting for $1K+ ticket locals
+- `idea-boringmarketer-direct-response-page-template-library-028` — Direct-response page template library for boring businesses
+- `idea-boringmarketer-ai-proficiency-directory-boring-services-029` — AI-proficiency directory for boring service providers
+- `idea-boringmarketer-ai-meta-ads-local-market-takeover-030` — AI-generated Meta ads market-takeover SOP for boring locals
+- `idea-boringmarketer-outcomes-only-ai-agency-positioning-031` — Outcomes-only AI agency for local businesses (calls, customers, less headaches)
+- `idea-boringmarketer-city-level-website-gap-arbitrage-032` — City-level website-gap arbitrage for high-ticket local niches
+- `idea-boringmarketer-ai-ops-stack-local-service-partner-033` — AI ops stack for a boring local-service partnership
+- `idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034` — Agentic Meta lead-gen campaigns without living in Ads Manager
+- `idea-boringmarketer-visual-before-after-local-service-playbook-035` — Before/after visual local service (rim repair archetype)
+- `idea-boringmarketer-boring-biz-ai-prompt-ops-desk-036` — Prompt-ops desk for growing a boring local business with AI
+- `idea-boringmarketer-ai-social-media-management-skill-037` — No-code AI social media management skill (Zapier MCP + Buffer)
+- `idea-boringmarketer-newsletter-to-social-content-ops-038` — Newsletter-to-week-of-social content ops (Claude + Zapier MCP)
+- `idea-mhp_guy-appliance-delivery-for-scratch-dent-002` — Third-party appliance delivery/install for scratch-and-dent shops
+- `idea-mhp_guy-corporate-ai-audit-savings-agency-006` — Corporate AI audit & savings agency
+- `idea-mhp_guy-liquidation-pallet-reselling-008` — GovDeals / B-Stock liquidation pallet reselling
+- `idea-mhp_guy-restaurant-equipment-middleman-009` — Closing-restaurant equipment middleman
+- `idea-mhp_guy-sweat-equity-service-business-partner-010` — Sweat-equity modernization of a one-man service business
+- `idea-mhp_guy-glamping-site-lease-option-011` — Glamping sites via land lease-option
+- `idea-mhp_guy-hvac-coil-cleaning-specialty-012` — Specialty grocery HVAC coil cleaning
+- `idea-mhp_guy-moving-tote-rental-014` — Moving tote rental + realtor gifting subscriptions
+- `idea-mhp_guy-lawnmower-flipping-fbmp-015` — Riding lawnmower flipping on Facebook Marketplace
+- `idea-mhp_guy-wall-printing-service-016` — Wall-printing mural service (charge by sq ft)
+- `idea-mhp_guy-ai-avatar-video-service-local-pros-017` — AI avatar video content service for local professionals
+- `idea-mhp_guy-car-seat-cleaning-service-018` — Car-seat cleaning specialty service
+- `idea-mhp_guy-trash-bin-cleaning-route-019` — Trash-bin cleaning route with guerrilla marketing
+- `idea-mhp_guy-alibaba-jetboat-fbmp-import-020` — Alibaba jetboat / mini-vehicle FBMP import flips
+- `idea-mhp_guy-goodwill-timelapse-home-services-021` — Goodwill time-lapse home services (free job → YouTube CAC)
+- `idea-mhp_guy-ikea-resell-non-ikea-markets-022` — IKEA pre-order reselling into non-IKEA metros
+- `idea-mhp_guy-seasonal-christmas-tree-lot-arbitrage-023` — Seasonal artificial Christmas tree lot (buy off-season)
+- `idea-mhp_guy-costco-desert-mini-warehouse-024` — Costco-liquidation mini-warehouse in Costco deserts
+- `idea-mhp_guy-snack-wholesale-distribution-025` — Snack/candy wholesale distribution to indie c-stores

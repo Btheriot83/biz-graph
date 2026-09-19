@@ -1,17 +1,24 @@
 {
   "meta": {
     "version": "0",
-    "updated_at": "2026-09-19T09:48:25-07:00",
-    "count": 58,
+    "updated_at": "2026-09-19T09:50:00-07:00",
+    "count": 90,
     "sources": [
       "boringmarketer",
       "mhp_guy"
     ],
     "fence": "public cites only; no income guarantees; Brandon gates money/hire/pay/publish/send",
     "gaps": [
-      "Deeper X harvest still needed toward ~250",
-      "Most plans/graphs still pending beyond AI Main Street seed"
-    ]
+      "Target ~250 quality ideas; currently 90 (~160 remaining).",
+      "X API client-not-enrolled; Apify monthly hard limit — used nitter/twiiit/unrollnow + YouTube.",
+      "More historical @boringmarketer threads still sparse outside 2026 Main Street cluster.",
+      "@mhp_guy X-thread harvest still thin; YouTube-backed ideas merged with parallel worker batch.",
+      "Still thin: LCD recycling, Buc-ee's online resell, MHP/RV park acquisition ops, Playmakers AI consulting — need public cites."
+    ],
+    "breakdown": {
+      "boringmarketer": 38,
+      "mhp_guy": 52
+    }
   },
   "ideas": [
     {
@@ -1562,6 +1569,911 @@
         "publish",
         "send"
       ],
+      "notes": ""
+    },
+    {
+      "id": "idea-boringmarketer-front-end-local-trade-marketing-026",
+      "title": "Front-end marketing partnership for boring local trades",
+      "one_liner": "Own SEO/ads/automation for a pool/HVAC-style operator; they fulfill; you never touch a wrench.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2100985975128084523",
+      "source_date": "2026-09-18",
+      "evidence_quote": "the best AI business i've seen this year doesn't touch the AI industry. it's pointing AI marketing skills at a boring local trade… own the front end only: seo, ads, automation… optimize for the phone call, not clicks.",
+      "category": [
+        "ai_agency",
+        "local_services",
+        "lead_gen",
+        "partnership"
+      ],
+      "why_it_works": "Creator frames Main Street / high-ticket local demand + AI on marketing/ops as easier than selling AI to AI people. Public playbook only — not a results guarantee. Maps density (30+ companies / 100+ reviews) signals existing demand; partner with a strong operator who is weak at marketing.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "legal"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": "BM amplified quoted playbook on his account; public X cite."
+    },
+    {
+      "id": "idea-boringmarketer-hyperlocal-pages-prospecting-agency-027",
+      "title": "Hyperlocal SEO pages + automated prospecting for $1K+ ticket locals",
+      "one_liner": "Scrape locals with $1K+ tickets and 50+ reviews, build conversion hyperlocal pages, then run automated prospecting with proof the phone rings.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2100662695682769344",
+      "source_date": "2026-09-17",
+      "evidence_quote": "here's an AI marketing service AND a way to find customers that you can start today 1) scrape local business websites 2) identify companies with $1000+ ticket size 3) 50+ reviews 4) build hyper local pages… 7) launch automated prospecting engines… 10) show the proof you're getting the phone to ring",
+      "category": [
+        "ai_agency",
+        "seo",
+        "lead_gen",
+        "productized_service"
+      ],
+      "why_it_works": "Creator frames Main Street / high-ticket local demand + AI on marketing/ops as easier than selling AI to AI people. Public playbook only — not a results guarantee. Productized pipeline: research → pages → case study → outbound.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "legal"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": "Companion video status 2100607697011831274."
+    },
+    {
+      "id": "idea-boringmarketer-direct-response-page-template-library-028",
+      "title": "Direct-response page template library for boring businesses",
+      "one_liner": "Productize Claude/Codex skills that generate squeeze pages, sales letters, order bumps, and product pages for Main Street / agencies / info products.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2099518081693266246",
+      "source_date": "2026-09-14",
+      "evidence_quote": "I want a template library for claude code / codex that builds DIRECT RESPONSE pages at an expert level - squeeze pages - sales letters - order bumps - product pages… boring businesses… don't need to look like a funded startup, they need conversions",
+      "category": [
+        "productized_service",
+        "content_ops",
+        "software_adjacent"
+      ],
+      "why_it_works": "Creator identifies conversion pages (not SaaS aesthetics) as the bottleneck for boring offers; a reusable agent skill/library is the wedge.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "publish",
+        "pay",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-boringmarketer-ai-proficiency-directory-boring-services-029",
+      "title": "AI-proficiency directory for boring service providers",
+      "one_liner": "Directory that grades accountants and other boring services on demonstrated AI proficiency so buyers can hire AI-fluent firms.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2098422477173006377",
+      "source_date": "2026-09-11",
+      "evidence_quote": "There needs to be some kind of AI verification layer for service providers… A directory for these \"boring\" services graded by AI proficiency would probably crush.",
+      "category": [
+        "marketplace",
+        "directory",
+        "ai_agency"
+      ],
+      "why_it_works": "Buyer trust gap: clients want AI-fluent boring vendors but cannot verify; a graded directory is the proposed product.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "publish",
+        "pay",
+        "legal",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-boringmarketer-ai-meta-ads-local-market-takeover-030",
+      "title": "AI-generated Meta ads market-takeover SOP for boring locals",
+      "one_liner": "Productized positioning + offer + AI-built Meta campaigns (without living in Ads Manager) for one boring local niche.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2098067619995660294",
+      "source_date": "2026-09-10",
+      "evidence_quote": "how to take over a \"boring\" local market fast with AI generated meta ad campaigns whether you're a consultant/agency or an operator... 1) positioning 2) structuring your offer 3) building campaigns (without touching ads manager)",
+      "category": [
+        "lead_gen",
+        "ai_agency",
+        "meta_ads",
+        "productized_service"
+      ],
+      "why_it_works": "Creator frames Main Street / high-ticket local demand + AI on marketing/ops as easier than selling AI to AI people. Public playbook only — not a results guarantee. SOP packages creative/ops so agency or operator can run local Meta without manual Ads Manager grind.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "legal"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-boringmarketer-outcomes-only-ai-agency-positioning-031",
+      "title": "Outcomes-only AI agency for local businesses (calls, customers, less headaches)",
+      "one_liner": "Sell more calls/customers/less headaches; keep agents/skills/graphs as internal sauce — never pitch tooling to Main Street.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2097732474189021346",
+      "source_date": "2026-09-09",
+      "evidence_quote": "what local businesses don't want: - ai agents to chat with… what they do want: - more calls, more customers, less headaches keep the sauce as part of your internal process, sell outcomes and clarity.",
+      "category": [
+        "ai_agency",
+        "positioning",
+        "productized_service"
+      ],
+      "why_it_works": "Explicit buyer preference filter from practitioner: outcomes over tooling reduces sales friction for Main Street.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": "Complement to idea-022; distinct positioning SOP."
+    },
+    {
+      "id": "idea-boringmarketer-city-level-website-gap-arbitrage-032",
+      "title": "City-level website-gap arbitrage for high-ticket local niches",
+      "one_liner": "Find city niches where most providers lack websites/review replies, then outrank with basic digital presence on $1K+ ticket demand.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2087535150124978625",
+      "source_date": "2026-08-12",
+      "evidence_quote": "3/4 of the businesses in the niche didn't even have a website and the providers aren't even replying to google reviews… $1,000+ average ticket size with around 4,000 searches a month… you could outrank the competitors in a couple weeks… be 10%+ better… THIS IS WHERE YOU USE AI",
+      "category": [
+        "arbitrage",
+        "local_services",
+        "seo",
+        "research"
+      ],
+      "why_it_works": "Weak online competition + high ticket + searchable demand = AI-levered local market entry without inventing demand.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "physical",
+        "legal"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-boringmarketer-ai-ops-stack-local-service-partner-033",
+      "title": "AI ops stack for a boring local-service partnership",
+      "one_liner": "Partner into a local service co and automate call intel, social, SOP micro-tools, reviews, citations, sub pipeline, and SEO behind a team dashboard.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2080654675783614900",
+      "source_date": "2026-07-24",
+      "evidence_quote": "I'm a partner in a \"boring\" local service business. here's what I've automated with AI: - call intelligence - branded social content - internal SOPs are now micro tools - review intel & replies - citation and directory listing… - subcontractor pipeline - SEO… most Main Street businesses DON'T WANT TO CHAT with AI, they just want the work done.",
+      "category": [
+        "ai_ops",
+        "local_services",
+        "partnership",
+        "agency_sop"
+      ],
+      "why_it_works": "Practitioner ops blueprint: background agents + action queue beats chat UX for Main Street teams.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "legal",
+        "banking"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034",
+      "title": "Agentic Meta lead-gen campaigns without living in Ads Manager",
+      "one_liner": "Use coding agents + browser tooling to spin pixels, system users, organic job-photo creatives, and end-to-end local lead-gen campaigns.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2094776379090878718",
+      "source_date": "2026-09-01",
+      "evidence_quote": "I've managed over $200 million in ads on facebook/instagram and now I don't even physically log into ads manager, ai handles it for me yesterday claude code built an end to end lead gen campaign for me… organic \"job photo + text bubble\" overlay",
+      "category": [
+        "meta_ads",
+        "lead_gen",
+        "ai_agency",
+        "content_ops"
+      ],
+      "why_it_works": "Creator shows agent-driven setup of Meta lead gen with organic job-photo creative as the local creative pattern.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "legal"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": "BM shared a free skill on GitHub in replies; harvest idea only, no income claims."
+    },
+    {
+      "id": "idea-boringmarketer-visual-before-after-local-service-playbook-035",
+      "title": "Before/after visual local service (rim repair archetype)",
+      "one_liner": "Pick a skilled, non-DIY local service with clear before/after visuals (e.g. rim repair) and dominate Google + short-form with transformation content.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2095630396239003984",
+      "source_date": "2026-09-03",
+      "evidence_quote": "This guy makes $600 an hour with his “boring” business. Not selling AI agents, repairing rims on cars in LA Here’s why it prints: - clear before and after visual transformation - takes real skill to fulfill, not DIY - solves a real pain Dude dominates Google and has 20,000 followers on instagram",
+      "category": [
+        "local_services",
+        "content_ops",
+        "visual_marketing"
+      ],
+      "why_it_works": "Creator’s selection filter: visual transformation + skilled fulfillment + real pain → content and SEO compound. Anecdote, not a guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "physical",
+        "legal",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": "Archetype playbook inspired by rim-repair example; do not treat hourly figure as expected outcome."
+    },
+    {
+      "id": "idea-boringmarketer-boring-biz-ai-prompt-ops-desk-036",
+      "title": "Prompt-ops desk for growing a boring local business with AI",
+      "one_liner": "Productize a grounded prompt pack / ops desk operators use weekly to grow a boring local business (ads, SEO, follow-up, research).",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2095879598588223715",
+      "source_date": "2026-09-04",
+      "evidence_quote": "9 GPT-6 Astra prompts I'm using immediately to grow my \"boring\" business with AI:",
+      "category": [
+        "productized_service",
+        "content_ops",
+        "ai_ops"
+      ],
+      "why_it_works": "Creator packages practitioner prompts as the operating system for boring-biz growth — sellable as a desk or skill pack.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "publish",
+        "pay"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-boringmarketer-ai-social-media-management-skill-037",
+      "title": "No-code AI social media management skill (Zapier MCP + Buffer)",
+      "one_liner": "Package Zapier MCP + Buffer + ElevenLabs + Replicate into a reusable skill that turns newsletter/assets into a week of social for GTM or clients.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2075575215896015206",
+      "source_date": "2026-07-10",
+      "evidence_quote": "how to get ai agents to manage social media FOR you and do it with just a few tools and no code. I've packaged up this entire workflow into a FREE SKILL… Zapier MCP, Buffer, Eleven Labs, and Replicate. Use it for GTM, client content, testing ads, or growing your audience",
+      "category": [
+        "content_ops",
+        "productized_service",
+        "ai_agency"
+      ],
+      "why_it_works": "Repeatable content ops skill that can be sold as a service or run in-house for boring offers.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "publish",
+        "pay",
+        "send",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-boringmarketer-newsletter-to-social-content-ops-038",
+      "title": "Newsletter-to-week-of-social content ops (Claude + Zapier MCP)",
+      "one_liner": "Turn one newsletter into a week of social posts with Claude Desktop + Zapier MCP — sell as content ops for boring brands/agencies.",
+      "source_handle": "boringmarketer",
+      "source_url": "https://x.com/boringmarketer/status/2087977772069089487",
+      "source_date": "2026-08-13",
+      "evidence_quote": "built this whole flow in Claude Desktop w/ a single @zapier mcp… turning my newsletter into a week of social posts with zero code",
+      "category": [
+        "content_ops",
+        "productized_service"
+      ],
+      "why_it_works": "Demonstrated no-code pipeline from owned newsletter content to multi-day social — productizable for clients.",
+      "agent_runnable": true,
+      "human_gates": [
+        "publish",
+        "pay",
+        "send",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-appliance-delivery-for-scratch-dent-002",
+      "title": "Third-party appliance delivery/install for scratch-and-dent shops",
+      "one_liner": "Put your number at mom-and-pop appliance stores that don’t deliver; charge for delivery+install; harvest takebacks for rental/flip inventory.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=UXgGQT-IJEY",
+      "source_date": "2024-12-09",
+      "evidence_quote": "I just went to those places asked if I could put my phone number there… deliver them… pick up the washer and dryer… typically one of them was still working.",
+      "category": [
+        "local_services",
+        "delivery",
+        "appliance",
+        "arbitrage"
+      ],
+      "why_it_works": "Stores want delivery options without liability; delivery fees + free/used takebacks feed rental inventory. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "physical",
+        "legal",
+        "identity",
+        "banking"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-corporate-ai-audit-savings-agency-006",
+      "title": "Corporate AI audit & savings agency",
+      "one_liner": "Audit large companies for automation waste (CRM onboarding, benefits reconciliation, etc.) and sell savings-based or fixed engagements.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=2B5dCquvK4c",
+      "source_date": "2025-08-01",
+      "evidence_quote": "hyper niche AI audit and savings agency that focuses on large corporations… $20,000 a month just creating new profiles… I can use AI to save your company money",
+      "category": [
+        "ai_agency",
+        "b2b",
+        "enterprise",
+        "consulting"
+      ],
+      "why_it_works": "Large orgs leak spend on manual ops; niche calculators + in-person closes are the described go-to-market. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "legal",
+        "banking"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-liquidation-pallet-reselling-008",
+      "title": "GovDeals / B-Stock liquidation pallet reselling",
+      "one_liner": "Buy liquidation pallets (Costco/Target/B-Stock/GovDeals) with manifests; pre-list on FBMP; sell boring outdoor/furniture/seasonal goods.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=OZ0fdAYPyqE",
+      "source_date": "2025-07-01",
+      "evidence_quote": "You buy for five cents on the dollar. You sell for 30 to 40 cents on the dollar… list stuff before you have it… Go find the boring stuff that other people ignore.",
+      "category": [
+        "reselling",
+        "liquidation",
+        "fbmp",
+        "arbitrage"
+      ],
+      "why_it_works": "Manifest math + pre-listing validation + local FBMP demand for bulky/seasonal goods. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "physical",
+        "legal",
+        "identity",
+        "banking"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-restaurant-equipment-middleman-009",
+      "title": "Closing-restaurant equipment middleman",
+      "one_liner": "Find restaurants closing on FBMP/elsewhere, take equipment under contract, pre-sell on restaurant marketplaces before taking inventory risk.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=2B5dCquvK4c",
+      "source_date": "2025-08-01",
+      "evidence_quote": "focusing on restaurants that are going out of business and liquidating their equipment, just playing middleman… sell it before you ever even buy it",
+      "category": [
+        "reselling",
+        "middleman",
+        "arbitrage",
+        "fbmp"
+      ],
+      "why_it_works": "High-ticket used kitchen gear; match sellers and buyers without warehouse if pre-sold. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "physical",
+        "legal",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-sweat-equity-service-business-partner-010",
+      "title": "Sweat-equity modernization of a one-man service business",
+      "one_liner": "Partner with aging high-profit operators (e.g. heavy equipment repair) for conditional equity by adding trucks, website, CRM, pricing, and hiring.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=2B5dCquvK4c",
+      "source_date": "2025-08-01",
+      "evidence_quote": "heavy equipment repair company… one-man operator… $350,000 a year of net profit… signing a contract that grants him conditional equity if I do X, Y, and Z",
+      "category": [
+        "acquisition",
+        "partnership",
+        "home_services",
+        "ops"
+      ],
+      "why_it_works": "Operators have cash flow but no systems; modernizers trade labor for equity without full buyout capital. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "legal",
+        "banking"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-glamping-site-lease-option-011",
+      "title": "Glamping sites via land lease-option",
+      "one_liner": "Validate Airbnb glamping demand, lease land with option to buy, add tents then bathrooms/septic as bookings prove out.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=2B5dCquvK4c",
+      "source_date": "2025-08-01",
+      "evidence_quote": "glamping… search for glamping on Airbnb… markets that have more demand than supply… lease purchase on raw land… buy one tent, get it fully occupied, buy another",
+      "category": [
+        "hospitality",
+        "rental",
+        "real_estate",
+        "arbitrage"
+      ],
+      "why_it_works": "Occupancy research before CapEx; lease-option reduces land purchase risk. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "physical",
+        "legal",
+        "banking",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-hvac-coil-cleaning-specialty-012",
+      "title": "Specialty grocery HVAC coil cleaning",
+      "one_liner": "Unbundle coil pressure-washing for grocery/gas HVAC units as a high-retention B2B specialty maintenance route.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=2B5dCquvK4c",
+      "source_date": "2025-08-01",
+      "evidence_quote": "coil cleaning on HVAC units at grocery stores. The churn is almost zero. It's very high ticket. He competes with no one on it… never lost a grocery store customer",
+      "category": [
+        "b2b",
+        "local_services",
+        "recurring",
+        "hvac"
+      ],
+      "why_it_works": "Painful niche task HVAC firms avoid; grocery clients stick when specialized. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "physical",
+        "legal",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-moving-tote-rental-014",
+      "title": "Moving tote rental + realtor gifting subscriptions",
+      "one_liner": "Rent industrial moving totes; sell realtor monthly gift credits that deliver branded tote sets to closing clients.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=mAyZZc_DjSE",
+      "source_date": "2025-06-01",
+      "evidence_quote": "Tote Rental… buy… 120 totes… rent them out… realtor gifting program… monthly basis… gift moving boxes to their clients for closings",
+      "category": [
+        "rental",
+        "b2b",
+        "local_services",
+        "recurring"
+      ],
+      "why_it_works": "Low unit cost assets + realtor recurring gifts create B2B MRR atop consumer rentals. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "physical",
+        "legal",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-lawnmower-flipping-fbmp-015",
+      "title": "Riding lawnmower flipping on Facebook Marketplace",
+      "one_liner": "Buy broken/used riding mowers on FBMP, repair with parts/ChatGPT help, resell locally — or export premium brands abroad.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=-kwF1zol2gQ",
+      "source_date": "2026-03-01",
+      "evidence_quote": "flip lawn mowers on Facebook Marketplace either by selling them to another country or fixing them up and reselling them… $51,000 in 1 month on Facebook Marketplace Flipping Lawn Mowers",
+      "category": [
+        "reselling",
+        "fbmp",
+        "repair",
+        "arbitrage"
+      ],
+      "why_it_works": "Local mechanical arbitrage + optional export price gaps; learn repairs as you scale. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "physical",
+        "legal",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": "Guest/case figures are anecdotal; not a target."
+    },
+    {
+      "id": "idea-mhp_guy-wall-printing-service-016",
+      "title": "Wall-printing mural service (charge by sq ft)",
+      "one_liner": "Finance a wall printer; sell residential/commercial printed murals; market with time-lapse short-form.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=-kwF1zol2gQ",
+      "source_date": "2026-03-01",
+      "evidence_quote": "wall printing business… charge by the square foot… time lapse… printers were mostly used by businesses… new service businesses are developed around that technology",
+      "category": [
+        "local_services",
+        "content_ops",
+        "new_tech"
+      ],
+      "why_it_works": "New hardware creates underserved service markets; time-lapse sells the job visually. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "physical",
+        "legal",
+        "identity",
+        "banking"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-ai-avatar-video-service-local-pros-017",
+      "title": "AI avatar video content service for local professionals",
+      "one_liner": "Turn a headshot into niche explainer videos (HeyGen-style) for mortgage/local pros — or sell DFY video retainers.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=-kwF1zol2gQ",
+      "source_date": "2026-03-01",
+      "evidence_quote": "tool called HeyGen… headshot… make a video about home equity lines of credit… 10 new loan originations from these videos… offer this as a service",
+      "category": [
+        "ai_agency",
+        "content_ops",
+        "productized_service"
+      ],
+      "why_it_works": "Low production cost content that can generate high-ticket professional leads; DFY retainers for non-creators. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "legal"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-car-seat-cleaning-service-018",
+      "title": "Car-seat cleaning specialty service",
+      "one_liner": "Pick up / clean / drop car seats in batch; market with Instagram process videos; charge premium for convenience.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=-kwF1zol2gQ",
+      "source_date": "2026-03-01",
+      "evidence_quote": "clean car seats… videos herself doing her job… Instagram… picks them up in bulk… paid in advance… Competition is basically non-existent",
+      "category": [
+        "local_services",
+        "content_ops",
+        "niche"
+      ],
+      "why_it_works": "Unsexy chore + batch logistics + visual content; thin competition. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "physical",
+        "legal",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-trash-bin-cleaning-route-019",
+      "title": "Trash-bin cleaning route with guerrilla marketing",
+      "one_liner": "Pressure-wash residential bins on trash day; test with flyer magnets + route music before wrapping a truck.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=-kwF1zol2gQ",
+      "source_date": "2026-03-01",
+      "evidence_quote": "trash day… shiny flyers… garbage bins… bin cleaning services… charge 25 bucks per bin… pressure washer… startup costs are less than $1,000",
+      "category": [
+        "local_services",
+        "route_business",
+        "guerrilla_marketing"
+      ],
+      "why_it_works": "Low CapEx route business; recurring neighborhood demand; cheap validation marketing. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "physical",
+        "legal",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-alibaba-jetboat-fbmp-import-020",
+      "title": "Alibaba jetboat / mini-vehicle FBMP import flips",
+      "one_liner": "List Alibaba jetboats/mini jeeps/golf carts on FBMP before ordering; take deposits; import after demand proves out.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=-kwF1zol2gQ",
+      "source_date": "2026-03-01",
+      "evidence_quote": "Alibaba, buy one of these from China, sell that sucker on Facebook Marketplace… put the word jet ski in the description… list it on Facebook Marketplace to see which ones get the most clicks… pre-sell it",
+      "category": [
+        "import",
+        "fbmp",
+        "arbitrage",
+        "reselling"
+      ],
+      "why_it_works": "Pre-list/pre-sell removes inventory risk; China unit cost vs US recreational pricing creates spread. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "send",
+        "physical",
+        "legal",
+        "identity",
+        "banking"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-goodwill-timelapse-home-services-021",
+      "title": "Goodwill time-lapse home services (free job → YouTube CAC)",
+      "one_liner": "Do free or discounted transformation jobs filmed as time-lapse; monetize YouTube + paid jobs from inbound.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=-kwF1zol2gQ",
+      "source_date": "2026-03-01",
+      "evidence_quote": "goodwill time lapse videos… I will do it for free. The only thing I ask is that I'm able to video it and post it on the internet… SB Mowing",
+      "category": [
+        "content_ops",
+        "home_services",
+        "youtube",
+        "marketing"
+      ],
+      "why_it_works": "Negative CAC content model: free jobs buy footage that compounds distribution and paid demand. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "physical",
+        "legal",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-ikea-resell-non-ikea-markets-022",
+      "title": "IKEA pre-order reselling into non-IKEA metros",
+      "one_liner": "Take prepaid customer carts from cities without IKEA, mark up ~30%, U-Haul run to nearest store, deliver in a parking-lot window.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=OZ0fdAYPyqE",
+      "source_date": "2025-07-01",
+      "evidence_quote": "selling IKEA furniture to people in… markets… not big enough for an IKEA… fill your cart… add 30%… rent a U-Haul… grocery store parking lot",
+      "category": [
+        "reselling",
+        "arbitrage",
+        "logistics"
+      ],
+      "why_it_works": "Geographic retail gap + prepaid orders eliminate inventory risk. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "pay",
+        "publish",
+        "physical",
+        "legal",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-seasonal-christmas-tree-lot-arbitrage-023",
+      "title": "Seasonal artificial Christmas tree lot (buy off-season)",
+      "one_liner": "Buy artificial trees from summer liquidations; open a seasonal lot (optionally with real trees) marketed on FBMP/social.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=OZ0fdAYPyqE",
+      "source_date": "2025-07-01",
+      "evidence_quote": "best time to buy Christmas trees is… July… artificial Christmas tree lot… promote it on Facebook Marketplace… seasonal arbitrage",
+      "category": [
+        "seasonal",
+        "reselling",
+        "retail",
+        "arbitrage"
+      ],
+      "why_it_works": "Off-season liquidation prices + concentrated holiday demand. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "physical",
+        "legal",
+        "identity"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-costco-desert-mini-warehouse-024",
+      "title": "Costco-liquidation mini-warehouse in Costco deserts",
+      "one_liner": "Source Costco liquidation goods and retail them via FBMP/warehouse in metros without a Costco.",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=OZ0fdAYPyqE",
+      "source_date": "2025-07-01",
+      "evidence_quote": "If you don't live near a Costco, that's a big unfair advantage… buy Costco liquidation items and offer them in your local community that doesn't have a Costco",
+      "category": [
+        "reselling",
+        "retail",
+        "arbitrage",
+        "fbmp"
+      ],
+      "why_it_works": "Brand demand without local store access; liquidation basis. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "physical",
+        "legal",
+        "identity",
+        "banking"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
+      "notes": ""
+    },
+    {
+      "id": "idea-mhp_guy-snack-wholesale-distribution-025",
+      "title": "Snack/candy wholesale distribution to indie c-stores",
+      "one_liner": "Buy jerky/candy/novelty snacks wholesale and route-sell to independent gas stations and gift shops (no vending machine CapEx).",
+      "source_handle": "mhp_guy",
+      "source_url": "https://www.youtube.com/watch?v=-kwF1zol2gQ",
+      "source_date": "2026-03-01",
+      "evidence_quote": "wholesale distribution. Gas stations, convenience stores, gift shops… You don't need a vending machine to sell jerky or candy… willing to talk to people",
+      "category": [
+        "wholesale",
+        "distribution",
+        "b2b",
+        "route_business"
+      ],
+      "why_it_works": "Relationship + route sales beat CapEx-heavy vending; recurring reorders. Mechanism described by Chris Koerner / guests on The Koerner Office — public YouTube. Not an income guarantee.",
+      "agent_runnable": true,
+      "human_gates": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "physical",
+        "legal",
+        "identity",
+        "banking"
+      ],
+      "status": "harvested",
+      "collected_at": "2026-09-19T09:47:00-07:00",
       "notes": ""
     }
   ]

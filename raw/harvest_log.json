@@ -1,14 +1,57 @@
 {
-  "collected_at": "2026-09-19T09:42:08-07:00",
-  "method": "public thread unrolls (unrollnow) + manual structuring",
+  "collected_at": "2026-09-19T09:50:00-07:00",
+  "method": "public nitter/twiiit/unrollnow + YouTube WebFetch transcripts; structured manually",
   "x_api": "forbidden (client-not-enrolled)",
   "apify": "monthly usage hard limit exceeded",
   "sources_used": [
-    "https://x.com/boringmarketer/status/2096232390075060508",
-    "https://x.com/boringmarketer/status/2098782377052881178",
-    "https://x.com/boringmarketer/status/2087178571873693744"
+    "https://www.youtube.com/watch?v=-kwF1zol2gQ",
+    "https://www.youtube.com/watch?v=2B5dCquvK4c",
+    "https://www.youtube.com/watch?v=OZ0fdAYPyqE",
+    "https://www.youtube.com/watch?v=UCdWRg1KQLY",
+    "https://www.youtube.com/watch?v=UXgGQT-IJEY",
+    "https://www.youtube.com/watch?v=mAyZZc_DjSE",
+    "https://x.com/boringmarketer/status/2075575215896015206",
+    "https://x.com/boringmarketer/status/2080654675783614900",
+    "https://x.com/boringmarketer/status/2087535150124978625",
+    "https://x.com/boringmarketer/status/2087977772069089487",
+    "https://x.com/boringmarketer/status/2094776379090878718",
+    "https://x.com/boringmarketer/status/2095630396239003984",
+    "https://x.com/boringmarketer/status/2095879598588223715",
+    "https://x.com/boringmarketer/status/2097732474189021346",
+    "https://x.com/boringmarketer/status/2098067619995660294",
+    "https://x.com/boringmarketer/status/2098422477173006377",
+    "https://x.com/boringmarketer/status/2099518081693266246",
+    "https://x.com/boringmarketer/status/2100662695682769344",
+    "https://x.com/boringmarketer/status/2100985975128084523"
   ],
-  "idea_count": 25,
+  "idea_count": 90,
+  "new_this_pass": 32,
+  "breakdown": {
+    "boringmarketer": 38,
+    "mhp_guy": 52
+  },
+  "raw_dumps": [
+    "raw/boringmarketer_twiiit_profile.md",
+    "raw/boringmarketer_nitter_jaydenha.md",
+    "raw/boringmarketer_status_dump.json",
+    "raw/mhp_guy_nitter_privacyredirect.md",
+    "raw/youtube/* (transcript fetches via WebFetch)"
+  ],
   "plan_count": 1,
-  "graph_count": 1
+  "graph_count": 1,
+  "blockers": [
+    "X API v2 client-not-enrolled",
+    "Apify monthly hard limit",
+    "jina.ai anonymous block to x.com",
+    "mhp_guy nitter profile HTML sparse on status IDs this pass \u2014 relied on YouTube cites"
+  ],
+  "deduped_against_parallel_worker": [
+    "idea-mhp_guy-ai-voice-agent-agency-garage-door-005",
+    "idea-mhp_guy-bingo-loco-style-event-experiences-013",
+    "idea-mhp_guy-dormant-newsletter-aggregation-007",
+    "idea-mhp_guy-offshore-staffing-placement-fees-004",
+    "idea-mhp_guy-rv-rental-fleet-outdoorsy-003",
+    "idea-mhp_guy-washer-dryer-rental-fbmp-001"
+  ],
+  "notes": "Merged with parallel mhp batch already in jsonl; removed 6 conceptual duplicates."
 }
