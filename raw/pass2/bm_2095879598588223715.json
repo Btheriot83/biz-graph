@@ -1,0 +1,98 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/boringmarketer/status/2095879598588223715",
+    "id": "2095879598588223715",
+    "text": "9 GPT-6 Astra prompts I'm using immediately to grow my \"boring\" business with AI:",
+    "raw_text": {
+      "text": "9 GPT-6 Astra prompts I'm using immediately to grow my \"boring\" business with AI: https://t.co/zmS8RhMQS6",
+      "display_text_range": [
+        0,
+        81
+      ],
+      "facets": [
+        {
+          "type": "media",
+          "indices": [
+            82,
+            105
+          ],
+          "id": "2095879070990946307",
+          "display": "pic.x.com/zmS8RhMQS6",
+          "original": "https://t.co/zmS8RhMQS6",
+          "replacement": "https://x.com/boringmarketer/status/2095879598588223715/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "boringmarketer",
+      "url": "https://x.com/boringmarketer",
+      "id": "1620443590194348033",
+      "followers": 102347,
+      "following": 340,
+      "likes": 12943,
+      "media_count": 1592,
+      "name": "The Boring Marketer",
+      "description": "I build AI for \u201cboring\u201d businesses & show you how to build your own business serving Main Street.",
+      "raw_description": {
+        "text": "I build AI for \u201cboring\u201d businesses & show you how to build your own business serving Main Street.",
+        "facets": []
+      },
+      "location": "building",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1620443590194348033/1788993649",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2100274044511649792/v4xsHKNx_200x200.jpg",
+      "joined": "Tue Jan 31 15:27:55 +0000 2023",
+      "protected": false,
+      "website": {
+        "url": "https://www.skool.com/the-vibe-marketers/about",
+        "display_url": "skool.com/the-vibe-marke\u2026"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 8,
+    "retweets": 16,
+    "likes": 311,
+    "bookmarks": 664,
+    "quotes": 1,
+    "created_at": "Fri Sep 04 14:20:10 +0000 2026",
+    "created_timestamp": 1788531610,
+    "possibly_sensitive": false,
+    "views": 20887,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2095879070990946307",
+          "url": "https://pbs.twimg.com/media/HRYO6R6XUAMoanE.jpg?name=orig",
+          "width": 1352,
+          "height": 1402
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2095879070990946307",
+          "url": "https://pbs.twimg.com/media/HRYO6R6XUAMoanE.jpg?name=orig",
+          "width": 1352,
+          "height": 1402
+        }
+      ]
+    },
+    "source": "Twitter Web App",
+    "twitter_card": "summary_large_image",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

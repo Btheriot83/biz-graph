@@ -1,0 +1,65 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/boringmarketer/status/2096232390075060508",
+    "id": "2096232390075060508",
+    "text": "the 21 best \"boring\" businesses to start and grow according to GPT-6 Astra:\n\nFilters: weak local competition online, a path to $1K+ jobs, apply AI, and recurring revenue potential.\n\n1. Commercial overhead door & loading-dock repair\n\n2.  Commercial drain cleaning & hydro-jetting\n\n3.  Commercial refrigeration repair\n\n4.  Stormwater & detention-pond maintenance\n\n5.  Commercial roof repair & maintenance\n\n6.  Commercial generator service\n\n7. Industrial air-compressor service\n\n8.  Lift-station & commercial pump repair\n\n9. Commercial kitchen equipment repair\n\n10. Commercial HVAC service\n\n11. Mobile fleet & trailer maintenance\n\n12. Automatic gate & access-control repair\n\n13. Fire-sprinkler inspection & repair\n\n14. Cooling-tower & boiler water treatment\n\n15. Grease-interceptor pumping\n\n16. Commercial kitchen exhaust cleaning\n\n17. Parking-lot striping & maintenance\n\n18. Commercial exterior cleaning\n\n19. Commercial irrigation repair\n\n20. Commercial septic & wastewater service\n\n21. Commercial floor care & restoration\n\nFind a great operator. \n\nUse AI to move faster on websites, SEO, ads, quoting and follow-up.\n\nWin the first job. Earn the maintenance account.\n\nThe opportunity is in your backyard.",
+    "raw_text": {
+      "text": "the 21 best \"boring\" businesses to start and grow according to GPT-6 Astra:\n\nFilters: weak local competition online, a path to $1K+ jobs, apply AI, and recurring revenue potential.\n\n1. Commercial overhead door & loading-dock repair\n\n2.  Commercial drain cleaning & hydro-jetting\n\n3.  Commercial refrigeration repair\n\n4.  Stormwater & detention-pond maintenance\n\n5.  Commercial roof repair & maintenance\n\n6.  Commercial generator service\n\n7. Industrial air-compressor service\n\n8.  Lift-station & commercial pump repair\n\n9. Commercial kitchen equipment repair\n\n10. Commercial HVAC service\n\n11. Mobile fleet & trailer maintenance\n\n12. Automatic gate & access-control repair\n\n13. Fire-sprinkler inspection & repair\n\n14. Cooling-tower & boiler water treatment\n\n15. Grease-interceptor pumping\n\n16. Commercial kitchen exhaust cleaning\n\n17. Parking-lot striping & maintenance\n\n18. Commercial exterior cleaning\n\n19. Commercial irrigation repair\n\n20. Commercial septic & wastewater service\n\n21. Commercial floor care & restoration\n\nFind a great operator. \n\nUse AI to move faster on websites, SEO, ads, quoting and follow-up.\n\nWin the first job. Earn the maintenance account.\n\nThe opportunity is in your backyard.",
+      "display_text_range": [
+        0,
+        1202
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "boringmarketer",
+      "url": "https://x.com/boringmarketer",
+      "id": "1620443590194348033",
+      "followers": 102347,
+      "following": 340,
+      "likes": 12943,
+      "media_count": 1592,
+      "name": "The Boring Marketer",
+      "description": "I build AI for \u201cboring\u201d businesses & show you how to build your own business serving Main Street.",
+      "raw_description": {
+        "text": "I build AI for \u201cboring\u201d businesses & show you how to build your own business serving Main Street.",
+        "facets": []
+      },
+      "location": "building",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1620443590194348033/1788993649",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2100274044511649792/v4xsHKNx_200x200.jpg",
+      "joined": "Tue Jan 31 15:27:55 +0000 2023",
+      "protected": false,
+      "website": {
+        "url": "https://www.skool.com/the-vibe-marketers/about",
+        "display_url": "skool.com/the-vibe-marke\u2026"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 16,
+    "retweets": 8,
+    "likes": 159,
+    "bookmarks": 314,
+    "quotes": 2,
+    "created_at": "Sat Sep 05 13:42:02 +0000 2026",
+    "created_timestamp": 1788615722,
+    "views": 17128,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "source": "Twitter Web App",
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "plan-idea-mhp_guy-lawnmower-flipping-fbmp-015",
+  "idea_id": "idea-mhp_guy-lawnmower-flipping-fbmp-015",
+  "title": "Riding lawnmower flipping on Facebook Marketplace",
+  "one_liner": "Agent-run FBMP deal desk: find broken/used riding mowers, score repair economics, draft listings; Brandon buys/repairs/ships.",
+  "category_tags": [
+    "fbmp",
+    "reselling",
+    "repair",
+    "arbitrage"
+  ],
+  "why_agent_runnable": "Deal sourcing, comps, parts lists, listing copy/photos drafts, and CRM are agent-native. Brandon only approves buys, does/owns physical repair or hire, and publishes listings.",
+  "ops_steps": [
+    {
+      "n": 1,
+      "title": "Geo + brand demand map",
+      "owner": "research_agent",
+      "detail": "Scrape public FBMP/eBay sold comps for riding mower brands in Brandon's metro + export demand notes. Rank brands by spread vs typical repair cost.",
+      "human_required": false
+    },
+    {
+      "n": 2,
+      "title": "Brandon sets buy box",
+      "owner": "brandon",
+      "detail": "Approve max buy price, preferred brands, radius, repair skill vs hire mechanic.",
+      "human_required": true
+    },
+    {
+      "n": 3,
+      "title": "Daily deal desk",
+      "owner": "research_agent",
+      "detail": "Monitor FBMP alerts; score deals vs buy box; draft offer messages — no send without Brandon.",
+      "human_required": false
+    },
+    {
+      "n": 4,
+      "title": "Purchase approval",
+      "owner": "brandon",
+      "detail": "Approve each buy (money gate); handle pickup/identity/payment in person or hire.",
+      "human_required": true
+    },
+    {
+      "n": 5,
+      "title": "Repair plan + parts cart",
+      "owner": "ops_agent",
+      "detail": "Diagnose from photos/manuals; draft parts list and mechanic SOW. Brandon approves parts spend / hire.",
+      "human_required": true
+    },
+    {
+      "n": 6,
+      "title": "Listing pack",
+      "owner": "marketing_agent",
+      "detail": "Draft FBMP/eBay title, description, photo shot list, price ladder. Stay draft until publish gate.",
+      "human_required": false
+    },
+    {
+      "n": 7,
+      "title": "Publish + negotiate",
+      "owner": "brandon",
+      "detail": "Publish listing; agent drafts replies; Brandon sends and closes sale/delivery.",
+      "human_required": true
+    }
+  ],
+  "human_only_checkpoints": [
+    "KYC / business identity / domain registrant",
+    "Banking + Stripe/PayPal / marketplace payout accounts",
+    "Any purchase, deposit, ad spend, or paid tool upgrade",
+    "Hiring contractors, VAs, or licensed trades",
+    "Paying invoices / payouts / refunds",
+    "Publishing listings, sites, ads, social as official",
+    "Sending outreach email/DM/SMS as Brandon",
+    "Physical pickup, delivery, install, or on-site work",
+    "Legal/compliance review when required"
+  ],
+  "hiring_and_pay_flow": {
+    "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+    "brandon_gates_before_money": [
+      "approve job post publish",
+      "approve hire",
+      "approve payment amount + rail",
+      "approve recurring retainer or inventory buy"
+    ]
+  },
+  "orchestration_graph_id": "graph-plan-idea-mhp_guy-lawnmower-flipping-fbmp-015",
+  "unit_economics_sketch": {
+    "typical_buy_range_usd": "200-1200",
+    "typical_parts_or_labor_usd": "50-400",
+    "typical_resale_range_usd": "600-2500",
+    "gross_spread_notes": "Spread depends on brand, condition, and local demand. Export path optional and adds shipping/legal complexity. Ranges are sketches only — not guarantees.",
+    "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+  },
+  "first_7_day_agent_sprint": [
+    "Day 1: comps + brand demand map for metro",
+    "Day 2: Brandon buy-box + radius + repair vs hire decision",
+    "Day 3-4: deal desk live; 20+ scored listings; draft offers only",
+    "Day 5: Brandon first purchase gate (or kill if no deal in box)",
+    "Day 6: repair plan + parts/hire memo",
+    "Day 7: listing pack draft ready for publish gate"
+  ],
+  "kill_criteria": [
+    "No units inside buy box after 14 days of monitoring",
+    "Two consecutive flips lose money after parts+labor+fees",
+    "Cannot secure reliable mechanic if Brandon will not DIY",
+    "Brandon declines further inventory spend at money gate"
+  ],
+  "source_citations": [
+    {
+      "url": "https://www.youtube.com/watch?v=-kwF1zol2gQ",
+      "date": "2026-03-01",
+      "handle": "mhp_guy"
+    }
+  ],
+  "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+  "status": "draft",
+  "updated_at": "2026-09-19T09:55:00-07:00"
+}

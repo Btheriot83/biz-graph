@@ -1,0 +1,75 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/boringmarketer/status/2098422477173006377",
+    "id": "2098422477173006377",
+    "text": "@ideabrowser what you think?",
+    "raw_text": {
+      "text": "@ideabrowser what you think?",
+      "display_text_range": [
+        0,
+        28
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            12
+          ],
+          "original": "ideabrowser",
+          "id": "1925231445116870656"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "boringmarketer",
+      "url": "https://x.com/boringmarketer",
+      "id": "1620443590194348033",
+      "followers": 102347,
+      "following": 340,
+      "likes": 12943,
+      "media_count": 1592,
+      "name": "The Boring Marketer",
+      "description": "I build AI for \u201cboring\u201d businesses & show you how to build your own business serving Main Street.",
+      "raw_description": {
+        "text": "I build AI for \u201cboring\u201d businesses & show you how to build your own business serving Main Street.",
+        "facets": []
+      },
+      "location": "building",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1620443590194348033/1788993649",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2100274044511649792/v4xsHKNx_200x200.jpg",
+      "joined": "Tue Jan 31 15:27:55 +0000 2023",
+      "protected": false,
+      "website": {
+        "url": "https://www.skool.com/the-vibe-marketers/about",
+        "display_url": "skool.com/the-vibe-marke\u2026"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 3,
+    "retweets": 0,
+    "likes": 1,
+    "bookmarks": 1,
+    "quotes": 0,
+    "created_at": "Fri Sep 11 14:44:40 +0000 2026",
+    "created_timestamp": 1789137880,
+    "views": 1782,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": "boringmarketer",
+    "replying_to_status": "2098421013784440857",
+    "source": "Twitter Web App",
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

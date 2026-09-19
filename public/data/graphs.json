@@ -1,8 +1,8 @@
 {
   "meta": {
     "version": "0",
-    "updated_at": "2026-09-19T09:43:49-07:00",
-    "count": 1,
+    "updated_at": "2026-09-19T09:55:00-07:00",
+    "count": 10,
     "sources": [
       "boringmarketer",
       "mhp_guy"
@@ -14,7 +14,7 @@
     {
       "id": "graph-plan-idea-boringmarketer-ai-services-main-street-022",
       "plan_id": "plan-idea-boringmarketer-ai-services-main-street-022",
-      "description": "Brandon steers \u2192 chief agent \u2192 specialists/tools. Money/hire/pay/publish/send never auto-execute.",
+      "description": "Brandon steers → chief agent → specialists/tools. Money/hire/pay/publish/send never auto-execute.",
       "nodes": [
         {
           "id": "brandon",
@@ -176,6 +176,1738 @@
         "legal"
       ],
       "updated_at": "2026-09-19T09:43:49-07:00"
+    },
+    {
+      "id": "graph-plan-idea-mhp_guy-lawnmower-flipping-fbmp-015",
+      "plan_id": "plan-idea-mhp_guy-lawnmower-flipping-fbmp-015",
+      "description": "Brandon steers → chief agent → specialists/tools. Money/hire/pay/publish/send never auto-execute.",
+      "nodes": [
+        {
+          "id": "brandon",
+          "kind": "human",
+          "label": "Brandon",
+          "responsibility": "Steer; sole approver for money/hire/pay/publish/send/identity/banking/legal/physical"
+        },
+        {
+          "id": "chief",
+          "kind": "agent",
+          "label": "Chief agent",
+          "model_or_tool": "frontier_llm",
+          "responsibility": "Orchestrate specialists; never auto-spend, hire, pay, publish, or send"
+        },
+        {
+          "id": "research",
+          "kind": "agent",
+          "label": "Research",
+          "model_or_tool": "frontier_llm+browser_scraper",
+          "responsibility": "Market/comp/sourcing research from public data"
+        },
+        {
+          "id": "marketing",
+          "kind": "agent",
+          "label": "Marketing",
+          "model_or_tool": "frontier_llm+image_gen",
+          "responsibility": "Listings, creatives, landing copy, offer drafts"
+        },
+        {
+          "id": "coding",
+          "kind": "agent",
+          "label": "Coding",
+          "model_or_tool": "cursor_codex",
+          "responsibility": "Landing pages, trackers, scrapers, automations after gates"
+        },
+        {
+          "id": "computer_use",
+          "kind": "agent",
+          "label": "Computer-use",
+          "model_or_tool": "grok_bot_muse",
+          "responsibility": "Operate marketplace/ads UIs when APIs missing; draft-only until gates"
+        },
+        {
+          "id": "crm_sheets",
+          "kind": "tool",
+          "label": "Sheets/DB",
+          "model_or_tool": "sheets_or_db",
+          "responsibility": "Pipeline, inventory, attribution logs"
+        },
+        {
+          "id": "email_sms",
+          "kind": "tool",
+          "label": "Email/SMS",
+          "model_or_tool": "email_sms",
+          "responsibility": "Draft only until Brandon send gate"
+        },
+        {
+          "id": "payments",
+          "kind": "tool",
+          "label": "Payments",
+          "model_or_tool": "stripe_paypal",
+          "responsibility": "Invoices/payouts only after Brandon pay gate"
+        },
+        {
+          "id": "hiring",
+          "kind": "tool",
+          "label": "Contractor rails",
+          "model_or_tool": "upwork_onlinejobs",
+          "responsibility": "Draft job posts; Brandon publish+hire+pay gates"
+        },
+        {
+          "id": "fbmp",
+          "kind": "tool",
+          "label": "FBMP/eBay",
+          "model_or_tool": "fbmp_ebay",
+          "responsibility": "Search/comps/listings after Brandon publish; no auto-buy"
+        },
+        {
+          "id": "parts_research",
+          "kind": "tool",
+          "label": "Parts/manuals",
+          "model_or_tool": "browser_scraper",
+          "responsibility": "Public parts pricing and service manuals"
+        }
+      ],
+      "edges": [
+        {
+          "from": "brandon",
+          "to": "chief",
+          "label": "goals + gates"
+        },
+        {
+          "from": "chief",
+          "to": "research",
+          "label": "research briefs"
+        },
+        {
+          "from": "chief",
+          "to": "marketing",
+          "label": "draft assets"
+        },
+        {
+          "from": "chief",
+          "to": "coding",
+          "label": "build after gate"
+        },
+        {
+          "from": "chief",
+          "to": "computer_use",
+          "label": "UI ops"
+        },
+        {
+          "from": "research",
+          "to": "brandon",
+          "label": "shortlist / go-no-go"
+        },
+        {
+          "from": "marketing",
+          "to": "brandon",
+          "label": "publish approval"
+        },
+        {
+          "from": "chief",
+          "to": "crm_sheets",
+          "label": "log pipeline"
+        },
+        {
+          "from": "chief",
+          "to": "email_sms",
+          "label": "draft outreach"
+        },
+        {
+          "from": "email_sms",
+          "to": "brandon",
+          "label": "send gate"
+        },
+        {
+          "from": "chief",
+          "to": "hiring",
+          "label": "draft jobs"
+        },
+        {
+          "from": "hiring",
+          "to": "brandon",
+          "label": "hire/pay gates"
+        },
+        {
+          "from": "payments",
+          "to": "brandon",
+          "label": "pay gate"
+        },
+        {
+          "from": "chief",
+          "to": "fbmp",
+          "label": "monitor + draft listings"
+        },
+        {
+          "from": "fbmp",
+          "to": "brandon",
+          "label": "buy/publish gates"
+        },
+        {
+          "from": "research",
+          "to": "parts_research",
+          "label": "parts comps"
+        },
+        {
+          "from": "computer_use",
+          "to": "fbmp",
+          "label": "UI when needed"
+        }
+      ],
+      "brandon_only_actions": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "updated_at": "2026-09-19T09:55:00-07:00"
+    },
+    {
+      "id": "graph-plan-idea-mhp_guy-liquidation-pallet-reselling-008",
+      "plan_id": "plan-idea-mhp_guy-liquidation-pallet-reselling-008",
+      "description": "Brandon steers → chief agent → specialists/tools. Money/hire/pay/publish/send never auto-execute.",
+      "nodes": [
+        {
+          "id": "brandon",
+          "kind": "human",
+          "label": "Brandon",
+          "responsibility": "Steer; sole approver for money/hire/pay/publish/send/identity/banking/legal/physical"
+        },
+        {
+          "id": "chief",
+          "kind": "agent",
+          "label": "Chief agent",
+          "model_or_tool": "frontier_llm",
+          "responsibility": "Orchestrate specialists; never auto-spend, hire, pay, publish, or send"
+        },
+        {
+          "id": "research",
+          "kind": "agent",
+          "label": "Research",
+          "model_or_tool": "frontier_llm+browser_scraper",
+          "responsibility": "Market/comp/sourcing research from public data"
+        },
+        {
+          "id": "marketing",
+          "kind": "agent",
+          "label": "Marketing",
+          "model_or_tool": "frontier_llm+image_gen",
+          "responsibility": "Listings, creatives, landing copy, offer drafts"
+        },
+        {
+          "id": "coding",
+          "kind": "agent",
+          "label": "Coding",
+          "model_or_tool": "cursor_codex",
+          "responsibility": "Landing pages, trackers, scrapers, automations after gates"
+        },
+        {
+          "id": "computer_use",
+          "kind": "agent",
+          "label": "Computer-use",
+          "model_or_tool": "grok_bot_muse",
+          "responsibility": "Operate marketplace/ads UIs when APIs missing; draft-only until gates"
+        },
+        {
+          "id": "crm_sheets",
+          "kind": "tool",
+          "label": "Sheets/DB",
+          "model_or_tool": "sheets_or_db",
+          "responsibility": "Pipeline, inventory, attribution logs"
+        },
+        {
+          "id": "email_sms",
+          "kind": "tool",
+          "label": "Email/SMS",
+          "model_or_tool": "email_sms",
+          "responsibility": "Draft only until Brandon send gate"
+        },
+        {
+          "id": "payments",
+          "kind": "tool",
+          "label": "Payments",
+          "model_or_tool": "stripe_paypal",
+          "responsibility": "Invoices/payouts only after Brandon pay gate"
+        },
+        {
+          "id": "hiring",
+          "kind": "tool",
+          "label": "Contractor rails",
+          "model_or_tool": "upwork_onlinejobs",
+          "responsibility": "Draft job posts; Brandon publish+hire+pay gates"
+        },
+        {
+          "id": "liquidation",
+          "kind": "tool",
+          "label": "GovDeals/B-Stock",
+          "model_or_tool": "liquidation_portals",
+          "responsibility": "Monitor auctions; no bid without Brandon money gate"
+        },
+        {
+          "id": "fbmp",
+          "kind": "tool",
+          "label": "FBMP",
+          "model_or_tool": "fbmp_ebay",
+          "responsibility": "Pre-list drafts + live listings after publish gate"
+        }
+      ],
+      "edges": [
+        {
+          "from": "brandon",
+          "to": "chief",
+          "label": "goals + gates"
+        },
+        {
+          "from": "chief",
+          "to": "research",
+          "label": "research briefs"
+        },
+        {
+          "from": "chief",
+          "to": "marketing",
+          "label": "draft assets"
+        },
+        {
+          "from": "chief",
+          "to": "coding",
+          "label": "build after gate"
+        },
+        {
+          "from": "chief",
+          "to": "computer_use",
+          "label": "UI ops"
+        },
+        {
+          "from": "research",
+          "to": "brandon",
+          "label": "shortlist / go-no-go"
+        },
+        {
+          "from": "marketing",
+          "to": "brandon",
+          "label": "publish approval"
+        },
+        {
+          "from": "chief",
+          "to": "crm_sheets",
+          "label": "log pipeline"
+        },
+        {
+          "from": "chief",
+          "to": "email_sms",
+          "label": "draft outreach"
+        },
+        {
+          "from": "email_sms",
+          "to": "brandon",
+          "label": "send gate"
+        },
+        {
+          "from": "chief",
+          "to": "hiring",
+          "label": "draft jobs"
+        },
+        {
+          "from": "hiring",
+          "to": "brandon",
+          "label": "hire/pay gates"
+        },
+        {
+          "from": "payments",
+          "to": "brandon",
+          "label": "pay gate"
+        },
+        {
+          "from": "chief",
+          "to": "liquidation",
+          "label": "monitor auctions"
+        },
+        {
+          "from": "liquidation",
+          "to": "brandon",
+          "label": "bid/money gate"
+        },
+        {
+          "from": "chief",
+          "to": "fbmp",
+          "label": "listing drafts"
+        },
+        {
+          "from": "fbmp",
+          "to": "brandon",
+          "label": "publish gate"
+        }
+      ],
+      "brandon_only_actions": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "updated_at": "2026-09-19T09:55:00-07:00"
+    },
+    {
+      "id": "graph-plan-idea-mhp_guy-restaurant-equipment-middleman-009",
+      "plan_id": "plan-idea-mhp_guy-restaurant-equipment-middleman-009",
+      "description": "Brandon steers → chief agent → specialists/tools. Money/hire/pay/publish/send never auto-execute.",
+      "nodes": [
+        {
+          "id": "brandon",
+          "kind": "human",
+          "label": "Brandon",
+          "responsibility": "Steer; sole approver for money/hire/pay/publish/send/identity/banking/legal/physical"
+        },
+        {
+          "id": "chief",
+          "kind": "agent",
+          "label": "Chief agent",
+          "model_or_tool": "frontier_llm",
+          "responsibility": "Orchestrate specialists; never auto-spend, hire, pay, publish, or send"
+        },
+        {
+          "id": "research",
+          "kind": "agent",
+          "label": "Research",
+          "model_or_tool": "frontier_llm+browser_scraper",
+          "responsibility": "Market/comp/sourcing research from public data"
+        },
+        {
+          "id": "marketing",
+          "kind": "agent",
+          "label": "Marketing",
+          "model_or_tool": "frontier_llm+image_gen",
+          "responsibility": "Listings, creatives, landing copy, offer drafts"
+        },
+        {
+          "id": "coding",
+          "kind": "agent",
+          "label": "Coding",
+          "model_or_tool": "cursor_codex",
+          "responsibility": "Landing pages, trackers, scrapers, automations after gates"
+        },
+        {
+          "id": "computer_use",
+          "kind": "agent",
+          "label": "Computer-use",
+          "model_or_tool": "grok_bot_muse",
+          "responsibility": "Operate marketplace/ads UIs when APIs missing; draft-only until gates"
+        },
+        {
+          "id": "crm_sheets",
+          "kind": "tool",
+          "label": "Sheets/DB",
+          "model_or_tool": "sheets_or_db",
+          "responsibility": "Pipeline, inventory, attribution logs"
+        },
+        {
+          "id": "email_sms",
+          "kind": "tool",
+          "label": "Email/SMS",
+          "model_or_tool": "email_sms",
+          "responsibility": "Draft only until Brandon send gate"
+        },
+        {
+          "id": "payments",
+          "kind": "tool",
+          "label": "Payments",
+          "model_or_tool": "stripe_paypal",
+          "responsibility": "Invoices/payouts only after Brandon pay gate"
+        },
+        {
+          "id": "hiring",
+          "kind": "tool",
+          "label": "Contractor rails",
+          "model_or_tool": "upwork_onlinejobs",
+          "responsibility": "Draft job posts; Brandon publish+hire+pay gates"
+        },
+        {
+          "id": "fbmp",
+          "kind": "tool",
+          "label": "FBMP + restaurant MPs",
+          "model_or_tool": "fbmp_ebay_restaurant_mp",
+          "responsibility": "Source sellers/buyers; listings after publish gate"
+        },
+        {
+          "id": "contracts",
+          "kind": "tool",
+          "label": "Contract drafts",
+          "model_or_tool": "doc_templates",
+          "responsibility": "Bill of sale / assignment drafts; Brandon + legal sign"
+        }
+      ],
+      "edges": [
+        {
+          "from": "brandon",
+          "to": "chief",
+          "label": "goals + gates"
+        },
+        {
+          "from": "chief",
+          "to": "research",
+          "label": "research briefs"
+        },
+        {
+          "from": "chief",
+          "to": "marketing",
+          "label": "draft assets"
+        },
+        {
+          "from": "chief",
+          "to": "coding",
+          "label": "build after gate"
+        },
+        {
+          "from": "chief",
+          "to": "computer_use",
+          "label": "UI ops"
+        },
+        {
+          "from": "research",
+          "to": "brandon",
+          "label": "shortlist / go-no-go"
+        },
+        {
+          "from": "marketing",
+          "to": "brandon",
+          "label": "publish approval"
+        },
+        {
+          "from": "chief",
+          "to": "crm_sheets",
+          "label": "log pipeline"
+        },
+        {
+          "from": "chief",
+          "to": "email_sms",
+          "label": "draft outreach"
+        },
+        {
+          "from": "email_sms",
+          "to": "brandon",
+          "label": "send gate"
+        },
+        {
+          "from": "chief",
+          "to": "hiring",
+          "label": "draft jobs"
+        },
+        {
+          "from": "hiring",
+          "to": "brandon",
+          "label": "hire/pay gates"
+        },
+        {
+          "from": "payments",
+          "to": "brandon",
+          "label": "pay gate"
+        },
+        {
+          "from": "chief",
+          "to": "fbmp",
+          "label": "source + list"
+        },
+        {
+          "from": "fbmp",
+          "to": "brandon",
+          "label": "publish/buy gates"
+        },
+        {
+          "from": "chief",
+          "to": "contracts",
+          "label": "paperwork drafts"
+        },
+        {
+          "from": "contracts",
+          "to": "brandon",
+          "label": "legal/sign gate"
+        }
+      ],
+      "brandon_only_actions": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "updated_at": "2026-09-19T09:55:00-07:00"
+    },
+    {
+      "id": "graph-plan-idea-mhp_guy-water-filtration-home-service-001",
+      "plan_id": "plan-idea-mhp_guy-water-filtration-home-service-001",
+      "description": "Brandon steers → chief agent → specialists/tools. Money/hire/pay/publish/send never auto-execute.",
+      "nodes": [
+        {
+          "id": "brandon",
+          "kind": "human",
+          "label": "Brandon",
+          "responsibility": "Steer; sole approver for money/hire/pay/publish/send/identity/banking/legal/physical"
+        },
+        {
+          "id": "chief",
+          "kind": "agent",
+          "label": "Chief agent",
+          "model_or_tool": "frontier_llm",
+          "responsibility": "Orchestrate specialists; never auto-spend, hire, pay, publish, or send"
+        },
+        {
+          "id": "research",
+          "kind": "agent",
+          "label": "Research",
+          "model_or_tool": "frontier_llm+browser_scraper",
+          "responsibility": "Market/comp/sourcing research from public data"
+        },
+        {
+          "id": "marketing",
+          "kind": "agent",
+          "label": "Marketing",
+          "model_or_tool": "frontier_llm+image_gen",
+          "responsibility": "Listings, creatives, landing copy, offer drafts"
+        },
+        {
+          "id": "coding",
+          "kind": "agent",
+          "label": "Coding",
+          "model_or_tool": "cursor_codex",
+          "responsibility": "Landing pages, trackers, scrapers, automations after gates"
+        },
+        {
+          "id": "computer_use",
+          "kind": "agent",
+          "label": "Computer-use",
+          "model_or_tool": "grok_bot_muse",
+          "responsibility": "Operate marketplace/ads UIs when APIs missing; draft-only until gates"
+        },
+        {
+          "id": "crm_sheets",
+          "kind": "tool",
+          "label": "Sheets/DB",
+          "model_or_tool": "sheets_or_db",
+          "responsibility": "Pipeline, inventory, attribution logs"
+        },
+        {
+          "id": "email_sms",
+          "kind": "tool",
+          "label": "Email/SMS",
+          "model_or_tool": "email_sms",
+          "responsibility": "Draft only until Brandon send gate"
+        },
+        {
+          "id": "payments",
+          "kind": "tool",
+          "label": "Payments",
+          "model_or_tool": "stripe_paypal",
+          "responsibility": "Invoices/payouts only after Brandon pay gate"
+        },
+        {
+          "id": "hiring",
+          "kind": "tool",
+          "label": "Contractor rails",
+          "model_or_tool": "upwork_onlinejobs",
+          "responsibility": "Draft job posts; Brandon publish+hire+pay gates"
+        },
+        {
+          "id": "meta_ads",
+          "kind": "tool",
+          "label": "Meta Ads",
+          "model_or_tool": "meta_ads",
+          "responsibility": "Lead ads after Brandon money+publish gate"
+        },
+        {
+          "id": "suppliers",
+          "kind": "tool",
+          "label": "Filter suppliers",
+          "model_or_tool": "supplier_portals",
+          "responsibility": "Product quotes; buys only after Brandon money gate"
+        }
+      ],
+      "edges": [
+        {
+          "from": "brandon",
+          "to": "chief",
+          "label": "goals + gates"
+        },
+        {
+          "from": "chief",
+          "to": "research",
+          "label": "research briefs"
+        },
+        {
+          "from": "chief",
+          "to": "marketing",
+          "label": "draft assets"
+        },
+        {
+          "from": "chief",
+          "to": "coding",
+          "label": "build after gate"
+        },
+        {
+          "from": "chief",
+          "to": "computer_use",
+          "label": "UI ops"
+        },
+        {
+          "from": "research",
+          "to": "brandon",
+          "label": "shortlist / go-no-go"
+        },
+        {
+          "from": "marketing",
+          "to": "brandon",
+          "label": "publish approval"
+        },
+        {
+          "from": "chief",
+          "to": "crm_sheets",
+          "label": "log pipeline"
+        },
+        {
+          "from": "chief",
+          "to": "email_sms",
+          "label": "draft outreach"
+        },
+        {
+          "from": "email_sms",
+          "to": "brandon",
+          "label": "send gate"
+        },
+        {
+          "from": "chief",
+          "to": "hiring",
+          "label": "draft jobs"
+        },
+        {
+          "from": "hiring",
+          "to": "brandon",
+          "label": "hire/pay gates"
+        },
+        {
+          "from": "payments",
+          "to": "brandon",
+          "label": "pay gate"
+        },
+        {
+          "from": "marketing",
+          "to": "meta_ads",
+          "label": "launch after gate"
+        },
+        {
+          "from": "meta_ads",
+          "to": "brandon",
+          "label": "money/publish gate"
+        },
+        {
+          "from": "chief",
+          "to": "suppliers",
+          "label": "COGS quotes"
+        },
+        {
+          "from": "suppliers",
+          "to": "brandon",
+          "label": "buy gate"
+        }
+      ],
+      "brandon_only_actions": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "updated_at": "2026-09-19T09:55:00-07:00"
+    },
+    {
+      "id": "graph-plan-idea-mhp_guy-portable-minigolf-cornhole-rentals-001",
+      "plan_id": "plan-idea-mhp_guy-portable-minigolf-cornhole-rentals-001",
+      "description": "Brandon steers → chief agent → specialists/tools. Money/hire/pay/publish/send never auto-execute.",
+      "nodes": [
+        {
+          "id": "brandon",
+          "kind": "human",
+          "label": "Brandon",
+          "responsibility": "Steer; sole approver for money/hire/pay/publish/send/identity/banking/legal/physical"
+        },
+        {
+          "id": "chief",
+          "kind": "agent",
+          "label": "Chief agent",
+          "model_or_tool": "frontier_llm",
+          "responsibility": "Orchestrate specialists; never auto-spend, hire, pay, publish, or send"
+        },
+        {
+          "id": "research",
+          "kind": "agent",
+          "label": "Research",
+          "model_or_tool": "frontier_llm+browser_scraper",
+          "responsibility": "Market/comp/sourcing research from public data"
+        },
+        {
+          "id": "marketing",
+          "kind": "agent",
+          "label": "Marketing",
+          "model_or_tool": "frontier_llm+image_gen",
+          "responsibility": "Listings, creatives, landing copy, offer drafts"
+        },
+        {
+          "id": "coding",
+          "kind": "agent",
+          "label": "Coding",
+          "model_or_tool": "cursor_codex",
+          "responsibility": "Landing pages, trackers, scrapers, automations after gates"
+        },
+        {
+          "id": "computer_use",
+          "kind": "agent",
+          "label": "Computer-use",
+          "model_or_tool": "grok_bot_muse",
+          "responsibility": "Operate marketplace/ads UIs when APIs missing; draft-only until gates"
+        },
+        {
+          "id": "crm_sheets",
+          "kind": "tool",
+          "label": "Sheets/DB",
+          "model_or_tool": "sheets_or_db",
+          "responsibility": "Pipeline, inventory, attribution logs"
+        },
+        {
+          "id": "email_sms",
+          "kind": "tool",
+          "label": "Email/SMS",
+          "model_or_tool": "email_sms",
+          "responsibility": "Draft only until Brandon send gate"
+        },
+        {
+          "id": "payments",
+          "kind": "tool",
+          "label": "Payments",
+          "model_or_tool": "stripe_paypal",
+          "responsibility": "Invoices/payouts only after Brandon pay gate"
+        },
+        {
+          "id": "hiring",
+          "kind": "tool",
+          "label": "Contractor rails",
+          "model_or_tool": "upwork_onlinejobs",
+          "responsibility": "Draft job posts; Brandon publish+hire+pay gates"
+        },
+        {
+          "id": "fbmp",
+          "kind": "tool",
+          "label": "FBMP/social",
+          "model_or_tool": "fbmp_social",
+          "responsibility": "Local listing drafts after publish gate"
+        },
+        {
+          "id": "calendar",
+          "kind": "tool",
+          "label": "Booking calendar",
+          "model_or_tool": "sheets_or_calendar",
+          "responsibility": "Hold inventory of dates; deposits via payments after gate"
+        },
+        {
+          "id": "image_video",
+          "kind": "tool",
+          "label": "Image/video",
+          "model_or_tool": "image_video_gen",
+          "responsibility": "Lifestyle creatives for packages"
+        }
+      ],
+      "edges": [
+        {
+          "from": "brandon",
+          "to": "chief",
+          "label": "goals + gates"
+        },
+        {
+          "from": "chief",
+          "to": "research",
+          "label": "research briefs"
+        },
+        {
+          "from": "chief",
+          "to": "marketing",
+          "label": "draft assets"
+        },
+        {
+          "from": "chief",
+          "to": "coding",
+          "label": "build after gate"
+        },
+        {
+          "from": "chief",
+          "to": "computer_use",
+          "label": "UI ops"
+        },
+        {
+          "from": "research",
+          "to": "brandon",
+          "label": "shortlist / go-no-go"
+        },
+        {
+          "from": "marketing",
+          "to": "brandon",
+          "label": "publish approval"
+        },
+        {
+          "from": "chief",
+          "to": "crm_sheets",
+          "label": "log pipeline"
+        },
+        {
+          "from": "chief",
+          "to": "email_sms",
+          "label": "draft outreach"
+        },
+        {
+          "from": "email_sms",
+          "to": "brandon",
+          "label": "send gate"
+        },
+        {
+          "from": "chief",
+          "to": "hiring",
+          "label": "draft jobs"
+        },
+        {
+          "from": "hiring",
+          "to": "brandon",
+          "label": "hire/pay gates"
+        },
+        {
+          "from": "payments",
+          "to": "brandon",
+          "label": "pay gate"
+        },
+        {
+          "from": "marketing",
+          "to": "image_video",
+          "label": "creatives"
+        },
+        {
+          "from": "chief",
+          "to": "fbmp",
+          "label": "local listings"
+        },
+        {
+          "from": "fbmp",
+          "to": "brandon",
+          "label": "publish gate"
+        },
+        {
+          "from": "chief",
+          "to": "calendar",
+          "label": "bookings"
+        },
+        {
+          "from": "calendar",
+          "to": "payments",
+          "label": "deposits after gate"
+        }
+      ],
+      "brandon_only_actions": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "updated_at": "2026-09-19T09:55:00-07:00"
+    },
+    {
+      "id": "graph-plan-idea-mhp_guy-ai-avatar-video-service-local-pros-017",
+      "plan_id": "plan-idea-mhp_guy-ai-avatar-video-service-local-pros-017",
+      "description": "Brandon steers → chief agent → specialists/tools. Money/hire/pay/publish/send never auto-execute.",
+      "nodes": [
+        {
+          "id": "brandon",
+          "kind": "human",
+          "label": "Brandon",
+          "responsibility": "Steer; sole approver for money/hire/pay/publish/send/identity/banking/legal/physical"
+        },
+        {
+          "id": "chief",
+          "kind": "agent",
+          "label": "Chief agent",
+          "model_or_tool": "frontier_llm",
+          "responsibility": "Orchestrate specialists; never auto-spend, hire, pay, publish, or send"
+        },
+        {
+          "id": "research",
+          "kind": "agent",
+          "label": "Research",
+          "model_or_tool": "frontier_llm+browser_scraper",
+          "responsibility": "Market/comp/sourcing research from public data"
+        },
+        {
+          "id": "marketing",
+          "kind": "agent",
+          "label": "Marketing",
+          "model_or_tool": "frontier_llm+image_gen",
+          "responsibility": "Listings, creatives, landing copy, offer drafts"
+        },
+        {
+          "id": "coding",
+          "kind": "agent",
+          "label": "Coding",
+          "model_or_tool": "cursor_codex",
+          "responsibility": "Landing pages, trackers, scrapers, automations after gates"
+        },
+        {
+          "id": "computer_use",
+          "kind": "agent",
+          "label": "Computer-use",
+          "model_or_tool": "grok_bot_muse",
+          "responsibility": "Operate marketplace/ads UIs when APIs missing; draft-only until gates"
+        },
+        {
+          "id": "crm_sheets",
+          "kind": "tool",
+          "label": "Sheets/DB",
+          "model_or_tool": "sheets_or_db",
+          "responsibility": "Pipeline, inventory, attribution logs"
+        },
+        {
+          "id": "email_sms",
+          "kind": "tool",
+          "label": "Email/SMS",
+          "model_or_tool": "email_sms",
+          "responsibility": "Draft only until Brandon send gate"
+        },
+        {
+          "id": "payments",
+          "kind": "tool",
+          "label": "Payments",
+          "model_or_tool": "stripe_paypal",
+          "responsibility": "Invoices/payouts only after Brandon pay gate"
+        },
+        {
+          "id": "hiring",
+          "kind": "tool",
+          "label": "Contractor rails",
+          "model_or_tool": "upwork_onlinejobs",
+          "responsibility": "Draft job posts; Brandon publish+hire+pay gates"
+        },
+        {
+          "id": "avatar_video",
+          "kind": "tool",
+          "label": "Avatar/video",
+          "model_or_tool": "heygen_style+video",
+          "responsibility": "Renders after Brandon money gate on tools"
+        },
+        {
+          "id": "meta_ads",
+          "kind": "tool",
+          "label": "Meta/LinkedIn",
+          "model_or_tool": "meta_ads_linkedin",
+          "responsibility": "Optional paid acquisition after money+publish gates"
+        }
+      ],
+      "edges": [
+        {
+          "from": "brandon",
+          "to": "chief",
+          "label": "goals + gates"
+        },
+        {
+          "from": "chief",
+          "to": "research",
+          "label": "research briefs"
+        },
+        {
+          "from": "chief",
+          "to": "marketing",
+          "label": "draft assets"
+        },
+        {
+          "from": "chief",
+          "to": "coding",
+          "label": "build after gate"
+        },
+        {
+          "from": "chief",
+          "to": "computer_use",
+          "label": "UI ops"
+        },
+        {
+          "from": "research",
+          "to": "brandon",
+          "label": "shortlist / go-no-go"
+        },
+        {
+          "from": "marketing",
+          "to": "brandon",
+          "label": "publish approval"
+        },
+        {
+          "from": "chief",
+          "to": "crm_sheets",
+          "label": "log pipeline"
+        },
+        {
+          "from": "chief",
+          "to": "email_sms",
+          "label": "draft outreach"
+        },
+        {
+          "from": "email_sms",
+          "to": "brandon",
+          "label": "send gate"
+        },
+        {
+          "from": "chief",
+          "to": "hiring",
+          "label": "draft jobs"
+        },
+        {
+          "from": "hiring",
+          "to": "brandon",
+          "label": "hire/pay gates"
+        },
+        {
+          "from": "payments",
+          "to": "brandon",
+          "label": "pay gate"
+        },
+        {
+          "from": "marketing",
+          "to": "avatar_video",
+          "label": "render samples"
+        },
+        {
+          "from": "avatar_video",
+          "to": "brandon",
+          "label": "tool money gate"
+        },
+        {
+          "from": "marketing",
+          "to": "meta_ads",
+          "label": "optional ads after gate"
+        }
+      ],
+      "brandon_only_actions": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "updated_at": "2026-09-19T09:55:00-07:00"
+    },
+    {
+      "id": "graph-plan-idea-boringmarketer-hyperlocal-pages-prospecting-agency-027",
+      "plan_id": "plan-idea-boringmarketer-hyperlocal-pages-prospecting-agency-027",
+      "description": "Brandon steers → chief agent → specialists/tools. Money/hire/pay/publish/send never auto-execute.",
+      "nodes": [
+        {
+          "id": "brandon",
+          "kind": "human",
+          "label": "Brandon",
+          "responsibility": "Steer; sole approver for money/hire/pay/publish/send/identity/banking/legal/physical"
+        },
+        {
+          "id": "chief",
+          "kind": "agent",
+          "label": "Chief agent",
+          "model_or_tool": "frontier_llm",
+          "responsibility": "Orchestrate specialists; never auto-spend, hire, pay, publish, or send"
+        },
+        {
+          "id": "research",
+          "kind": "agent",
+          "label": "Research",
+          "model_or_tool": "frontier_llm+browser_scraper",
+          "responsibility": "Market/comp/sourcing research from public data"
+        },
+        {
+          "id": "marketing",
+          "kind": "agent",
+          "label": "Marketing",
+          "model_or_tool": "frontier_llm+image_gen",
+          "responsibility": "Listings, creatives, landing copy, offer drafts"
+        },
+        {
+          "id": "coding",
+          "kind": "agent",
+          "label": "Coding",
+          "model_or_tool": "cursor_codex",
+          "responsibility": "Landing pages, trackers, scrapers, automations after gates"
+        },
+        {
+          "id": "computer_use",
+          "kind": "agent",
+          "label": "Computer-use",
+          "model_or_tool": "grok_bot_muse",
+          "responsibility": "Operate marketplace/ads UIs when APIs missing; draft-only until gates"
+        },
+        {
+          "id": "crm_sheets",
+          "kind": "tool",
+          "label": "Sheets/DB",
+          "model_or_tool": "sheets_or_db",
+          "responsibility": "Pipeline, inventory, attribution logs"
+        },
+        {
+          "id": "email_sms",
+          "kind": "tool",
+          "label": "Email/SMS",
+          "model_or_tool": "email_sms",
+          "responsibility": "Draft only until Brandon send gate"
+        },
+        {
+          "id": "payments",
+          "kind": "tool",
+          "label": "Payments",
+          "model_or_tool": "stripe_paypal",
+          "responsibility": "Invoices/payouts only after Brandon pay gate"
+        },
+        {
+          "id": "hiring",
+          "kind": "tool",
+          "label": "Contractor rails",
+          "model_or_tool": "upwork_onlinejobs",
+          "responsibility": "Draft job posts; Brandon publish+hire+pay gates"
+        },
+        {
+          "id": "scraper",
+          "kind": "tool",
+          "label": "Scrapers",
+          "model_or_tool": "browser_scraper",
+          "responsibility": "Public Maps/site data only"
+        },
+        {
+          "id": "call_track",
+          "kind": "tool",
+          "label": "Call tracking",
+          "model_or_tool": "call_tracking",
+          "responsibility": "Numbers after Brandon money+identity gate"
+        }
+      ],
+      "edges": [
+        {
+          "from": "brandon",
+          "to": "chief",
+          "label": "goals + gates"
+        },
+        {
+          "from": "chief",
+          "to": "research",
+          "label": "research briefs"
+        },
+        {
+          "from": "chief",
+          "to": "marketing",
+          "label": "draft assets"
+        },
+        {
+          "from": "chief",
+          "to": "coding",
+          "label": "build after gate"
+        },
+        {
+          "from": "chief",
+          "to": "computer_use",
+          "label": "UI ops"
+        },
+        {
+          "from": "research",
+          "to": "brandon",
+          "label": "shortlist / go-no-go"
+        },
+        {
+          "from": "marketing",
+          "to": "brandon",
+          "label": "publish approval"
+        },
+        {
+          "from": "chief",
+          "to": "crm_sheets",
+          "label": "log pipeline"
+        },
+        {
+          "from": "chief",
+          "to": "email_sms",
+          "label": "draft outreach"
+        },
+        {
+          "from": "email_sms",
+          "to": "brandon",
+          "label": "send gate"
+        },
+        {
+          "from": "chief",
+          "to": "hiring",
+          "label": "draft jobs"
+        },
+        {
+          "from": "hiring",
+          "to": "brandon",
+          "label": "hire/pay gates"
+        },
+        {
+          "from": "payments",
+          "to": "brandon",
+          "label": "pay gate"
+        },
+        {
+          "from": "research",
+          "to": "scraper",
+          "label": "public data"
+        },
+        {
+          "from": "coding",
+          "to": "brandon",
+          "label": "publish gate"
+        },
+        {
+          "from": "chief",
+          "to": "call_track",
+          "label": "proof phones"
+        },
+        {
+          "from": "call_track",
+          "to": "brandon",
+          "label": "money/identity gate"
+        }
+      ],
+      "brandon_only_actions": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "updated_at": "2026-09-19T09:55:00-07:00"
+    },
+    {
+      "id": "graph-plan-idea-boringmarketer-front-end-local-trade-marketing-026",
+      "plan_id": "plan-idea-boringmarketer-front-end-local-trade-marketing-026",
+      "description": "Brandon steers → chief agent → specialists/tools. Money/hire/pay/publish/send never auto-execute.",
+      "nodes": [
+        {
+          "id": "brandon",
+          "kind": "human",
+          "label": "Brandon",
+          "responsibility": "Steer; sole approver for money/hire/pay/publish/send/identity/banking/legal/physical"
+        },
+        {
+          "id": "chief",
+          "kind": "agent",
+          "label": "Chief agent",
+          "model_or_tool": "frontier_llm",
+          "responsibility": "Orchestrate specialists; never auto-spend, hire, pay, publish, or send"
+        },
+        {
+          "id": "research",
+          "kind": "agent",
+          "label": "Research",
+          "model_or_tool": "frontier_llm+browser_scraper",
+          "responsibility": "Market/comp/sourcing research from public data"
+        },
+        {
+          "id": "marketing",
+          "kind": "agent",
+          "label": "Marketing",
+          "model_or_tool": "frontier_llm+image_gen",
+          "responsibility": "Listings, creatives, landing copy, offer drafts"
+        },
+        {
+          "id": "coding",
+          "kind": "agent",
+          "label": "Coding",
+          "model_or_tool": "cursor_codex",
+          "responsibility": "Landing pages, trackers, scrapers, automations after gates"
+        },
+        {
+          "id": "computer_use",
+          "kind": "agent",
+          "label": "Computer-use",
+          "model_or_tool": "grok_bot_muse",
+          "responsibility": "Operate marketplace/ads UIs when APIs missing; draft-only until gates"
+        },
+        {
+          "id": "crm_sheets",
+          "kind": "tool",
+          "label": "Sheets/DB",
+          "model_or_tool": "sheets_or_db",
+          "responsibility": "Pipeline, inventory, attribution logs"
+        },
+        {
+          "id": "email_sms",
+          "kind": "tool",
+          "label": "Email/SMS",
+          "model_or_tool": "email_sms",
+          "responsibility": "Draft only until Brandon send gate"
+        },
+        {
+          "id": "payments",
+          "kind": "tool",
+          "label": "Payments",
+          "model_or_tool": "stripe_paypal",
+          "responsibility": "Invoices/payouts only after Brandon pay gate"
+        },
+        {
+          "id": "hiring",
+          "kind": "tool",
+          "label": "Contractor rails",
+          "model_or_tool": "upwork_onlinejobs",
+          "responsibility": "Draft job posts; Brandon publish+hire+pay gates"
+        },
+        {
+          "id": "meta_ads",
+          "kind": "tool",
+          "label": "Meta Ads",
+          "model_or_tool": "meta_ads",
+          "responsibility": "Local lead ads after money+publish gates"
+        },
+        {
+          "id": "seo_stack",
+          "kind": "tool",
+          "label": "SEO/pages",
+          "model_or_tool": "coding_agent+hosting",
+          "responsibility": "Hyperlocal pages after publish gate"
+        },
+        {
+          "id": "call_track",
+          "kind": "tool",
+          "label": "Call tracking",
+          "model_or_tool": "call_tracking",
+          "responsibility": "Optimize for phone calls"
+        }
+      ],
+      "edges": [
+        {
+          "from": "brandon",
+          "to": "chief",
+          "label": "goals + gates"
+        },
+        {
+          "from": "chief",
+          "to": "research",
+          "label": "research briefs"
+        },
+        {
+          "from": "chief",
+          "to": "marketing",
+          "label": "draft assets"
+        },
+        {
+          "from": "chief",
+          "to": "coding",
+          "label": "build after gate"
+        },
+        {
+          "from": "chief",
+          "to": "computer_use",
+          "label": "UI ops"
+        },
+        {
+          "from": "research",
+          "to": "brandon",
+          "label": "shortlist / go-no-go"
+        },
+        {
+          "from": "marketing",
+          "to": "brandon",
+          "label": "publish approval"
+        },
+        {
+          "from": "chief",
+          "to": "crm_sheets",
+          "label": "log pipeline"
+        },
+        {
+          "from": "chief",
+          "to": "email_sms",
+          "label": "draft outreach"
+        },
+        {
+          "from": "email_sms",
+          "to": "brandon",
+          "label": "send gate"
+        },
+        {
+          "from": "chief",
+          "to": "hiring",
+          "label": "draft jobs"
+        },
+        {
+          "from": "hiring",
+          "to": "brandon",
+          "label": "hire/pay gates"
+        },
+        {
+          "from": "payments",
+          "to": "brandon",
+          "label": "pay gate"
+        },
+        {
+          "from": "marketing",
+          "to": "meta_ads",
+          "label": "ads after gate"
+        },
+        {
+          "from": "coding",
+          "to": "seo_stack",
+          "label": "pages"
+        },
+        {
+          "from": "seo_stack",
+          "to": "brandon",
+          "label": "publish gate"
+        },
+        {
+          "from": "chief",
+          "to": "call_track",
+          "label": "attribution"
+        },
+        {
+          "from": "call_track",
+          "to": "brandon",
+          "label": "money gate"
+        }
+      ],
+      "brandon_only_actions": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "updated_at": "2026-09-19T09:55:00-07:00"
+    },
+    {
+      "id": "graph-plan-idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034",
+      "plan_id": "plan-idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034",
+      "description": "Brandon steers → chief agent → specialists/tools. Money/hire/pay/publish/send never auto-execute.",
+      "nodes": [
+        {
+          "id": "brandon",
+          "kind": "human",
+          "label": "Brandon",
+          "responsibility": "Steer; sole approver for money/hire/pay/publish/send/identity/banking/legal/physical"
+        },
+        {
+          "id": "chief",
+          "kind": "agent",
+          "label": "Chief agent",
+          "model_or_tool": "frontier_llm",
+          "responsibility": "Orchestrate specialists; never auto-spend, hire, pay, publish, or send"
+        },
+        {
+          "id": "research",
+          "kind": "agent",
+          "label": "Research",
+          "model_or_tool": "frontier_llm+browser_scraper",
+          "responsibility": "Market/comp/sourcing research from public data"
+        },
+        {
+          "id": "marketing",
+          "kind": "agent",
+          "label": "Marketing",
+          "model_or_tool": "frontier_llm+image_gen",
+          "responsibility": "Listings, creatives, landing copy, offer drafts"
+        },
+        {
+          "id": "coding",
+          "kind": "agent",
+          "label": "Coding",
+          "model_or_tool": "cursor_codex",
+          "responsibility": "Landing pages, trackers, scrapers, automations after gates"
+        },
+        {
+          "id": "computer_use",
+          "kind": "agent",
+          "label": "Computer-use",
+          "model_or_tool": "grok_bot_muse",
+          "responsibility": "Operate marketplace/ads UIs when APIs missing; draft-only until gates"
+        },
+        {
+          "id": "crm_sheets",
+          "kind": "tool",
+          "label": "Sheets/DB",
+          "model_or_tool": "sheets_or_db",
+          "responsibility": "Pipeline, inventory, attribution logs"
+        },
+        {
+          "id": "email_sms",
+          "kind": "tool",
+          "label": "Email/SMS",
+          "model_or_tool": "email_sms",
+          "responsibility": "Draft only until Brandon send gate"
+        },
+        {
+          "id": "payments",
+          "kind": "tool",
+          "label": "Payments",
+          "model_or_tool": "stripe_paypal",
+          "responsibility": "Invoices/payouts only after Brandon pay gate"
+        },
+        {
+          "id": "hiring",
+          "kind": "tool",
+          "label": "Contractor rails",
+          "model_or_tool": "upwork_onlinejobs",
+          "responsibility": "Draft job posts; Brandon publish+hire+pay gates"
+        },
+        {
+          "id": "meta_ads",
+          "kind": "tool",
+          "label": "Meta Ads",
+          "model_or_tool": "meta_ads",
+          "responsibility": "Campaigns only after Brandon money+publish gate"
+        },
+        {
+          "id": "image_video",
+          "kind": "tool",
+          "label": "Image/video",
+          "model_or_tool": "image_video_gen",
+          "responsibility": "Job-photo + text-bubble creatives"
+        },
+        {
+          "id": "coding_skills",
+          "kind": "tool",
+          "label": "Ads skills/scripts",
+          "model_or_tool": "cursor_codex",
+          "responsibility": "Agentic campaign builders; dry-run default"
+        }
+      ],
+      "edges": [
+        {
+          "from": "brandon",
+          "to": "chief",
+          "label": "goals + gates"
+        },
+        {
+          "from": "chief",
+          "to": "research",
+          "label": "research briefs"
+        },
+        {
+          "from": "chief",
+          "to": "marketing",
+          "label": "draft assets"
+        },
+        {
+          "from": "chief",
+          "to": "coding",
+          "label": "build after gate"
+        },
+        {
+          "from": "chief",
+          "to": "computer_use",
+          "label": "UI ops"
+        },
+        {
+          "from": "research",
+          "to": "brandon",
+          "label": "shortlist / go-no-go"
+        },
+        {
+          "from": "marketing",
+          "to": "brandon",
+          "label": "publish approval"
+        },
+        {
+          "from": "chief",
+          "to": "crm_sheets",
+          "label": "log pipeline"
+        },
+        {
+          "from": "chief",
+          "to": "email_sms",
+          "label": "draft outreach"
+        },
+        {
+          "from": "email_sms",
+          "to": "brandon",
+          "label": "send gate"
+        },
+        {
+          "from": "chief",
+          "to": "hiring",
+          "label": "draft jobs"
+        },
+        {
+          "from": "hiring",
+          "to": "brandon",
+          "label": "hire/pay gates"
+        },
+        {
+          "from": "payments",
+          "to": "brandon",
+          "label": "pay gate"
+        },
+        {
+          "from": "coding",
+          "to": "coding_skills",
+          "label": "scaffold"
+        },
+        {
+          "from": "marketing",
+          "to": "image_video",
+          "label": "creatives"
+        },
+        {
+          "from": "coding_skills",
+          "to": "meta_ads",
+          "label": "launch after gate"
+        },
+        {
+          "from": "meta_ads",
+          "to": "brandon",
+          "label": "money/publish gate"
+        },
+        {
+          "from": "computer_use",
+          "to": "meta_ads",
+          "label": "UI ops when API gaps"
+        }
+      ],
+      "brandon_only_actions": [
+        "money",
+        "hire",
+        "pay",
+        "publish",
+        "send",
+        "identity",
+        "banking",
+        "legal",
+        "physical"
+      ],
+      "updated_at": "2026-09-19T09:55:00-07:00"
     }
   ]
 }

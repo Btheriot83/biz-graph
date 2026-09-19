@@ -1,0 +1,114 @@
+{
+  "id": "plan-idea-mhp_guy-ai-avatar-video-service-local-pros-017",
+  "idea_id": "idea-mhp_guy-ai-avatar-video-service-local-pros-017",
+  "title": "AI avatar video content service for local professionals",
+  "one_liner": "Productized DFY AI avatar video retainers for mortgage/local pros: headshot in → niche explainers out.",
+  "category_tags": [
+    "ai_agency",
+    "content_ops",
+    "productized_service"
+  ],
+  "why_agent_runnable": "Scripting, avatar generation, editing briefs, prospect lists, and reporting are agent-native. Brandon approves niche, tool spend, publish of samples, and outbound send.",
+  "ops_steps": [
+    {
+      "n": 1,
+      "title": "Niche shortlist",
+      "owner": "research_agent",
+      "detail": "Score local pro niches (mortgage, insurance, medspa, real estate) by ticket size and content need.",
+      "human_required": false
+    },
+    {
+      "n": 2,
+      "title": "Brandon niche + offer",
+      "owner": "brandon",
+      "detail": "Pick one niche + retainer shape (e.g. 4 videos/mo).",
+      "human_required": true
+    },
+    {
+      "n": 3,
+      "title": "Sample pack",
+      "owner": "marketing_agent",
+      "detail": "Produce sample scripts + avatar videos from public headshots/stock (tool spend needs money gate).",
+      "human_required": true
+    },
+    {
+      "n": 4,
+      "title": "Sales assets",
+      "owner": "marketing_agent",
+      "detail": "Landing, Loom outline, pricing one-pager, case-style before/after. Draft until publish.",
+      "human_required": false
+    },
+    {
+      "n": 5,
+      "title": "Prospect engine",
+      "owner": "research_agent",
+      "detail": "Build compliant prospect list; draft LinkedIn/email sequences — Brandon send.",
+      "human_required": true
+    },
+    {
+      "n": 6,
+      "title": "Delivery SOP",
+      "owner": "ops_agent",
+      "detail": "Intake form, script approval loop, render checklist, revision policy.",
+      "human_required": false
+    },
+    {
+      "n": 7,
+      "title": "Retainer ops",
+      "owner": "chief_agent",
+      "detail": "Stripe invoices after pay gate; monthly performance notes; hire editor only with Brandon hire gate.",
+      "human_required": true
+    }
+  ],
+  "human_only_checkpoints": [
+    "KYC / business identity / domain registrant",
+    "Banking + Stripe/PayPal / marketplace payout accounts",
+    "Any purchase, deposit, ad spend, or paid tool upgrade",
+    "Hiring contractors, VAs, or licensed trades",
+    "Paying invoices / payouts / refunds",
+    "Publishing listings, sites, ads, social as official",
+    "Sending outreach email/DM/SMS as Brandon",
+    "Physical pickup, delivery, install, or on-site work",
+    "Legal/compliance review when required"
+  ],
+  "hiring_and_pay_flow": {
+    "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+    "brandon_gates_before_money": [
+      "approve job post publish",
+      "approve hire",
+      "approve payment amount + rail",
+      "approve recurring retainer or inventory buy"
+    ]
+  },
+  "orchestration_graph_id": "graph-plan-idea-mhp_guy-ai-avatar-video-service-local-pros-017",
+  "unit_economics_sketch": {
+    "setup_fee_range_usd": "0-500",
+    "monthly_retainer_range_usd": "300-1500",
+    "tool_cost_notes": "Avatar/video tools often $30-200/mo; watch render overages.",
+    "gross_margin_notes": "High software margin if scripts+renders stay agent-led. Ranges are sketches only — not guarantees.",
+    "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+  },
+  "first_7_day_agent_sprint": [
+    "Day 1-2: niche scorecard",
+    "Day 3: Brandon niche/offer pick",
+    "Day 4: Brandon tool-spend gate + first sample renders",
+    "Day 5-6: landing + sales one-pager drafts",
+    "Day 7: prospect list + outreach drafts (no send)"
+  ],
+  "kill_criteria": [
+    "Cannot produce acceptable sample quality at agreed tool budget",
+    "Zero discovery calls after 50 Brandon-approved sends",
+    "Churn >50% on first 4 retainers due to quality/speed",
+    "Brandon declines further tool or ads spend"
+  ],
+  "source_citations": [
+    {
+      "url": "https://www.youtube.com/watch?v=-kwF1zol2gQ",
+      "date": "2026-03-01",
+      "handle": "mhp_guy"
+    }
+  ],
+  "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+  "status": "draft",
+  "updated_at": "2026-09-19T09:55:00-07:00"
+}

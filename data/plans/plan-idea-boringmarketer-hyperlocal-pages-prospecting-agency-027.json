@@ -1,0 +1,115 @@
+{
+  "id": "plan-idea-boringmarketer-hyperlocal-pages-prospecting-agency-027",
+  "idea_id": "idea-boringmarketer-hyperlocal-pages-prospecting-agency-027",
+  "title": "Hyperlocal SEO pages + automated prospecting for $1K+ ticket locals",
+  "one_liner": "Scrape $1K+ ticket locals with 50+ reviews, build hyperlocal conversion pages, prospect with proof the phone rings.",
+  "category_tags": [
+    "ai_agency",
+    "seo",
+    "lead_gen",
+    "productized_service"
+  ],
+  "why_agent_runnable": "Scraping, page generation, proof dashboards, and prospecting drafts are agent-native. Brandon gates niche, publish, spend, and outbound send.",
+  "ops_steps": [
+    {
+      "n": 1,
+      "title": "Scrape + score locals",
+      "owner": "research_agent",
+      "detail": "Public scrape of local sites/Maps for ticket proxies, review counts, site quality gaps.",
+      "human_required": false
+    },
+    {
+      "n": 2,
+      "title": "Brandon niche/geo pick",
+      "owner": "brandon",
+      "detail": "Pick one $1K+ niche × geo from shortlist.",
+      "human_required": true
+    },
+    {
+      "n": 3,
+      "title": "Hyperlocal page build",
+      "owner": "coding",
+      "detail": "Generate conversion pages + call tracking skeleton (go-live needs publish gate).",
+      "human_required": false
+    },
+    {
+      "n": 4,
+      "title": "Proof instrumentation",
+      "owner": "ops_agent",
+      "detail": "Call tracking, form CRM, simple 'phone rings' proof sheet.",
+      "human_required": false
+    },
+    {
+      "n": 5,
+      "title": "Publish gate",
+      "owner": "brandon",
+      "detail": "Approve domains, public pages, tracking numbers, brand identity.",
+      "human_required": true
+    },
+    {
+      "n": 6,
+      "title": "Automated prospecting drafts",
+      "owner": "marketing_agent",
+      "detail": "Personalized outreach with page proof — Brandon send gate.",
+      "human_required": true
+    },
+    {
+      "n": 7,
+      "title": "Close + productize",
+      "owner": "chief_agent",
+      "detail": "SOW/retainer drafts; case study (publish gate); SOP lock for next geo.",
+      "human_required": true
+    }
+  ],
+  "human_only_checkpoints": [
+    "KYC / business identity / domain registrant",
+    "Banking + Stripe/PayPal / marketplace payout accounts",
+    "Any purchase, deposit, ad spend, or paid tool upgrade",
+    "Hiring contractors, VAs, or licensed trades",
+    "Paying invoices / payouts / refunds",
+    "Publishing listings, sites, ads, social as official",
+    "Sending outreach email/DM/SMS as Brandon",
+    "Physical pickup, delivery, install, or on-site work",
+    "Legal/compliance review when required"
+  ],
+  "hiring_and_pay_flow": {
+    "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+    "brandon_gates_before_money": [
+      "approve job post publish",
+      "approve hire",
+      "approve payment amount + rail",
+      "approve recurring retainer or inventory buy"
+    ]
+  },
+  "orchestration_graph_id": "graph-plan-idea-boringmarketer-hyperlocal-pages-prospecting-agency-027",
+  "unit_economics_sketch": {
+    "setup_fee_range_usd": "1000-5000",
+    "monthly_retainer_range_usd": "500-2500",
+    "tooling_notes": "Scrapers, hosting, call tracking $50-300/mo typical band.",
+    "gross_margin_notes": "Delivery is mostly agent+templates after first SOP. Ranges are sketches only — not guarantees.",
+    "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+  },
+  "first_7_day_agent_sprint": [
+    "Day 1-2: scrape/score 100+ locals in candidate niches",
+    "Day 3: Brandon niche/geo pick",
+    "Day 4-5: hyperlocal page + tracking drafts",
+    "Day 6: Brandon publish gate",
+    "Day 7: prospect list + outreach drafts (no send)"
+  ],
+  "kill_criteria": [
+    "Cannot find niche with $1K+ tickets AND weak web presence after 2 passes",
+    "Pages get zero calls after 21 days live with agreed distribution",
+    "Zero replies after 50 Brandon-approved prospecting sends",
+    "Brandon declines further spend/publish"
+  ],
+  "source_citations": [
+    {
+      "url": "https://x.com/boringmarketer/status/2100662695682769344",
+      "date": "2026-09-17",
+      "handle": "boringmarketer"
+    }
+  ],
+  "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+  "status": "draft",
+  "updated_at": "2026-09-19T09:55:00-07:00"
+}

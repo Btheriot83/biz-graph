@@ -1,0 +1,115 @@
+{
+  "id": "plan-idea-mhp_guy-portable-minigolf-cornhole-rentals-001",
+  "idea_id": "idea-mhp_guy-portable-minigolf-cornhole-rentals-001",
+  "title": "Portable mini-golf / cornhole course rentals",
+  "one_liner": "Event rentals: portable mini-golf or cornhole packages sold via local social/FBMP; agent runs booking ops, Brandon owns gear and delivery gates.",
+  "category_tags": [
+    "rentals",
+    "events",
+    "offline",
+    "arbitrage"
+  ],
+  "why_agent_runnable": "Pricing research, booking site/forms, outreach drafts, and calendar ops are agent-native. Brandon buys gear, delivers/sets up (or hires), and approves spend/publish.",
+  "ops_steps": [
+    {
+      "n": 1,
+      "title": "Package + geo demand",
+      "owner": "research_agent",
+      "detail": "Comps for party rentals, weekend density, corporate event calendars in target geo.",
+      "human_required": false
+    },
+    {
+      "n": 2,
+      "title": "Brandon package pick",
+      "owner": "brandon",
+      "detail": "Choose mini-golf vs cornhole (or both), CapEx ceiling, storage plan.",
+      "human_required": true
+    },
+    {
+      "n": 3,
+      "title": "Gear BOM + CapEx memo",
+      "owner": "ops_agent",
+      "detail": "Bill of materials, vendors, trailer needs; Brandon money gate before purchase.",
+      "human_required": true
+    },
+    {
+      "n": 4,
+      "title": "Booking funnel drafts",
+      "owner": "marketing_agent",
+      "detail": "Landing, packages, FAQ, contract template, FB/IG creative drafts.",
+      "human_required": false
+    },
+    {
+      "n": 5,
+      "title": "Publish + calendar",
+      "owner": "brandon",
+      "detail": "Approve site/listings go-live; payments account; insurance check if needed.",
+      "human_required": true
+    },
+    {
+      "n": 6,
+      "title": "Outbound to venues",
+      "owner": "marketing_agent",
+      "detail": "Draft venue/HOA/corporate outreach — Brandon send gate.",
+      "human_required": true
+    },
+    {
+      "n": 7,
+      "title": "Fulfillment SOP",
+      "owner": "ops_agent",
+      "detail": "Load-in/out checklist, damage deposit flow, review asks; hire delivery help only with Brandon gate.",
+      "human_required": true
+    }
+  ],
+  "human_only_checkpoints": [
+    "KYC / business identity / domain registrant",
+    "Banking + Stripe/PayPal / marketplace payout accounts",
+    "Any purchase, deposit, ad spend, or paid tool upgrade",
+    "Hiring contractors, VAs, or licensed trades",
+    "Paying invoices / payouts / refunds",
+    "Publishing listings, sites, ads, social as official",
+    "Sending outreach email/DM/SMS as Brandon",
+    "Physical pickup, delivery, install, or on-site work",
+    "Legal/compliance review when required"
+  ],
+  "hiring_and_pay_flow": {
+    "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+    "brandon_gates_before_money": [
+      "approve job post publish",
+      "approve hire",
+      "approve payment amount + rail",
+      "approve recurring retainer or inventory buy"
+    ]
+  },
+  "orchestration_graph_id": "graph-plan-idea-mhp_guy-portable-minigolf-cornhole-rentals-001",
+  "unit_economics_sketch": {
+    "capex_range_usd": "800-8000 depending on DIY vs pro course kits",
+    "rental_day_rate_range_usd": "150-800 per event package",
+    "utilization_notes": "Weekends and holidays drive utilization; off-season is the risk.",
+    "gross_margin_notes": "After CapEx amortized, main costs are transport, labor, storage, damage. Ranges are sketches only — not guarantees.",
+    "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+  },
+  "first_7_day_agent_sprint": [
+    "Day 1-2: demand comps + weekend calendar scan",
+    "Day 3: Brandon package + CapEx ceiling",
+    "Day 4: BOM + vendor shortlist",
+    "Day 5-6: booking funnel + contract drafts",
+    "Day 7: Brandon CapEx/publish go-no-go"
+  ],
+  "kill_criteria": [
+    "Cannot hit CapEx ceiling with usable kit",
+    "Fewer than 2 paid bookings in first 45 days after go-live at agreed marketing effort",
+    "Damage/storage costs exceed agreed monthly burn",
+    "Brandon declines CapEx or insurance"
+  ],
+  "source_citations": [
+    {
+      "url": "https://www.youtube.com/watch?v=dTnidR4eLus",
+      "date": "2026-06-24",
+      "handle": "mhp_guy"
+    }
+  ],
+  "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+  "status": "draft",
+  "updated_at": "2026-09-19T09:55:00-07:00"
+}

@@ -1,0 +1,97 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/boringmarketer/status/2087977772069089487",
+    "id": "2087977772069089487",
+    "text": "@zapier full video here! https://youtu.be/SRSu6vU0fxA",
+    "raw_text": {
+      "text": "@zapier full video here! https://t.co/whrp6UEZVL",
+      "display_text_range": [
+        8,
+        48
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            0,
+            7
+          ],
+          "original": "zapier",
+          "id": "383012058"
+        },
+        {
+          "type": "url",
+          "indices": [
+            25,
+            48
+          ],
+          "original": "https://t.co/whrp6UEZVL",
+          "replacement": "https://youtu.be/SRSu6vU0fxA",
+          "display": "youtu.be/SRSu6vU0fxA"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "boringmarketer",
+      "url": "https://x.com/boringmarketer",
+      "id": "1620443590194348033",
+      "followers": 102347,
+      "following": 340,
+      "likes": 12943,
+      "media_count": 1592,
+      "name": "The Boring Marketer",
+      "description": "I build AI for \u201cboring\u201d businesses & show you how to build your own business serving Main Street.",
+      "raw_description": {
+        "text": "I build AI for \u201cboring\u201d businesses & show you how to build your own business serving Main Street.",
+        "facets": []
+      },
+      "location": "building",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1620443590194348033/1788993649",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2100274044511649792/v4xsHKNx_200x200.jpg",
+      "joined": "Tue Jan 31 15:27:55 +0000 2023",
+      "protected": false,
+      "website": {
+        "url": "https://www.skool.com/the-vibe-marketers/about",
+        "display_url": "skool.com/the-vibe-marke\u2026"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 0,
+    "retweets": 0,
+    "likes": 8,
+    "bookmarks": 17,
+    "quotes": 0,
+    "created_at": "Thu Aug 13 19:01:08 +0000 2026",
+    "created_timestamp": 1786647668,
+    "possibly_sensitive": false,
+    "views": 3073,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": "boringmarketer",
+    "replying_to_status": "2087977673213559167",
+    "source": "Twitter Web App",
+    "card": {
+      "url": "https://youtu.be/SRSu6vU0fxA",
+      "title": "Repurpose Your Newsletter Into Weeks of Content With AI \u2014 No Code (Free Skill)",
+      "description": "I built a real, no-code marketing workflow live in Claude Desktop, ...",
+      "domain": "www.youtube.com",
+      "image": {
+        "width": 800,
+        "height": 419,
+        "url": "https://pbs.twimg.com/card_img/2100665396835520512/rDsXGfP7?format=jpg&name=800x419"
+      }
+    },
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

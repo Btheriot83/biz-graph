@@ -1,0 +1,198 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/boringmarketer/status/2095630396239003984",
+    "id": "2095630396239003984",
+    "text": "This guy makes $600 an hour with his \u201cboring\u201d business. \n\nNot selling AI agents, repairing rims on cars in LA\n\nHere\u2019s why it prints:\n- clear before and after visual transformation\n- takes real skill to fulfill, not DIY\n- solves a real pain\n\nDude dominates Google and has 20,000 followers on instagram\n\nSo many businesses like this in your backyard.",
+    "raw_text": {
+      "text": "This guy makes $600 an hour with his \u201cboring\u201d business. \n\nNot selling AI agents, repairing rims on cars in LA\n\nHere\u2019s why it prints:\n- clear before and after visual transformation\n- takes real skill to fulfill, not DIY\n- solves a real pain\n\nDude dominates Google and has 20,000 followers on instagram\n\nSo many businesses like this in your backyard.",
+      "display_text_range": [
+        0,
+        348
+      ],
+      "facets": [
+        {
+          "type": "media",
+          "indices": [
+            278,
+            301
+          ],
+          "id": "2095630301733216256",
+          "display": "pic.x.com/WfTJcBfOz5",
+          "original": "https://t.co/WfTJcBfOz5",
+          "replacement": "https://x.com/boringmarketer/status/2095630396239003984/video/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "boringmarketer",
+      "url": "https://x.com/boringmarketer",
+      "id": "1620443590194348033",
+      "followers": 102347,
+      "following": 340,
+      "likes": 12943,
+      "media_count": 1592,
+      "name": "The Boring Marketer",
+      "description": "I build AI for \u201cboring\u201d businesses & show you how to build your own business serving Main Street.",
+      "raw_description": {
+        "text": "I build AI for \u201cboring\u201d businesses & show you how to build your own business serving Main Street.",
+        "facets": []
+      },
+      "location": "building",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1620443590194348033/1788993649",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2100274044511649792/v4xsHKNx_200x200.jpg",
+      "joined": "Tue Jan 31 15:27:55 +0000 2023",
+      "protected": false,
+      "website": {
+        "url": "https://www.skool.com/the-vibe-marketers/about",
+        "display_url": "skool.com/the-vibe-marke\u2026"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 13,
+    "retweets": 2,
+    "likes": 87,
+    "bookmarks": 80,
+    "quotes": 0,
+    "created_at": "Thu Sep 03 21:49:56 +0000 2026",
+    "created_timestamp": 1788472196,
+    "possibly_sensitive": false,
+    "views": 15222,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+      "all": [
+        {
+          "id": "2095630301733216256",
+          "url": "https://video.twimg.com/amplify_video/2095630301733216256/vid/avc1/720x1280/gve4ldPkl6CxNCUT.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2095630301733216256/img/HiWDZ4Ge7bWYbXbm.jpg",
+          "duration": 54,
+          "width": 720,
+          "height": 1280,
+          "format": "video/mp4",
+          "type": "video",
+          "formats": [
+            {
+              "url": "https://video.twimg.com/amplify_video/2095630301733216256/pl/3G8GrSLwM5boXZc6.m3u8?tag=29&v=f29",
+              "container": "m3u8"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2095630301733216256/vid/avc1/320x568/4EELWHEx-5ua7lpn.mp4?tag=29",
+              "bitrate": 632000,
+              "container": "mp4",
+              "codec": "h264"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2095630301733216256/vid/avc1/480x852/_6f9Rq71B619zBiO.mp4?tag=29",
+              "bitrate": 950000,
+              "container": "mp4",
+              "codec": "h264"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2095630301733216256/vid/avc1/720x1280/gve4ldPkl6CxNCUT.mp4?tag=29",
+              "bitrate": 2176000,
+              "container": "mp4",
+              "codec": "h264"
+            }
+          ],
+          "publisher": null,
+          "variants": [
+            {
+              "url": "https://video.twimg.com/amplify_video/2095630301733216256/pl/3G8GrSLwM5boXZc6.m3u8?tag=29&v=f29",
+              "bitrate": 0,
+              "content_type": "application/x-mpegURL"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2095630301733216256/vid/avc1/320x568/4EELWHEx-5ua7lpn.mp4?tag=29",
+              "bitrate": 632000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2095630301733216256/vid/avc1/480x852/_6f9Rq71B619zBiO.mp4?tag=29",
+              "bitrate": 950000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2095630301733216256/vid/avc1/720x1280/gve4ldPkl6CxNCUT.mp4?tag=29",
+              "bitrate": 2176000,
+              "content_type": "video/mp4"
+            }
+          ]
+        }
+      ],
+      "videos": [
+        {
+          "id": "2095630301733216256",
+          "url": "https://video.twimg.com/amplify_video/2095630301733216256/vid/avc1/720x1280/gve4ldPkl6CxNCUT.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2095630301733216256/img/HiWDZ4Ge7bWYbXbm.jpg",
+          "duration": 54,
+          "width": 720,
+          "height": 1280,
+          "format": "video/mp4",
+          "type": "video",
+          "formats": [
+            {
+              "url": "https://video.twimg.com/amplify_video/2095630301733216256/pl/3G8GrSLwM5boXZc6.m3u8?tag=29&v=f29",
+              "container": "m3u8"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2095630301733216256/vid/avc1/320x568/4EELWHEx-5ua7lpn.mp4?tag=29",
+              "bitrate": 632000,
+              "container": "mp4",
+              "codec": "h264"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2095630301733216256/vid/avc1/480x852/_6f9Rq71B619zBiO.mp4?tag=29",
+              "bitrate": 950000,
+              "container": "mp4",
+              "codec": "h264"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2095630301733216256/vid/avc1/720x1280/gve4ldPkl6CxNCUT.mp4?tag=29",
+              "bitrate": 2176000,
+              "container": "mp4",
+              "codec": "h264"
+            }
+          ],
+          "publisher": null,
+          "variants": [
+            {
+              "url": "https://video.twimg.com/amplify_video/2095630301733216256/pl/3G8GrSLwM5boXZc6.m3u8?tag=29&v=f29",
+              "bitrate": 0,
+              "content_type": "application/x-mpegURL"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2095630301733216256/vid/avc1/320x568/4EELWHEx-5ua7lpn.mp4?tag=29",
+              "bitrate": 632000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2095630301733216256/vid/avc1/480x852/_6f9Rq71B619zBiO.mp4?tag=29",
+              "bitrate": 950000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2095630301733216256/vid/avc1/720x1280/gve4ldPkl6CxNCUT.mp4?tag=29",
+              "bitrate": 2176000,
+              "content_type": "video/mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "source": "Twitter for iPhone",
+    "twitter_card": "player",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

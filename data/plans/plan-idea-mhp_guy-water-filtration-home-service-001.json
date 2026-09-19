@@ -1,0 +1,115 @@
+{
+  "id": "plan-idea-mhp_guy-water-filtration-home-service-001",
+  "idea_id": "idea-mhp_guy-water-filtration-home-service-001",
+  "title": "Residential water filtration installs via FB ads + subcontracted plumbers",
+  "one_liner": "Price-upfront Meta lead ads for under-sink/whole-home filtration; subcontract licensed plumbers for installs.",
+  "category_tags": [
+    "home_services",
+    "lead_gen",
+    "asset_light",
+    "local_services"
+  ],
+  "why_agent_runnable": "Creative, landing, lead CRM, plumber sourcing drafts, and ad ops drafts are agent-native. Brandon owns ads spend, hire of plumbers, and customer money.",
+  "ops_steps": [
+    {
+      "n": 1,
+      "title": "Geo water + competitor scan",
+      "owner": "research_agent",
+      "detail": "Public water quality notes, competitor pricing, and ad density for candidate ZIPs.",
+      "human_required": false
+    },
+    {
+      "n": 2,
+      "title": "Brandon geo + offer pick",
+      "owner": "brandon",
+      "detail": "Choose under-sink vs whole-home starter offer and price-upfront numbers.",
+      "human_required": true
+    },
+    {
+      "n": 3,
+      "title": "Offer + landing + ad creatives",
+      "owner": "marketing_agent",
+      "detail": "Draft price-upfront Meta creatives, landing, FAQ, application form. Draft until publish gate.",
+      "human_required": false
+    },
+    {
+      "n": 4,
+      "title": "Plumber bench shortlist",
+      "owner": "ops_agent",
+      "detail": "Draft outreach to licensed plumbers for per-job install rates; Brandon hire gate.",
+      "human_required": true
+    },
+    {
+      "n": 5,
+      "title": "Ads + payments go-live",
+      "owner": "brandon",
+      "detail": "Approve Meta budget, business identity, Stripe deposits, and public copy.",
+      "human_required": true
+    },
+    {
+      "n": 6,
+      "title": "Lead ops",
+      "owner": "ops_agent",
+      "detail": "Score leads, schedule drafts, dispatch checklist; agent drafts SMS/email — Brandon send.",
+      "human_required": true
+    },
+    {
+      "n": 7,
+      "title": "Install QA + review ask",
+      "owner": "ops_agent",
+      "detail": "Post-install checklist; review request drafts; weekly unit economics sheet.",
+      "human_required": true
+    }
+  ],
+  "human_only_checkpoints": [
+    "KYC / business identity / domain registrant",
+    "Banking + Stripe/PayPal / marketplace payout accounts",
+    "Any purchase, deposit, ad spend, or paid tool upgrade",
+    "Hiring contractors, VAs, or licensed trades",
+    "Paying invoices / payouts / refunds",
+    "Publishing listings, sites, ads, social as official",
+    "Sending outreach email/DM/SMS as Brandon",
+    "Physical pickup, delivery, install, or on-site work",
+    "Legal/compliance review when required"
+  ],
+  "hiring_and_pay_flow": {
+    "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+    "brandon_gates_before_money": [
+      "approve job post publish",
+      "approve hire",
+      "approve payment amount + rail",
+      "approve recurring retainer or inventory buy"
+    ]
+  },
+  "orchestration_graph_id": "graph-plan-idea-mhp_guy-water-filtration-home-service-001",
+  "unit_economics_sketch": {
+    "job_price_range_usd": "300-2500 depending on under-sink vs whole-home",
+    "plumber_payout_range_usd": "150-800 per job (negotiated)",
+    "ad_test_budget_first_14d_usd": "300-1500",
+    "gross_margin_notes": "Margin = job price − product COGS − plumber − ads − refunds. Price-upfront ads aim to qualify. Ranges are sketches only — not guarantees.",
+    "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+  },
+  "first_7_day_agent_sprint": [
+    "Day 1-2: geo water/competitor scan",
+    "Day 3: Brandon offer + geo pick",
+    "Day 4-5: landing + Meta creative drafts + plumber shortlist",
+    "Day 6: Brandon hire/ads/payments gates",
+    "Day 7: CRM live; ads ready (no spend until gate cleared)"
+  ],
+  "kill_criteria": [
+    "Cannot secure ≥2 licensed plumbers at workable rates in 14 days",
+    "Cost per booked install exceeds agreed ceiling for 14 days at test budget",
+    "Product warranty/returns erode margin on first 5 jobs",
+    "Brandon declines further ad spend"
+  ],
+  "source_citations": [
+    {
+      "url": "https://www.youtube.com/watch?v=9U4MCbfL8MQ",
+      "date": "2026-09-11",
+      "handle": "mhp_guy"
+    }
+  ],
+  "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+  "status": "draft",
+  "updated_at": "2026-09-19T09:55:00-07:00"
+}

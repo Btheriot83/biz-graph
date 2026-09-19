@@ -1,0 +1,65 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/boringmarketer/status/2097732474189021346",
+    "id": "2097732474189021346",
+    "text": "what local businesses don't want:\n\n- ai agents to chat with (creates work for them)\n- skills for claude/gpt, etc.\n- a knowledge graph / brain\n- learning how to code & build internal tools\n- automation with unclear business outcomes\n\nwhat they do want:\n\n- more calls, more customers, less headaches\n\nkeep the sauce as part of your internal process, sell outcomes and clarity. the fact that you use AI is a given\n\nthat is translated to the customer in terms of the value you create, the time you save them, and the price at which you deliver the outcomes",
+    "raw_text": {
+      "text": "what local businesses don't want:\n\n- ai agents to chat with (creates work for them)\n- skills for claude/gpt, etc.\n- a knowledge graph / brain\n- learning how to code & build internal tools\n- automation with unclear business outcomes\n\nwhat they do want:\n\n- more calls, more customers, less headaches\n\nkeep the sauce as part of your internal process, sell outcomes and clarity. the fact that you use AI is a given\n\nthat is translated to the customer in terms of the value you create, the time you save them, and the price at which you deliver the outcomes",
+      "display_text_range": [
+        0,
+        552
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "boringmarketer",
+      "url": "https://x.com/boringmarketer",
+      "id": "1620443590194348033",
+      "followers": 102347,
+      "following": 340,
+      "likes": 12943,
+      "media_count": 1592,
+      "name": "The Boring Marketer",
+      "description": "I build AI for \u201cboring\u201d businesses & show you how to build your own business serving Main Street.",
+      "raw_description": {
+        "text": "I build AI for \u201cboring\u201d businesses & show you how to build your own business serving Main Street.",
+        "facets": []
+      },
+      "location": "building",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1620443590194348033/1788993649",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2100274044511649792/v4xsHKNx_200x200.jpg",
+      "joined": "Tue Jan 31 15:27:55 +0000 2023",
+      "protected": false,
+      "website": {
+        "url": "https://www.skool.com/the-vibe-marketers/about",
+        "display_url": "skool.com/the-vibe-marke\u2026"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 81,
+    "retweets": 41,
+    "likes": 831,
+    "bookmarks": 736,
+    "quotes": 8,
+    "created_at": "Wed Sep 09 17:02:50 +0000 2026",
+    "created_timestamp": 1788973370,
+    "views": 42331,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "source": "Twitter Web App",
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

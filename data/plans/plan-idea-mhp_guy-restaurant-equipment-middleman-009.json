@@ -1,0 +1,115 @@
+{
+  "id": "plan-idea-mhp_guy-restaurant-equipment-middleman-009",
+  "idea_id": "idea-mhp_guy-restaurant-equipment-middleman-009",
+  "title": "Closing-restaurant equipment middleman",
+  "one_liner": "Find closing restaurants, contract equipment, pre-sell on restaurant marketplaces before taking inventory risk.",
+  "category_tags": [
+    "middleman",
+    "fbmp",
+    "arbitrage",
+    "reselling"
+  ],
+  "why_agent_runnable": "Closing-signal research, comps, buyer matching, and contract/listing drafts are agent-native. Brandon handles identity, contracts, payment, and logistics gates.",
+  "ops_steps": [
+    {
+      "n": 1,
+      "title": "Closing-signal radar",
+      "owner": "research_agent",
+      "detail": "Mine public FBMP, local news, health permits, and 'restaurant equipment' listings for closing signals in target geos.",
+      "human_required": false
+    },
+    {
+      "n": 2,
+      "title": "Buyer demand book",
+      "owner": "research_agent",
+      "detail": "Build wishlist of gear categories (ovens, hoods, refrigeration) with recent sold comps on restaurant marketplaces.",
+      "human_required": false
+    },
+    {
+      "n": 3,
+      "title": "Brandon geo + legal box",
+      "owner": "brandon",
+      "detail": "Approve geos, max deposit risk, and whether to use simple assignment contracts (legal review as needed).",
+      "human_required": true
+    },
+    {
+      "n": 4,
+      "title": "Seller outreach drafts",
+      "owner": "marketing_agent",
+      "detail": "Draft FBMP/email scripts for owners liquidating — no send without Brandon.",
+      "human_required": false
+    },
+    {
+      "n": 5,
+      "title": "Pre-sell listings",
+      "owner": "marketing_agent",
+      "detail": "Draft buyer-facing listings with photos/specs; publish only after Brandon gate and clear title path.",
+      "human_required": true
+    },
+    {
+      "n": 6,
+      "title": "Match + paperwork",
+      "owner": "ops_agent",
+      "detail": "Bill of sale templates, escrow checklist, pickup logistics SOPs. Brandon signs/pays.",
+      "human_required": true
+    },
+    {
+      "n": 7,
+      "title": "Close + CRM",
+      "owner": "chief_agent",
+      "detail": "Log deal P&L; propose next targets; no inventory warehouse unless Brandon approves storage spend.",
+      "human_required": true
+    }
+  ],
+  "human_only_checkpoints": [
+    "KYC / business identity / domain registrant",
+    "Banking + Stripe/PayPal / marketplace payout accounts",
+    "Any purchase, deposit, ad spend, or paid tool upgrade",
+    "Hiring contractors, VAs, or licensed trades",
+    "Paying invoices / payouts / refunds",
+    "Publishing listings, sites, ads, social as official",
+    "Sending outreach email/DM/SMS as Brandon",
+    "Physical pickup, delivery, install, or on-site work",
+    "Legal/compliance review when required"
+  ],
+  "hiring_and_pay_flow": {
+    "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+    "brandon_gates_before_money": [
+      "approve job post publish",
+      "approve hire",
+      "approve payment amount + rail",
+      "approve recurring retainer or inventory buy"
+    ]
+  },
+  "orchestration_graph_id": "graph-plan-idea-mhp_guy-restaurant-equipment-middleman-009",
+  "unit_economics_sketch": {
+    "ticket_range_usd": "500-15000 per piece or package",
+    "middleman_spread_notes": "Spread is negotiated between distressed seller and hungry buyer; aim to pre-sell before funded buy when possible.",
+    "capital_at_risk_notes": "Deposits and transport are main risk if buyer flakes — mitigate with deposits both sides.",
+    "gross_margin_notes": "Asset-light when pre-sold. Ranges are sketches only — not guarantees.",
+    "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+  },
+  "first_7_day_agent_sprint": [
+    "Day 1-2: closing-signal radar for 2-3 metros",
+    "Day 3: buyer demand book + comps",
+    "Day 4: Brandon geo/legal/capital box",
+    "Day 5-6: outreach drafts + first seller shortlist",
+    "Day 7: Brandon send gate for first 5 seller messages"
+  ],
+  "kill_criteria": [
+    "Fewer than 3 credible closing leads in 21 days",
+    "Cannot get seller exclusivity or clear title path",
+    "Two deals collapse due to transport/title issues",
+    "Brandon declines legal or deposit risk"
+  ],
+  "source_citations": [
+    {
+      "url": "https://www.youtube.com/watch?v=2B5dCquvK4c",
+      "date": "2025-08-01",
+      "handle": "mhp_guy"
+    }
+  ],
+  "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+  "status": "draft",
+  "updated_at": "2026-09-19T09:55:00-07:00"
+}

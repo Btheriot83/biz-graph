@@ -1,0 +1,115 @@
+{
+  "id": "plan-idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034",
+  "idea_id": "idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034",
+  "title": "Agentic Meta lead-gen campaigns without living in Ads Manager",
+  "one_liner": "Coding agents + computer-use spin Meta pixels/system users/organic job-photo creatives into local lead-gen campaigns without living in Ads Manager.",
+  "category_tags": [
+    "meta_ads",
+    "lead_gen",
+    "ai_agency",
+    "content_ops"
+  ],
+  "why_agent_runnable": "Campaign scaffolding, creative generation, and browser ops are agent-native. Brandon owns ad account identity, budgets, and final publish.",
+  "ops_steps": [
+    {
+      "n": 1,
+      "title": "Account + niche prerequisites",
+      "owner": "research_agent",
+      "detail": "Checklist: BM/ad account status, pixel needs, local niche creative angles (job-photo + text bubble).",
+      "human_required": false
+    },
+    {
+      "n": 2,
+      "title": "Brandon account access",
+      "owner": "brandon",
+      "detail": "Provide/approve Business Manager access; KYC; set hard budget ceiling.",
+      "human_required": true
+    },
+    {
+      "n": 3,
+      "title": "Agentic campaign scaffold",
+      "owner": "coding",
+      "detail": "Scripts/skills to create campaign structure, audiences, and lead forms — dry-run until money gate.",
+      "human_required": false
+    },
+    {
+      "n": 4,
+      "title": "Organic job-photo creatives",
+      "owner": "marketing_agent",
+      "detail": "Generate image/video variants with text-bubble overlays; batch for tests.",
+      "human_required": false
+    },
+    {
+      "n": 5,
+      "title": "Launch approval",
+      "owner": "brandon",
+      "detail": "Approve creatives, budget, and go-live; no auto-spend.",
+      "human_required": true
+    },
+    {
+      "n": 6,
+      "title": "Lead CRM + reply drafts",
+      "owner": "ops_agent",
+      "detail": "Pipe leads to sheets; draft SMS/email; Brandon send.",
+      "human_required": true
+    },
+    {
+      "n": 7,
+      "title": "Optimize + productize",
+      "owner": "chief_agent",
+      "detail": "Kill losers, scale winners within ceiling; package as internal skill or client offer (publish gate).",
+      "human_required": true
+    }
+  ],
+  "human_only_checkpoints": [
+    "KYC / business identity / domain registrant",
+    "Banking + Stripe/PayPal / marketplace payout accounts",
+    "Any purchase, deposit, ad spend, or paid tool upgrade",
+    "Hiring contractors, VAs, or licensed trades",
+    "Paying invoices / payouts / refunds",
+    "Publishing listings, sites, ads, social as official",
+    "Sending outreach email/DM/SMS as Brandon",
+    "Physical pickup, delivery, install, or on-site work",
+    "Legal/compliance review when required"
+  ],
+  "hiring_and_pay_flow": {
+    "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+    "brandon_gates_before_money": [
+      "approve job post publish",
+      "approve hire",
+      "approve payment amount + rail",
+      "approve recurring retainer or inventory buy"
+    ]
+  },
+  "orchestration_graph_id": "graph-plan-idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034",
+  "unit_economics_sketch": {
+    "ad_test_budget_first_14d_usd": "300-2000",
+    "target_metric_notes": "Track CPL and cost-per-qualified-booked-call — thresholds set by Brandon per niche.",
+    "tooling_notes": "Coding agent + computer-use reduce Ads Manager time; still need compliant ad account.",
+    "gross_margin_notes": "If sold as service, retainer on top of media. Ranges are sketches only — not guarantees.",
+    "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+  },
+  "first_7_day_agent_sprint": [
+    "Day 1: prerequisites + creative angle research",
+    "Day 2: Brandon BM access + budget ceiling",
+    "Day 3-4: campaign scaffold dry-run + creative batch",
+    "Day 5: Brandon launch approval",
+    "Day 6-7: leads CRM + reply drafts (no send without gate)"
+  ],
+  "kill_criteria": [
+    "Ad account restricted and cannot remediate within 14 days",
+    "CPL above Brandon ceiling for 14 consecutive days at test budget",
+    "Lead quality too poor to book calls after 50 leads",
+    "Brandon declines further spend"
+  ],
+  "source_citations": [
+    {
+      "url": "https://x.com/boringmarketer/status/2094776379090878718",
+      "date": "2026-09-01",
+      "handle": "boringmarketer"
+    }
+  ],
+  "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+  "status": "draft",
+  "updated_at": "2026-09-19T09:55:00-07:00"
+}

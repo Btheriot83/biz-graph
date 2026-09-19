@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "0",
-    "updated_at": "2026-09-19T09:50:00-07:00",
+    "updated_at": "2026-09-19T09:55:00-07:00",
     "count": 90,
     "sources": [
       "boringmarketer",
@@ -18,6 +18,10 @@
     "breakdown": {
       "boringmarketer": 38,
       "mhp_guy": 52
+    },
+    "status_breakdown": {
+      "planned": 10,
+      "harvested": 80
     }
   },
   "ideas": [
@@ -45,7 +49,7 @@
         "identity",
         "banking"
       ],
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T09:42:08-07:00",
       "notes": "Meta-business model from public X thread."
     },
@@ -1402,7 +1406,7 @@
     },
     {
       "source_handle": "mhp_guy",
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T09:45:09-07:00",
       "id": "idea-mhp_guy-portable-minigolf-cornhole-rentals-001",
       "title": "Portable mini-golf / cornhole course rentals",
@@ -1548,7 +1552,7 @@
     },
     {
       "source_handle": "mhp_guy",
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T09:45:09-07:00",
       "id": "idea-mhp_guy-water-filtration-home-service-001",
       "title": "Residential water filtration installs via FB ads + subcontracted plumbers",
@@ -1596,7 +1600,7 @@
         "identity",
         "legal"
       ],
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T09:47:00-07:00",
       "notes": "BM amplified quoted playbook on his account; public X cite."
     },
@@ -1625,7 +1629,7 @@
         "identity",
         "legal"
       ],
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T09:47:00-07:00",
       "notes": "Companion video status 2100607697011831274."
     },
@@ -1819,7 +1823,7 @@
         "identity",
         "legal"
       ],
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T09:47:00-07:00",
       "notes": "BM shared a free skill on GitHub in replies; harvest idea only, no income claims."
     },
@@ -2010,7 +2014,7 @@
         "identity",
         "banking"
       ],
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T09:47:00-07:00",
       "notes": ""
     },
@@ -2039,7 +2043,7 @@
         "legal",
         "identity"
       ],
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T09:47:00-07:00",
       "notes": ""
     },
@@ -2185,7 +2189,7 @@
         "legal",
         "identity"
       ],
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T09:47:00-07:00",
       "notes": "Guest/case figures are anecdotal; not a target."
     },
@@ -2241,7 +2245,7 @@
         "identity",
         "legal"
       ],
-      "status": "harvested",
+      "status": "planned",
       "collected_at": "2026-09-19T09:47:00-07:00",
       "notes": ""
     },

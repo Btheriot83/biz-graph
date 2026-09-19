@@ -1,0 +1,115 @@
+{
+  "id": "plan-idea-mhp_guy-liquidation-pallet-reselling-008",
+  "idea_id": "idea-mhp_guy-liquidation-pallet-reselling-008",
+  "title": "GovDeals / B-Stock liquidation pallet reselling",
+  "one_liner": "Manifest-math + pre-list validation on GovDeals/B-Stock/Costco liquidations; sell boring bulky goods on FBMP after Brandon buy gate.",
+  "category_tags": [
+    "liquidation",
+    "fbmp",
+    "reselling",
+    "arbitrage"
+  ],
+  "why_agent_runnable": "Manifest parsing, unit economics, pre-listing drafts, and marketplace monitoring are agent-native. Brandon approves pallet buys, receives freight, and publishes/sells.",
+  "ops_steps": [
+    {
+      "n": 1,
+      "title": "Source + category shortlist",
+      "owner": "research_agent",
+      "detail": "Track public GovDeals/B-Stock/liquidation feeds for outdoor/furniture/seasonal; score by manifest clarity and local FBMP demand.",
+      "human_required": false
+    },
+    {
+      "n": 2,
+      "title": "Brandon category + capital box",
+      "owner": "brandon",
+      "detail": "Set max pallet spend, storage limit, and allowed categories.",
+      "human_required": true
+    },
+    {
+      "n": 3,
+      "title": "Manifest unit economics",
+      "owner": "research_agent",
+      "detail": "Parse manifests; estimate sell-through and fees; flag junk SKUs; propose bid ceiling.",
+      "human_required": false
+    },
+    {
+      "n": 4,
+      "title": "Pre-list validation pack",
+      "owner": "marketing_agent",
+      "detail": "Draft FBMP listings for top SKUs before ownership to gauge interest — draft only until publish gate.",
+      "human_required": false
+    },
+    {
+      "n": 5,
+      "title": "Bid / buy approval",
+      "owner": "brandon",
+      "detail": "Approve bid and payment rail; complete KYC on liquidation platforms.",
+      "human_required": true
+    },
+    {
+      "n": 6,
+      "title": "Receive + inventory sheet",
+      "owner": "ops_agent",
+      "detail": "Checklist for freight receive; agent builds inventory sheet from photos Brandon provides.",
+      "human_required": true
+    },
+    {
+      "n": 7,
+      "title": "List + sell loop",
+      "owner": "marketing_agent",
+      "detail": "Batch listing drafts; Brandon publishes; agent drafts buyer replies; log sell-through.",
+      "human_required": true
+    }
+  ],
+  "human_only_checkpoints": [
+    "KYC / business identity / domain registrant",
+    "Banking + Stripe/PayPal / marketplace payout accounts",
+    "Any purchase, deposit, ad spend, or paid tool upgrade",
+    "Hiring contractors, VAs, or licensed trades",
+    "Paying invoices / payouts / refunds",
+    "Publishing listings, sites, ads, social as official",
+    "Sending outreach email/DM/SMS as Brandon",
+    "Physical pickup, delivery, install, or on-site work",
+    "Legal/compliance review when required"
+  ],
+  "hiring_and_pay_flow": {
+    "how_agent_initiates": "Agent drafts Upwork/OnlineJobs/Craigslist job posts, contractor shortlists, SOWs, and payment memos in plan drafts only.",
+    "brandon_gates_before_money": [
+      "approve job post publish",
+      "approve hire",
+      "approve payment amount + rail",
+      "approve recurring retainer or inventory buy"
+    ]
+  },
+  "orchestration_graph_id": "graph-plan-idea-mhp_guy-liquidation-pallet-reselling-008",
+  "unit_economics_sketch": {
+    "pallet_buy_range_usd": "200-3000",
+    "target_cost_to_retail_ratio": "roughly 0.05-0.40 of retail (creator anecdote — not a target)",
+    "fbmp_fees_and_time_notes": "Local cash/FBMP pickup reduces shipping; storage and dead SKUs are the main risk.",
+    "gross_margin_notes": "Manifest quality drives outcomes. Ranges are sketches only — not guarantees.",
+    "disclaimer": "No income guarantees. Creator anecdotes ≠ your results."
+  },
+  "first_7_day_agent_sprint": [
+    "Day 1-2: source map + category comps for metro",
+    "Day 3: Brandon capital/category box",
+    "Day 4-5: 5 manifests scored with bid ceilings",
+    "Day 6: pre-list draft pack for best pallet",
+    "Day 7: Brandon go/no-go on first bid (money gate)"
+  ],
+  "kill_criteria": [
+    "No manifests with clear local demand after 2 scoring passes",
+    "First pallet sell-through <30% of estimated retail after 30 days",
+    "Storage full with unsellable SKUs and Brandon declines discount/liquidation",
+    "Brandon declines further pallet spend"
+  ],
+  "source_citations": [
+    {
+      "url": "https://www.youtube.com/watch?v=OZ0fdAYPyqE",
+      "date": "2025-07-01",
+      "handle": "mhp_guy"
+    }
+  ],
+  "disclaimer": "Research plan only. Not financial, legal, or investment advice. No income guarantees. Brandon approval required before money, hire, pay, publish, or send.",
+  "status": "draft",
+  "updated_at": "2026-09-19T09:55:00-07:00"
+}
