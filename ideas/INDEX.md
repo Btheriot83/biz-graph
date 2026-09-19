@@ -2,8 +2,16 @@
 
 Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl)
 
+- `idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034` — Agentic Meta lead-gen campaigns without living in Ads Manager
+- `idea-boringmarketer-ai-meta-ads-local-market-takeover-030` — AI-generated Meta ads market-takeover SOP for boring locals
+- `idea-boringmarketer-ai-meta-ads-market-blitz-playbook-042` — AI Meta-ads market blitz playbook for one boring niche
+- `idea-boringmarketer-ai-ops-stack-local-service-partner-033` — AI ops stack for a boring local-service partnership
+- `idea-boringmarketer-ai-proficiency-directory-boring-services-029` — AI-proficiency directory for boring service providers
 - `idea-boringmarketer-ai-services-main-street-022` — AI services firm for Main Street “boring” businesses
+- `idea-boringmarketer-ai-social-media-management-skill-037` — No-code AI social media management skill (Zapier MCP + Buffer)
 - `idea-boringmarketer-automatic-gate-access-control-repair-012` — Automatic gate & access-control repair
+- `idea-boringmarketer-boring-biz-ai-prompt-ops-desk-036` — Prompt-ops desk for growing a boring local business with AI
+- `idea-boringmarketer-city-level-website-gap-arbitrage-032` — City-level website-gap arbitrage for high-ticket local niches
 - `idea-boringmarketer-commercial-drain-cleaning-hydro-jetting-002` — Commercial drain cleaning & hydro-jetting
 - `idea-boringmarketer-commercial-exterior-cleaning-018` — Commercial exterior cleaning
 - `idea-boringmarketer-commercial-floor-care-restoration-021` — Commercial floor care & restoration
@@ -17,78 +25,102 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl)
 - `idea-boringmarketer-commercial-roof-repair-maintenance-005` — Commercial roof repair & maintenance
 - `idea-boringmarketer-commercial-septic-wastewater-service-020` — Commercial septic & wastewater service
 - `idea-boringmarketer-cooling-tower-boiler-water-treatment-014` — Cooling-tower & boiler water treatment
+- `idea-boringmarketer-direct-response-page-template-library-028` — Direct-response page template library for boring businesses
 - `idea-boringmarketer-fire-sprinkler-inspection-repair-013` — Fire-sprinkler inspection & repair
+- `idea-boringmarketer-front-end-local-trade-marketing-026` — Front-end marketing partnership for boring local trades
 - `idea-boringmarketer-grease-interceptor-pumping-015` — Grease-interceptor pumping
 - `idea-boringmarketer-hardscaping-geo-arbitrage-023` — Hardscaping via geo + AI marketing arbitrage
+- `idea-boringmarketer-hyperlocal-pages-prospecting-agency-027` — Hyperlocal SEO pages + automated prospecting for $1K+ ticket locals
 - `idea-boringmarketer-industrial-air-compressor-service-007` — Industrial air-compressor service
 - `idea-boringmarketer-lift-station-commercial-pump-repair-008` — Lift-station & commercial pump repair
+- `idea-boringmarketer-main-street-ai-marketing-machine-040` — Main Street AI marketing machine (Maps scrape → gap pages → Zapier prospecting)
 - `idea-boringmarketer-mobile-fleet-trailer-maintenance-011` — Mobile fleet & trailer maintenance
+- `idea-boringmarketer-newsletter-to-social-content-ops-038` — Newsletter-to-week-of-social content ops (Claude + Zapier MCP)
 - `idea-boringmarketer-opportunity-score-playbook-025` — Local-service opportunity scoring desk (AI research product)
+- `idea-boringmarketer-outcomes-not-ai-features-sales-041` — Outcomes-not-features sales system for local AI services
+- `idea-boringmarketer-outcomes-only-ai-agency-positioning-031` — Outcomes-only AI agency for local businesses (calls, customers, less headaches)
 - `idea-boringmarketer-outdoor-lighting-geo-arbitrage-024` — Outdoor lighting via geo + AI marketing arbitrage
 - `idea-boringmarketer-parking-lot-striping-maintenance-017` — Parking-lot striping & maintenance
+- `idea-boringmarketer-rim-wheel-repair-specialty-039` — Cosmetic rim / wheel repair specialty (visual before/after)
 - `idea-boringmarketer-stormwater-detention-pond-maintenance-004` — Stormwater & detention-pond maintenance
+- `idea-boringmarketer-visual-before-after-local-service-playbook-035` — Before/after visual local service (rim repair archetype)
+- `idea-mhp_guy-agent-websites-for-review-rich-locals-036` — Agent-built websites sold to review-rich locals with weak sites
 - `idea-mhp_guy-ai-afterhours-voice-agents-001` — After-hours AI voice agents for high-ticket home services
 - `idea-mhp_guy-ai-agent-ops-offer-001` — Sell AI agent teams that run outreach, research, and ops
+- `idea-mhp_guy-ai-avatar-video-service-local-pros-017` — AI avatar video content service for local professionals
+- `idea-mhp_guy-ai-landscape-photo-proposals-037` — AI before/after landscape proposals from customer photos
 - `idea-mhp_guy-ai-seo-automation-agency-001` — AI-powered SEO/automation agency sold before built
 - `idea-mhp_guy-ai-smb-consulting-001` — AI implementation consulting for small businesses (network-first)
+- `idea-mhp_guy-alibaba-jetboat-fbmp-import-020` — Alibaba jetboat / mini-vehicle FBMP import flips
 - `idea-mhp_guy-amazon-influencer-reviews-001` — Amazon Influencer Program phone-shot product reviews
+- `idea-mhp_guy-appliance-delivery-for-scratch-dent-002` — Third-party appliance delivery/install for scratch-and-dent shops
 - `idea-mhp_guy-backyard-movie-rentals-001` — Inflatable backyard movie theater rentals
 - `idea-mhp_guy-boring-franchise-portfolio-001` — Buy/operate boring franchises (freight, facility, filtration, fuel)
+- `idea-mhp_guy-bounce-house-rental-clean-positioning-051` — Bounce-house rentals with “cleaned every time” positioning
+- `idea-mhp_guy-car-seat-cleaning-service-018` — Car-seat cleaning specialty service
+- `idea-mhp_guy-commercial-janitorial-contracts-040` — Commercial janitorial contract business
 - `idea-mhp_guy-community-sandwich-boards-001` — Free restaurant specials boards funded by local advertisers
+- `idea-mhp_guy-corporate-ai-audit-savings-agency-006` — Corporate AI audit & savings agency
+- `idea-mhp_guy-costco-bstock-garage-flips-035` — Costco B-Stock returns garage flips (FLIP listing system)
+- `idea-mhp_guy-costco-desert-mini-warehouse-024` — Costco-liquidation mini-warehouse in Costco deserts
 - `idea-mhp_guy-couch-flipping-001` — Marketplace couch flipping with AI listing photos
+- `idea-mhp_guy-creator-content-ops-samplers-050` — Free content-ops samplers for under-monetized creators
 - `idea-mhp_guy-credit-card-points-consulting-001` — Credit card points consulting for business owners
+- `idea-mhp_guy-curbside-appliance-repair-rent-034` — Curbside/free appliance reclaim → repair → rent or flip
 - `idea-mhp_guy-custom-pet-gifts-ecommerce-001` — Custom pet portrait / gift ecommerce (artists + ads)
+- `idea-mhp_guy-dental-implant-marketing-agency-029` — High-ticket dental implant / full-arch marketing agency
+- `idea-mhp_guy-dumpster-rental-marketing-saas-031` — Marketing SaaS for dumpster rental companies
 - `idea-mhp_guy-estate-sales-001` — Estate sale business (and off-market RE lead machine)
 - `idea-mhp_guy-experience-airbnb-barn-001` — Experience-first Airbnb (barns/warehouses) with $0-down paths
 - `idea-mhp_guy-experience-events-bingo-pickleball-001` — Ticketed experience events (Bingo Loco-style / pickleball parties)
+- `idea-mhp_guy-fire-protection-inspection-042` — Fire-protection inspection business
 - `idea-mhp_guy-freelance-tech-writing-001` — Human-led freelance tech writing (AI-assisted, not AI-replaced)
+- `idea-mhp_guy-ghl-whitelabel-event-rental-saas-026` — White-label GHL SaaS for event rental companies
+- `idea-mhp_guy-ghl-whitelabel-gym-software-028` — White-label all-in-one gym software (GHL + payments)
+- `idea-mhp_guy-ghl-whitelabel-medspa-crm-027` — White-label booking/CRM SaaS for med spas
+- `idea-mhp_guy-glamping-site-lease-option-011` — Glamping sites via land lease-option
+- `idea-mhp_guy-goodwill-timelapse-home-services-021` — Goodwill time-lapse home services (free job → YouTube CAC)
 - `idea-mhp_guy-gov-contracting-prime-001` — Government contracting as prime with subcontracted fulfillment
 - `idea-mhp_guy-grant-funded-trade-school-001` — Online trade school / training tied to grant funding
+- `idea-mhp_guy-hvac-coil-cleaning-specialty-012` — Specialty grocery HVAC coil cleaning
 - `idea-mhp_guy-ice-water-vending-001` — Self-serve ice and water vending machines
+- `idea-mhp_guy-ikea-resell-non-ikea-markets-022` — IKEA pre-order reselling into non-IKEA metros
 - `idea-mhp_guy-land-use-without-owning-001` — Monetize land you don't own (leases, grazing, temp storage, equipment)
+- `idea-mhp_guy-laundromat-multi-store-portfolio-046` — Multi-store laundromat portfolio
+- `idea-mhp_guy-lawnmower-flipping-fbmp-015` — Riding lawnmower flipping on Facebook Marketplace
 - `idea-mhp_guy-leadgen-site-rental-001` — Build and rent niche local lead-gen websites
 - `idea-mhp_guy-led-dance-floor-rentals-001` — LED dance floor rentals for weddings/events
 - `idea-mhp_guy-lemonade-cart-001` — Fresh-squeezed lemonade stand/cart (markets + catering)
+- `idea-mhp_guy-liquidation-pallet-reselling-008` — GovDeals / B-Stock liquidation pallet reselling
 - `idea-mhp_guy-local-jingle-yt-ads-001` — Skippable local YouTube jingle ads for SMBs
+- `idea-mhp_guy-moving-tote-rental-014` — Moving tote rental + realtor gifting subscriptions
 - `idea-mhp_guy-newsletter-rollup-001` — Buy dormant niche newsletters and aggregate for ads
 - `idea-mhp_guy-niche-ai-mobile-apps-001` — Niche AI mobile apps sold via creators + Meta ads
 - `idea-mhp_guy-offshore-staffing-placement-001` — Offshore staffing placement fees (not managed VAs)
+- `idea-mhp_guy-pallet-recovery-repair-resale-045` — Pallet recovery, repair, and resale
+- `idea-mhp_guy-parking-lot-striping-business-038` — Parking-lot striping / restriping business
+- `idea-mhp_guy-pest-control-service-routes-041` — Pest-control service routes
+- `idea-mhp_guy-photo-booth-rental-marketing-saas-033` — Marketing SaaS for photo-booth rental businesses
+- `idea-mhp_guy-pond-dredging-lead-database-047` — Pond/lake dredging lead database (satellite/GIS)
+- `idea-mhp_guy-porta-potty-rental-marketing-saas-032` — Marketing SaaS for porta-potty / restroom trailer rentals
 - `idea-mhp_guy-portable-minigolf-cornhole-rentals-001` — Portable mini-golf / cornhole course rentals
+- `idea-mhp_guy-portable-restroom-rental-routes-039` — Portable restroom rental routes
+- `idea-mhp_guy-realtor-listing-marketing-packs-049` — Free AI listing marketing packs for realtors → paid retainers
+- `idea-mhp_guy-restaurant-equipment-middleman-009` — Closing-restaurant equipment middleman
+- `idea-mhp_guy-roofer-missed-call-textback-wedge-030` — Missed-call text-back wedge for roofers (then upsell)
+- `idea-mhp_guy-rug-auction-flipping-053` — Rug auction / Costco-return rug flipping
 - `idea-mhp_guy-rv-rental-fleet-001` — Class C RV rental on Outdoorsy/RVShare
+- `idea-mhp_guy-seasonal-christmas-tree-lot-arbitrage-023` — Seasonal artificial Christmas tree lot (buy off-season)
 - `idea-mhp_guy-seasonal-porch-decorating-001` — Seasonal porch decorating / pumpkin porch installs
+- `idea-mhp_guy-smb-ai-implementation-agency-048` — SMB AI implementation agency (audit → $1–5k/mo)
+- `idea-mhp_guy-snack-wholesale-distribution-025` — Snack/candy wholesale distribution to indie c-stores
+- `idea-mhp_guy-sweat-equity-service-business-partner-010` — Sweat-equity modernization of a one-man service business
 - `idea-mhp_guy-temp-fence-rental-001` — Temporary fence rental for jobsites and events
+- `idea-mhp_guy-towing-impound-yard-044` — Towing recovery + impound yard
 - `idea-mhp_guy-trailer-rental-001` — Utility trailer rental side hustle (Marketplace + Google)
+- `idea-mhp_guy-trash-bin-cleaning-route-019` — Trash-bin cleaning route with guerrilla marketing
+- `idea-mhp_guy-travel-original-art-arbitrage-052` — Travel/original art arbitrage (buy abroad → resell home)
+- `idea-mhp_guy-tree-care-arborist-service-043` — Tree care / arborist service
+- `idea-mhp_guy-wall-printing-service-016` — Wall-printing mural service (charge by sq ft)
 - `idea-mhp_guy-washer-dryer-rental-001` — Washer/dryer rental via Facebook Marketplace (post → rent → buy)
 - `idea-mhp_guy-water-filtration-home-service-001` — Residential water filtration installs via FB ads + subcontracted plumbers
-- `idea-boringmarketer-front-end-local-trade-marketing-026` — Front-end marketing partnership for boring local trades
-- `idea-boringmarketer-hyperlocal-pages-prospecting-agency-027` — Hyperlocal SEO pages + automated prospecting for $1K+ ticket locals
-- `idea-boringmarketer-direct-response-page-template-library-028` — Direct-response page template library for boring businesses
-- `idea-boringmarketer-ai-proficiency-directory-boring-services-029` — AI-proficiency directory for boring service providers
-- `idea-boringmarketer-ai-meta-ads-local-market-takeover-030` — AI-generated Meta ads market-takeover SOP for boring locals
-- `idea-boringmarketer-outcomes-only-ai-agency-positioning-031` — Outcomes-only AI agency for local businesses (calls, customers, less headaches)
-- `idea-boringmarketer-city-level-website-gap-arbitrage-032` — City-level website-gap arbitrage for high-ticket local niches
-- `idea-boringmarketer-ai-ops-stack-local-service-partner-033` — AI ops stack for a boring local-service partnership
-- `idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034` — Agentic Meta lead-gen campaigns without living in Ads Manager
-- `idea-boringmarketer-visual-before-after-local-service-playbook-035` — Before/after visual local service (rim repair archetype)
-- `idea-boringmarketer-boring-biz-ai-prompt-ops-desk-036` — Prompt-ops desk for growing a boring local business with AI
-- `idea-boringmarketer-ai-social-media-management-skill-037` — No-code AI social media management skill (Zapier MCP + Buffer)
-- `idea-boringmarketer-newsletter-to-social-content-ops-038` — Newsletter-to-week-of-social content ops (Claude + Zapier MCP)
-- `idea-mhp_guy-appliance-delivery-for-scratch-dent-002` — Third-party appliance delivery/install for scratch-and-dent shops
-- `idea-mhp_guy-corporate-ai-audit-savings-agency-006` — Corporate AI audit & savings agency
-- `idea-mhp_guy-liquidation-pallet-reselling-008` — GovDeals / B-Stock liquidation pallet reselling
-- `idea-mhp_guy-restaurant-equipment-middleman-009` — Closing-restaurant equipment middleman
-- `idea-mhp_guy-sweat-equity-service-business-partner-010` — Sweat-equity modernization of a one-man service business
-- `idea-mhp_guy-glamping-site-lease-option-011` — Glamping sites via land lease-option
-- `idea-mhp_guy-hvac-coil-cleaning-specialty-012` — Specialty grocery HVAC coil cleaning
-- `idea-mhp_guy-moving-tote-rental-014` — Moving tote rental + realtor gifting subscriptions
-- `idea-mhp_guy-lawnmower-flipping-fbmp-015` — Riding lawnmower flipping on Facebook Marketplace
-- `idea-mhp_guy-wall-printing-service-016` — Wall-printing mural service (charge by sq ft)
-- `idea-mhp_guy-ai-avatar-video-service-local-pros-017` — AI avatar video content service for local professionals
-- `idea-mhp_guy-car-seat-cleaning-service-018` — Car-seat cleaning specialty service
-- `idea-mhp_guy-trash-bin-cleaning-route-019` — Trash-bin cleaning route with guerrilla marketing
-- `idea-mhp_guy-alibaba-jetboat-fbmp-import-020` — Alibaba jetboat / mini-vehicle FBMP import flips
-- `idea-mhp_guy-goodwill-timelapse-home-services-021` — Goodwill time-lapse home services (free job → YouTube CAC)
-- `idea-mhp_guy-ikea-resell-non-ikea-markets-022` — IKEA pre-order reselling into non-IKEA metros
-- `idea-mhp_guy-seasonal-christmas-tree-lot-arbitrage-023` — Seasonal artificial Christmas tree lot (buy off-season)
-- `idea-mhp_guy-costco-desert-mini-warehouse-024` — Costco-liquidation mini-warehouse in Costco deserts
-- `idea-mhp_guy-snack-wholesale-distribution-025` — Snack/candy wholesale distribution to indie c-stores

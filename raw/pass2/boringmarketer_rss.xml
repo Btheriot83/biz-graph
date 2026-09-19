@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UC0mfdmLptM2I27AT5krSMog"/>
+ <id>yt:channel:0mfdmLptM2I27AT5krSMog</id>
+ <yt:channelId>0mfdmLptM2I27AT5krSMog</yt:channelId>
+ <title>Boring Marketer</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UC0mfdmLptM2I27AT5krSMog"/>
+ <author>
+  <name>Boring Marketer</name>
+  <uri>https://www.youtube.com/channel/UC0mfdmLptM2I27AT5krSMog</uri>
+ </author>
+ <published>2017-11-11T17:12:28+00:00</published>
+ <entry>
+  <id>yt:video:JviyLClkACE</id>
+  <yt:videoId>JviyLClkACE</yt:videoId>
+  <yt:channelId>UC0mfdmLptM2I27AT5krSMog</yt:channelId>
+  <title>This Marketign Funnel Generates 8 Billion Annually</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=JviyLClkACE"/>
+  <author>
+   <name>Boring Marketer</name>
+   <uri>https://www.youtube.com/channel/UC0mfdmLptM2I27AT5krSMog</uri>
+  </author>
+  <published>2024-08-12T22:00:19+00:00</published>
+  <updated>2026-09-12T08:09:50+00:00</updated>
+  <media:group>
+   <media:title>This Marketign Funnel Generates 8 Billion Annually</media:title>
+   <media:content url="https://www.youtube.com/v/JviyLClkACE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/JviyLClkACE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We're doing a deep research on Kohler and it's #marketing strategy including #funnel #customer journey etc.
+
+If you want to get help with #conversionrateoptimization or #landingpage or general #marketing, then reach us at https://calendly .com/laurenconsulting/schedule</media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="22"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
