@@ -1,6 +1,6 @@
 # Ideas
 
-Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (203 ideas)
+Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (224 ideas)
 
 - `idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034` — Agentic Meta lead-gen campaigns without living in Ads Manager
 - `idea-boringmarketer-ai-meta-ads-local-market-takeover-030` — AI-generated Meta ads market-takeover SOP for boring locals
@@ -16,6 +16,7 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (203 ideas)
 - `idea-boringmarketer-automatic-gate-access-control-repair-012` — Automatic gate & access-control repair
 - `idea-boringmarketer-boring-biz-ai-prompt-ops-desk-036` — Prompt-ops desk for growing a boring local business with AI
 - `idea-boringmarketer-city-level-website-gap-arbitrage-032` — City-level website-gap arbitrage for high-ticket local niches
+- `idea-boringmarketer-claude-codex-dr-page-skill-pack-064` — Claude Code / Codex direct-response page Skill pack
 - `idea-boringmarketer-commercial-drain-cleaning-hydro-jetting-002` — Commercial drain cleaning & hydro-jetting
 - `idea-boringmarketer-commercial-exterior-cleaning-018` — Commercial exterior cleaning
 - `idea-boringmarketer-commercial-floor-care-restoration-021` — Commercial floor care & restoration
@@ -30,6 +31,7 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (203 ideas)
 - `idea-boringmarketer-commercial-septic-wastewater-service-020` — Commercial septic & wastewater service
 - `idea-boringmarketer-cooling-tower-boiler-water-treatment-014` — Cooling-tower & boiler water treatment
 - `idea-boringmarketer-direct-response-page-template-library-028` — Direct-response page template library for boring businesses
+- `idea-boringmarketer-expertise-baked-funnel-skills-local-063` — Expertise-baked Skills that ship lead magnets + email for local
 - `idea-boringmarketer-fire-sprinkler-inspection-repair-013` — Fire-sprinkler inspection & repair
 - `idea-boringmarketer-fractional-cmo-skills-box-051` — Fractional CMO-in-a-box via Claude Skills pack
 - `idea-boringmarketer-front-end-local-trade-marketing-026` — Front-end marketing partnership for boring local trades
@@ -47,6 +49,7 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (203 ideas)
 - `idea-boringmarketer-newsletter-atomizer-client-desk-049` — Newsletter→week-of-social atomizer desk for client newsletters
 - `idea-boringmarketer-newsletter-to-social-content-ops-038` — Newsletter-to-week-of-social content ops (Claude + Zapier MCP)
 - `idea-boringmarketer-no-website-niche-city-takeover-045` — No-website / dead-review niche city takeover
+- `idea-boringmarketer-noncoder-skills-claude-code-desk-062` — Non-coder Claude Skills + Claude Code marketing systems desk
 - `idea-boringmarketer-one-day-website-funnel-skill-ship-058` — One-day website + funnel Skill ship for local
 - `idea-boringmarketer-one-door-down-niche-pick-046` — One-door-down niche pick next to saturated HVAC
 - `idea-boringmarketer-opportunity-score-playbook-025` — Local-service opportunity scoring desk (AI research product)
@@ -66,11 +69,14 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (203 ideas)
 - `idea-mhp_guy-acquire-biz-inject-ai-workflow-087` — Acquire a boring business and inject one AI workflow
 - `idea-mhp_guy-aeroseal-duct-sealing-specialty-067` — Aeroseal / pressurized duct-sealing specialty
 - `idea-mhp_guy-ag-drone-crop-spraying-093` — Agricultural drone crop-spraying service
+- `idea-mhp_guy-age-adaptive-family-trivia-app-129` — Age-adaptive multiplayer family trivia app
 - `idea-mhp_guy-agent-websites-for-review-rich-locals-036` — Agent-built websites sold to review-rich locals with weak sites
 - `idea-mhp_guy-ai-afterhours-voice-agents-001` — After-hours AI voice agents for high-ticket home services
 - `idea-mhp_guy-ai-agent-ops-offer-001` — Sell AI agent teams that run outreach, research, and ops
+- `idea-mhp_guy-ai-avatar-ugc-ads-physical-brands-118` — AI avatar UGC ads for physical-product brands
 - `idea-mhp_guy-ai-avatar-video-service-local-pros-017` — AI avatar video content service for local professionals
 - `idea-mhp_guy-ai-era-human-editorial-writing-101` — AI-era human editorial / brand journalism retainers
+- `idea-mhp_guy-ai-family-oral-history-capture-130` — AI-facilitated family oral-history capture
 - `idea-mhp_guy-ai-landscape-photo-proposals-037` — AI before/after landscape proposals from customer photos
 - `idea-mhp_guy-ai-niche-affiliate-site-portfolio-080` — Portfolio of AI-built niche affiliate / local guide sites
 - `idea-mhp_guy-ai-opportunity-assessment-product-097` — Productized $1k AI opportunity assessment for SMBs
@@ -109,15 +115,18 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (203 ideas)
 - `idea-mhp_guy-curbside-appliance-repair-rent-034` — Curbside/free appliance reclaim → repair → rent or flip
 - `idea-mhp_guy-custom-pet-gifts-ecommerce-001` — Custom pet portrait / gift ecommerce (artists + ads)
 - `idea-mhp_guy-dental-implant-marketing-agency-029` — High-ticket dental implant / full-arch marketing agency
+- `idea-mhp_guy-destination-outdoor-wedding-no-venue-120` — Destination outdoor wedding coordination (no venue owned)
 - `idea-mhp_guy-digital-waiver-micro-saas-075` — Digital waiver micro-SaaS for churches / events / rentals
 - `idea-mhp_guy-dirty-soda-specialty-drink-cart-092` — Dirty-soda / specialty lemonade event cart
 - `idea-mhp_guy-distressed-ice-water-vending-buy-076` — Buy distressed ice/water vending machines and relocate
+- `idea-mhp_guy-drone-roof-inspection-insurance-119` — Drone roof inspection for insurers and adjusters
 - `idea-mhp_guy-ductwork-replacement-install-070` — Residential/commercial ductwork replacement & returns
 - `idea-mhp_guy-dumpster-rental-marketing-saas-031` — Marketing SaaS for dumpster rental companies
 - `idea-mhp_guy-estate-sales-001` — Estate sale business (and off-market RE lead machine)
 - `idea-mhp_guy-experience-airbnb-barn-001` — Experience-first Airbnb (barns/warehouses) with $0-down paths
 - `idea-mhp_guy-experience-events-bingo-pickleball-001` — Ticketed experience events (Bingo Loco-style / pickleball parties)
 - `idea-mhp_guy-facebook-reels-fairuse-commentary-106` — Facebook Reels fair-use commentary pages → email list
+- `idea-mhp_guy-filmtv-landmark-experiential-tours-121` — Film/TV landmark experiential tours and prop rentals
 - `idea-mhp_guy-fire-protection-inspection-042` — Fire-protection inspection business
 - `idea-mhp_guy-firewood-smoking-wood-from-trim-logs-110` — Firewood / BBQ smoking-wood from free trim logs
 - `idea-mhp_guy-freelance-tech-writing-001` — Human-led freelance tech writing (AI-assisted, not AI-replaced)
@@ -126,12 +135,17 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (203 ideas)
 - `idea-mhp_guy-ghl-whitelabel-gym-software-028` — White-label all-in-one gym software (GHL + payments)
 - `idea-mhp_guy-ghl-whitelabel-medspa-crm-027` — White-label booking/CRM SaaS for med spas
 - `idea-mhp_guy-glamping-site-lease-option-011` — Glamping sites via land lease-option
+- `idea-mhp_guy-goat-grazing-brush-clearing-middleman-122` — Goat grazing brush-clearing middleman
 - `idea-mhp_guy-goodwill-timelapse-home-services-021` — Goodwill time-lapse home services (free job → YouTube CAC)
 - `idea-mhp_guy-gov-contracting-prime-001` — Government contracting as prime with subcontracted fulfillment
 - `idea-mhp_guy-grant-funded-trade-school-001` — Online trade school / training tied to grant funding
+- `idea-mhp_guy-handyman-mentor-marketplace-131` — Handyman mentor marketplace (DIY coaching, not GC bids)
+- `idea-mhp_guy-hobby-subreddit-microapp-saas-124` — Hobby-subreddit micro-app SaaS (trackers for obsessed niches)
 - `idea-mhp_guy-home-performance-full-suite-068` — Home performance suite (insulation + ducts + air + HVAC upsells)
+- `idea-mhp_guy-home-project-pm-sub-coordination-125` — Home-improvement project PM / sub-coordination desk
 - `idea-mhp_guy-home-toxin-air-quality-diagnostics-069` — Home toxin / indoor air-quality diagnostic assessments
 - `idea-mhp_guy-hvac-coil-cleaning-specialty-012` — Specialty grocery HVAC coil cleaning
+- `idea-mhp_guy-hyperlocal-service-trust-middleman-126` — Hyperlocal service trust middleman (tree/HVAC/cleaning)
 - `idea-mhp_guy-ice-water-vending-001` — Self-serve ice and water vending machines
 - `idea-mhp_guy-ikea-resell-non-ikea-markets-022` — IKEA pre-order reselling into non-IKEA metros
 - `idea-mhp_guy-land-near-new-bucees-locations-056` — Land bank near announced Buc-ee's / mega travel-stop sites
@@ -144,6 +158,8 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (203 ideas)
 - `idea-mhp_guy-legacy-system-migration-agency-078` — AI-assisted legacy system migration for SMBs
 - `idea-mhp_guy-lemonade-cart-001` — Fresh-squeezed lemonade stand/cart (markets + catering)
 - `idea-mhp_guy-liquidation-pallet-reselling-008` — GovDeals / B-Stock liquidation pallet reselling
+- `idea-mhp_guy-lobby-lunch-hour-headshot-popups-123` — Lobby lunch-hour professional headshot pop-ups
+- `idea-mhp_guy-local-city-digest-sponsorship-newsletter-127` — Local city digest newsletter sold on sponsorships
 - `idea-mhp_guy-local-jingle-yt-ads-001` — Skippable local YouTube jingle ads for SMBs
 - `idea-mhp_guy-modern-laundromat-vs-zombiemats-073` — Modern attended laundromat across from 'zombie mats'
 - `idea-mhp_guy-moving-tote-rental-014` — Moving tote rental + realtor gifting subscriptions
@@ -161,9 +177,11 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (203 ideas)
 - `idea-mhp_guy-pest-control-service-routes-041` — Pest-control service routes
 - `idea-mhp_guy-photo-booth-rental-marketing-saas-033` — Marketing SaaS for photo-booth rental businesses
 - `idea-mhp_guy-playmakers-ai-smb-implementation-agency-058` — Playmakers-style AI implementation agency for SMBs ($500–$5k/mo framing)
+- `idea-mhp_guy-points-trip-redemption-research-desk-128` — Productized points trip-redemption research desk
 - `idea-mhp_guy-pond-dredging-lead-database-047` — Pond/lake dredging lead database (satellite/GIS)
 - `idea-mhp_guy-porta-potty-rental-marketing-saas-032` — Marketing SaaS for porta-potty / restroom trailer rentals
 - `idea-mhp_guy-portable-minigolf-cornhole-rentals-001` — Portable mini-golf / cornhole course rentals
+- `idea-mhp_guy-portable-prize-shot-disc-golf-carnival-116` — Portable prize-shot / disc-golf carnival (trunk kit)
 - `idea-mhp_guy-portable-restroom-rental-routes-039` — Portable restroom rental routes
 - `idea-mhp_guy-portable-self-storage-on-land-061` — Portable self-storage containers on leased/owned land
 - `idea-mhp_guy-premium-workforce-rv-park-064` — Premium workforce RV park (anti-man-camp positioning)
@@ -192,6 +210,7 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (203 ideas)
 - `idea-mhp_guy-snack-wholesale-distribution-025` — Snack/candy wholesale distribution to indie c-stores
 - `idea-mhp_guy-snail-mail-niche-subscription-club-102` — Niche snail-mail subscription club (under-1oz envelopes)
 - `idea-mhp_guy-spray-foam-crime-scene-website-landlord-115` — Website-landlord niches: spray foam / crime-scene cleanup
+- `idea-mhp_guy-streetview-ai-before-after-sales-tool-132` — Street View AI before/after sales tool for home services
 - `idea-mhp_guy-sweat-equity-service-business-partner-010` — Sweat-equity modernization of a one-man service business
 - `idea-mhp_guy-temp-fence-rental-001` — Temporary fence rental for jobsites and events
 - `idea-mhp_guy-temp-storage-facility-on-acreage-062` — Temporary/modular storage facilities on acreage
@@ -200,7 +219,9 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (203 ideas)
 - `idea-mhp_guy-trash-bin-cleaning-route-019` — Trash-bin cleaning route with guerrilla marketing
 - `idea-mhp_guy-travel-original-art-arbitrage-052` — Travel/original art arbitrage (buy abroad → resell home)
 - `idea-mhp_guy-tree-care-arborist-service-043` — Tree care / arborist service
+- `idea-mhp_guy-urban-rural-furniture-geo-arbitrage-117` — Urban-to-rural furniture geo-arbitrage with trailer
 - `idea-mhp_guy-vacant-land-assignment-to-builders-089` — Vacant-land contract assignment to spec builders (builder-first)
+- `idea-mhp_guy-veo-ai-commercial-retainer-smb-133` — Veo/AI cinematic commercial retainers for SMBs & agencies
 - `idea-mhp_guy-wall-printing-service-016` — Wall-printing mural service (charge by sq ft)
 - `idea-mhp_guy-washer-dryer-rental-001` — Washer/dryer rental via Facebook Marketplace (post → rent → buy)
 - `idea-mhp_guy-water-filtration-home-service-001` — Residential water filtration installs via FB ads + subcontracted plumbers
