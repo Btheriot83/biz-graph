@@ -1,0 +1,35 @@
+TITLE The Best AI Business Doesn't Touch AI
+DESC Try Zapier (sponsor): https://bit.ly/4xxRY4h
+
+Most people trying to sell AI are fighting over the same few thousand customers who'd rather build their own tools. Meanwhile there are multi-million dollar businesses on Main Street that just want more jobs, more calls, and less headaches. That's the opening.
+
+In this video I break down the full system for selling AI services to boring local businesses: find a market, score each business by what's broken, pick the best ones, and pitch them with a custom asset.
+
+Why boring businesses are the best clients almost nobody wants: they're high ticket (one HVAC job is 12k to 20k), they don't churn, they're not saturated, and you're talking straight to the owner. You're not creating demand with ads or SEO. You're helping them convert the traffic they already have.
+
+The machine, built in Zapier: scrape Google Maps with Apify, read each site and let AI flag the leak (no email capture, no click-to-call, no offer), then auto-build a custom pitch with the owner's name on it. Real example inside: 20 Atlanta HVAC companies, all with the same 3 leaks.
+
+I use Zapier to run these workflows reliably. Grab it above, along with a free skill (below) that lets your coding agent build these Zapier workflows for you.
+
+Chapters:
+0:00 The Main Street opportunity
+1:25 Why boring businesses are the best clients
+3:41 Fewer decision makers, more provable results
+4:41 How to pick which businesses to target
+5:50 Why to go one door down from HVAC
+7:37 The gap analysis
+10:17 Building the machine in Zapier
+12:03 Finding prospects with Apify + Google Maps
+13:03 Scoring the gaps
+14:29 Real example: 20 Atlanta HVAC companies
+16:45 How to pitch and build the asset
+20:31 Lead gen with hyperlocal Facebook ads
+23:39 Recap + free skill
+
+Links:
+Try Zapier (sponsor): https://bit.ly/4xxRY4h
+Free skill: https://www.thevibemarketer.com/resources
+Join the community (Skool): https://www.skool.com/the-vibe-marketers
+Newsletter: https://thevibemarketer.beehiiv.com/
+
+Subscr

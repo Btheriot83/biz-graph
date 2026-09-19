@@ -1,6 +1,6 @@
 # Ideas
 
-Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (142 ideas)
+Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (164 ideas)
 
 - `idea-boringmarketer-agentic-meta-leadgen-without-ads-manager-034` — Agentic Meta lead-gen campaigns without living in Ads Manager
 - `idea-boringmarketer-ai-meta-ads-local-market-takeover-030` — AI-generated Meta ads market-takeover SOP for boring locals
@@ -9,7 +9,9 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (142 ideas)
 - `idea-boringmarketer-ai-ops-stack-local-service-partner-033` — AI ops stack for a boring local-service partnership
 - `idea-boringmarketer-ai-proficiency-directory-boring-services-029` — AI-proficiency directory for boring service providers
 - `idea-boringmarketer-ai-services-main-street-022` — AI services firm for Main Street “boring” businesses
+- `idea-boringmarketer-ai-shortform-video-social-agent-048` — AI short-form video social agent (Replicate + ElevenLabs + Buffer)
 - `idea-boringmarketer-ai-social-media-management-skill-037` — No-code AI social media management skill (Zapier MCP + Buffer)
+- `idea-boringmarketer-application-gated-city-ai-firm-050` — Application-gated 2–3 client AI firm per city niche
 - `idea-boringmarketer-automatic-gate-access-control-repair-012` — Automatic gate & access-control repair
 - `idea-boringmarketer-boring-biz-ai-prompt-ops-desk-036` — Prompt-ops desk for growing a boring local business with AI
 - `idea-boringmarketer-city-level-website-gap-arbitrage-032` — City-level website-gap arbitrage for high-ticket local niches
@@ -35,9 +37,12 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (142 ideas)
 - `idea-boringmarketer-industrial-air-compressor-service-007` — Industrial air-compressor service
 - `idea-boringmarketer-lift-station-commercial-pump-repair-008` — Lift-station & commercial pump repair
 - `idea-boringmarketer-main-street-ai-marketing-machine-040` — Main Street AI marketing machine (Maps scrape → gap pages → Zapier prospecting)
+- `idea-boringmarketer-maps-gap-score-owner-pitch-047` — Maps scrape → AI gap-score → named-owner pitch PDF desk
 - `idea-boringmarketer-mobile-fleet-trailer-maintenance-011` — Mobile fleet & trailer maintenance
+- `idea-boringmarketer-newsletter-atomizer-client-desk-049` — Newsletter→week-of-social atomizer desk for client newsletters
 - `idea-boringmarketer-newsletter-to-social-content-ops-038` — Newsletter-to-week-of-social content ops (Claude + Zapier MCP)
 - `idea-boringmarketer-no-website-niche-city-takeover-045` — No-website / dead-review niche city takeover
+- `idea-boringmarketer-one-door-down-niche-pick-046` — One-door-down niche pick next to saturated HVAC
 - `idea-boringmarketer-opportunity-score-playbook-025` — Local-service opportunity scoring desk (AI research product)
 - `idea-boringmarketer-outcomes-not-ai-features-sales-041` — Outcomes-not-features sales system for local AI services
 - `idea-boringmarketer-outcomes-only-ai-agency-positioning-031` — Outcomes-only AI agency for local businesses (calls, customers, less headaches)
@@ -47,15 +52,20 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (142 ideas)
 - `idea-boringmarketer-stormwater-detention-pond-maintenance-004` — Stormwater & detention-pond maintenance
 - `idea-boringmarketer-visual-before-after-local-service-playbook-035` — Before/after visual local service (rim repair archetype)
 - `idea-boringmarketer-zapier-browser-skill-client-ops-044` — Zapier browser-skill client ops desk for boring businesses
+- `idea-mhp_guy-acquire-biz-inject-ai-workflow-087` — Acquire a boring business and inject one AI workflow
 - `idea-mhp_guy-aeroseal-duct-sealing-specialty-067` — Aeroseal / pressurized duct-sealing specialty
 - `idea-mhp_guy-agent-websites-for-review-rich-locals-036` — Agent-built websites sold to review-rich locals with weak sites
 - `idea-mhp_guy-ai-afterhours-voice-agents-001` — After-hours AI voice agents for high-ticket home services
 - `idea-mhp_guy-ai-agent-ops-offer-001` — Sell AI agent teams that run outreach, research, and ops
 - `idea-mhp_guy-ai-avatar-video-service-local-pros-017` — AI avatar video content service for local professionals
 - `idea-mhp_guy-ai-landscape-photo-proposals-037` — AI before/after landscape proposals from customer photos
+- `idea-mhp_guy-ai-niche-affiliate-site-portfolio-080` — Portfolio of AI-built niche affiliate / local guide sites
+- `idea-mhp_guy-ai-overnight-bookkeeping-catchup-077` — Overnight AI bookkeeping catch-up for small businesses
+- `idea-mhp_guy-ai-personalized-email-gym-medspa-079` — Deep-personalization email service for gyms & medspas
 - `idea-mhp_guy-ai-seo-automation-agency-001` — AI-powered SEO/automation agency sold before built
 - `idea-mhp_guy-ai-smb-consulting-001` — AI implementation consulting for small businesses (network-first)
 - `idea-mhp_guy-alibaba-jetboat-fbmp-import-020` — Alibaba jetboat / mini-vehicle FBMP import flips
+- `idea-mhp_guy-amazon-creator-connections-boost-085` — Amazon Influencer Creator Connections boost focus
 - `idea-mhp_guy-amazon-influencer-reviews-001` — Amazon Influencer Program phone-shot product reviews
 - `idea-mhp_guy-apify-api-wrapper-micro-saas-060` — Apify/Clay/Zapier API-wrapper micro-SaaS (great unbundling)
 - `idea-mhp_guy-appliance-delivery-for-scratch-dent-002` — Third-party appliance delivery/install for scratch-and-dent shops
@@ -64,18 +74,24 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (142 ideas)
 - `idea-mhp_guy-boring-franchise-portfolio-001` — Buy/operate boring franchises (freight, facility, filtration, fuel)
 - `idea-mhp_guy-bounce-house-rental-clean-positioning-051` — Bounce-house rentals with “cleaned every time” positioning
 - `idea-mhp_guy-bucees-brand-snack-merch-ecommerce-055` — Cult travel-stop brand snacks/merch ecommerce (Buc-ee's → Texas Snax pattern)
+- `idea-mhp_guy-building-permit-fence-prospecting-083` — Building-permit → first-call temporary fence prospecting
 - `idea-mhp_guy-car-seat-cleaning-service-018` — Car-seat cleaning specialty service
 - `idea-mhp_guy-commercial-janitorial-contracts-040` — Commercial janitorial contract business
+- `idea-mhp_guy-commercial-laundry-b2b-routes-074` — Commercial / wash-fold B2B laundry routes on a modern mat
 - `idea-mhp_guy-community-sandwich-boards-001` — Free restaurant specials boards funded by local advertisers
+- `idea-mhp_guy-concrete-coatings-garage-floors-071` — One-day polyurea flake garage-floor coatings
 - `idea-mhp_guy-corporate-ai-audit-savings-agency-006` — Corporate AI audit & savings agency
 - `idea-mhp_guy-costco-bstock-garage-flips-035` — Costco B-Stock returns garage flips (FLIP listing system)
 - `idea-mhp_guy-costco-desert-mini-warehouse-024` — Costco-liquidation mini-warehouse in Costco deserts
+- `idea-mhp_guy-cottage-food-micro-bakery-072` — Cottage-food micro bakery from a front porch / home kitchen
 - `idea-mhp_guy-couch-flipping-001` — Marketplace couch flipping with AI listing photos
 - `idea-mhp_guy-creator-content-ops-samplers-050` — Free content-ops samplers for under-monetized creators
 - `idea-mhp_guy-credit-card-points-consulting-001` — Credit card points consulting for business owners
 - `idea-mhp_guy-curbside-appliance-repair-rent-034` — Curbside/free appliance reclaim → repair → rent or flip
 - `idea-mhp_guy-custom-pet-gifts-ecommerce-001` — Custom pet portrait / gift ecommerce (artists + ads)
 - `idea-mhp_guy-dental-implant-marketing-agency-029` — High-ticket dental implant / full-arch marketing agency
+- `idea-mhp_guy-digital-waiver-micro-saas-075` — Digital waiver micro-SaaS for churches / events / rentals
+- `idea-mhp_guy-distressed-ice-water-vending-buy-076` — Buy distressed ice/water vending machines and relocate
 - `idea-mhp_guy-ductwork-replacement-install-070` — Residential/commercial ductwork replacement & returns
 - `idea-mhp_guy-dumpster-rental-marketing-saas-031` — Marketing SaaS for dumpster rental companies
 - `idea-mhp_guy-estate-sales-001` — Estate sale business (and off-market RE lead machine)
@@ -83,6 +99,7 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (142 ideas)
 - `idea-mhp_guy-experience-events-bingo-pickleball-001` — Ticketed experience events (Bingo Loco-style / pickleball parties)
 - `idea-mhp_guy-fire-protection-inspection-042` — Fire-protection inspection business
 - `idea-mhp_guy-freelance-tech-writing-001` — Human-led freelance tech writing (AI-assisted, not AI-replaced)
+- `idea-mhp_guy-gbp-onepager-local-retainer-084` — GBP + one-page converter retainer for local trades
 - `idea-mhp_guy-ghl-whitelabel-event-rental-saas-026` — White-label GHL SaaS for event rental companies
 - `idea-mhp_guy-ghl-whitelabel-gym-software-028` — White-label all-in-one gym software (GHL + payments)
 - `idea-mhp_guy-ghl-whitelabel-medspa-crm-027` — White-label booking/CRM SaaS for med spas
@@ -102,14 +119,17 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (142 ideas)
 - `idea-mhp_guy-lcd-screen-recycling-buyback-054` — Broken iPhone LCD buyback → China remanufacture → parts wholesale
 - `idea-mhp_guy-leadgen-site-rental-001` — Build and rent niche local lead-gen websites
 - `idea-mhp_guy-led-dance-floor-rentals-001` — LED dance floor rentals for weddings/events
+- `idea-mhp_guy-legacy-system-migration-agency-078` — AI-assisted legacy system migration for SMBs
 - `idea-mhp_guy-lemonade-cart-001` — Fresh-squeezed lemonade stand/cart (markets + catering)
 - `idea-mhp_guy-liquidation-pallet-reselling-008` — GovDeals / B-Stock liquidation pallet reselling
 - `idea-mhp_guy-local-jingle-yt-ads-001` — Skippable local YouTube jingle ads for SMBs
+- `idea-mhp_guy-modern-laundromat-vs-zombiemats-073` — Modern attended laundromat across from 'zombie mats'
 - `idea-mhp_guy-moving-tote-rental-014` — Moving tote rental + realtor gifting subscriptions
 - `idea-mhp_guy-newsletter-rollup-001` — Buy dormant niche newsletters and aggregate for ads
 - `idea-mhp_guy-niche-ai-mobile-apps-001` — Niche AI mobile apps sold via creators + Meta ads
 - `idea-mhp_guy-niche-zillow-rv-mhp-storage-059` — Niche Zillow for RV parks / mobile-home parks / self-storage
 - `idea-mhp_guy-offshore-staffing-placement-001` — Offshore staffing placement fees (not managed VAs)
+- `idea-mhp_guy-ondevice-ai-hardware-smb-install-086` — On-device AI hardware install & workflow setup for SMBs
 - `idea-mhp_guy-pallet-recovery-repair-resale-045` — Pallet recovery, repair, and resale
 - `idea-mhp_guy-parking-lot-striping-business-038` — Parking-lot striping / restriping business
 - `idea-mhp_guy-pest-control-service-routes-041` — Pest-control service routes
@@ -121,6 +141,8 @@ Canonical data: [`../data/ideas.jsonl`](../data/ideas.jsonl) (142 ideas)
 - `idea-mhp_guy-portable-restroom-rental-routes-039` — Portable restroom rental routes
 - `idea-mhp_guy-portable-self-storage-on-land-061` — Portable self-storage containers on leased/owned land
 - `idea-mhp_guy-premium-workforce-rv-park-064` — Premium workforce RV park (anti-man-camp positioning)
+- `idea-mhp_guy-productized-ai-design-studio-081` — Productized AI design studio with one-request queues
+- `idea-mhp_guy-radon-mitigation-leadgen-sites-082` — Lead-gen site rental for radon mitigation (mid-ticket niche)
 - `idea-mhp_guy-realtor-listing-marketing-packs-049` — Free AI listing marketing packs for realtors → paid retainers
 - `idea-mhp_guy-restaurant-equipment-middleman-009` — Closing-restaurant equipment middleman
 - `idea-mhp_guy-restaurant-near-bucees-traffic-057` — Restaurant / QSR next to new Buc-ee's foot-traffic nodes

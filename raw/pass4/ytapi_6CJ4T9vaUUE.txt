@@ -1,0 +1,21 @@
+TITLE I Replaced Myself With an AI Agent to Run My Socials (Free AI Skill Included)
+DESC I built a social media agent that creates and publishes AI videos. Using just two tools.
+
+🛠️ Resources:
+  → Zapier MCP: https://bit.ly/44bXs8H
+  → FREE video creation skill: https://github.com/boring-marketing-com/ai-short-form-video-skill
+
+Tools: Zapier MCP (ElevenLabs, Buffer, MusicGPT) + Replicate
+
+Here's the full workflow:
+
+00:00 - The problem with API setups
+02:30 - Zapier MCP overview
+05:00 - Creating video content with Replicate
+08:30 - AI voiceovers with ElevenLabs
+12:00 - Publishing to LinkedIn via Buffer
+15:00 - Sharing workflows with your team
+18:00 - Switching between AI models
+21:00 - Final result & next steps
+
+#contentcreation #AIAgents #MarketingAutomation #ZapierMCP

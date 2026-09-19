@@ -1,0 +1,47 @@
+TITLE Repurpose Your Newsletter Into Weeks of Content With AI — No Code (Free Skill)
+DESC I built a real, no-code marketing workflow live in Claude Desktop, connecting my newsletter and social tools so one newsletter turns into a full week of posts. No terminal, no code, beginner-friendly.
+
+🔗 Get Zapier MCP into Claude 👉 https://bit.ly/4x6fDsy
+🎁 Free Content Atomizer skill (the one I use in this video) 👉  https://gist.github.com/thevibemarketershq/048d220c0ed333a2f4e476a8cc125a3b
+
+Big thanks to Zapier for sponsoring this one and making the whole build possible.
+
+—
+
+What I use in this build
+• Claude Desktop (Cowork)
+• Zapier MCP (connects 9,000+ apps to Claude — no code)
+• Beehiiv (my newsletter, "The Marketer")
+• Buffer (scheduling the posts)
+• Google Drive (hosting the images)
+
+Why this is great for beginners
+No code. No terminal. No complicated setup. If you can send an email, you can build this. Zapier MCP is the easiest on-ramp I've found for getting real automations running inside Claude.
+
+—
+
+Chapters
+0:00 What we're building (live, no code)
+2:44 Why I use Zapier MCP (connecting Beehiiv to Claude)
+6:11 Using Skills: the Content Atomizer
+7:41 Building the Zapier MCP server (Buffer + Beehiiv)
+11:00 Connecting Zapier MCP to Claude Desktop
+13:44 Running the workflow live
+19:53 Claude repurposes my newsletter into LinkedIn posts
+24:39 Designing the images + loading Buffer
+26:43 The finished result + automating the whole loop
+
+—
+
+Pro tips from the build
+• When you set up your Zapier MCP server, select ALL the tools you want up front. Saved me a headache mid-build.
+• Host your images on a public Google Drive link so Buffer can pull them automatically.
+• Start with one newsletter → let the skill atomize it → review → queue. Then automate the loop.
+
+—
+
+More from us
+🚀 Free AI Visibility Audit 👉 https://boringmarketing.com
+⭐ Want James to build this WITH you? Book a private 1:1 consulting hour. We'll map your automation live. 👉 https://www.thevibemarketer.com/bundle
+
+#AIforBeginners #ZapierMCP #ClaudeAI #NoCode #ContentRepurposing #MarketingAutomation #AImarke
